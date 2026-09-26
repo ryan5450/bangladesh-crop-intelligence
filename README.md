@@ -52,62 +52,275 @@ The platform assists farmers, agricultural extension officers (DAE), researchers
 
 ---
 
-## 🏛️ System Architecture
+## 🏛️ Enterprise Software Architecture
 
-The following diagram illustrates the complete flow of data between the frontend user interface, the FastAPI microservice gateway, the vector database, the local inference engine, and the Supabase cloud database:
+> 💡 **Interactive Archify Architecture Diagram**: An interactive, explorable standalone architecture diagram generated with [Archify](https://github.com/tt-a1i/archify) is included in the repository at [`architecture-runtime.html`](architecture-runtime.html) (specification: [`architecture-runtime.json`](architecture-runtime.json)). Open it in any browser to toggle guided view overlays and inspect component boundaries.
 
 ```mermaid
 flowchart TD
-    subgraph Client ["Client Browser (Next.js 14 App Router)"]
-        UI["Web UI (React / Tailwind / Framer Motion)"]
-        Voice["Voice Engine (Web Speech API + 3s Silence Debounce)"]
-        Catalog["Interactive Crop Catalog & Zone Explorer"]
+    %% ========================================================
+    %% 1. USER LAYER
+    %% ========================================================
+    subgraph L1 ["1. USER & CLIENT LAYER"]
+        direction LR
+        U_Farmers["👨‍🌾 Farmers & Extension Officers"]
+        U_Researchers["🔬 Agronomists & Researchers"]
+        U_Admins["🛡️ Authorized Administrators"]
+        Devices["📱 Devices: Web Browser / Mobile Responsive"]
+        U_Farmers --> Devices
+        U_Researchers --> Devices
+        U_Admins --> Devices
     end
 
-    subgraph Gateway ["Backend API Gateway (FastAPI)"]
-        Router["FastAPI Application (Port 8000)"]
-        CORS["CORS Middleware & Rate Limiting"]
-        CropsRoute["/crops & /categories Router"]
-        AssistantRoute["/api/assistant/chat & /stream Router"]
+    %% ========================================================
+    %% 2. FRONTEND LAYER
+    %% ========================================================
+    subgraph L2 ["2. FRONTEND LAYER (Next.js 14 / TypeScript / Tailwind CSS / Framer Motion)"]
+        direction TB
+        subgraph F_Public ["Public Web Portal"]
+            F_Home["Homepage Hero & Telemetry"]
+            F_Explorer["Crop Explorer & 8-Division AEZ Filter"]
+            F_Detail["Crop Detail Pages & Growth Timeline"]
+            F_Search["Search Engine & Taxonomy Bar"]
+            F_Chat["AI Chat Interface (Web Speech + 3s Debounce)"]
+        end
+        subgraph F_Admin ["Admin Dashboard (Protected)"]
+            F_Auth["Admin Login & Session Verify"]
+            F_CropMgmt["Crop Management (CRUD)"]
+            F_DocMgmt["Document & Knowledge Base CMS"]
+            F_ImgMgmt["Image Gallery & Upload Console"]
+        end
     end
 
-    subgraph Intelligence ["RAG & Local Inference Layer"]
-        RAG["RAG Orchestrator (rag_service.py)"]
-        Chroma["ChromaDB Vector Store (24,178 Chunks)"]
-        Embedder["Embedding Model (all-MiniLM-L6-v2)"]
-        Ollama["Local Ollama Server (Port 11434)"]
-        LLM["Qwen 2.5 3B Open-Source LLM"]
+    Devices -->|Browse / Search| F_Public
+    Devices -->|Manage / Admin| F_Admin
+
+    %% ========================================================
+    %% 3. BACKEND APPLICATION LAYER
+    %% ========================================================
+    subgraph L3 ["3. BACKEND APPLICATION LAYER (Python FastAPI :8000)"]
+        direction TB
+        subgraph B_Gateway ["API Gateway & Middlewares"]
+            B_Routes["REST API Routing Engine"]
+            B_Val["Pydantic v2 Request Validation"]
+            B_AuthMid["Supabase Auth Token Middleware"]
+            B_CORS["CORS & Origin Policies"]
+        end
+
+        subgraph B_Services ["Core Microservices"]
+            S_Crop["Crop Service<br/>• Get All Crops<br/>• Search & Filter<br/>• Phenology & Stages"]
+            S_Admin["Admin Service<br/>• Create / Update / Delete<br/>• Document CMS<br/>• Sync Triggers"]
+            S_AI["AI / RAG Service<br/>• Multilingual Intent Gate<br/>• Context Retriever<br/>• LLM Streamer"]
+            S_Image["Image Service<br/>• Upload Processor<br/>• URL Resolver"]
+            S_Weather["Weather Intelligence<br/>• Agro-climatic Analysis<br/>• Seasonal Advisories"]
+        end
+
+        B_Routes --> S_Crop
+        B_Routes --> S_Admin
+        B_Routes --> S_AI
+        B_Routes --> S_Image
+        B_Routes --> S_Weather
     end
 
-    subgraph Storage ["Persistent Cloud Database"]
-        SupaDB[("Supabase PostgreSQL")]
-        CropsTbl["crops (Taxonomy & Growth)"]
-        VarietiesTbl["crop_varieties (139 BRRI Varieties)"]
-        StagesTbl["growth_stages & diseases"]
-        RegionsTbl["regions & agro-ecological zones"]
+    F_Public -->|REST / SSE Streaming| B_Gateway
+    F_Admin -->|Authenticated REST| B_Gateway
+
+    %% ========================================================
+    %% 4. AUTHENTICATION & SECURITY
+    %% ========================================================
+    subgraph L4 ["4. AUTHENTICATION & SECURITY (Supabase Auth)"]
+        A_Auth["Supabase Auth Engine<br/>• User Authentication<br/>• Admin RBAC Verification<br/>• JWT Tokens & Sessions"]
     end
 
-    UI --> Voice
-    Voice --> AssistantRoute
-    UI --> CropsRoute
+    F_Auth -->|Verify Credentials| A_Auth
+    B_AuthMid -.->|Validate JWT| A_Auth
 
-    AssistantRoute --> RAG
-    RAG --> Embedder
-    Embedder --> Chroma
-    Chroma --> RAG
-    RAG --> Ollama
-    Ollama --> LLM
-    LLM --> AssistantRoute
-    AssistantRoute -->|SSE Token Stream| UI
+    %% ========================================================
+    %% 5 & 6. DATABASE & STORAGE LAYER
+    %% ========================================================
+    subgraph L5_6 ["5 & 6. PERSISTENCE LAYER (Supabase Cloud)"]
+        direction LR
+        subgraph L5 ["5. PostgreSQL Database"]
+            T_Crops["crops table (Taxonomy, Soil, Climate)"]
+            T_Varieties["crop_varieties table (139 BRRI Varieties)"]
+            T_Stages["growth_stages table (Phenological Orders)"]
+            T_Diseases["diseases table (Pathology & Treatment)"]
+            T_Regions["regions table (8 Divisions & AEZs)"]
+            T_Future["Future: users, admins, conversations, feedback"]
+        end
+        subgraph L6 ["6. Object Storage"]
+            Store_Images["Crop Images Bucket (Main & Gallery)"]
+            Store_Docs["Knowledge Documents Bucket (PDFs & Guides)"]
+        end
+    end
 
-    CropsRoute --> SupaDB
-    SupaDB --> CropsTbl
-    SupaDB --> VarietiesTbl
-    SupaDB --> StagesTbl
-    SupaDB --> RegionsTbl
+    S_Crop -->|PostgREST SQL| L5
+    S_Admin -->|CRUD SQL| L5
+    S_Image -->|Upload & Retrieve| Store_Images
+    S_Admin -->|Archive PDFs| Store_Docs
+
+    %% ========================================================
+    %% 7. KNOWLEDGE COLLECTION PIPELINE
+    %% ========================================================
+    subgraph L7 ["7. KNOWLEDGE COLLECTION PIPELINE (Crawler Service - Python)"]
+        direction TB
+        subgraph C_Collectors ["Source Crawlers"]
+            C_BRRI["BRRI Crawler"]
+            C_BARI["BARI Crawler"]
+            C_DAE["DAE Crawler"]
+            C_BARC["BARC Crawler"]
+            C_BAMIS["BAMIS Crawler"]
+            C_FAO["FAO Crawler"]
+        end
+        C_Discovery["Search & Document Discovery Engine"]
+        C_Downloader["Downloader & Deduplication (MD5)"]
+        C_Processor["PDF Processing (Text Extract, OCR, Language Detect, Cleaner)"]
+        C_Classifier["Document Classifier (Crop, Disease, Soil, Fertilizer, Climate)"]
+        C_Meta["Metadata Generator (Quality Score, Source, Taxon)"]
+        C_KB["Clean Knowledge Base Corpus"]
+
+        C_Collectors --> C_Discovery --> C_Downloader --> C_Processor --> C_Classifier --> C_Meta --> C_KB
+    end
+
+    %% ========================================================
+    %% 8 & 9. AI / RAG LAYER & FEATURES
+    %% ========================================================
+    subgraph L8_9 ["8 & 9. AI / RAG LAYER & ADVANCED INTELLIGENCE"]
+        direction TB
+        subgraph RAG_Engine ["RAG Processing Engine"]
+            R_Chunk["Context Chunker (Semantic Boundaries)"]
+            R_Embed["Embedding Generator (BAAI bge-m3 / MiniLM)"]
+            R_VectorDB[("ChromaDB Vector Store<br/>24,178 Dense Vectors")]
+            R_Retrieve["Similarity Search & Context Re-Ranker"]
+        end
+
+        subgraph LLM_Tier ["Local Inference Layer"]
+            Ollama["Ollama Engine (:11434)"]
+            Models["Models: Qwen 2.5 (3B) / Llama 3.1"]
+            Ollama --- Models
+        end
+
+        subgraph Future_AI ["Advanced AI Modules"]
+            AI_Vision["Computer Vision: Leaf Disease Detection (YOLO / EfficientNet)"]
+            AI_Rec["Recommendation Engine (Soil + Region + Season -> Best Variety)"]
+        end
+    end
+
+    C_KB --> R_Chunk --> R_Embed --> R_VectorDB
+    S_AI -->|Embed & Search| R_VectorDB
+    R_VectorDB -->|Retrieve Top-K Chunks| R_Retrieve
+    R_Retrieve -->|Augmented Prompt| Ollama
+    Ollama -->|Token Stream| S_AI
+
+    %% ========================================================
+    %% 10. EXTERNAL SERVICES
+    %% ========================================================
+    subgraph L10 ["10. EXTERNAL SOURCES & DEPLOYMENT TARGETS"]
+        Ext_Sources["National Agri Sources: BRRI, BARI, DAE, BARC, BAMIS, FAO"]
+        Ext_Weather["Weather API: BAMIS / Open-Meteo"]
+        Dep_Vercel["Frontend: Vercel (Edge CDN)"]
+        Dep_Backend["Backend: Docker Container / Cloud VPS"]
+        Dep_Supa["Database: Supabase Managed Cloud"]
+    end
+
+    Ext_Sources -.-> C_Collectors
+    Ext_Weather -.-> S_Weather
+    F_Public -.-> Dep_Vercel
+    B_Gateway -.-> Dep_Backend
+    L5_6 -.-> Dep_Supa
+
+    %% Styling and Theme
+    classDef client fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#f8fafc;
+    classDef frontend fill:#064e3b,stroke:#10b981,stroke-width:2px,color:#f8fafc;
+    classDef backend fill:#1e1b4b,stroke:#818cf8,stroke-width:2px,color:#f8fafc;
+    classDef database fill:#3b0764,stroke:#c084fc,stroke-width:2px,color:#f8fafc;
+    classDef ai fill:#701a75,stroke:#f472b6,stroke-width:2px,color:#f8fafc;
+    classDef pipeline fill:#451a03,stroke:#fbbf24,stroke-width:2px,color:#f8fafc;
+
+    class L1 client;
+    class L2 frontend;
+    class L3 backend;
+    class L4,L5_6 database;
+    class L7 pipeline;
+    class L8_9 ai;
 ```
 
-> 💡 **Interactive Archify Architecture Diagram**: An interactive, explorable standalone architecture diagram generated with [Archify](https://github.com/tt-a1i/archify) is included in the repository at [`architecture-runtime.html`](architecture-runtime.html) (specification: [`architecture-runtime.json`](architecture-runtime.json)).
+---
+
+## 🔁 End-to-End Enterprise Data Flows
+
+### Flow 1: Knowledge Ingestion & Vector Indexing Pipeline
+```
+[Agri Research Portals: BRRI / BARI / DAE / FAO]
+       │
+       ▼ (Automated Discovery & Crawl)
+[Crawler Service (Python Requests / BeautifulSoup)]
+       │
+       ▼ (Validate & Deduplicate)
+[PDF Processor (pypdf Text Extraction + OCR + Unicode Normalization)]
+       │
+       ▼ (Semantic Classification: Crop, Disease, Fertilizer, Soil)
+[Clean Knowledge Base Corpus]
+       │
+       ▼ (Semantic Boundary Chunking)
+[Embedding Model: BAAI bge-m3 / all-MiniLM-L6-v2]
+       │
+       ▼ (HNSW Vector Indexing)
+[ChromaDB / pgvector (24,178 Knowledge Vectors)]
+```
+
+### Flow 2: Real-Time User Question & RAG Inference Flow
+```
+[Farmer / Agronomist]
+       │ (Spoken Audio / Typed Text in Bangla or English)
+       ▼
+[Web Speech API (3.0s Silence Debounce) / Next.js Assistant UI]
+       │ (POST /api/assistant/chat/stream)
+       ▼
+[FastAPI Gateway (Uvicorn :8000)]
+       │ (Cross-Lingual Intent & Language Evaluator)
+       ▼
+[RAG Orchestrator (rag_service.py + 8-Turn Memory)]
+       │ (Dense Vector Search)
+       ▼
+[ChromaDB Vector Store (Retrieve Top-K Scored Chunks)]
+       │ (Augmented Prompt + Variety Metadata)
+       ▼
+[Local Ollama Daemon (:11434) Running Qwen 2.5 (3B)]
+       │ (Server-Sent Events Token Stream)
+       ▼
+[Next.js Assistant UI] ────► [Farmer Receives Actionable Agronomic Guidance]
+```
+
+### Flow 3: Crop Taxonomy & Agro-Ecological Browsing Flow
+```
+[User] ──► [Next.js Crop Explorer (/crops)]
+                 │ (HTTP GET /crops?division=Rangpur&season=Aman)
+                 ▼
+           [FastAPI Crop Service (routes/crops.py)]
+                 │ (PostgREST Query)
+                 ▼
+           [Supabase PostgreSQL (crops, crop_varieties, growth_stages)]
+                 │ (Structured JSON Taxonomy & Durations)
+                 ▼
+           [Interactive Next.js Grid with 139 BRRI Varieties & Stages]
+```
+
+### Flow 4: Admin Management & Security RBAC Flow
+```
+[Administrator] ──► [Admin Console (/login)]
+                          │ (Submit Credentials)
+                          ▼
+                    [Supabase Auth (Verify role = 'admin' & Issue JWT)]
+                          │
+                          ├─────────────► [Access Admin Dashboard]
+                          │                     │
+                          │                     ▼ (CRUD Operation / Media Upload)
+                          ▼               [FastAPI Admin Service (routes/admin.py)]
+                    [Supabase Storage]          │ (SQL Insert / Update)
+                    (Upload Crop Images)        ▼
+                                          [Supabase PostgreSQL]
+```
 
 ---
 
