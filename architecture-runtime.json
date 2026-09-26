@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "diagram_type": "architecture",
+  "meta": {
+    "title": "Bangladesh Crop Intelligence Assistant - Runtime Architecture",
+    "output": "architecture-runtime.html",
+    "quality_profile": "showcase",
+    "views": [
+      {
+        "id": "rag-pipeline",
+        "label": "Voice & Text RAG Ingestion",
+        "focus": ["farmer", "speech", "frontend", "gateway", "rag", "chromadb", "ollama", "llm"],
+        "note": "Flow of farmer speech or text questions through RAG vector retrieval and local LLM inference."
+      },
+      {
+        "id": "relational-taxonomy",
+        "label": "Relational Taxonomy & Management",
+        "focus": ["frontend", "gateway", "supabase"],
+        "note": "Querying 139 BRRI rice varieties, phenological growth stages, and disease pathologies."
+      }
+    ]
+  },
+  "components": [
+    {
+      "id": "farmer",
+      "type": "external",
+      "label": "User / Farmer",
+      "sublabel": "Browser / Mobile Client",
+      "pos": [40, 200],
+      "size": [120, 60]
+    },
+    {
+      "id": "speech",
+      "type": "frontend",
+      "label": "Web Speech API",
+      "sublabel": "Voice Engine",
+      "tag": "3.0s Debounce",
+      "pos": [230, 70],
+      "size": [130, 60]
+    },
+    {
+      "id": "frontend",
+      "type": "frontend",
+      "label": "Next.js 14 App",
+      "sublabel": "App Router :3000",
+      "brand": "next-js",
+      "pos": [230, 200],
+      "size": [130, 60]
+    },
+    {
+      "id": "gateway",
+      "type": "backend",
+      "label": "FastAPI Gateway",
+      "sublabel": "Uvicorn ASGI :8000",
+      "brand": "fastapi",
+      "pos": [430, 200],
+      "size": [130, 60]
+    },
+    {
+      "id": "supabase",
+      "type": "database",
+      "label": "Supabase DB",
+      "sublabel": "139 BRRI Varieties & Crops",
+      "brand": "supabase",
+      "pos": [430, 340],
+      "size": [140, 60]
+    },
+    {
+      "id": "rag",
+      "type": "backend",
+      "label": "RAG Service",
+      "sublabel": "rag_service.py",
+      "tag": "Context & Memory",
+      "pos": [620, 200],
+      "size": [130, 60]
+    },
+    {
+      "id": "chromadb",
+      "type": "database",
+      "label": "ChromaDB",
+      "sublabel": "24,178 Knowledge Vectors",
+      "tag": "all-MiniLM-L6-v2",
+      "pos": [620, 340],
+      "size": [140, 60]
+    },
+    {
+      "id": "ollama",
+      "type": "backend",
+      "label": "Ollama Daemon",
+      "sublabel": "Local Inference :11434",
+      "pos": [810, 200],
+      "size": [130, 60]
+    },
+    {
+      "id": "llm",
+      "type": "backend",
+      "label": "Qwen 2.5 3B",
+      "sublabel": "Open-Source LLM",
+      "tag": "Cross-lingual",
+      "pos": [1000, 200],
+      "size": [120, 60]
+    }
+  ],
+  "boundaries": [
+    {
+      "kind": "security-group",
+      "label": "Client Environment",
+      "wraps": ["farmer", "speech", "frontend"]
+    },
+    {
+      "kind": "region",
+      "label": "Local Host Execution",
+      "wraps": ["gateway", "rag", "chromadb", "ollama", "llm"]
+    },
+    {
+      "kind": "region",
+      "label": "Cloud Persistence",
+      "wraps": ["supabase"]
+    }
+  ],
+  "connections": [
+    {
+      "id": "farmer-to-speech",
+      "from": "farmer",
+      "to": "speech",
+      "label": "audio",
+      "fromSide": "top",
+      "toSide": "left"
+    },
+    {
+      "id": "speech-to-frontend",
+      "from": "speech",
+      "to": "frontend",
+      "label": "transcript",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "labelDx": 36,
+      "labelDy": 24
+    },
+    {
+      "id": "farmer-to-frontend",
+      "from": "farmer",
+      "to": "frontend",
+      "label": "HTTP / UI",
+      "variant": "emphasis"
+    },
+    {
+      "id": "frontend-to-gateway",
+      "from": "frontend",
+      "to": "gateway",
+      "label": "REST / SSE",
+      "variant": "emphasis"
+    },
+    {
+      "id": "gateway-to-supabase",
+      "from": "gateway",
+      "to": "supabase",
+      "label": "SQL",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "labelDx": 24,
+      "labelDy": 24
+    },
+    {
+      "id": "gateway-to-rag",
+      "from": "gateway",
+      "to": "rag",
+      "label": "route",
+      "variant": "emphasis"
+    },
+    {
+      "id": "rag-to-chroma",
+      "from": "rag",
+      "to": "chromadb",
+      "label": "search",
+      "variant": "dashed",
+      "fromSide": "bottom",
+      "toSide": "top",
+      "labelDx": 28,
+      "labelDy": 24
+    },
+    {
+      "id": "rag-to-ollama",
+      "from": "rag",
+      "to": "ollama",
+      "label": "prompt",
+      "variant": "emphasis"
+    },
+    {
+      "id": "ollama-to-llm",
+      "from": "ollama",
+      "to": "llm",
+      "label": "tokens"
+    }
+  ],
+  "cards": [
+    {
+      "dot": "emerald",
+      "title": "Client Experience",
+      "items": [
+        "Next.js 14 App Router with responsive glassmorphism UI",
+        "Web Speech API with 3-second conversational silence debounce",
+        "Server-Sent Events (SSE) token streaming display"
+      ]
+    },
+    {
+      "dot": "cyan",
+      "title": "FastAPI Core & Persistence",
+      "items": [
+        "FastAPI 2.0 with asynchronous route handlers",
+        "139 BRRI rice varieties stored in Supabase PostgreSQL",
+        "Comprehensive phenology, disease, and 8-division zone mapping"
+      ]
+    },
+    {
+      "dot": "amber",
+      "title": "Offline AI & RAG",
+      "items": [
+        "ChromaDB with 24,178 vectorized national agronomy chunks",
+        "Local Ollama daemon running Qwen 2.5 3B open-source LLM",
+        "Cross-lingual query understanding (Bangla, Banglish, English)"
+      ]
+    }
+  ]
+}

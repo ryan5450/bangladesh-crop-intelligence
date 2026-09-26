@@ -107,6 +107,8 @@ flowchart TD
     SupaDB --> RegionsTbl
 ```
 
+> 💡 **Interactive Archify Architecture Diagram**: An interactive, explorable standalone architecture diagram generated with [Archify](https://github.com/tt-a1i/archify) is included in the repository at [`architecture-runtime.html`](architecture-runtime.html) (specification: [`architecture-runtime.json`](architecture-runtime.json)).
+
 ---
 
 ## 🔄 Cross-Lingual RAG Pipeline Workflow
