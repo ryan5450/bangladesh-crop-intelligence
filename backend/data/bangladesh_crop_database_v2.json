@@ -1,0 +1,737 @@
+[
+  {
+    "crop_name": "Boro Rice",
+    "scientific_name": "Oryza sativa",
+    "category": "Cereal",
+    "growing_season": "Rabi season (dry season rice)",
+    "planting_time": "November-January (transplanting period varies by variety)",
+    "harvest_time": "April-May",
+    "soil_requirement": "Clay loam, loam, and soils with good water holding capacity",
+    "water_requirement": "High; requires irrigation throughout most of the crop period",
+    "fertilizer": "Urea, TSP, MOP, gypsum, zinc fertilizer, organic manure",
+    "common_diseases": [
+      "Rice blast",
+      "Bacterial leaf blight",
+      "Sheath blight",
+      "Brown spot"
+    ],
+    "image": "assets/crops/boro_rice.jpg",
+    "growth_stages": [
+      "Seed germination",
+      "Seedling",
+      "Transplanting",
+      "Tillering",
+      "Panicle initiation",
+      "Flowering",
+      "Grain filling",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Mymensingh",
+      "Rangpur",
+      "Rajshahi",
+      "Sylhet",
+      "Dhaka"
+    ],
+    "crop_duration_days": "140-160 days"
+  },
+  {
+    "crop_name": "Aman Rice",
+    "scientific_name": "Oryza sativa",
+    "category": "Cereal",
+    "growing_season": "Kharif-2 / Monsoon season",
+    "planting_time": "July-August",
+    "harvest_time": "November-December",
+    "soil_requirement": "Clay, clay loam, and lowland soils",
+    "water_requirement": "Moderate to high; mostly rain-fed",
+    "fertilizer": "Urea, TSP, MOP, gypsum, compost",
+    "common_diseases": [
+      "Rice blast",
+      "Sheath blight",
+      "Bacterial leaf blight"
+    ],
+    "image": "assets/crops/aman_rice.jpg",
+    "growth_stages": [
+      "Seedling",
+      "Transplanting",
+      "Tillering",
+      "Booting",
+      "Flowering",
+      "Grain maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Barisal",
+      "Rangpur",
+      "Rajshahi",
+      "Mymensingh",
+      "Sylhet"
+    ],
+    "crop_duration_days": "120-150 days"
+  },
+  {
+    "crop_name": "Aus Rice",
+    "scientific_name": "Oryza sativa",
+    "category": "Cereal",
+    "growing_season": "Kharif-1 / Pre-monsoon",
+    "planting_time": "March-April",
+    "harvest_time": "July-August",
+    "soil_requirement": "Loam and clay loam soils",
+    "water_requirement": "Moderate; depends partly on rainfall",
+    "fertilizer": "Urea, TSP, MOP, organic manure",
+    "common_diseases": [
+      "Rice blast",
+      "Brown spot"
+    ],
+    "image": "assets/crops/aus_rice.jpg",
+    "growth_stages": [
+      "Germination",
+      "Seedling",
+      "Vegetative growth",
+      "Tillering",
+      "Flowering",
+      "Grain filling",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Rajshahi",
+      "Rangpur",
+      "Mymensingh",
+      "Khulna"
+    ],
+    "crop_duration_days": "100-120 days"
+  },
+  {
+    "crop_name": "Mango",
+    "scientific_name": "Mangifera indica",
+    "category": "Fruit",
+    "growing_season": "Summer fruit season",
+    "planting_time": "June-August",
+    "harvest_time": "May-July",
+    "soil_requirement": "Well-drained loamy soil",
+    "water_requirement": "Moderate irrigation, especially during dry periods",
+    "fertilizer": "Organic manure, urea, TSP, MOP, micronutrients",
+    "common_diseases": [
+      "Anthracnose",
+      "Powdery mildew",
+      "Fruit fly"
+    ],
+    "image": "assets/crops/mango.jpg",
+    "growth_stages": [
+      "Plant establishment",
+      "Vegetative growth",
+      "Flowering",
+      "Fruit setting",
+      "Fruit development",
+      "Ripening",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Rajshahi",
+      "Chapainawabganj",
+      "Naogaon",
+      "Dinajpur"
+    ],
+    "crop_duration_days": "150-240 days depending on variety"
+  },
+  {
+    "crop_name": "Banana",
+    "scientific_name": "Musa spp.",
+    "category": "Fruit",
+    "growing_season": "Year-round",
+    "planting_time": "March-May",
+    "harvest_time": "Throughout year",
+    "soil_requirement": "Loamy soil",
+    "water_requirement": "Regular irrigation",
+    "fertilizer": "Organic manure, NPK",
+    "common_diseases": [
+      "Panama disease",
+      "Sigatoka"
+    ],
+    "image": "assets/crops/banana.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Rangpur",
+      "Rajshahi",
+      "Barisal"
+    ],
+    "crop_duration_days": "300-450 days"
+  },
+  {
+    "crop_name": "Jackfruit",
+    "scientific_name": "Artocarpus heterophyllus",
+    "category": "Fruit",
+    "growing_season": "Summer",
+    "planting_time": "June-August",
+    "harvest_time": "April-June",
+    "soil_requirement": "Deep fertile loam",
+    "water_requirement": "Moderate",
+    "fertilizer": "Farmyard manure, NPK",
+    "common_diseases": [
+      "Fruit rot",
+      "Dieback"
+    ],
+    "image": "assets/crops/jackfruit.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Mymensingh",
+      "Dhaka",
+      "Sylhet"
+    ],
+    "crop_duration_days": "3-5 years"
+  },
+  {
+    "crop_name": "Guava",
+    "scientific_name": "Psidium guajava",
+    "category": "Fruit",
+    "growing_season": "Year-round",
+    "planting_time": "June-August",
+    "harvest_time": "Multiple seasons",
+    "soil_requirement": "Well drained loam",
+    "water_requirement": "Moderate",
+    "fertilizer": "Organic manure, NPK",
+    "common_diseases": [
+      "Fruit fly",
+      "Anthracnose"
+    ],
+    "image": "assets/crops/guava.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Barisal",
+      "Rajshahi",
+      "Chittagong"
+    ],
+    "crop_duration_days": "180-240 days"
+  },
+  {
+    "crop_name": "Litchi",
+    "scientific_name": "Litchi chinensis",
+    "category": "Fruit",
+    "growing_season": "Summer",
+    "planting_time": "June-August",
+    "harvest_time": "May-June",
+    "soil_requirement": "Deep loamy soil",
+    "water_requirement": "Moderate",
+    "fertilizer": "Organic manure, NPK",
+    "common_diseases": [
+      "Fruit borer",
+      "Anthracnose"
+    ],
+    "image": "assets/crops/litchi.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Dinajpur",
+      "Rajshahi",
+      "Rangpur"
+    ],
+    "crop_duration_days": "180-240 days"
+  },
+  {
+    "crop_name": "Wheat",
+    "scientific_name": "Triticum aestivum",
+    "category": "Cereal",
+    "growing_season": "Rabi",
+    "planting_time": "November-December",
+    "harvest_time": "March-April",
+    "soil_requirement": "Loam soil",
+    "water_requirement": "Low to moderate",
+    "fertilizer": "Urea, TSP, MOP",
+    "common_diseases": [
+      "Rust",
+      "Leaf blight"
+    ],
+    "image": "assets/crops/wheat.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Rajshahi",
+      "Rangpur",
+      "Dinajpur"
+    ],
+    "crop_duration_days": "110-130 days"
+  },
+  {
+    "crop_name": "Maize",
+    "scientific_name": "Zea mays",
+    "category": "Cereal",
+    "growing_season": "Rabi and Kharif",
+    "planting_time": "November-January",
+    "harvest_time": "March-May",
+    "soil_requirement": "Loam soil",
+    "water_requirement": "Moderate",
+    "fertilizer": "Urea, TSP, MOP",
+    "common_diseases": [
+      "Fall armyworm",
+      "Leaf blight"
+    ],
+    "image": "assets/crops/maize.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Rangpur",
+      "Rajshahi"
+    ],
+    "crop_duration_days": "120-150 days"
+  },
+  {
+    "crop_name": "Potato",
+    "scientific_name": "Solanum tuberosum",
+    "category": "Vegetable",
+    "growing_season": "Rabi",
+    "planting_time": "October-November",
+    "harvest_time": "January-March",
+    "soil_requirement": "Sandy loam",
+    "water_requirement": "Regular irrigation",
+    "fertilizer": "Compost, NPK",
+    "common_diseases": [
+      "Late blight",
+      "Early blight"
+    ],
+    "image": "assets/crops/potato.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Rangpur",
+      "Bogura",
+      "Rajshahi"
+    ],
+    "crop_duration_days": "90-120 days"
+  },
+  {
+    "crop_name": "Tomato",
+    "scientific_name": "Solanum lycopersicum",
+    "category": "Vegetable",
+    "growing_season": "Rabi/Summer",
+    "planting_time": "October-November",
+    "harvest_time": "January-April",
+    "soil_requirement": "Fertile loam",
+    "water_requirement": "Regular",
+    "fertilizer": "Organic manure, NPK",
+    "common_diseases": [
+      "Leaf curl",
+      "Early blight"
+    ],
+    "image": "assets/crops/tomato.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Rangpur",
+      "Bogura",
+      "Gazipur"
+    ],
+    "crop_duration_days": "90-120 days"
+  },
+  {
+    "crop_name": "Brinjal",
+    "scientific_name": "Solanum melongena",
+    "category": "Vegetable",
+    "growing_season": "Year-round",
+    "planting_time": "Various seasons",
+    "harvest_time": "Various seasons",
+    "soil_requirement": "Loamy soil",
+    "water_requirement": "Regular",
+    "fertilizer": "Organic manure, NPK",
+    "common_diseases": [
+      "Fruit and shoot borer",
+      "Bacterial wilt"
+    ],
+    "image": "assets/crops/brinjal.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "All",
+      "regions"
+    ],
+    "crop_duration_days": "120-180 days"
+  },
+  {
+    "crop_name": "Chili",
+    "scientific_name": "Capsicum annuum",
+    "category": "Vegetable",
+    "growing_season": "Rabi/Kharif",
+    "planting_time": "September-November",
+    "harvest_time": "January-June",
+    "soil_requirement": "Well drained loam",
+    "water_requirement": "Moderate",
+    "fertilizer": "NPK, compost",
+    "common_diseases": [
+      "Anthracnose",
+      "Leaf curl"
+    ],
+    "image": "assets/crops/chili.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Bogura",
+      "Rajshahi"
+    ],
+    "crop_duration_days": "120-180 days"
+  },
+  {
+    "crop_name": "Onion",
+    "scientific_name": "Allium cepa",
+    "category": "Vegetable",
+    "growing_season": "Rabi",
+    "planting_time": "October-November",
+    "harvest_time": "March-April",
+    "soil_requirement": "Sandy loam",
+    "water_requirement": "Moderate",
+    "fertilizer": "Urea, TSP, MOP",
+    "common_diseases": [
+      "Purple blotch",
+      "Downy mildew"
+    ],
+    "image": "assets/crops/onion.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Faridpur",
+      "Rajshahi"
+    ],
+    "crop_duration_days": "120-150 days"
+  },
+  {
+    "crop_name": "Garlic",
+    "scientific_name": "Allium sativum",
+    "category": "Vegetable",
+    "growing_season": "Rabi",
+    "planting_time": "October-November",
+    "harvest_time": "March-April",
+    "soil_requirement": "Sandy loam",
+    "water_requirement": "Moderate",
+    "fertilizer": "Organic manure, NPK",
+    "common_diseases": [
+      "Purple blotch",
+      "Rust"
+    ],
+    "image": "assets/crops/garlic.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Natore",
+      "Rajshahi"
+    ],
+    "crop_duration_days": "120-150 days"
+  },
+  {
+    "crop_name": "Cauliflower",
+    "scientific_name": "Brassica oleracea var. botrytis",
+    "category": "Vegetable",
+    "growing_season": "Rabi",
+    "planting_time": "September-November",
+    "harvest_time": "December-February",
+    "soil_requirement": "Fertile loam",
+    "water_requirement": "Regular",
+    "fertilizer": "Compost, NPK",
+    "common_diseases": [
+      "Black rot",
+      "Downy mildew"
+    ],
+    "image": "assets/crops/cauliflower.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "All",
+      "winter",
+      "vegetable",
+      "areas"
+    ],
+    "crop_duration_days": "90-120 days"
+  },
+  {
+    "crop_name": "Cabbage",
+    "scientific_name": "Brassica oleracea var. capitata",
+    "category": "Vegetable",
+    "growing_season": "Rabi",
+    "planting_time": "September-November",
+    "harvest_time": "December-February",
+    "soil_requirement": "Loam soil",
+    "water_requirement": "Regular",
+    "fertilizer": "Compost, NPK",
+    "common_diseases": [
+      "Black rot",
+      "Aphids"
+    ],
+    "image": "assets/crops/cabbage.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "All",
+      "winter",
+      "vegetable",
+      "areas"
+    ],
+    "crop_duration_days": "90-120 days"
+  },
+  {
+    "crop_name": "Cucumber",
+    "scientific_name": "Cucumis sativus",
+    "category": "Vegetable",
+    "growing_season": "Kharif/Summer",
+    "planting_time": "March-April",
+    "harvest_time": "May-July",
+    "soil_requirement": "Sandy loam",
+    "water_requirement": "Regular",
+    "fertilizer": "Organic manure, NPK",
+    "common_diseases": [
+      "Powdery mildew",
+      "Downy mildew"
+    ],
+    "image": "assets/crops/cucumber.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "All",
+      "regions"
+    ],
+    "crop_duration_days": "60-90 days"
+  },
+  {
+    "crop_name": "Pumpkin",
+    "scientific_name": "Cucurbita moschata",
+    "category": "Vegetable",
+    "growing_season": "Kharif",
+    "planting_time": "March-May",
+    "harvest_time": "July-September",
+    "soil_requirement": "Sandy loam",
+    "water_requirement": "Moderate",
+    "fertilizer": "Organic manure, NPK",
+    "common_diseases": [
+      "Powdery mildew",
+      "Fruit rot"
+    ],
+    "image": "assets/crops/pumpkin.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "All",
+      "regions"
+    ],
+    "crop_duration_days": "90-150 days"
+  },
+  {
+    "crop_name": "Jute",
+    "scientific_name": "Corchorus olitorius",
+    "category": "Cash Crop",
+    "growing_season": "Kharif-1",
+    "planting_time": "March-April",
+    "harvest_time": "July-August",
+    "soil_requirement": "Alluvial loam",
+    "water_requirement": "Moderate-high",
+    "fertilizer": "Urea, TSP, MOP",
+    "common_diseases": [
+      "Stem rot",
+      "Anthracnose"
+    ],
+    "image": "assets/crops/jute.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Faridpur",
+      "Rangpur",
+      "Jessore"
+    ],
+    "crop_duration_days": "100-120 days"
+  },
+  {
+    "crop_name": "Mustard",
+    "scientific_name": "Brassica juncea",
+    "category": "Oil Crop",
+    "growing_season": "Rabi",
+    "planting_time": "October-November",
+    "harvest_time": "January-February",
+    "soil_requirement": "Loam soil",
+    "water_requirement": "Low",
+    "fertilizer": "Urea, TSP, MOP, Sulfur",
+    "common_diseases": [
+      "Alternaria blight",
+      "Aphids"
+    ],
+    "image": "assets/crops/mustard.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Rajshahi",
+      "Rangpur"
+    ],
+    "crop_duration_days": "80-110 days"
+  },
+  {
+    "crop_name": "Lentil",
+    "scientific_name": "Lens culinaris",
+    "category": "Pulse",
+    "growing_season": "Rabi",
+    "planting_time": "October-November",
+    "harvest_time": "February-March",
+    "soil_requirement": "Loam soil",
+    "water_requirement": "Low",
+    "fertilizer": "Phosphorus, Sulfur, organic manure",
+    "common_diseases": [
+      "Rust",
+      "Wilt"
+    ],
+    "image": "assets/crops/lentil.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Rajshahi",
+      "Faridpur"
+    ],
+    "crop_duration_days": "100-120 days"
+  },
+  {
+    "crop_name": "Sugarcane",
+    "scientific_name": "Saccharum officinarum",
+    "category": "Cash Crop",
+    "growing_season": "Year-round",
+    "planting_time": "September-April",
+    "harvest_time": "10-14 months",
+    "soil_requirement": "Deep loam",
+    "water_requirement": "High",
+    "fertilizer": "Organic manure, NPK",
+    "common_diseases": [
+      "Red rot",
+      "Smut"
+    ],
+    "image": "assets/crops/sugarcane.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Kushtia",
+      "Rajshahi"
+    ],
+    "crop_duration_days": "300-450 days"
+  },
+  {
+    "crop_name": "Turmeric",
+    "scientific_name": "Curcuma longa",
+    "category": "Spice",
+    "growing_season": "Kharif",
+    "planting_time": "April-May",
+    "harvest_time": "January-March",
+    "soil_requirement": "Loamy soil",
+    "water_requirement": "Moderate",
+    "fertilizer": "Organic manure, NPK",
+    "common_diseases": [
+      "Rhizome rot",
+      "Leaf spot"
+    ],
+    "image": "assets/crops/turmeric.jpg",
+    "growth_stages": [
+      "Seed/planting stage",
+      "Vegetative growth",
+      "Flowering or crop development",
+      "Maturity",
+      "Harvest"
+    ],
+    "bangladesh_regions": [
+      "Chittagong",
+      "Sylhet"
+    ],
+    "crop_duration_days": "240-300 days"
+  }
+]

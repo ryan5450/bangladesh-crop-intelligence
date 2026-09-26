@@ -1,0 +1,42 @@
+{
+  "document_id": "bamis_e05bc926a6dc",
+  "title": "Baseline Survey Report",
+  "source": "BAMIS",
+  "url": "https://www.bamis.gov.bd/res/attachment/2020/01/10/11804.pdf",
+  "language": "en",
+  "categories": [
+    "cereals",
+    "climate_adaptation",
+    "crop_calendar",
+    "soil_management",
+    "crops",
+    "cash_crops",
+    "fiber_crops",
+    "fertilizer_management",
+    "diseases",
+    "pest_management",
+    "irrigation_management"
+  ],
+  "related_crops": [
+    "Aman Rice",
+    "Aus Rice",
+    "Boro Rice",
+    "Jute",
+    "Rice",
+    "Sugarcane"
+  ],
+  "topics": [
+    "Climate Resilience & Stress Tolerance",
+    "Seasonal Sowing & Harvesting Calendar",
+    "Soil Health & Salinity Management",
+    "Fertilizer & Soil Nutrient Management",
+    "Crop Disease Diagnosis & Control",
+    "Integrated Pest Management (IPM)"
+  ],
+  "quality_score": 1.0,
+  "filename": "bamis_baseline_survey_report_en_e05bc9.pdf",
+  "pages": 68,
+  "file_size_kb": 1627.7,
+  "author": null,
+  "extracted_at": "2026-09-23T19:47:15.705000+00:00"
+}

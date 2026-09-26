@@ -1,0 +1,38 @@
+# ==============================================================================
+# Bangladesh Crop Intelligence Platform - Complete Python Dependencies
+# Target Python Version: 3.10 - 3.12
+# ==============================================================================
+
+# Core Web Framework & API Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.8.0
+pydantic-settings>=2.4.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.9
+
+# Cloud Database (Supabase PostgreSQL & PostgREST)
+supabase>=2.8.0
+postgrest>=2.31.0
+
+# Vector Database, Embeddings & RAG
+chromadb>=1.5.0
+onnxruntime>=1.20.0
+tokenizers>=0.20.0
+numpy>=1.26.0
+
+# Asynchronous HTTP & Ollama Communication
+httpx>=0.28.0
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# Data Extraction, Cleaning & Document Processing
+pypdf>=3.17.0
+beautifulsoup4>=4.12.0
+lxml>=5.1.0
+
+# CLI & Output Formatting
+rich>=13.0.0
+tqdm>=4.66.0
+typer>=0.12.0
+watchfiles>=0.24.0

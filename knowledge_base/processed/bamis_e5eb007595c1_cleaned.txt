@@ -1,0 +1,464 @@
+E-Waste Management Plan
+
+Bangladesh Weather and Climate Services Regional Project
+BWCSRP
+
+Bangladesh Meteorological Department (BMD)
+Bangladesh Water Development Board (BWDB)
+Department of Agricultural Extension (DAE)
+
+TABLE OF CONTENT
+
+1. Introduction of E-Waste ........................................................................
+
+2. Objectives of e-waste management plan of BWCSRP ...............................
+
+3. Current e-waste of the country practices ................................................
+
+4. Current status of the e-waste generation by the project activities..............
+
+5. E-waste policy and regulation ..............................................................
+
+6. BMD, BWDB and DAE should take the following initiatives......................
+
+7. Capacity building, training and awareness programmers.........................
+
+8. Responsibilities of the BMD, BWDB and DAE.........................................
+
+9. Conclusion..........................................................................................
+
+1. Introduction of E-Waste: E-waste is among the most complex type of wastes. It
+contains toxic as well as scarce and valuable materials, and its amounts are growing
+worldwide. No or improper treatment of electrical and electronic equipment (EEE) at end-oflife (EoL) results in pollution and resource loses. Additionally, illegal exports of e-waste
+from industrialized countries to emerging market and developing countries cause severe
+health and environmental effects. Legislation related to e-waste provides a certain
+framework, but does not sufficiently enforce appropriate collection, transport, treatment, and
+disposal of e-waste and components, fractions and materials thereof, and it cannot stop or at
+least curtail these illegal exports. Guidelines are hence necessary to improve the quality of
+EoL operations along the EoL chain of e-waste.
+
+E-waste is one of the most complex wastes to treat. It contains almost all elements of the
+periodic table of elements. Some of them are well known as pollutants like lead, cadmium or
+mercury, others as valuable and scarce resources like gold, silver, copper and palladium.
+Adequate treatment at the end-of-life (EoL) of electrical and electronic equipment (EEE) is
+therefore crucial to avoid pollution on the one hand, and to save valuable and scarce
+resources on the other hand. Adequate treatment of e-waste needs knowhow to achieve high
+recycling rates from this highly complex waste at low environmental impact and at
+reasonable cost. This needs the optimization and cooperation of all actors in the EoL chain of
+EEE from collection down to reuse, recycling and disposal. Things are working somehow,
+but there are serious problems along the EoL chain. These processes and operations may be
+applied in order to achieve the minimum recovery and recycling targets,
+
+The Community programmer of policy and action in relation to the environment and
+sustainable development (Fifth Environmental Action Programmed) stated that the
+achievement of sustainable development calls for significant changes in current patterns of
+development, production, consumption and behavior and advocates, inter alia, the reduction
+of wasteful consumption of natural resources and the prevention of pollution. It mentioned
+waste electrical and electronic equipment (WEEE) as one of the target areas to be regulated,
+in view of the application of the principles of prevention, recovery and safe disposal of waste.
+
+It may be difficult to achieve and to prove an environmentally sound treatment of e-waste.
+Finally, regardless of any illegal exports of e-waste from industrialized countries, the
+amounts of domestic e-waste are growing in emerging market and developing countries.
+These countries are facing problems to adequately organize and conduct the collection and
+sound handling and treatment of this e-waste. Besides necessary transfer of knowledge and of
+technology, it might become necessary to transport and treat e-waste, components or fractions
+thereof from developing and emerging market countries to industrialized countries for
+treatment and ship back materials or fractions thereof to the countries of origin. Such
+exchanges, as long as possible and in line with international regulations, cannot be tolerated if
+the proper handling and treatment of e-waste, components and fractions thereof cannot be
+guaranteed. These guidelines must be a base to audit and prove compliance of all operators in
+the EoL chain in order to achieve a trustworthy and high level operational EoL network for e-
+waste. Objectives Any standard or guideline related to e-waste should cover the whole endof-life.
+Several public policy advocates apply the term "e-waste “broadly to all surplus electronics.
+This paper critically discusses the present status of management of e-waste of Bangladesh
+
+and necessary steps to be taken in considering e-waste management regulations to make a
+sustainable-waste management system.
+With the rapid development of communication and information technologies for the last few
+decades, the production of electrical instruments has increased. At the same time fast
+improvement of present technologies and intense marketing are engendering uncontrolled and
+unnecessary replacement of electrical instrument. Every year, 20 to 50 million tons of
+electrical and electronic equipment waste ("e-waste") are generated world-wide, which are
+sure to bring serious risks to human health and the environment, if not properly treated. E-
+waste usually contains hazardous materials such as lead, mercury, and hexavalent chromium
+which is highly hazardous for the environment. Electronics have been cited as a leading
+source of mercury in municipal waste. There is a general lack of awareness by Radar, Solar
+panel, Battery, Charger, Regulator, Water level gauge, Cables, Automatic rain gauge and
+computer users and the public in general about the toxins contained in Information and
+Communication Technology (ICT) components, and the associated risks of contamination of
+air, water and soil caused by land filling and incineration of technology equipment at the end
+of its life. Since Bangladesh is also in the stream of rapid technological advancement, it is
+seldom to take necessary steps to avoid the future jeopardized situation because of e-waste.
+This paper represents a case study of the present e-waste conditions and different steps
+undertaken by Bangladesh government to take care the upcoming problem. The study also
+shows the informal recycling of e-waste in Bangladesh which has both good and bad effect
+on environment due to illiteracy in this field. At the same time, it is alarming that no
+
+inventory has been made to assess the extent of E- waste problem in Bangladesh by govt and
+the laws are totally immature to face the problem. E-Waste Management Strategies with a
+number of steps including government, nongovernment and public responsibilities is
+suggested in this paper to take care the problem efficiently and effectively.
+
+2. Objectives of e-waste management plan of BWCSRP.
+The objectives of our environment policy are, in particular, to preserve, protect and improve
+the quality of the environment, to protect human health and to utilize natural resources
+prudently and rationally. That policy is based on the precautionary principle and the
+principles that preventive action should be taken, that environmental damage should, as a
+priority, be rectified at source and that the polluter should pay.
+
+3. Current e-waste of the country practices
+In the late 1980s, a tightening of environmental regulations in industrialized countries led to a
+dramatic rise in the cost of hazardous waste disposal. Searching for cheaper ways to get rid of
+the-wastes, “toxic traders” began shipping hazardous waste to developing countries and to
+Eastern Europe. When this activity was revealed, international outrage led to the drafting and
+adoption.
+During its first Decade (1989-1999), the Convention was principally devoted to setting up a
+framework for controlling the “transboundary” movements of hazardous wastes, that is, the
+movement of hazardous wastes across international frontiers. It also developed the criteria for
+“environmentally sound management”.
+The Control of Transboundary Movements of Hazardous' Wastes and their Disposal is the
+most comprehensive global environmental agreement on hazardous and other wastes. The
+aim of convention is to protect human health and the environment against the adverse effects
+resulting from the generation, management, transboundary movements and disposal of
+hazardous and other wastes.
+
+4. Current status of the e-waste generation by the project activities.
+
+The People’s Republic of Bangladesh is a signatory; and also has accessed to the Basel
+convention in April 01,1993. The positions of Bangladesh in Hazardous wastes under Basel
+Convention are follows:
+
+In the Bangladesh Environment Conservation Act, 1997, hazardous waste has been
+defined.
+
+
+Bangladesh has banned import of all sorts of waste in the Import Policy Order.
+
+
+In 1996, Bangladesh has prepared the 'Regulatory Framework on Import-of Hazardous
+and Toxic materials' through a project funded by ADB.
+
+
+Bangladesh organized training programmers on 'Toxic Chemicals and Hazardous Waste'
+and ‘Risk Assessment and Management.
+
+
+A draft position paper on use of toxic chemicals and disposal of toxic and hazardous
+wastes in Bangladesh has also been prepared, which is under process of finalization by
+national expert team.
+
+
+Bangladesh has drafted a National Chemical Profile.
+
+
+The Ministry of Environment and Forest has published a manual and other material for
+the management of Medical Waste.
+
+
+The Ministry of Environment and Forest (MOEF) has also developed draft Medical
+Waste Management Handling Rules, which is going to be approved.
+
+
+Apart from this the Ministry developed a model titled “Medical Waste Management
+through Public Private Partnership Model”, under which MOEF provided a training to the
+Medical Waste Management and Segregation to the medical professionals (Doctor,
+Nurse, Cleaner, Ward boy) of the public, private and clinics in both Dhaka and Rajshahi
+City.
+
+5. E-waste policy and regulation
+
+The Government of Bangladesh has approved the Hazardous Waste (e-waste)
+Management Rules, 2021 under the Bangladesh Environment Conservation Act, 1995 and
+it is expected to be published in government gazette soon. The old, end of life electronic
+appliances and devices including computers, laptops, tabs, mobile phones, batteries,
+television sets, refrigerators, photo copiers. fax machines, air conditioners, washing
+machine, electronic printers, calculators, chargers, audio-video equipment, various
+household and kitchen appliances, communication equipment including microwave
+telecommunication devices etc., generally form electrical and electronic waste (e-waste).
+The e-waste management rules will help the Department of Environment to bring in all
+the extended producers of electrical and electronic waste manufacturers nationally under
+an adequate management system. The rules help determine responsibilities of different
+categories of waste manufacturers, assemblers, hoarders and recycling companies for
+their storage and disposal activities. The said rules will enable the Department of
+Environment to register the e-waste producers, manufacturer, large importer, dismantler,
+recycler, trader or shopkeeper, hoarder, transporter, repairer, collection center, auctioneer
+and exporter and thus monitor their activities under the rules. The new rules will be
+applicable for the categories of electrical and electronic products related wastes like:
+household appliance, electronic monitoring and control equipment, medical equipment,
+various automatic machines and IT and telecommunication equipment. The e-waste
+
+management rules will prohibit import of old or used electrical and electronic products
+except for some exception (for the purposes of research use in the educational institutes
+having no objection certificate (NOC) from the Department of Environment (DoE).
+
+
+Department of Environment hopes that the rules will help reduction and recycling of
+electrical and electronic wastes in the country. During registration the Department of
+Environment will approve plans for the amount of e-waste to be collected for dismantling
+and reusing as extended responsibilities by each of the producer/manufacturer for a
+period of time.
+
+As the living standards of the people improve and country moves towards rapid urbanization,
+people's dependence on electrical and electronic goods have been increasing. The electrical
+and electronic product manufacturers, assembling factories have been producing and bringing
+a wide range of their products in the market. A lot of electronic and electrical appliances have
+been imported in the country as well. Unfortunately, not all of the imported or locally
+manufactured electrical and electronic goods are durable. As a result, electrical and electronic
+waste generation volume has been increasing in the country. Moreover, with the rapid
+technology changes people throw away daily a huge amount of electrical and electronic
+products as waste. A study report of DoE on 8 types of electrical and electronic products of
+the everyday use in 2018 has revealed that around 4 hundred thousand tons of electrical and
+electronic wastes are generated in Bangladesh annually. A BUET study report anticipates that
+the e-waste volumes (limited items) in the country will increase to 4,62 million tons in 2035.
+If the list is extended for the electronic wastes the annual volume will be significantly high.
+The published reports suggest that the e-waste generation in Bangladesh has been increasing
+annually at a rate of 20 per cent. Experts consider that the hazardous substances and
+chemicals contained in the e-wastes like lead, mercury, chromium, various chemicals and
+plastic additives may cause threat to human health if people get exposed to them during
+collection and crude recycling process. The collection of used electrical and electronic
+products and their partial reuse help limit the volume of wastes. However, a significant part
+of the e-waste including various hazardous waste are thrown away as solid waste in our
+environment causing contamination of soil and water bodies. Only approximately 10 per cent
+of the generated e-wastes are collected and recycled in the country so far.
+
+On the other hand, proper recycling of the e-waste can help extract valuable metal like
+copper, steel, aluminum, zinc, lead and other precious and non-metal substances from the e-
+waste. A local company Azizu Recycling and E-waste Ltd. has been collecting e-wastes both
+from institutional (BTRC, Grameenphone, DELL, Green Line etc.) sources and from the
+waste collection vendors for last couple of years and recycle them. Approximately 1,000-
+1,200 tons of e-waste are being recycled annually at the Azizu plant at Fatullah, Naryanganj.
+Collected e-waste are initially segregated and separated manually or semi-mechanically in the
+factory. Large aluminum, copper, steel, rubber and plastic segments are separated and sold to
+various industries as raw materials for their production. On the other hand, small pieces of
+metals and dust of mixed metals (produced by specialized crusher and separator) from the
+
+electronic microchips and printed circuits boards in the factory are either melted to separate
+copper or exported (as mixed metal dust) to overseas market as raw materials of precious
+metal. From the waste metallic cable (usually aluminum cable coated with copper), copper is
+separated by electrolysis processes in the same factory. So far, Azizu recycling and e-waste
+Ltd. cannot separate sophisticated precious metal (gold, silver palladium and rear earth
+minerals etc.) in the factory. But it has the intention to expand the factory and mobilise
+advanced technology to separate precious metals from the e-waste.
+
+The Hazardous (e-waste) Management Rules, 2021 will compel at least large e-waste
+producers to systematically store and recycle their wastes. Thus new entrepreneurs may be
+encouraged to enter into the e-waste recycling business and advance the recycle, reuse and
+reduce e-waste. Institutional e-waste recycling and re-using business may help mobilize
+better technology to extract most of the valuable parts of the waste.
+
+For DoE the challenge will remain to list all the electrical and electronic waste producers and
+their activities. Unless industrial clusters are created to bring all the e-waste generating
+companies and service providing industries/enterprises in the specific sites, challenges for
+DoE will be enormous for establishing effective monitoring and implementation of the rules.
+
+The Policy shall address all issues ranging from production and trade to final disposal,
+including technology transfers for the recycling of electronic waste. Clear regulatory
+instruments, adequate to control both legal and illegal exports and imports of e-wastes and
+ensuring their environmentally sound management should be in place. There is also a need to
+address the loop holes in the prevailing legal frame work to ensure that e - wastes from
+developed countries are not reaching the country for disposal. The Port and the Custom
+authorities need to monitor these aspects. The regulations should prohibit the disposal of e-
+wastes in municipal landfills and encourage owners and generators of e-wastes to properly
+recycle the-wastes. Manufactures of products must be made financially, physically and
+legally responsible for their products. Policies and regulations that cover Design for
+Environment (DfE) and better management of restricted substances may be implemented
+through measures such as
+
+• specific product take-back obligations for industry
+
+• financial responsibility for actions and schemes
+
+• greater attention to the role of new product design
+
+• material and/or substance bans including stringent restrictions on certain substances
+
+• greater scrutiny of cross-border movements of Electrical and Electronic Products and
+e-waste
+
+• Increasing public awareness by labeling products as 'environmental hazard’
+
+The key questions about the effectiveness of legislation would include:
+
+• What is to be covered by the term electronic waste?
+
+• Who pays for disposal?
+
+• Is producer responsibility the answer?
+
+• What would be the benefits of voluntary commitments?
+
+• How can sufficient recovery of material be achieved to guarantee recycling firms a
+reliable and adequate flow of secondary material?
+
+A complete national level inventory, covering all the cities and all the sectors must be
+initiated.
+A public-private participatory forum (E-waste Agency) of decision making and problem
+resolution in E- waste management must be developed. This could be a Working Group
+comprising Regulatory Agencies, NGOs, Industry Associations, experts etc. to keep pace
+with the temporal and spatial changes in structure and content of E-waste. This Working
+Group can be the feedback providing mechanism to the Government that will periodically
+review the existing rules, plans and strategies for E-waste management. Mandatory labeling
+of all computer monitors, television sets and other household/industrial electronic devices
+may be implemented for declaration of hazardous material contents with a view to identifying
+environmental hazards and ensuring proper material management and E-waste disposal.
+
+The efforts to improve the situation through regulations, though an important step; are usually
+only modestly effective because of the lack of enforcement. While there has been some
+progress made in this direction with the support of agencies, enforcement of regulations is
+often weak due to lack of resources and underdeveloped legal systems. Penalties for
+noncompliance and targets for collection or recycling are often used to ensure compliance.
+
+Legal & Regulatory Regime (Present scenario)
+
+• No regulations specifically dealing with E- waste in Bangladesh
+• Medical Waste Management Rules, 2008 addresses the-waste management issues for
+the medical sector including E-waste.
+• Government already prepared draft National 3R (Reduce, Reuse & Recycle) Strategy
+and in that draft e-waste issues were addressed.
+• Government already prepared draft National 3R (Reduce, Reuse & Recycle) Strategy
+and in that draft e-waste issues were addressed.
+• Hazardous Waste Management Rules is under preparation and still time to incorporate
+E-waste management issues for proper management of E-waste among others.
+• We prepared draft solid waste management rules which is now in consultation stage
+and still time to include E-waste management issues in that rule,
+• Import of any kind of waste requires Government permission.
+
+E-waste recycling
+Many discarded machines contain usable parts which could be salvaged and combined with
+other used equipment to create a working unit. It is labor intensive to remove, inspect and test
+components and then reassemble them into complete working machines. Institutional
+infrastructures, including e-waste collection, transportation, treatment, storage, recovery and
+disposal, need to be established, at national and/or regional levels for the environmentally
+sound management of e-wastes. These facilities should be approved by the regulatory
+authorities and if required provided with appropriate incentives. Establishment of e-waste
+collection, exchange and recycling centers should be encouraged in partnership with
+governments, NGOs and manufacturers.
+
+Environmentally sound recycling of e-waste requires sophisticated technology and processes,
+which are not only very expensive, but also need specific skills and training for the operation.
+Proper recycling of complex materials requires the expertise to recognize or determine the
+presence of hazardous or potentially hazardous constituents as well as desirable constituents
+(i.e. those with recoverable value), and then be able to apply the company’s capabilities and
+process systems to properly recycle both of these streams. Appropriate air pollution control
+devices for the fugitive and point source emissions are required. Guidelines are to be
+developed for environmentally sound recycling of e-wastes. If the Private Sector will come
+forward to invest in the e-waste projects once they are sure of the returns.
+
+6. BMD, BWDB and DAE should take the following initiatives:
+Necessary steps should be taken by Bangladesh Meteorological Department (BMD),
+Bangladesh Water Development Board (BWDB) Department of Agricultural Extension (DAE)
+(i) Should set up regulatory agencies in each district, which are vested with the
+responsibility of coordinating and consolidating the regulatory functions of the various
+government authorities regarding hazardous substances.
+
+(ii) Should be responsible for providing an adequate system of laws, controls and
+administrative procedures for hazardous waste management (Niu and Li 2007). Existing laws
+concerning e-waste disposal be reviewed and revamped. A comprehensive law that provides
+e-waste regulation and management and proper disposal of hazardous wastes is required.
+Such a law should empower the agency to control, supervise and regulate the relevant
+activities of government departments. Under this law, the agency concerned should:
+
+• Collect basic information on the materials from manufacturers, processors and
+importers and to maintain an inventory of these materials. The information should
+include toxicity and potential harmful effects.
+• Identify potentially harmful substances and require the industry to test them for
+adverse health and environmental effects.
+• Control risks from manufacture, processing, distribution, use and disposal of
+electronic wastes.
+• Encourage beneficial reuse of "e-Waste" and encouraging business activities that usewaste". Set up programs so as to promote recycling among citizens and businesses. ' ‘
+• Educate e-waste generators on reuse/recycling options
+
+(iii) Must encourage research into the development and standard of hazardous waste
+management, environmental monitoring and the regulation of hazardous waste-disposal.
+
+(iv) Should enforce strict regulations against dumping e-waste in the country by outsiders.
+Where the laws are flouted, stringent penalties must be imposed. In particular, custodial
+sentences should be preferred to paltry fines, which these outsiders/ foreign nationals can
+pay.
+
+(v) Should enforce strict regulations and heavy fines levied on industries, which do not
+practice-waste prevention and recovery in the production facilities.
+
+(vi) Polluter pays principle and extended producer responsibility should be adopted.
+
+(vii) Should encourage and support NGOs and other organizations to involve actively in
+solving the nation's e-waste problems.
+
+(viii) Uncontrolled dumping is an unsatisfactory method for disposal of hazardous waste and
+should be phased out.
+
+(viii) Should explore opportunities to partner with manufacturers and retailers to provide
+recycling services.
+
+7. BMD, BWDB and DAE should take the Capacity building, training and
+awareness programmers for e-waste Enhancement Work
+
+The future of "e-waste management depends not only on the effectiveness of local
+government, the operator of recycling services, but also on the attitude of citizens, and on the
+
+key role of manufactures and bulk consumers to shape and develop community participation.
+Lack of civic sense and awareness among city residents will be a major hurdle to keep e-
+waste out of municipal waste stream. Collaborative campaigns are required to sensitize the
+users and consumers should pay for recycling of electronic goods. Consumers are to be
+informed of their role in the system through a labelling requirement for items, Consumers to
+be educated to buy only necessary products that utilize some of the emerging technologies
+(i.e. lead-free, halogen-free, recycled plastics and from manufacturers or retailers that will
+`take-back' their product) to be identified through eco-labeling.
+
+Awareness raising programs and activities on issues related to the environmentally sound
+management (ESM), health and safety aspects of e-wastes in order to encourage better
+management practices should be implemented for different target groups. Technical
+guidelines for the ESM of e-wastes should be developed as soon as possible.
+
+8. Responsibilities of the BMD, BWDB and DAE
+
+• E-wastes should never be disposed with garbage and other household wastes. This
+should be segregated at the site and sold or donated to various organizations.
+
+• Waste prevention is perhaps more preferred to any other waste management option
+including recycling. Donating electronics for reuse extends the lives of valuable
+products and keeps them out of the-waste management system for a longer time. But
+care should be taken while donating such items i.e. the items should be in working
+condition.
+
+• Reuse, in addition to being an environmentally preferable alternative, also benefits
+society. By donating used electronics, schools, non-profit organizations, and lowerincome families can afford to use equipment that they otherwise could not afford.
+
+ While buying electronic products opt for those that:
+o are made with fewer toxic constituents
+o use recycled content
+o are energy efficient
+o are designed for easy upgrading or disassembly
+o utilize minimal packaging
+o offer leasing or take back options
+o Have been certified by regulatory authorities. Customers should opt for
+upgrading their computers or other electronic items to the latest versions rather
+than buying new equipments.
+
+ NGOs should adopt a participatory approach in management of e-wastes.
+
+9. Conclusion:
+There exists an urgent need for a detailed assessment of the current and future scenario
+including quantification, characteristics, existing disposal practices, environmental impacts
+etc. Institutional infrastructures, including e-waste collection, transportation, treatment,
+storage, recovery and disposal, need to be established, at national and/or regional levels for
+the environmentally sound management of e-wastes. Establishment of e-waste collection,
+exchange and recycling centers should be encouraged in partnership with private
+entrepreneurs and manufacturers. `
+
+Model facilities employing environmentally sound technologies and methods for recycling
+and recovery are to be established. Criteria are to be developed for recovery and disposal of
+E-wastes. Policy level interventions should include development of e-waste regulation,
+control of import and export of e-wastes and facilitation in development of infrastructure. An
+effective take-back program providing incentives for producers to design products that are
+less wasteful, contain fewer toxic components, and are easier to disassemble, reuse, and
+recycle may help in reducing the-wastes. It should set targets for collection and
+reuse/recycling, impose reporting requirements and include enforcement mechanisms and
+deposit/refund schemes to encourage consumers to return electronic devices for collection
+and reuse/recycling. End-of life management should be made a priority in the design of new
+electronic products.
+
+Zahirul Islam
+Senior Environmental Safe Guard Specialist
+BWCSRP- BWDB

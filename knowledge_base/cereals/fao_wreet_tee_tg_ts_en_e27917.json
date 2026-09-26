@@ -1,0 +1,49 @@
+{
+  "document_id": "fao_e27917f7db7e",
+  "title": "Wreet tee Tg TS",
+  "source": "FAO",
+  "url": "https://faolex.fao.org/docs/pdf/BGD214404.pdf",
+  "language": "en",
+  "categories": [
+    "cereals",
+    "fruits",
+    "oil_crops",
+    "spices",
+    "fiber_crops",
+    "cash_crops",
+    "vegetables",
+    "pulses",
+    "crops"
+  ],
+  "related_crops": [
+    "Aman Rice",
+    "Aus Rice",
+    "Boro Rice",
+    "Chickpea",
+    "Chili",
+    "Cotton",
+    "Garlic",
+    "Guava",
+    "Jackfruit",
+    "Jute",
+    "Maize",
+    "Mango",
+    "Mustard",
+    "Onion",
+    "Potato",
+    "Rice",
+    "Soybean",
+    "Sugarcane",
+    "Sunflower",
+    "Wheat"
+  ],
+  "topics": [
+    "Aman Rice Cultivation Guide"
+  ],
+  "quality_score": 0.92,
+  "filename": "fao_wreet_tee_tg_ts_en_e27917.pdf",
+  "pages": 226,
+  "file_size_kb": 21364.0,
+  "author": null,
+  "extracted_at": "2026-09-23T19:48:35.944214+00:00"
+}

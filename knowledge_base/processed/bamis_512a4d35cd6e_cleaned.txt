@@ -1,0 +1,2172 @@
+Basics of Crop Modelling
+
+Moin Us Salam
+
+A training manual prepared for
+Agro-Meteorological Information Systems
+Development Project (Component “C”: Bangladesh
+Weather and Climate Services Regional Project)
+
+Department of Agricultural Extension (DAE)
+Khamarbari, Farmgate, Dhaka 1215
+Bangladesh
+
+May 2019
+
+First edition 2019
+Copyright © 2019 The Author
+
+Published by
+Agro-Meteorological Information Systems Development Project
+(Component “C”: Bangladesh Weather and Climate Services
+Regional Project), Department of Agricultural Extension (DAE)
+Khamarbari, Farmgate, Dhaka-1215, Bangladesh
+
+Correct citation
+M. U. Salam. 2019. Basics of Crop Modelling. Agro-Meteorological
+Information Systems Development Project. Department of
+Agricultural Extension (DAE), Khamarbari, Farmgate, Dhaka-1215,
+Bangladesh.
+
+Printed by
+College Gate Binding & Printing
+1/7, College gate, Mohammadpur,
+Dhaka 1207, Bangladesh
+
+Page | 3
+Author’ note
+‘Basics of Crop Modelling’ was developed as a training material for the
+selected scientists of Bangladesh Agricultural Research Institute (BARI),
+Bangladesh Rice Research Institute (BRRI), Bangladesh Jute Research
+Institute (BJRI), Bangladesh Sugarcrop Research Institute (BSRI) and
+Department of Agricultural Extension (DAE). This training, a part of the
+Agro-Meteorological Information Systems Development Project of DAE,
+was conducted at BRRI Headquarters at Gazipur, Bangladesh, in three
+phases during January through May 2019; each phase comprised of four
+full days. It covered understanding and applying modelling techniques to
+five crops – ‘Aus’ rice, Jute, Maize, Potato and Sugarcane.
+The Author gratefully acknowledges the help and cooperation of Dr.
+Mazharul Aziz, Project Director, and Mr. Sabuj Roy, Technical Officer, of
+the Agro-Meteorological Information Systems Development Project of
+DAE in conducting the training. Thanks to Mohammad Abu Sayeed for
+assisting in compilation of the book.
+The materials compiled in this book derived mostly from the author’s
+PhD thesis entitled “A Systems Approach to the Study of Potential
+Production of Boro Rice in the Haor Region of Bangladesh” (University
+of Reading, 1992).
+
+Moin Us Salam
+Freelance International Consultant
+(Agricultural Systems)
+
+Page | 4
+Contents
+Section
+Topic
+Page
+What is crop modelling?
+Why a systems approach
+System, model and simulation
+3.1
+System
+3.2
+Model
+3.3
+Simulation
+Hierarchy
+Procedure of simulation model building
+Modeling growth and the development process
+taking rice as an example
+6.1
+Photosynthesis
+6.1.1
+Light absorption by leaves
+6.1.2
+The initial light use efficiency
+6.1.3
+Maximum rate of light photosynthesis
+6.1.4
+Temperature effect on leaf photosynthesis
+6.1.5
+Leaf-N content and photosynthesis
+6.1.6
+Canopy photosynthesis
+6.2
+Leaf area development
+6.3
+Respiration
+6.3.1
+Maintenance respiration
+6.3.2
+Growth respiration
+6.3.3
+Carbohydrate remobilization
+6.4
+Development
+6.5
+Assimilate partitioning and growth of individual
+organs
+6.5.1
+Assimilate partitioning
+6.5.2
+Growth of different organs
+
+Page | 5
+Contents (continued)
+Section
+Topic
+Page
+6.5.2.1
+Senescence
+6.5.2.2
+Accumulation of carbohydrates
+6.5.2.3
+Root growth
+6.5.2.4
+Culm growth
+6.5.2.5
+Leaf growth
+6.5.2.6
+Growth of storage organs
+6.6
+Initialization of rice growing processes in the
+nursery and main paddy field
+6.6.1
+Nursery
+6.6.2
+Main paddy field
+6.6.2.1
+Reduction in population density
+6.6.2.2
+Transplanting shock
+Model evaluation
+Sensitivity analysis
+Basic data to be required for model development and
+validation
+Literature cited and additional literature for
+consultation
+
+Page | 6
+WHAT IS CROP MODELLING?
+Crop modelling is the dynamic simulation of crop growth by numerical
+integration of constituent processes with the aid of computers, is a
+technology used to construct a relatively transparent surrogate (or
+substitute) for a real crop, one that can be analyzed and manipulated
+with far greater ease than the complex and cumbersome original. Crop
+modelling is analogous to biological life cycles (Sinclair and Seligman,
+1996). This discipline is based on systems approach.
+
+WHY A SYSTEMS APPROACH
+The conventional method of tackling problems related to crop production
+is to carry out the field experimentation. This approach has several
+drawbacks:
+i.
+To draw a resilience conclusion, long term experimentation is
+necessary which is time consuming and costly (Dent and
+Blackie, 1979);
+ii.
+It can only explain the response to the specific treatment levels
+used, extrapolation cannot be fully justified and may lead to
+mistaken conclusions (Biscoe and Willington, 1985);
+iii.
+Weather also influences the process, complicating interpretation
+of the responses and often make it almost impossible to
+determine the precise effect of the treatment (Patterson et al.,
+The general approach in real life experimentation is to study the
+components of the whole process separately. The questions about the
+performance of the whole system cannot be answered (Baker and Curry,
+1976). It must be studied holistically, the items must be treated as a
+whole.
+
+Page | 7
+The nature of the problem encountered in many field studies cannot be
+properly dealt with by conventional physical experiments. Weather
+variables are an essential consideration in management decisions
+(Fischer, 1985) and in such situations the systems approach seems to
+be the most appropriate method of study. This is not only a quick way to
+solve the problem but it considers the whole production process and can
+show how the management decisions interact with one another and how
+performance can be manipulated through these variables. It has been
+established now that the systems approach is an efficient technique of
+the studying the agricultural environments (Spedding, 1975a; Baker and
+Curry, 1976; Dent and Blackie, 1979; Conway, 1985). Such an approach
+can provide very good guidance for tackling problems we face in crop
+management (Stapper et al., 1983; Fischer, 1985; Penning de Vries,
+Spedding (1975a) defines the approach as the study of how component
+parts of a system interact and contribute to behavior of the whole
+system. The interlinks between the components cannot easily be seen
+or touched in biological systems; but their existence has attracted
+scientists (Brockington, 1979). Since 1960s, there has been tremendous
+growth of interest in this discipline (Day, 1985). The approach permitting
+integration of the valuable information generated from isolated
+experiments related to the physical, physiological and chemical
+properties of the plants and thereby the whole production system can be
+studied in the holistic way. Therefore, a system approach seems to be
+an appropriate way to analyze the crop production systems.
+
+SYSTEM, MODEL AND SIMULATION
+The approach of systems analysis can be characterized by the terms
+systems, models and simulation (Rabbinge and de Wit, 1989). These
+have been briefly explained below.
+
+Page | 8
+3.1 System
+A system has been defined and explained by a number of authors
+(Spedding, 1975a; Baker and Curry, 1976; Brockington, 1979; Dent and
+Blackie, 1979; Jones et al., 1987). Conway (1985) defines a system as
+‘an assemblage of elements contained within a boundary such that the
+elements within the boundary have strong functional relation with each
+other, but limited, week or non-existent relationships with elements in the
+other assemblages; the combined outcome of the strong functional
+relationships within the boundary is to produce a distinctive behavior of
+the assemblage such that it tends to respond to stimuli as a whole, even
+if the stimulus is only applied to one part’. The definition itself is selfexplanatory. The essential conditions in designing a system have been
+given by Spedding (1975a; 1975b). In the system structure, a boundary
+is drawn although in reality it does not occur (Dent and Blackie, 1979).
+Within the boundary the components, as the crop systems,
+photosynthesis, translocation and respiration exist and interact with each
+other. The system is run by inputs - both controllable (management
+decisions) and uncontrollable (weather variables such as temperature
+and radiation) which produce output, e.g. the grain yield.
+3.2 Model
+In the systems approach, the system under study is represented by
+some forms; the representation is termed a model. So, models are
+imitations (Moorby, 1985) or analogues (Bell, 1987) of the real system
+while the process of developing the representation is called modeling
+(Jones et al., 1987). Reality is always simplified in a model, partly
+because our understanding of basic process is limited, partly because
+this enables us to handle the model (van Keulen et al., 1975).
+Models are basically of two types - physical or iconic (Churchman, 1971)
+models, and symbolic or conceptual (Churchman, 1971; Brockington,
+
+Page | 9
+1979) models. There are symbolic models of different kinds but
+mathematical models are generally used in agriculture (Brockington,
+1979). These models may be empirical or mechanistic. Empirical models
+are also be termed as input-out or block-box model where they produce
+output only without referring to underlying physical or biological structure
+between the variables (Chanter, 1981), e.g. statistical models. On the
+other
+hand,
+mechanistic
+or
+explanatory
+or
+white-box
+models
+(Brockington, 1979) explicitly represent causality between variables.
+Mechanistic models are the interest in the systems approach. These
+models may be divided into two types – simulation type and optimization
+type. Optimization type is used to get best or optimal solution to a
+practical problem in the system whereas the general behavior of the
+system is studied by simulation (Brockington, 1979).
+3.3 Simulation
+Simulation means that the model acts like the real system, for example,
+a real crop by gradually growing roots, stems, etc., during the season. It
+does not just predict some final state such as biomass or yield (Whisler
+et al., 1986). A formal mathematical statement of assumptions is made
+in simulation about the cropping system being studied (Charles-Edwards
+and Vanderlip, 1985) which represents the behavior of the system (van
+Keulen et al., 1975). Finally experimentation is conducted using the
+model to obtain approximate solutions (Stern, 1975) in a way that
+represents the behavior of the real system under different circumstances
+(Charles-Edwards, 1982). Simulation models are dynamics in nature, i.e.
+predicting changes in crop status with time. A deterministic model makes
+definite predictions for quantities such as crop yield, without any
+associated probability distribution while stochastic models contain some
+explicitly random elements which allow study of variance (France and
+Thornley, 1984).
+
+Page | 10
+HIERARCHY
+Model building must be consider the level of detail at which the model
+should be considered (Whisler et al., 1986). Jones and his associates
+(1987) state that the fundamental goals and objectives of a model
+should guide one to determine the hierarchical level to use. Conway
+(1985) has listed the hierarchy of natural systems as: organism –
+population – community – ecosystem – biome - biosphere. Eight levels
+of hierarchy for production systems have been specified by Whisler et al.
+(1986). The levels range from molecule to biome and the time frame is
+considered from seconds to years according to the level. Peart and
+Barrett (1979) indicate that models in agriculture are based on 7 levels:
+world – region - farming areas - crop ecosystems (corn, pasture etc) -
+elements (individual plants) - components (leaves, roots, stems etc) -
+micro-components (stomata, biochemical pathways etc). Of these, the
+first three levels are considered as management oriented and the rest as
+research oriented.
+The crop production level has further been stratified into four levels by
+Prof. C.T. de Wit as listed by Penning de Vries, 1982). A brief summery
+has been given below.
+Production level I: Ample water and nutrients; growth rate depends
+only on the current state of the crop and on current weather,
+particularly radiation and temperature.
+Production level II: Growth rate is limited only by the availability of
+water, for at least part of the growing season.
+Production level III: Growth rate is restricted by N shortage for at
+least part of the growing season and by water shortage.
+Production level IV: Growth rate is restricted by P and others
+minerals.
+
+Page | 11
+In reality, crop production systems really fit into one of these levels.
+However, the simplification has been directed towards the dynamics of
+the major constraint and its relationship with crop production. Disease,
+pests, and weeds exert influence at any one of the levels causing further
+constraint to production (Penning de Vries et al, 1989).
+
+PROCEDURE OF SIMULATION MODEL BUILDING
+A number of well-defined and interlinked steps are followed in the
+building simulation models. Details of the steps have been thoroughly
+described by (Dent and Blackie, 1979) and (Jones et al., 1987).
+The procedures to follow in constructing a crop model is presented in
+Figure 1.
+
+Figure 1. Steps in building a crop model
+The steps as mentioned in the figure should not be viewed as strict
+sequential process. The steps are repeated in an interactive fashion as
+information is gained (Jones et al., 1987).
+
+Page | 12
+After the preliminary analyses the model is structured in diagrammatic
+form by symbolic representation (Figure 2); later it is converted into a
+flow diagram showing the components and their interactions. The
+interactions are then converted into mathematical statements. The
+statement of assumptions may be entirely empirical, based on
+observations of the field performances, or they may be based on an
+underlying, or knowledge of physiological mechanisms underlying crop
+growth and production (Charles-Edwards and Vanderlip, 1985). The
+model, thus considered, may not predict correct behavior of the crop
+growing in the field because the assumptions are wrong, or put together
+in the wrong way. Equally, it may predict the correct behavior
+fortuitously even though some of the assumptions are wrong because it
+is insensitive to them under these circumstances or because in-built
+errors cancel out (Charles-Edwards and Vanderlip, 1985). Thus one
+needs to shuffle between the steps and thus it makes the whole process
+tedious.
+
+Figure 2. Relational diagram of a rice model.
+
+Page | 13
+In a dynamic simulation model, systems are approximated to first order
+difference equations and defined in terms of state variables (levels) and
+rate of change (Jones et al., 1987; Penning de Vries et al, 1989). The
+state variables include biomass in different plant parts whereas the
+photosynthesis rate is an example of a rate variable. The system is
+governed by inputs or forcing or driving variables like radiation and
+temperature, as in the present case; their variations are of course
+independent of the state of the system (Driessen, 1986). Constants and
+parameters, the characteristics of the components of the model, usually
+remain unaltered throughout the simulated time (Driessen, 1986; Jones
+et al., 1987).
+
+MODELING GROWTH AND THE DEVELOPMENT
+PROCESS TAKING RICE AS AN EXAMPLE
+There are two broad parts of the rice growing process, that which occurs
+in the nursery and that in the main paddy field. Principles involved
+regarding growth and developmental process in these two parts are
+almost same. This is why they have been described in general.
+However, special processes and /or consideration(s) necessary to model
+each of the parts are mentioned accordingly.
+6.1 Photosynthesis
+In agriculture, solar energy is conserved for future use via its fixation in
+biomass; the process is called photosynthesis (van Heemst, 1986a).
+Photosynthesis comprises a very complex processes by which plants
+reduce carbon dioxide (CO2) using absorbed radiation energy in the
+presence of water (H2O) and form organic molecules, conventionally
+represented by the molecule glucose or carbohydrate (C6H12O6 or
+CH2O). The process is also called CO2 assimilation and hence the
+products are often termed assimilates (van Heemst, 1986a).
+
+Page | 14
+Photosynthesis or CO2 assimilation can be calculated based on the
+procedure of Goudriaan and van Laar (1978). The biomechanical
+mechanism of CO2 assimilation is not the same for all plants (Bidwell,
+1983). Although a few exceptions have been reported (Hedge and Joshi,
+1974), rice plants generally possess the C3 type of photosynthetic
+pathway. Photorespiration, an intensive process in C3 plants, is
+intimately coupled with photosynthesis itself (Penning de Vries et al.
+1989). Photosynthesis is expressed in the calculation as gross
+photosynthesis of the leaf canopy (Goudriaan and van Laar, 1978).
+There are three important steps in the calculation of photosynthesis.
+6.1.1 Light absorption by leaves
+In the leaves, the photo synthetically active radiation (PAR) is absorbed
+by green chlorophyll and others pigments and is used for the reduction
+of CO2. PAR belongs to the visible radiation in the wavelength of 400-
+700 nm, representing about 50% of the total global radiation (Monteith,
+1973). This is true for both tropical and temperate regions (Monteith,
+1972). In the crop, 10% of the incoming radiation is reflected, 10 % is
+absorbed by the pigments not contributing to photosynthesis, 10% is
+transmitted through the leaves and the remaining 70% is absorbed by
+chloroplast (van Heemst, 1986a). So, the first layer of the leaves utilizes
+70% of PAR and the second layer only 10% whereas the rest do
+substantially nothing. Thus PAR absorbed by the leaves is assumed to
+be 80% (Penning de Vries et al, 1989).
+6.1.2 The initial light use efficiency
+About 15 quanta of PAR is required by C3 plants to reduce a single
+molecule of CO2, mainly due to light absobption by non-photosynthetic
+pigments, and photorespiration (Penning de Vries et al. 1989). This
+value can be translated into a measure of light efficiency use rate
+(EFFE) of 0.48 kg CO2 per hectare of leaf surface and per hour J m-2s-1.
+
+Page | 15
+Yoshida (1981) indicates that the EFFE of rice is around 0.40. It may
+vary according to variety (McDonald, 1971).
+A reference value of EFFE should be used in the model because the
+light use efficiency might be affect by temperature (McDonald, 1971). In
+fact, photorespiration increase with the rise of temperature (Penning de
+Vries et al., 1989). In case of rice, as with other C3 plants, EFFE is
+negatively related to temperature. Penning de Vries and his associates
+(1989) report that the value of EFFER is not affected when the
+temperature is 10C or below, whereas the value becomes about 0.01 at
+50C. The relative effect of temperature on EFFER (EFFET) to be
+accounted for in the model.
+Thus the EFFE for a day is calculated by:
+EFFE=EFFER*EFFET
+EFFE is initial light use efficiency expressed as kg CO2 ha-1h-1 per
+J m-2s-1 of absorbed PAR
+EFFER is the reference value of EFFE
+EFFET is the relative factor on EFFER due to temperature variation
+Environment factors others than the temperature have little effect on
+EFFE (Penning de Vries et al., 1989; Dingkuhn et al. (1990) reported
+that nitrogen management might affect the EFFE, which may be
+considered in the model.
+6.1.3 Maximum rate of light photosynthesis
+The value of the maximum rate of leaf photosynthesis (AMAX) at high
+light intensities and normal CO2 concentration (340 ppm by volume)
+usually ranges from 25 to 80 kg CO2 ha-1h-1 (Penning de Vries et al.,
+1989). Higher values apply to C4 plants, the net assimilation rate usually
+varies from 15 to 50 kg CO2 ha-1 h-1 (van Heemst, 1986a). For rice
+
+Page | 16
+plants, leaf photosynthesis ranges from 40 to 50 kg CO2 ha-1 h-1
+(Yoshida, 1981). In the case of the modern varieties, Yoshida (1981)
+found that the leaf photosynthesis rate to be 47 kg CO2 ha-1h-1 at 25○C.
+Temperature and leaf thickness are the most important factors of AMAX
+(Penning de Vries et al., 1989). The variation in AMAX within a species
+is due to the differences in the leaf thickness (Charles-Edwards, 1982).
+6.1.4 Temperature effect on leaf photosynthesis
+Horie (1979) reported net photosynthesis of rice varied by less than 10%
+for leaf temperatures between 20○ and 35C. Indicating similar views,
+Venkateswarlu et al. (1977) suggest that temperature may be
+considered as limiting factor for photosynthesis of rice in the tropics.
+When the temperature is low it restricts the growth more than limiting
+photosynthesis (Evans, 1975b). Cooper (1975) also indicated that for a
+wide range of temperature, the photosynthesis varies little. Considering
+these views, RICEMOD was built (McMennany and O’Toole, 1983)
+without considering any effect of temperature on photosynthesis.
+The situation as reviewed above is not, however, a true picture of the
+tropics and sub-tropics as a whole. Even between cropping seasons
+within a year the situation varies widely. For example, for part of the
+‘Boro’ rice growing season in Haor region the temperature drops below
+20C. Photosynthesis in such a situation may be limited, with the
+interference in chlorophyll synthesis, leaf development and the reaction
+rates of chemical reactions (Troughton, 1975). In extreme situations,
+temperature not only reduces photosynthesis, but the effect may prevail
+even when the temperature becomes favourable (Bauer et al., 1975;
+Fukai et al., 1976; Marcellos,1977; Legg, 1981); in some cases total
+destruction of plants has been reported (Larcher, 1973). At the
+temperature level of 15 to 19C, the rice crop has been reported to
+suffer stress (Terao et al., 1941; Nishiyama et al., 1969; Kabaki et al.,
+1982; Wilson, 1984; Setter and Greenway, 1988), and in such situations
+
+Page | 17
+the loss of photosynthetic capacity cannot be ignored (Kishitani and
+Tsunoda, 1974; Makino et al., 1984; Moll and Steinback, 1986).
+6.1.5 Leaf-N content and photosynthesis
+As has stated earlier, that thickness of the leaves has an effect on
+photosynthesis; the thickness-photosynthesis relationship, on the other
+hand, depends strongly on the nitrogen content of the leaves (Penning
+de Vries et al., 1989). The Leaf-N content falls with the aging of the crop,
+besides new leaves have less N content than older ones (Raymond et
+al., 1960; Greenwood et al., 1965; Thompson et al., 1976; Greenwood
+and Barnes, 1978). This causes a change in the value of AMAX (Takano
+and Tsunoda, 1971; Yoshida and Coronel, 1976). The relationship of the
+N-fraction of leaves and that of the maximum rate of leaf photosynthesis
+has been quantitatively presented by Penning de Vries et al. (1990).
+However, the estimation can be made by relating plant age (days) with
+that of the leaf-N content (Murata, 1975a; McMennamy and O’Toole,
+1983). Penning de Vries et al. (1990) have presented typical leaf-N
+fraction curve of rice throughout its growth period under two situations:
+at high level of soil N, and at low level of soil N. A relationship is based
+on development stage (DVS) of the crop rather than simply age of the
+plant (day) can be more appropriate.
+The relationship between leaf-N content and AMAX has been given by
+Dinguhn et al. (1990). The value of AMAXG, the maximum gross
+photosynthetic rate, can be taken as 66 kg CO2 ha-1h-1 at a leaf-N
+content of 4. The AMAXG decreases almost linearly below the value 4,
+and increase slowly up to 6. Finally, AMAX can be obtained as a
+function of leaf-N, the AMAXN and then as a function of temperature,
+AMAXT.
+AMAX=AMAXG*AMAXN
+AMAX=AMAX*AMAXT
+
+Page | 18
+AMAX is the maximum rate of single leaf photosynthesis expressed
+as kg CO2 ha-1h-1
+AMAXG is gross AMAX at leaf-N content of 4 AMAXN is the
+relative effect of leaf-N on AMAXG.
+AMAXT is the relative effect of temperature on AMAX at particular
+leaf-N level.
+6.1.6 Canopy photosynthesis
+Canopy photosynthesis is the sum of the rates of photosynthesis of all
+the leaves. If the photo synthetic rate was proportional to the light
+intensity and if all leaves had identical properties, then canopy
+photosynthesis would simply be equal to the multiple of the quantity of
+light absorbed and the light use efficiency (Penning de Vries et al.,
+1989). However, reality is complicated by the influence of direct and
+diffused light, total leaf area, leaf angle distribution, leaf optical
+properties and solar height on the distribution within the canopy, each of
+which have to be taken into account (van Heemst, 1986a). Models have
+been developed which make these complicated processes easy to
+tackle. Calculation of canopy photosynthesis can be made in the model
+according to the mechanisms developed by Goudriaan and van Laar
+(1978). Using this model, the assimilation rate of a canopy can be
+calculated at any moment of a day in response to the incoming PAR and
+depend on solar height and the degree of cloudiness of the sky. Two
+extreme situations are considered:
+a) a completely clear day, and
+b) a completely cloudy day.
+The assumptions made in the calculation are:
+a) the respiration (except the photorespiration) is zero, and
+b) the leaf area index is 5, so that the canopy is practically closed.
+
+Page | 19
+The overall equation is:
+FGC = FO*FOV+ (1-FO)*FCL
+FGC is the gross CO2 assimilation rate expressed as kg CO2 ha-1h-1
+FO is the fraction of a day which is overcast (FO is 0 for a
+completely clear day, and FO is 1 for completely overcast day)
+FOV is the gross CO2 assimilation rate (kg CO2 ha-1h-1) on a
+completely overcast day.
+FCL is the gross CO2 assimilation rate (kg CO2 ha-1h-1) on a
+completely clear day.
+The fraction of the day the sky is overcast (FO) can be obtained from the
+actual daily global irradiation and the daily global irradiation of a
+completely clear day. The global irradiation of a completely overcast day
+may be calculated by multiplying the value for a perfect day by 0.2 (de
+Wit, 1965).
+FO = (HG-HA)/(HG-0.2*HG)
+FO is the fraction of a day is overcast
+HG is the total global irradiation on a completely clear day
+expressed as J m-2 d-1.
+HA is the measured total global irradiation of a given location (Jm-2d-1).
+The value of HG has been listed by Goudriaan and van Laar (1978) for
+different geographical locations. The values represent the middle day of
+each month. The measured actual global irradiation, HA, is not
+measured in all meteorological stations of Bangladesh. Berkhout and
+van Keulen (1986) state that in such a situation it is possible to estimate
+the value of HA by means of an empirical relation, using the measured
+duration of bright sunshine hours (Black et al., 1954). The relation is
+known as the Angstrom formula (Angstrom, 1924).
+
+Page | 20
+HA=RA*(A+(B*SUN(J)/N)
+HA is the measured total global irradiation expressed as J m-2 d-1.
+RA is Angot’s value or the theoretical amount of radiation that
+should reach the earth’s surface in the absence of an atmosphere
+expressed as J m-2 d-1 (List, 1951)
+SUN (J) is the actual duration of bright sunshine hours in the Jth
+day
+N is the maximum possible length of a cloudiness’ day expressed
+as hours
+A and B are the empirical constants.
+The values of RA and N have been listed by Berkhout and van Keulen
+(1986) for different geographical locations and have been extrapolated
+for the study area. Within the ranges of the values, it has been assumed
+that they would be same in between the periods. The numerical values
+of the constants A and B depend on latitude (Glover and McCulloch,
+1958), and the climate (Rietveld, 1978). Black et al. (1954) show that the
+value of A equals 0.023 and that of B equals 0.048. They also report that
+B remains more or less constant whereas A shows marked variation.
+Explaining the reasons, Glover and McCulloch (1958) believe that A
+depend upon optical air mass, and hence the latitude of an area. In the
+range of O to 600 latitude, they established that B=0.052, and
+A=0.29*cos X, where X is the latitude of the area. The Food and
+Agricultural Organization, on the other hand, indicated the values of A
+and B under broad climatic regions.
+Once the HA is calculated, the FO can be obtained. Finally, FOV and
+FCL are calculated (details are explained by Goudriaan and van Laar
+(1978), and thus the gross CO2 assimilation rate (FGC) is obtained for a
+particular day. The absorbed CO2 is reduced in the crop plants in the
+form of sugars.
+
+Page | 21
+So, the gross assimilate rate can be expressed as sugar (GASS) by
+multiplying FGC with the ratio of molecular weights of CH2O and CO2.
+GASS=FGC*30/44
+GASS is the rate of gross assimilation expressed as kg CH2O ha-1 d-1
+FGC is the gross CO2 assimilation rate expressed as kg CO2 ha-1 d-1
+For low values of leaf area index (LAI) when the canopy does not form a
+closed surface, radiation is to the soil and thus photosynthesis is
+reduced (Goudriaan and van Laar, 1978). This reduction is estimated
+from the fraction of the incoming radiation intercepted by the crop.
+RF=1-EXP(-K*LAI)
+RF is the fraction of light intercepted by the crop
+K is the extinction coefficient for visible light
+LAI is the leaf area index
+The K as stated by Chang (1968) is a measure of the space of
+diminution, or extinction of any transmitted light. According to the
+physics of light the extinction coefficient, K is the ratio of horizontally
+projected area of an object to its plane or surface area (Monteith, 1973);
+therefore, in the case of any crop plant it is the ratio of leaf area when it
+is projected on to a horizontal surface to the leaf surface area (Catrileo,
+1990). Thus, the value of K is related to the leaf angle or orientation
+(Hayashi and Ito, 1962; Venkateswarlu and Visperas, 1987). Saeki
+(1960) as quoted by Chang (1968) indicates the value of K for a
+herbaceous community ranges between 0.3 to 0.5 in stands with upright
+leaves and between 0.7 to 1.0 in stands with horizontal leaves. For crop
+plants K usually ranges from 0.6 to 0.8. (Goudriaan, 1977). A list of K
+values for different crop species has been given by Monteith (1969).
+Norman (1980), referring to reports of scientists (Hayashi and Ito, 1962;
+Ito, 1969; Udagawa et al, 1974), find the value of K for rice is between
+
+Page | 22
+0.4 and 0.8. Horie (1987) used the value of 0.6 in his model (for japonica
+rice) on the basis of his early research (Horie and Sakuratani, 1985).
+6.2 Leaf area development
+The amount of incoming radiation that would be intercepted’ is governed
+by the leaf density of the crop. The leaf area index (LAI), developed by
+Watson (1947), is the common way of charactering the leaf foliage
+density (Chang, 1968). The LAI is expressed as total surface of live
+leaves, one sides, per unit of soil surface (Penning de Vries et al., 1989).
+Generally, specific leaf weight (SLW) or specific leaf area (SLA) is
+considered in determining the LAI (van Keulen, 1986a; Jones and Boote,
+1987). It may be mentioned that the LAI can alternatively be calculated
+independently of the weight of leaves especially when water and
+nutrients are not limiting. In such cases LAI is taken as function of daily
+mean temperature (details are given by Horie, 1987). The SLA is the
+ration between the area and weight of the leaf blades; the SLA is the
+inverse of SLS (Hesketh and Jones, 1980). The SLW is considered as
+the structural dry weight of leaves with no reserves; the petioles and leaf
+sheaths are not included. It is further assumed that all the leaf area is
+equally effective in [photosynthesis if exposed to the same conditions
+(Penning de Vries et al., 1989). The value of SLW is thought to vary little
+between species (van Keulen et al., 1982) and the range lie between
+200 and 800 kg ha-1, although the average for the entire canopy rarely
+exceeds 600 kg ha-1 (Penning de Vries et al., 1989). In the case of rice,
+Yoshida (1981) gives a range of 222 to 500 kg ha-1. Working with a
+number of modern varieties, Vinaya Rai and Murty (1979) recorded SLW
+at maximum tillering stage ranging between 421 and 514 and averaging
+455 kg ha-1. Van Keulen (1986b) used the value of 400 kg ha-1 in his
+model in the case of the variety IR8. Murata (1975b) indicated variation
+of SLW between cultivars. The SLW, in fact, does not remain constant
+throughout the growth period of a crop. It may vary due to leaf thickness,
+
+Page | 23
+leaf position, growth stage, nutrition, climatic environment (Murata,
+1975b). Considering of all these factors makes the calculation of SLW
+complex. Therefore, McMennamy and O’Toole (1983), in RICEMOD,
+used a relationship which increased SLW with the advance of crop age
+in days. Thus the correlation in SLW(SLN) for a particular development
+stage can be made by:
+SLN=SLC*CLT
+SLN is the corrected SLW for a particular DVS
+SLC is the specific leaf weight constant expressed as kg ha-1
+SLT is the relative effect on DVS on the SLC
+The calculation of LAI then can simply be made by dividing the weight of
+the live leaves by the corrected SLW(SLN) (van Leulen et al., 1982;
+Jones and Boote, 1987).
+LAI=WLV/SLN
+LAI is the leaf area index
+WLV is the dry weight of live leaves expressed as kg ha-1
+SLN is the corrected SLW for a particular DVS
+Although non-leaf photosynthesis is although to have a minor role in
+gross photosynthesis, the contribution of stems to the total green area
+can be significant especially for small grains (Penning de Vries et al.,
+1989). The contribution of stem area can be taken into considering in
+LAI in the same way as that of the leaf area by using a ‘specific culm
+weight constant’ (SCC). The SCC value has been indicated for different
+crop species (Penning de Vries et al., 1989). According, the value of
+1000 kg ha-1 used in the model. The SCC has been related to DVS due
+to lack of information. Only half of the stem area has been considered in
+the calculation because, unlike the leaf, only the upper surface of the
+
+Page | 24
+stems are active (Penning de Vries et al., 1989). Therefore, final form of
+the computation of LAI can be:
+LAI = (WLV/SLV) + (0.5*(WCU/SCC))
+LAI is the leaf area index
+WLV is the dry weight of live leaves expressed as kg ha-1
+SLN is the corrected SLW for a particular DVS
+WCU is the dry weight culm expressed as kg ha-1
+SCC is the specific culm weight constant expressed as kg ha-1
+6.3 Respiration
+Crop plants need energy to maintain cells and to carry out physiological
+activities. The energy is obtained from the assimilates produced during
+photosynthesis; the process is called respiration (van Heemst, 1986a).
+The energy obtained is utilized for two main processes: i) for
+maintenance of ionic gradients, and re-synthesis of degrading structural
+proteins; ii) conversion of primary photosynthetic products into structural
+plant materials. The process involved in the first case is called
+maintenance respiration, and in the second case is growth respiration.
+6.3.1. Maintenance respiration
+Maintenance can be considered at different levels of biological
+organization. In crop growth modeling, it is only considered at cellular
+levels (Penning de Vries et al., 1989). Three components of
+maintenance at cellular level are distinguished: maintenance for protein
+turnover, for the active transport process to maintain certain ion
+concentrations, and for metabolic activity (Penning de Vries, 1975b; van
+Heemst, 1986a; Penning de Vries et al., 1989). The proteins in the plant,
+especially leaves, consist mainly of enzymes, which have only a limited
+life span. They deteriorate at a relative rate of 0.10 d-1. Energy that is
+
+Page | 25
+required for turning over of the enzymes come from the maintenance
+respiration process. The ion concentration in the vacuoles of plant cells
+is higher than in the surrounding tissue; so it leakage of ions from the
+vacuoles. To maintain the desired internal concentration, the ions have
+to be taken up against a concentration gradient. That requires an active
+transport through the cell membranes which require energy. The
+biochemical basis of metabolic activity is not well understood. It is
+assumed that the maintenance cost here is equal to between 10 to 20%
+of daily photosynthesis (Penning de Vries et al., 1989). The physiological
+basis of crop maintenance respiration is rather weak (Yoshida, 1981;
+Spitters et at., 1989). So far it has been only partially quantified and this
+is why it is a weak part of modeling (Penning de Vries et al., 1989). In
+early work, scientist used to believe that, apart from temperature,
+respiration rate was proportional to leaf mass (de Wit et al., 1970;
+Evans, 1975a). However, later it was proved that maintenance
+respiration was related to the photosynthetic rate of the crop surface
+(McCree and Troughton, 1966). Later McCree (1970; 1974) quantified
+the rate of maintenance respiration as 0.015 kg ha-1d-1 of the
+photosynthesis. He used white clover as experimental crop. McCree’s
+value is thought to be well established and has been used in modeling of
+a number of species (de Wit et al., 1970; Sheehy et al., 1979; Johnson
+and Thornley, 1983; Sarti, 1987; Catrileo, 1990). However, relative
+maintenance rate is likely to vary between species (Lake and Anderson,
+1970). Penning de Vries (1972) showed that the value of 0.008 and
+0.022 kg ha-1d-1 for maize and bean, respectively. Different value (0.026
+kg ha-1d-1) was also reported for cotton seedlings (Hesketh et al., 1971).
+It was further revealed that respiration may not only differ for species but
+also between different plant parts, and for different stages of plant
+growth (Hesketh et al. 1971; IRRI, 1972; Yamaguchi, 1978). A list of
+maintenance respiration coefficients for a number of crops has been
+presented by Hesketh et al. (1980a). Penning de Vries and van Laar
+
+Page | 26
+(1982) proposed a quantitative description of maintenance as a function
+of dry weight depending on type of organ as follows:
+MAIN=0.003*LEAF+0.015*STEM+0.01*ROOT+0.01*STORAGE
+The coefficients were derived on the basis that leaves were the most
+active tissue and highest in protein, with stems being about half as
+active as leaves, and roots even less active. The maintenance cost of
+the storage organs is low (Norton, 1963). This is because the stored oil,
+starch or protein is presumed to be inactively turning over and thus not
+requiring high maintenance (Boote et al., 1987a). Spitters et al. (1989)
+suggest that carbohydrate in grain is metabolically inactive and does not
+require maintenance. So, the maintenance coefficient for storage organs
+should vary with the species concerned; for other plant parts variation is
+not significant (Sinclair and de Wit, 1975). Maintenance respiration can
+be calculated in models by a slightly different method than that proposed
+by Penning de Vries and van Laar (1982). The respiration rate of leaves
+can be taken as 0.02 kg CO2 kg d-1. During day time, the respiration of
+the leaves is reduced due to excess energy; this is why the fraction 0.75
+can be used as a multiplier according to Penning de Vries et al. (1989).
+The respiration rates of culm and roots can be considered as 0.01 and
+0.015 kg CO2 kg d-1, respectively. The respiration rate of storage organs
+can be taken as 0.015 kg CO2 kg d-1 according to Penning de Vries et al.
+(1989). It has been stated that above 1000 kg ha-1 of storage dry matter,
+there is no maintenance cost (Penning de Vries et al., 1989). Therefore,
+this restriction can be made in the model. Apart from the consideration of
+different plant organs, the metabolic cost (RMMA)) can be accounted at
+20% of the daily gross photosynthesis. The cost of the metabolic
+process during day time is thought to be reduced by 50% (Penning de
+Vries et al., 1989); this is why a factor of 0.5 can be used as a multiplier.
+Penning de Vries (1975b) stated that temperature influences the rate of
+protein turnover and thus it also influences maintenance respiration. The
+
+Page | 27
+reference temperature (TR) at which the coefficients can be incorporated
+is 25C. The maintenance respiration rate is reported to be doubled for
+each 10C rise of temperature (McCRee, 1974; Kase and Catsky, 1984).
+Amthor (1984) reports lower or higher values. In the models the
+temperature factor (Q10) can be taken as 2. The factor is increased or
+decreased in maintenance respiration (TFAC) can then be determined
+by the formula given by Spitters et al. (1989).
+TFAC= Q10 ^((TEMP-TR)/10)
+TFAC is the relation of maintenance respiration to temperature.
+Q10 is the factor accounting for increase in maintenance respiration
+with a 10C rise in temperature
+TEMP is the mean daily temperature in C
+TR is the reference temperature at which maintenance coefficients
+and considered.
+Finally, total maintenance cost of the crop in a day (RMCR) can be
+calculated by adding the component parts and by multiplying it by 30/44
+(the ratio of molecular weight of CH2O and CO2), to express the value as
+kg CH2O ha-1d-1.
+It has been argued that, for theoretical consideration, it is preferable to
+relate maintenance respiration to the protein or nitrogen content of the
+plant (Barnes and Hole, 1978) because the respiration reduces in
+vegetative parts as N concentration declines (Boote et al., 1987b). De
+Wit et al. (1978) in BACROS model show that if information on N and
+mineral contents are available, the maintenance cost can be estimated.
+Van Keulen and Seligman (1987) used this procedure in their model.
+However, this refinement can only be used when N concentrations are
+encountered in crop models that simulate nutrient uptake (Legg, 1981).
+
+Page | 28
+6.3.2 Growth respiration
+Growth refers to the accumulation of mass or increase in size of a plant
+over time (Lowry, 1967). The process involve is the biochemical
+conversion of primary photosynthesis into dry matter (Yoshida, 1981;
+van Heemst, 1986a; Penning de Vries et al., 1989). Energy is required
+for the conversion process and also to translocate the assimilated from
+the source to the growth size. The energy demand is met by growth
+respiration. Growth respiration is also termed ‘conversion’ (Penning de
+Vries, 1972) or ‘constructive’ (Thornley, 1976) respiration.
+The respiration cost for growth can be expressed as conversion
+efficiency. The total amount of maintenance cost (RMCR) is subtracted
+from the amount of gross carbohydrate assimilated (GASS) which gives
+the amount of dry matter available for (ASAG). The amount of growth is
+then determined from the ASAG considering the conversion efficiency.
+Semikhatova (1970) indicated that the conversion efficiency of plants
+might be in between 60 to 80%. For white clover, McCree (1970) found
+an efficiency of 80%; later (1974) he corrected the value to 75%. For
+cereals in general and for oil seeds the ranges of conversion efficiency
+have been mentioned as 51to 78%, and 88 to 96%, respectively
+(Penning de Vries, 1972; 1975a), whereas for cotton it is 75% (Thornley
+and Hesketh, 1972) reports on grasses show that the conversion
+efficiency factor is about 0.75 (Johnson and Thornley, 1983). De Wit and
+his associates (1970) suggested that a better way of calculation the
+conversion efficiency was to consider the chemical composition of the
+end products. Yamaguchi (1978) showed that the conversion efficiency
+of proteins, lipids and carbohydrate were38, 31 and 84% respectively.
+Penning de Vries and his co-researchers (1974) related growth
+respiration with the chemical composition of new biomass. They
+considered six types tissues: carbohydrates (structural), proteins, lipids
+
+Page | 29
+(including oils and fats), lignins, organic acids, and minerals. These
+group of tissues have different energy costs.
+Once the composition of plants are known, the conversion efficiency can
+be worked out. The composition may gain vary for different plant organs
+and thus the conversion efficiency may vary accordingly. Using
+quantified information from literature, the amount of glucose required for
+converting assimilates into organs of leaf, culm, root and storage part
+can be determined as 1.326, 1.326, 1.326 and 1.462 kg kg-1 dry matter,
+or in other words, the inverse values provided the conversion efficiency.
+In this way, the overall conversion efficiency (CVF) can be calculated to
+determine the total crop rate (GTW).
+GTW=ASAG*CVF
+GTW is the total crop growth rate expressed as kg DM d-1
+ASAG is the total dry matter available for growth expressed as kg
+DM ha-1 d-1
+CVF is the overall conversion efficiency.
+Although Robson (1980) indicates that there is a genetic variation in
+efficiency of respiration, the procedure applied above could well be
+applicable to all species (Penning de Vries et al., 1974) because the
+efficiency processes in higher plants are the same for all species
+(Penning de Vries, 1975a). Conversion efficiency is independent of
+temperature (McCree, 1974). Experimental evidences show that within
+the range of 11 to 380C there were no variations in growth respiration
+(Penning de Vries, 1972). Similar reports were found for the rice crop
+(Tang et al., 1959; Tanaka, 1971). In fact in higher in higher
+temperature, the conversion process is accelerated, but pathways are
+identical. Hence, assimilate requirements do not vary with temperature
+(Spitters et al., 1989). Therefore, no consideration of temperature is
+needed in calculating the conversion efficiency.
+
+Page | 30
+6.3.3 Carbohydrate remobilization
+The carbohydrate used for maintenance and growth come from
+photosynthesis. However, there is another source of carbohydrate which
+comes from mobilization or redistribution (Penning de Vries at el., 1989).
+In rice, the growth of vegetative organs more or less slow down,
+especially after the panicle initiation stage ((Inada, 1967) and as a result,
+accumulation of available carbohydrate begins in the leaf sheaths and
+culm bases (Togari et al., 1954; Murayama et al., 1955; Murata and
+Matsushima, 1975a; Yoshida, 1981). The accumulated carbohydrate
+sharply increases during the two weeks before heading (Yoshida, 1981)
+and reaches its highest value at anthesis (Murata and Matsushima,
+1975a). After anthesis, the amount rapidly decreases (Yoshida, 1972).
+The accumulated carbohydrates are mostly sugars and starch (Murata
+and Matsushima, 1975a). It has experimentally been shown that these
+carbohydrates are remobilized to the panicle after anthesis (Murata and
+Matsushima, 1975a; Oshima, 1966; Cock and Yoshida 1972).
+Quantification of the amount remobilized carbohydrates is a matter of
+question. Reports indicate that there is small contribution of these
+reserves to the grain yield in wheat (5-10%, Evans et al., 1975), maize
+(20%, Duncan, 1975), and barley (20%, Archbold and Mukerjee, 1942),
+and to tuber yield in potatoes (10%, Moorby and Milthorpe, 1975).
+Murata and Matsushima (1975) reported that such a contribution in rice
+yield might be from 0 to 71%. Cultural practices like low level of N and/or
+high plant density can substantially increase the mobilization (Yoshida
+and Ahn, 1968; Wada, 1969) as do climatic factors like low light intensity
+(Soga and Nozaki, 1957). Cock and Yoshida (1972) quantitatively
+showed that 2 t grain ha-1 might come from accumulated carbohydrates
+when the yield was 7.8 t ha-I indicating a contributing of little over 25%.
+In the rice models the fraction culm weight at flowering that is
+remobilzable (FSTR) can be taken as 0.25. The remobilization process
+starts when the growth of the culms stops and the rate of remobilization
+
+Page | 31
+is taken as 0.1 d-1 of the amount of the weight of the accumulated
+reserves (WIR) (Penning de Vries at el., 1989). The amount of
+remobilized carbohydrates (LSTR) has been added to the ASAG, the
+carbohydrates available for growth. Thus, the final form of calculation of
+ASAG becomes:
+ASAG = GASS-RMCR + (LSTR*1.111*0.947)
+ASAG is the amount of carbohydrate available for growth
+expressed as kg DM ha-1 d-1
+GASS is the rate of gross photosynthesis expressed as kg DM ha-1 d-1
+RMCR is the rate of total maintenance respiration expressed as kg
+DM ha-1 d-1
+LSTR is the rate of carbohydrate remobilization expressed as kg
+DM ha-1 d-1
+During the process of remobilization small amount of energy are
+required (Penning de Vries at el., 1989).
+The fraction 1.111 denotes the yield in glucose from starch hydrolysis.
+However, not all the glucose is considered to be remobilized. It has been
+reported that about 5.3% of glucose is sacrificed during intercellular
+transport to provide energy for this process (Penning de Vries at el.,
+1989). So, the fraction 0.053 is lost and the remaining 0.947 accounts
+for the final amount of LSTR.
+6.4 Development
+Development refers to the progression in the successive phonological
+phases (van Heemst, 1986b; Spitters et al., 1989), regardless of whether
+growth is great or small (Lowry, 1967). In the case of rice, the changes
+from one stages to another in sequence are marked by phenomena
+such as emergence, tillering, flowering, grain filling and grain maturity.
+
+Page | 32
+Crop development is characterized by the order and rate of appearance
+of vegetative and reproductive organs (van Heemst, 1986b). Although
+crop phenology is the oldest branch of environmental botany (Legg,
+1981), the physiological or biochemical methods of charactering and
+measuring the developmental processes are still unknown or least well
+understood (Penning de Vries et al., 1989). This is why explanatory
+models are not available for this purpose. In a simplified way,
+development is expressed in the model on a numerically dimensionless
+scale from 0 to 2; 0 being the emergence, 1 and 2 being anthesis and
+maturity respectively (van Heemst, 1986b; Penning de Vries et al.,
+1989). Anthesis here refers to the first date when 50% of fertile tillers
+carry or have carried open flowers (Penning de Vries et al., 1989). The
+rate of development (DVR) is the part of the scale that accumulated per
+unit time expressed as d-1 whereas the numerical values adding the
+DVR constitute development stage (DVR) of the crop. In rice as for
+others crops, the major environmental factors which affect crop
+development are temperature and length (van Heemst, 1986b). Other
+factors like water stress or nutrition deficiency usually have a small effect
+on development (Penning de Vries et al., 1989). The concept of
+temperature sum (TSUM) relating development of crops to the
+temperature dates back over 200 years (Chang, 1968). The TSUM is the
+summation of daily mean temperatures over a certain period of growth
+or development; when the temperature drops to a certain level, the
+threshold temperature, the growth or development can be assumed to
+have stopped. For example, the rice crop may require a TSUM of 1000
+to 3000 from sowing to heading (Toriyama et al., 1969 as cited by
+Yoshida, 1981) and a further 800 for ripening (Ishizuka et al., 1973 as
+cited by Yoshida, 1981). TSUM is expressed as degree-days (d). The
+threshold temperature for rice given as 100C for japonica and 12C for
+indica type (Liangzhi et al., 1987). The concept of TSUM is also known
+as heat sum (Lowry, 1967; Chang, 1968). Using this concept, the growth
+
+Page | 33
+and development of corn have been predicted successfully (Cross and
+Zuber, 1972; Brown, 1975; Phipps et al, 1975; Bunting, 1976, Tollenaar
+et al., 1979; Coelho and Dele, 1980). It has been used in wheat (Vos et
+al., 1982; Vos, 1985) and other models (Biscoe and Willington, 1985).
+The application of the TSUM concept has been advocated (Gallagher et
+al., 1979; Warrington and Kanemasu, 1983; Moorby, 1985) due to its
+simplicity. Hesketh et al. (1980b) found that accounting for photoperiod,
+TSUM could adequately be used in the field situation. The essential
+basis of TSUM is linearity between development rate and temperature
+(Yoshida, 1981) and this is the main drawback of the concept (Jones
+and Hesketh, 1980). For example, in the whole growth process of rice,
+from germination to maturity, some process may be temperature
+insensitive, some process may be linearly related to temperature, some
+logarithmically dependent (Yoshida, 1981).Thus the TSUM approach is
+an oversimplification (Yoshida, 1981) and effort to develop a TSUM
+function for the rice growth period have not been successful (Liangzhi et
+al., 1987). Alternatively, the temperature effect on the development rate
+(DVR) of rice has been used in a non-linear fashion. Temperature has
+different effect in the vegetative and reproductive stages. The DVRs in
+the vegetative stage (emergence to anthesis) and during the
+reproductive phase have been calculated as the inverse of the duration
+of the period between the stages at a constant temperature. At 25C,
+the constant DVR for the vegetative phase (DVRVC) and that for the
+reproductive phase (DVRRC) can be calculated according to the
+information on the variety used in the model (Penning de Vries et al.,
+1989). The relative effect on DVR due to various temperatures at the
+vegetative (DVRVT) and reproductive (DVRRT) stages can be related
+using the information from literature. Once DVRVT and DVRRT are
+calculated, the development arte at the vegetative (DVRV) and
+reproductive (DVRR) stages can be estimated by:
+DVRV=DVRVC*DVRVT
+
+Page | 34
+DVRR=DVRRC*DVRRT
+DVRV and DVRR are the development at vegetative and
+reproductive stages, respectively. DVRVC and DVRRC are the
+development rate constants at vegetative and reproductive stages,
+respectively. DVRVT and DVRRT are the development rates
+relative to temperature at vegetative and reproductive stages,
+respectively.
+When the development stage (DVS) is 1 or below, the crop development
+rate (DVR) takes the value of the DVRV and when the DVS is more than
+1, it assumes the value of the DVRR. Finally, the DVS is the updated
+each day by adding initial DVS with that of the DVR of that day. When
+the DVS reaches 2, the crop attains maturity and model stops running.
+Apart from the temperature, the day length can influence the DVR of rice
+(Vergara, 1976; Vergara and Chang, 1976).
+6.5 Assimilate partitioning and growth of individual organs
+6.5.1 Assimilate partitioning
+Assimilates that are available for growth (ASAG) are allotted to different
+organs; the process is called assimilate partitioning (Penning de Vries et
+al., 1989). In the present model, four plant organs have been considered
+–roots, culms, leaves and storage organs. Culms are defined in a
+functional rather than morphological manner which includes true culm,
+leaf sheaths, and petioles (van Heemst, 1986c). Leaves consists of only
+leaf blades whereas the storage organs comprise the whole panicles
+that contain grains, the important economic part of rice. The distribution
+pattern of assimilates is a function of physiological age (Penning de
+Vries et al., 1989), which has been expressed in the model as
+development stage (DVS). The pattern is independent of the amount of
+assimilate available. Van Heemst (1986c) showed in the potato crop that
+management practices, like shifting sowing dates, had a small effect on
+
+Page | 35
+distribution pattern. Moderate nutritional shortage has a small effect on
+the allocation pattern of assimilates of rice whereas significant
+differences may exist between cultivars (Penning de Vries et al., 1989).
+(Penning de Vries and his associates also indicate that low temperatures
+may cause abnormal shoot-root balance. The distribution pattern of
+assimilates used in the model is such that initially the major share goes
+to roots and leaves, and then to culms and finally, after flowering all go
+to the storage organs. The allocation is first made for the shoot (FSH)
+and thus the rest remain for the roots. From the shoot fraction,
+distribution is made to the leaves (FL), and culm (FC) and the rest to
+storage organs.
+6.5.2 Growth of different organs
+Once assimilates are ready and the distribution pattern has been
+allocated, the growth of different organs can take place. However, there
+are two additional aspects to be considered in the growth process of
+some of the organs of rice. They senescence and accumulation of
+carbohydrates.
+6.5.2.1 Senescence
+Senescence refers to the loss of the capacity to carry out essential
+physiological process and to loss of biomass (Penning de Vries et al.,
+1989). Quantitatively, two types of senescence have been reported
+(Thornley, 1981), one is triggered by the environment and the other
+endogenously. Environmental factors such as severe water shortage,
+nutritional deficiency (Fisher and Charles-Edwards, 1982; Boote et al.,
+1987b) or high temperatures (Throne et al., 1967; 1968) can cause loss
+and death of plant materials. On the other hand, physiological aging,
+protein
+breakdown,
+canopy
+self-shading
+(Charles-Edwards
+and
+Vanderlip, 1985; Boote et al., 1987b; Penning de Vries et al., 1989) are
+the major causes of senescence under non-stress conditions of plant
+
+Page | 36
+growth. In such a situation, the component of the plant most liable to be
+affected is the leaf tissue. In rice, leaf senescence in indica type is faster
+than japonica (Yoshida, 1981). Quantification of senescence is not very
+easy as the process is not well understood (Fisher and CharlesEdwards, 1982). In the models, a simple descriptive approach can be
+taken. In rice, van Keulen (1986c) assumed in his model that leaf
+biomass declined at a constant rate of 0.02 kg kg-1 d-1. Earlier, van
+Keulen and his associates (1982) reported that a rate of 0.03 kg kg-1 d-1
+could be used for a wide range of species. Information on root
+senescence is not widely available; however, Herrera-Reyes and
+Penning de Vries (1989) reported natural loss of after the flowering of
+rice.
+6.5.2.2 Accumulation of carbohydrates
+It was noted earlier that carbohydrates accumulate in the culms, leaf
+bases and leaf sheaths of rice. The causes of such accumulation and
+the remobilization process have also been discussed. It was further
+indicated that the fraction culm weight at flowering that is remobilizable
+(FSTR) is 0.25. In estimating the accumulation, it is assumed that the
+FSTR fraction of the culm growth (WCU) will be the gross amount of the
+assimilates. The accumulated carbohydrates is considered as starch.
+So, the carbon fraction has been adjusted. 0.431 is the carbon fraction
+of the culm whereas 0.444 is the carbon fraction of starch. The net
+amount of accumulates can be obtained by subtracting the
+remobilization rate (LSTR) from that of the gross amount. Finally, by
+adding each day’s process, the final weight of the reserves (WIR) can be
+updated.
+6.5.2.3 Root growth
+An estimation of carbohydrate available for root growth (CART) can be
+obtained from:
+
+Page | 37
+CART=ASAG-CASH
+CART is the carbohydrate available for root growth expressed as
+kg DM ha-1d-1
+ASAG is the amount of carbohydrate available for growth
+expressed as kg DM ha-1 d-1
+CASH is the carbohydrate available for shoot growth expressed as
+kg DM ha-1 d-1
+CASH is determined by multiplying ASAG with the fraction
+allocated to the shoots (FSH). Now, the root growth (GRT) can be
+worked out by multiplying the CART with CERT, the conversion
+efficiency of root. Taking account of the rate of loss of root (LRT),
+the final weight of roots (WRT) is obtained as initial weight plus
+GRT minus LRT.
+6.5.2.4 Culm growth
+Carbohydrates available for culm growth (CACU) is obtained by:
+CACU=CASH*FC
+CACU is carbohydrate available for culm growth expressed as kg
+DM ha-1 d-1
+FC is the fraction of FSH allocated to the culms
+The growth rate of culms (GCU) is then calculated considering CECU,
+the conversion efficiency of the culm. The final culm weight (WCU)
+considers the initial WCU plus the non-remobilized portion (1-FSTR) of
+the GCU.
+6.5.2.5 Leaf growth
+Estimation of the carbohydrates available for growth (CALV) is obtained
+from:
+
+Page | 38
+CALV=CASH*FL
+CALV is the carbohydrate available for leaf growth express as kg
+DM ha-1d-1
+CASH is the carbohydrate available for growth expressed kg DM
+ha-1d-1
+FL is the fraction of FSH allocated to the leaves.
+The leaf growth rate (GLV) is then calculated by the leaf conversion
+efficiency, CELV.
+6.5.2.6 Growth of storage organs
+Estimation of the carbohydrates available for the growth of storage
+organs (CASO) is given by:
+CASO= CASH-CACU-CALV
+CASO is the carbohydrate available for growth of storage organs
+expressed as kg DM ha-1d-1
+CASH is the carbohydrate available for shoot growth as kg DM ha-1
+d-1
+CACU is the carbohydrate available for culm growth expressed as
+kg DM ha-1 d-1
+CALV is the carbohydrate available for leaf growth expressed as kg
+DM ha-1 d-1
+Now, the growth rate of storage organs (GSO) is obtained by multiplying
+CASO with the conversion efficiency, CESO. The weight of the storage
+organs (WSO) can be calculated by adding the increments of GSO. Not
+all of the WSO is economically important for rice. Only 80% of the
+panicles is thought to be the grain portion of rice (Yoshida, 1981). This is
+why the weight of grain (WGR) is calculated by multiplying WSO by 0.8.
+
+Page | 39
+It has been observed before that an unlimited sink size is considered in
+the model but in reality may not be possible. Carbohydrate production in
+cereals can be limited by the capacity of the grains to use them (Cock
+and Yoshida, 1973; Evans and Wardlaw, 1976). This can be taken into
+account if morphological features of rice can be modeled. Duration of
+the integration period is important in modeling the morphology of a crop.
+Although wheat morphology has been at one-day intervals (van Keulen
+and Seligman, 1987), the early part of tillering of rice is hard to simulate
+properly with such an integration period. A quarter-day integration is
+better. As this is beyond the scope of present study, alternative process
+were taken. The harvest index (HI) has been restricted to its upper limit
+of 0.55 in consonance with the present semi-dwarf indica types of rice
+(Yoshida, 1981); this technique was successfully used by Dua et al.,
+(1990). The HI can be obtained from:
+HI=WSO/WSS
+HI is the harvest index
+WSO is the weight of storage organs expressed as kg DM ha-1d-1
+WSS is the weight of the shoot storage organs expressed as kg DM
+ha-1d-1
+When the HI exceeds 0.55, no further growth of the storage organs
+(GSO) takes place.
+6.6 Initialization of rice growing processes in the nursery and
+main paddy field
+6.6.1 Nursery
+The rice growing process considered in the study begins in the nursery.
+The initial weights of the above-ground dry matter and roots are
+necessary to start the process. Values from the experiments not always
+available. So, a general approach of mobilization of carbohydrates from
+seed to structural plant materials can be adopted (van Keulen, 1986b).
+
+Page | 40
+Experimenting with a number of species, Penning de Vries et al. (1989)
+found that about half of the seed reserves (endosperm) are lost due to
+respiration and the rest is divided equally between shoot and root.
+Tanaka and Yamaguchi (1968) also found similar findings for rice.
+However, the efficiency attained in the field situation is different. The
+fraction of seed reserves mobilized is often incomplete and also some
+organic components leak into the soil; thus even in a highly favorable
+germination condition only 25% of the endosperm is thought to be
+conversion (CVR) is used in the model. Taking account of the seed rate
+(SEED) and germination percentage (GERM), the amount of available
+dry matter (ADG) can be calculated. Of this ADG, the root fraction (CR)
+accounts for 60% and the rate is for the leaf (CL). With these
+considerations, the weight of the initial roots (WRT) and leaves (WLV) is
+calculated. In the rice production system, seeds that are placed in the
+nursery bed are pre-germinated, i.e. the development process has
+begun. These seedlings usually spend two days in the pre-germination
+process, and thus (if considering the development rate (DVRVC) as
+0.013, the initial DVS can be set as 0.026. Initialization of LAI can also
+be made accordingly. Other parameter values can be taken as zero.
+Rice seedlings become autotrophic between two and three weeks of age
+(Yoshida, 1981). This why it is better to start the simulation when
+seedlings are about 15 days old. Yoshida (1973) showed contribution of
+photosynthesis at the early stage of seedling growth of IR8. Such
+information from the report can be used to estimate the low rate of
+utilization of photosynthesis during early development stage of rice.
+6.6.2 Main paddy field
+6.6.2.1 Reduction in population density
+Only a portion of biomass is transferred from a hectare of nursery to a
+hectare of main paddy field. The programming to be transferred can be
+
+Page | 41
+done in a straight forward way takings account of the planting density in
+the main paddy field, the SERQ, capturing line to line, and hill to hill
+distances, and also the number of seedlings to be used in a hill.
+Similarly, the expected number of seedling to be produced (SEEX) in the
+nursery can be calculated by considering the seed rate, germination
+percentage, and the seed weight. Finally, the inverse of the factors
+(SEEX/SERQ) gives the proportion of the dry matter to be transferred
+from the nursery to main paddy field (PNTM) during transplanting. Thus,
+when the simulated day (J) becomes the transplanting day (F) then
+provision has been made to take account of PNTM for roots, culm,
+leaves and culm reserves. Apart from the consideration of normal
+density reduction (as denoted by PNTM), a loss of dry matter can also
+occur during pulling the seedlings from the nursery. The stress the
+seedlings suffer during this time occurs immediately after transplanting
+and is termed as ‘transplanting shock’, which can also be modelled.
+6.6.2.2 Transplanting shock
+Immediately after transplanting, rice seedling shows a very slow growth;
+this is the expression of a shock due to a change in the environment
+from the nursery to the main paddy field. This phenomenon is known as
+‘transplanting shock’. Unfortunately, the process involved in it are not
+properly understood (SARP, 1987). It is assumed that the shock arises
+due to root injury and leaf loss at the time of pulling the seedling from the
+nursery; and the degree of shock depends on a number of Factors like
+age of seedling, pulling method, handling during transplanting, and
+environmental factors like water and air temperatures, soil fertility, and
+also varietal characteristics (SARP, 1987; 1989b). The general
+assumption is that there will be no shock if seedlings are transplanted
+properly. It is reported there are differences in initial growth due to the
+shock but normally it does not affect final yield (SARP, 1987). The
+duration of shock, depending on the situation, may be as long as three
+
+Page | 42
+weeks or more. Most of the rice-based simulation models do not
+consider this situation, mainly due lack of information on the subject and
+because it has little effect on grain yield. However, attempt can be made
+to
+model
+the
+phenomenon.
+In
+reflecting
+the
+shock
+period,
+Mekwatanakarn (1991) simply reduced the development stage (DVS) of
+rice by a certain factor.
+
+MODEL EVALUATION
+Once the model has been constructed, it needs an evaluation to see
+how far it can mimic the real world and how confidently it then be used
+for working out decisions with its assistance (Dent and Blackie, 1979). In
+other worlds, evaluation is done to judge the accuracy of the model.
+Jones et al. (91987) define accuracy in terms three progressive stages:
+verification, calibration and validation.
+Verification measures the truthfulness or correctness of the model
+(Baker and Curry, 1976); the issue of programming logic is questioned
+here that of the programmer’s intentions (Jones et al., 1987). These
+philosophical issues (as termed by Dent and Blackie, 1979) are hard to
+quantify in reality, thereby making the process of verification very
+complex. A typical approach is to run the model with historical input data
+recorded for the real system, and then to compare the output from the
+model that of the reality, particularly concerning the model logic and
+parameter values (Baker and Curry, 1976). Statically tools can be used
+to see the level of significance. If the model does not behave as
+anticipated, corrections are made to the model structure, called
+‘debugging’ (Baker and Curry, 1976; Dent and Blackie, 1979). It should
+be that a verified model does not mean that it will correctly simulate a
+crop (Whisler et al., 1986).
+
+Page | 43
+Model calibration is often carried out with the verification (Baker and
+Curry, 1976). It refers to the adjustments made to model parameters so
+as to give the ‘most accurate’ comparison between simulated results and
+results obtained from field measurements (Jones et al., 1987). In
+calibration, a statistical view point is taken: some probability distribution
+of the deviations between model and experimental data is assumed,
+which tests to probability distribution for the parameters (Klepper, 1988).
+When the model is verified and calibrated, the validation process can
+start (Baker and Curry, 1976; Dent and Blackie, 1979; Whisler et al.,
+1986; Jones et al. 1987). Validation is a process of assessing the
+accuracy for a given purpose of a simulation model by comparing
+model’s prediction with the independent results (Spedding, 1975a).
+Independent results mean data which have not been used previously in
+the development of the model or calibration process. Validation is mainly
+concerned with the usefulness of the model rather than its truthfulness
+(Baker and Curry, 1976).
+The procedure of the validation has been well described by Dent and
+Blackie (1979). Validation can be performed firstly, by comparing the
+behavior of the model with that of the real situation in a qualitative way.
+Graphical representation in the conventional way to compare the results.
+This simple procedure, as Dent and Blackie (1979) mention, provides a
+‘feel’ for the situation and a good basis for further analysis. Once the
+qualitative behavior of the model explains the reality sufficiently, the
+quantitative comparison can be made. Statistical techniques such as
+simple linear can be applied to measure relationships between the mean
+model outputs and real systems measures. Such quantification alone,
+however, cannot explain all the discrepancies precisely (Dent and
+Blackie, 1979); therefore, the model cannot be proved to be correct or
+incorrect (Penning de Vries, 1977). Thus subjective interpretation and
+assessment are often necessary as well. This is why it is argued that
+
+Page | 44
+model evaluation is essentially a subjective procedure (Anderson, 1972
+quoted by de Castro, 1988).
+The test of validity in any crop simulation model should not be performed
+only at the level of its final prediction such as grain yield. It may so
+happens that the model is predicting the behavior fortuitously even when
+some of the underlying assumptions are wrong because it is insensitive
+to them or because the in-built errors cancel out (Charles-Edwards and
+Vanderlip, 1985). So, information on intermediate levels may also be
+crucial for model testing. Validation of a crop model is a continuous
+process. On one hand, crop models are just working hypotheses and it
+is never possible to prove a hypothesis absolutely correct in science
+(Whisler et al., 1986). On the other hand, even for established models,
+update is made such as by incorporating more management variables
+which needs further assessment (Dent and Blackie, 1979).
+
+SENSITIVITY ANALYSIS
+Sensitivity tests how responsive the model is to changes in certain
+variables and parameters (Whisler et al., 1986). The purpose is to study
+the behavior of the model (Jones et al. 1987). Through the test,
+sensitivity parameters are identified. A sensitive parameter is one which
+causes major change in the model output (Dent and Blackie, 1979). It is
+also helps to identify the priorities for conventional research program
+associated with the system. This is why the sensitivity analysis is called
+‘a tool for agricultural research guidance’ (de Castro, 1988). It also
+justified the logic of consideration of the input and parameters in the
+study of the system. Sensitivity analysis is performed with the model that
+has been fully or partially validated. Sensitivity analysis is depends on
+the objective of the study. In some cases there is little need to carry out
+the test if a given parameter is not important as far as the use of a given
+model is concerned (Dent and Blackie, 1979). When the analysis
+
+Page | 45
+consists of examining the effect of the uncertainty in model parameters it
+is called ‘fine sensitivity analyses and of the uncertainty in the model
+structure then it is called ‘coarse sensitivity analysis’ (Rossing et al.,
+The process of the analysis starts with the selection of the model outputs
+that are considered to be crucial the study (Jones et al. 1987). Then an
+individual input variable or parameter is changed to a certain degree,
+holding the others constant (Whisler et al., 1986). The certain degree is
+the ‘range of the values’ selected representing the extreme conditions
+associated with each parameter to be evaluated (Jones et al. 1987). The
+model is then run and the results are obtained. Results obtained from
+the analysis can be represented by graphs showing the changes in the
+output over the range of values of parameters or inputs. Expression of
+the results in terms of relative sensitivity is often used to show the
+sensitivity (Jones et al. 1987; Rossing et al., 1989). Jones and his
+associates (1987) indicate the possibility of another approach by using
+regression analysis or response surface techniques in which the
+simulation results are regressed against one or more parameters over
+the range of interest.
+
+BASIC DATA TO BE REQUIRED FOR MODEL
+DEVELOPMENT AND VALIDATION
+Weather data (daily) closer to experimental fields
+Maximum and minimum air temperatures
+Rainfall
+Relative humidity
+Solar radiation / Sunshine hours
+
+Page | 46
+Crop phenology
+Identification of crop development stages and their
+durations (in calendar day) – variety by variety. Most of the
+crops have pre-defined stages, such as for rice, beginning
+of tillering, maximum tillering, panicle initiation, flowering
+and maturity. For some crops like jute, stages of vegetative
+phase are not well defined. In such cases, one needs to
+define the stages in consultation with fellow scientists; data
+collection can be done accordingly.
+Crop growth
+Dry matter of plant parts (roots, stem, leaves etc);
+economic organs preferably every 14 days – panicles,
+grains, bark (jute), stick (jute), tuber (potato), cob (maize)
+etc.
+Leaf are index (LAI) preferably every 14 days.
+Final weight of harvest organs panicles, grains, bark (jute),
+stick (jute), tuber (potato), cob (maize) etc with record of
+moisture content.
+
+Page | 47
+LITERATURE CITED AND ADDITIONAL LITERATURE
+FOR FURTHER CONSULTATION
+Amthor, J.S. (1984). The role of maintenance respiration in plant growth.
+Plant, Cell and Environment, 7: 561-569.
+Anderson, J.R. (1972). Economic models and agricultural production
+systems. Proc. Aust. Soc. Anim. Prod., 9: 77-83.
+Angstrom, A. (1924). Solar and terrestrial radiation. Quarterly Journal of
+the Royal Meteorological Society, 50: 121-126.
+Angus, J.F. and Zandstra, H.G. (1979). Climatic factors and the
+modeling of rice growth and yield. Pages: 189-199. In: Agro
+meteorology of the rice crop. Philippines, Los Banos: World
+Meteorological Organization and International Rice Research
+Institute.
+Archbold, H.K. and Mukerjee, B.N. (1942). Physiological studies in plant
+nutrition. Annals of Botany, 6: 1-41.
+Baker, C.H. and Curry, R.B. (1976). Structure of agricultural simulation:
+a philosophical view. Agricultural Systems, 1: 201-218.
+Barnes, A. and Hole, C.C. (1978). A theoretical basis of growth and
+maintenance respiration. Annals of Botany, 42: 1217-1221.
+Bauer, H., Larcher, W. and Walker, R.B. (1975). Influence of
+temperature stress on CO2-gas exchange. Pages 557-586. In:
+Cooper, J.P. (ed), Photosynthesis and productivity in different
+environment. Cambridge: Cambridge University Press.
+Bell, C.J. (1987). The testing and validation of the models. Pages 299-
+309.In: Rose, D.A. and Charless-Edwards, D.A. (eds),
+Mathematics and plant physiology. London: Academic Press.
+
+Page | 48
+Berkhuot,
+J.A.A.
+and
+Keulen,
+H.
+van
+Potential
+evapotranspiration. Pages 63-75. In: Keulen, H. van and Wolf, J.
+(eds), Modeling of agricultural production: weather, soil and
+crops. Wageningen: Pudoc.
+Biscoe, P.V. and Willington, V.B.A. (1985). Crop physiological studies in
+relation to mathematical models. Pages 257-269. In: Day, W. and
+Atkin, R.K (eds), Wheat growth and modeling. NATO ASI Series
+A86. New York and London: Plenum Press.
+Black, J.N., Bonython, C.W. and Presscott, G.A. (1954). Solar radiation
+and the duration of sunshine. Quarterly Journal of the Royal
+Meteorological Society, 80: 231-235.
+Boote, K.J., Wilkerson, G.G., Jones, J.W. and Mishe, J.W. (1987a).
+Modeling dry weight gain. Pages 8-15. In: Simulation models for
+soybeans and other crops. FFTC TB 106. Taiwan, Taipei City:
+Food and Fertilizer Technology Center.
+Boote, K.J., Wilkerson, G.G. and Jones, J.W. (1987b). Modeling pod
+addition, shell growth, and seed growth. Pages 16-24. In:
+Simulation models for soybeans and other crops. FFTC TB 106.
+Taiwan, Taipei City: Food and Fertilizer Technology Center.
+Brockington, N.R. (1979). Computer modeling in agriculture. Oxford:
+Oxford University Press.156 pp
+Brown, D.M. (1975). Heat units for corn in Southern Ontario. Fact sheet
+AGDEX 111/31, Order No.75-007. Canada: Ontario Ministry of
+Agriculture and Food.
+Bunting, E.S. (1976). Accumulated temperature and maize development
+in England. J. Agric. Sci. Camb., 87: 577-583.
+
+Page | 49
+Castro, A.M.G de (1988). A system approach to determining priorities for
+natural rubber research in Brazil. Ph.D Thesis. Department of
+Agriculture, University of Reading, UK. 290 pp.
+Catrileo, A.R. (1990). Beef production systems from grassland-arable
+farms in South Chile. Ph.D. Thesis. Department of Agriculture,
+University of Reading, U.K. 213 pp.
+Chang, J.H. (1968).Climate and agriculture. An ecological survey.
+Illinois, Chicago: Aldine Publishing Company. 304 pp.
+Chanter, D.O. (1981). The use and misuse of linear regression methods
+in crop modeling. Pages 253-267. In: Rose, D.A. and CharlesEdwards, D.A. (eds), Mathematics and plant physiology. London:
+Academic Press.
+Charles-Edwards, D.A. (1982). Physiological determinants of crop
+growth. Australia, New York, London: Academic Press. 161 pp.
+Charles-Edwards, D.A. and Vanderlip, R.L. (1985). Interfacing the
+analysis and synthesis of crop growth performance. Pages 275-
+291. In: Day, W. and Atkin, R.K (eds), Wheat growth and
+modeling. NATO ASI Series A86. New York and London: Plenum
+Press.
+Churchman, C.W. (1971). The design of inquiry systems: basic
+concepts of systems and organization. New York: Basic Books.
+Cock, J. H. and Yoshida A. S. (1972). Accumulation of 14C-labelled
+carbohydrate before flowering and the subsequent redistribution
+and respiration in the rice plant Proc. Crop Sci. Soc. Jpn., 41:
+226-234.
+Cock, J.H. and Yoshida A.S. (1973). Changing sink and source relations
+in rice (Oryza sativa L.) using carbondioxyde enrichment in the
+respiration in the rice plant. Proc. Crop. Sci. Jpn., 41: 226-234
+
+Page | 50
+Coelho, D.T. and Dale, R.F. (1980). An energy-crop growth variable and
+temperature function for predicting corn growth developmentplanting to silking. Agronomy Journal, 72: 503-510.
+Conway,
+G.R.
+Agro
+ecosystem
+analysis.
+Agricultural
+Administration, 20: 31-55.
+Cooper, J.P. (1975). Control of photosynthetic production in terrestrial
+systems. Pages 593-621. In COOPER, J.P. (ed), Photosynthesis
+and productivity in different environment. Cambridge: Cambridge
+University Press.
+Cross, H.Z. and Zuber, M.S. (1972).Predicting flowering dates in maize
+based on different methods of estimating thermal units. Agronomy
+Journal, 64: 351-355.
+Day, W. (1985). Wheat growth and modeling: an introduction.Pages1-5.
+In: Day, W. and Atkin, R.K (eds), Wheat growth and modeling.
+NATO ASI Series A86.New York and London: Plenum Press.
+Dent, J.B. and Blackie, M.J. (1979). System simulation in agriculture.
+London: Applied Science Publishers Ltd. 180 pp.
+Dingkuhn, M., Penning de Vries, F.W.T., De Datta, S.K. and Laar, H.H.
+van (1990). New plant type concepts for seeded flooded tropical
+rice. Paper presented at the International Rice Research Institute
+Conference. August 1990, Seoul, South Korea.
+Driessen, P.M. (1986). The collection and treatment of basic data:
+Introduction. Pages 203-207. In: Keulen, H. van and OWLF, J.
+(eds), Modeling of agricultural production: weather, soil and
+crops. Wageningen: Pudoc.
+Dua, A.B., Penning de Vries, F.W.T. and Seshu, D.V. (1990). Simulation
+to support evaluation of the production potential of rice varieties in
+tropical climates. Transaction of the ASAE, 33(4): 1145-1194.
+
+Page | 51
+Duncan, W.G. (1975). Maize. Pages 23-25. In: Evans, L.T. (ed), Crop
+physiology. Cambridge: Cambridge University Press.
+Evans, L.T. (1975a). The physiological basis of crop yield. Pages 327-
+355. In: Evans, L.T. (ed), crop physiology. Cambridge:
+Cambridge University Press.
+Evans, L.T. (1975b). Beyond photosynthesis - the role of respiration,
+translocation and growth potential in determining productivity.
+Pages 501-507. In: Cooper, J.P. (ed), Photosynthesis and
+productivity in different environment. Cambridge: Cambridge
+University Press.
+Evans, L.T. and Wardlaw, I.F. (1976). Aspects of comparative
+physiology of grain yield in cereals. Advances in Agronomy, 28:
+301-359.
+Evans, L.T., Wardlaw, I.F. and Fischer, R.A. (1975). Wheat. Pages 101-
+149. In: Evans, L.T. (ed), Crop physiology. Cambridge:
+Cambridge University Press.
+Fischer, R.A. (1985). The role of crop simulation models in wheat
+agronomy. Pages 237-255. In: Day, W. and Atkin, R.K (eds),
+Wheat growth and modeling. NATO ASI Series A86.New York
+and London: Plenum Press.
+Fisher, M.J. and Charles-Edwards, D.A. (1982). A physiological
+approach to the analysis of crop growth data. III. The effects of
+repeated short-term soil water deficits on the growth of spaced
+plants of the legume Macroptilium atropurpureum cv. Sratro.
+Annals of Botany, 49: 341-346.
+France, J. and Thornley, J.H.M. (1984). Mathematical Models in
+Agriculture. London: Butterworths. 335 pp.
+
+Page | 52
+Fukai, S., Koh, S. and Kumura, A. (1976). Dry matter production and
+photosynthesis of Hordeum vulgare L. in the field. J. Appl. Ecol.,
+13: 877-887.
+Gallagher, J.N., Biscoe, P.V. and Wallace, J.S. (1979). Field studies of
+cereal leaf growth. IV. Winter wheat leaf extension in relation to
+temperature and leaf water status. J. Exp. Bot., 30: 657-668.
+Glover, J. and McCulloch, J.S.G. (1958). The empirical relation between
+solar radiation and hours of sunshine. Quarterly Journal of the
+Royal Meteorological Society, 84: 172-175.
+Glover, P.S. and Shahi, H.N. (1986). Nitrogen use efficiency in relation
+to seedling age and transplanting time. International Rice
+Research Newsletter, 11(1): 28.
+Goudriaan, J. (1977). Crop micrometeorology: a simulation study.
+Simulation Monographs. Wageningen: Pudoc. 249 pp.
+Gourdiaan, J. and Laar, H.H. van (1978). Calculation of daily totals of
+the gross CO2 assimilation of the leaf canopies. Netherlands
+Journal of Agricultural Science, 26: 373-382.
+Graf, B., Dingkuhn, M., Schnier, F., Coronel, V. and Akita, S. (1991). A
+simulation model for the dynamics of rice growth and
+development: III. Validation of the model with high-yielding
+varieties. Agricultural Science, 36: 329-349.
+Greenwood, D.J. and Barnes, A. (1978). A theoretical model for decline
+in the protein contents in plants during growth. J. Agric. Sci.
+Camb., 91: 461-466.
+Greenwood, E.A.N., Goodall, D.W. and Titmanis, Z.V. (1965). The
+measurement of nitrogen deficiency in grass swards. Plant and
+Soil, 23: 97-116.
+
+Page | 53
+Hayashi, K. and Ito, H. (1962). Studies on the form of plant in rice
+varieties with particular reference to the efficiency in utilizing
+sunlight. I. The significance of extinction coefficient in rice plant
+communities. Proc. Crop Sci. Jpn., 30: 329-333.
+Hedge, B.A. and Joshi, G.V. (1974). Pattern of photosynthesis in a
+saline indica var. of rice kala rata. Pages 755-763.In: The
+Proceeding of the symposium on use of radiations and
+radioisotopes in studies of plant productivity. India: Pantnagar.
+Heemst, H.D.J. van (1986a). Potential crop production: physiological
+principles. Pages 13-26.In: Keulen, H. van and Wolf, J. (eds),
+Modeling of agricultural production: weather, soil and crops.
+Wageningen: Pudoc.
+Heemst, H.D.J. van (1986b). Crop phenology and dry matter distribution.
+Pages 27-40. In: Keulen, H. van and Wolf, J. (eds), Modeling of
+agricultural production: weather, soil and crops. Wageningen:
+Pudoc.
+Heemst, H.D.J. van (1986c). The distribution of dry matter during growth
+of a potato crop. Potato Research, 29: 55-66.
+Herrera-Reyes, C.G. (1991). History of modeling at IRRI. Pages 5-9. In
+Penning de Vries, F.W.T., Kropff, M.J., Teng, P.S. and Kirk, J.D.
+(eds), Systems Simulation at IRRI Research Paper Series No.
+151. Philippines, Los Banos: International Rice Research
+Institute.
+Herrera-Reyes, C.G. and Penning de Vries, F.W.T. (1989). Evaluation of
+a model for simulation the potential production of rice. Philippine
+Journal of Crop Science, 14 (1): 21-32.
+
+Page | 54
+Hesketh, J.D. and Jones, J.W. (1980). Integrating traditional growth
+analysis techniques with recent modeling of carbon and nitrogen
+metabolism. Pages 51-92. In: Hesketh, J.D. and Jones, J.W
+eds), predicting photosynthesis for ecosystem models, I. Florida,
+Boca Raton: CRC Press.
+Hesketh, J.D., Baker, D.N., and Duncan, W.G. (1971). Simulation of
+growth and yield in cotton: respiration and carbon balance. Crop
+Science, 9: 483-486.
+Hesketh, J.D., Alberre, R.S. and Jones, J.W. (1980a). Prediction dark
+respiration in the soil-plant system. Pages 69-84.In: Hesketh,
+J.D. and Jones, J.W. (eds), Predicting photosynthesis for
+ecosystem models, II. Florida, Boca Raton: CRC Press.
+Hesketh, J.D., Rlmore, J.D. and Jones, J.W. (1980b). Predicting
+flowering and subsequent leaf expansion. Pages 123-131.In:
+Hesketh, J.D. and Jones, J.W. (eds), Predicting phosynthesis for
+ecosystem models, II. Florida, Boca Raton: CRC Press.
+Horie, T. (1979). The loess and the origin of Chinese agriculture. Am.
+Hist. Rev., 75: 1-36.
+Horie, T. (1987). Dynamic models for evaluating and predicting the
+growth and yield of rice and sunflower crops from weather. FFTC
+TB 99. Taiwan, Tapei City. Food and Fertilizer Technology
+Center. 13 pp.
+Horie, T. and Sakuratani, T. (1985). Studies on crop-weather
+relationship model in rice. (1) Relationship between absorbed
+solar radiation by the crop and the dry matter production. Journal
+of Agricultural Meteorology, Tokyo, 40: 331-342.
+
+Page | 55
+Inada, K. (1967). Physiological characteristics of rice roots, especially
+with the view-point of plant growth stage and root age. Bull. Nat.
+Inst. Agr. Sci. Japan, Ser.D.16: 19-156.
+IRRI (1972). Annual Report for 1971.Philippines, Loss Banos:
+International Rice Research Institute.
+IRRI (1980). Agro meteorology of the Rice Crop. Philippines, Los Banos:
+World Meteorological Organization and International Rice
+Research Institute. 254 pp.
+Ishizuka, Y., Shimazki, Y., tanaka, A., Satake, T. and Nakayama, T.
+(1973). Rice growing in a cool environment. Taiwan, Taipei City:
+Food and Fertilizer Technology Center, Asian and South Pacific
+Council. 98 pp.
+Ito, A. (1969). Geometrical structure of rice canopy and penetration of
+direct solar radiation. Proc. Crop Sci. Soc. Jpn., 38: 355-363.
+Johnson, I.R. and Thornley, J.H.M. (1983). Vegetative crop growth
+model incorporation leaf area expansion and senescence, and
+applied to grass. Plant, Cell and Environment.6: 721-729.
+Jones, J.W and Hesketh, J.D. (1980). Predicting leaf expansion. Pages
+85-122.In: Hesketh, J.D and Jones, J.W. (eds), Predicting
+photosynthesis for ecosystem models. II. Florida, Boca Raton:
+CRC Press.
+Jones, J.W., Mishoe, J.W. and Boote, K.J. (1987). Introduction to
+simulation and modeling. FFTC TB 100. Taiwan, Taipei City:
+Food and fertilizer Technology Center.
+Kabaki, N., Yoneyama, T. and Tajima, K. (1982). Physiological
+mechanism of growth retardation in rice seedlings as affected by
+low temperature. Japan. Jour. Crop Sci., 51(1): 82-88.
+
+Page | 56
+Kase, M. and Catsky, J. (1984). Maintenance and growth components of
+dark respiration rate in leaves of C3 and C4 plants as affected by
+leaf temperature. Biologia Plantarum, 26: 461-470.
+Keulen, H. van (1976). A calculation method for potential rice production.
+Contributions
+of
+the
+Central
+Research
+Institute
+for
+Agriculture.NO.21.Indonesia, Bogor: Central Research Institute
+for Agriculture. 26 pp.
+Keulen, H. van (1986a). A simple model of potential crop production.
+Pages 41-60. In: Keulen, H. van and Wolf, J. (eds), Modeling of
+Agricultural production: weather, soil and crops. Wageningen:
+Pudoc.
+Keulen, H. van (1986b). The collection and treatment of basic data:
+Plant data. Pages 235-247.In: Keuken, H. van and Wolf, J. (eds),
+Modeling of agricultural production: weather, soil and crops.
+Wageningen: Pudoc.
+Keulen, H. van and Seligman, N.G. (1987). Simulation of water use,
+nitrogen nutrition and growth of spring wheat crop. Wageningen:
+Pudoc. 310 pp.
+Keulen, H. van, Louwerse, W., Simba, L. and Alberda, T.H. (1975). Crop
+simulation and experimental evaluation- a case study. Pages 623-
+643. In: COOPER, J.P. (ed.), Photosynthesis and productivity in
+different environment. Cambridge: Cambridge University Press.
+Keulen, H. van, Penning de Vries, F.W.T., and Drees, E.M. (1982). A
+summery model for crop growth. Pages 87-97.In: PENNING de
+Vries, F.W.T. and Laar, H.H. van (eds), Simulation of plant growth
+and crop production. Simulation monographs. Wageningen:
+Pudoc.
+
+Page | 57
+Kishitani, S. and Tsunoda, S. (1974). Effect of low and high temperature
+pretreatment on leaf photosynthesis and transpiration in cultivars
+of Oryza sativa. Photosynthetica, 8(3): 161-167.
+Klepper, O. (1988). A model of carbon flows in relation to macrobenthic
+food supply in the Oosterschedle estuary (S.W. Netherlands).
+Ph.D. Thesis, Wageningen Agricultural University: 270 pp.
+Lake, J.V. and Anderson, M.C. (1970). Discussion: Dynamics of
+development of photosynthetic systems. Pages 131-136. In:
+Prediction and measurement of photosynthetic productivity.
+Wageningen: Pudoc.
+Larcher, W. (1973).Limiting temperatures for life function. Pages 195-
+231. In: Precht, H. Christopherson, J., Hensel, H. and Larcher,
+W. (eds), Temperature and life. Berlin: Springer-Verlag.
+Lee, M.H. and Shin, J.C. (1989). Simulation of potential production of
+rice plant under low temperature conditions. In: van Laar, H.H.
+ten Berge, H.F.M., Jansen, D.M., de Jong, P.D. and Penning de
+Vries, F.W.T. (eds), Case studies in crop growth Simulation,
+February
+1988-January
+Philippines,
+Los
+Banos:
+International
+Rice
+Research
+Institute,
+The
+Netherlands,
+Wageningen: Centre for Agro biological Research and
+Department of Theoretical Production Ecology of Wageningen
+Agricultural University.
+Legg, B.J. (1981).Aerial environment and crop growth. Pages 129-
+149.In: Rose, D.A and Charles-Edwards, D.A (eds), Mathematics
+and Plant physiology. London: Academic Press.
+Liangzhi, G., Zhiqing, J. and Lin, L. (1987). Photothermal models of rice
+growth duration for three varietal types in china. Pages 301-
+
+Page | 58
+308.In: Weather and rice. Philippines, Los Banos: International
+Rice Research Institute.
+Lowry, W.P.
+(1967). Weather
+and
+life:
+
+an
+introduction
+to
+biometeorology. New York and London: Academic Press. 305
+pp.
+Makino, A., Mae, T. and Ohira, K. (1984). Changes in photosynthetic
+capacity in rice leaves from emergence through senescence.
+Analysis from Ribulose-1, 5 biphoshape carboxylase and leaf
+conductance. Plant and Cell Physiol., 25(3): 511-521.
+Marcellos,
+H.
+Wheat
+frost
+injury-freezing
+stress
+and
+photosynthesis. Aust. J. Agric. Res., 28: 557-564.
+McCree, K.J. (1970).An equation for the rate of respiration of white
+clover plants grown under controlled conditions. Pages 221-229.
+In: Prediction and measurement of photosynthetic productivity.
+Wageningen: Pudoc.
+McCree, K.J. (1974). Equations for the rate of dark respiration of white
+clover and grain sorghum as function of weight, photosynthetic
+rate, and temperature. Crop Science, 14: 506-514.
+McCree, K.J. and Troughton, J.H. (1966).Non-existence of an optimum
+leaf area index for the production rate of white clover grown under
+constant conditions. Plant Physiology, 41: 1615-1622.
+McDonald, D.J. (1971). The effect of temperature and light on the rate of
+photosynthesis of 20 rice varieties and hybrids. Ph.D. Thesis.
+Texas A & M University, 129 pp.
+McMennamy, J.A. and O’Toole, J.C. (1983). Non-existence of an
+optimum leaf area index for the production rate of white color
+
+Page | 59
+grown under constant conditions. Plant Physiology, 41: 1615-
+Mekwatanakarn, W. (1991). Simulation of potential production of rice
+variety KDML105 in the northeast of Thailand. In: van Laar, H.H.,
+Bindraban, P.S., Kropff, M.J., ten Berge, H.F.M., Jansen, D.M.,
+de Jong, P.D. and Pennig de Vries, F.W.T. (eds), Case studies in
+Crop Growth Simulation, February 1990-1991.Philippines, Los
+Banos: International Rice Research Institute. The Netherlands,
+Wageningen: Centre for Agrobiological Research and
+department of Theoretical Ecology of Wageningen Agricultural
+University.
+Moll, B.A. and Steinba, K.E. (1986).Chilling sensitivity in Oryza sativa:
+the role of protein phosphorylation in protection against
+photoinhibition. Plant Physiology, 80: 420-423.
+Monteith, J.L. (1969). Light interception and radiative exchange in crop
+stands. Pages 89-111.In: Eastin, J.D., Haskins, F.A., Sullivan,
+C.Y. and Bavel, C.H.M. van (eds), Physiological aspect of crop
+yield. Wisconsin, Madison: American Society of Agronomy, and
+Crop Science Society of America.
+Monteith, J.L. (1972). Solar radiation and productivity in tropical
+ecosystems. J. Appl. Ecol., 9: 747-766.
+Monteith, J.L. (1973). Principles of environmental physics. London:
+Edward Arnold (Publishers) Ltd. 241 pp.
+Moorby, J. (1985). Wheat growth and modeling: conclusions. Pages
+381-386. In: Day, W. and Atkin, R.K (eds), Wheat growth and
+modeling. NATO ASI Series A86.New York and London: Plenum
+Press.
+
+Page | 60
+Mooby, J. and Milthorpe, F.L. (1975). Potato. Pages 225-257. In: Evans,
+L.T. (ed), Crop physiology. Cambridge: Cambridge University
+Press.
+Murata, Y. (1975). The effect of solar radiation, temperature, and aging
+on ne assimilation rate of crop stands- from the analysis of the
+maximum growth rate experiment of IPB/PP. Proc. Crop Sci. Soc.
+Jpn., 44(2): 153-159.
+Murata, Y. and Matsushima, S. (1975a). Rice. Pages 73-99. In: Evans,
+L.T. (ed), Crop physiology. Cambridge: Cambridge University
+Press.
+Murata, Y. (eds) (1975b). Crop Productivity and solar energy utilization
+in various climates in Japan. JIBP Synthesis, vol. II. Tokyo:
+Japanese Committee for the International Biological program. 244
+pp.
+Murayama, N., Yoshino, M. Oshima, M., Tsukahara, S. and Kawarazaki,
+Y. (1955). Studies on the accumulation process of carbohydrates
+associated with growth of rice. Bull. Natl. Inst. Agric. Sci. (Tokyo),
+B.4: 123-166.
+Nishiyama, Y., Ito, N., Hayase, H. and SATAKE, T. (1969). Protecting
+effect of temperature and depth of irrigation water from sterility
+caused by cool treatment at the mitotic stage of rice plants. Proc.
+Crop Sci. Soc. Jpn., 38: 554-555.
+Norman, J.M. (1980). Interfacing leaf and canopy light interception
+models. Pages 49-67.In: Hesketh, J.D. and jones, J.W. (eds),
+Predicting Photosynthesis for ecosystem models. II. Florida, Boca
+Raton: CRC Press.
+
+Page | 61
+Norton, G. (1963). The respiratory pathways in potato tubers. Pages
+148-159. In: Ivins, J.D. and Milthorpe, F.L. (eds), The growth of
+the potato. London: Butterworth.
+O’ Toole, J.C. and Jones, C.A. (1987). Crop modeling: application in
+directing and optimizing rainfed rice research. Pages 255-269. In:
+Weather and Rice. Philippines, Los Banos: International Rice
+Research Institute.
+Oshima, M. (1966). On the translocation of 14C assimilated at various
+growth stages to grains in rice plants. J. Sci. Soil and Manure,
+Japan, 37: 589-593.
+Patterson, H.D., Silvey, V., Tarbot, M. and Weathorp, S.T.C.
+(1977).Variability in yields of cereal varieties in UK trials. J. Agric.
+Sci., Camb., 89: 239-245.
+Peart, R.M. and Barrett, Jr., J.R. (1979). Future trend in environmental
+modification: the role of simulation. Pages 476-480.In: Barfield,
+B.J. and Geber, J.F. (eds), Modification of the Aerial Environment
+of Crops. MI, St. Joseph: American Society of Agricultural
+Engineers.
+Penning de Vries, F.W.T. (1972). Respiration and growth. Pages 327-
+347. In: Rees, A.R., Cockshull, K.E.Hand, D.W. and Hurd, R.H.
+(eds), Crop processes in controlled environments. London, New
+York: Academic Press.
+Penning de Vries, F.W.T. (1975a). The use of assimilates in higher
+plants. Pages 459-480. : Cooper, J.P. (eds), Photosynthesis and
+productivity in different environment. Cambridge: Cambridge
+University Press.
+Penning de Vries, F.W.T. (1975b). The cost of maintenance process in
+plant cell. Annals of Botany, 39: 77-92.
+
+Page | 62
+Penning de Vries, F.T.W. (1977). Evaluation of simulation models in
+agriculture and biology: conclusions of a workshop. Agricultural
+Systems, 2: 99-107.
+Penning de Vries, F.T.W. (1982). Systems analysis and models of crop
+growth. Pages 9-19. In: Penning de Vries, F.T.W. and Laar, H.H.
+van (eds). Simulation of plant growth and crop production.
+Simulation monographs. Wageningen: Pudoc.
+Penning de Vries, F.W.T. (1990). Can crop models contain economic
+factor? Pages 89-103. In: Rabbinge, R, Goudriaan J., Keulen, H.
+van, Penning de Vries, F.T.W. and Laar, H.H. van (eds).
+Theoretical Production Ecology: Reflections and Prospects.
+Simulation monograph 34. Wageningen: Pudoc.
+Penning de Vries, F.W.T. (1991). Improving yields: designing and
+testing VHYVs. Pages 13-19. In: Penning de Vries, F.W.T.,
+Kropff, M.J., Teng, P.S. and Kirk, G.J.D. (eds). System Simulation
+at IRRI. IRRI research Paper Series No.151. Philippines, Los
+Banos: International Rice Research Institute.
+Penning de Vries, F.W.T. and Laar, H.H. (1982). Simulation of growth
+process and model BACROS. Pages 114-135. In: Penning de
+Vries, F.W.T. and Laar, H.H. van (eds), Simulation of plant growth
+and crop production. Simulation Monographs. Wageningen:
+Pudoc.
+Penning de Vries, F.W.T., Brunsting, A.H.M. and Laar H.H. van (1974).
+Products, requirements and efficiency of biosynthesis – a
+quantitative approach. J. Theor. Biol., 45: 339-377.
+Penning de Vries, F.W.T., Jansen, D.M., Berge, H.F.M. ten and
+Bakema, A. (1989). Simulation of ecophysiological process of
+growth in several annual crops. Wageningen: Pudoc. 271 pp.
+
+Page | 63
+Penning de Vries, F.W.T., Keulen, H. van and Alagos, J.C. (1990).
+Nitrogen redistribution and potential production of rice. Pages
+513-520. Sinha, S.K., Lane, P.V., Bhargava, S.C. and Agrawal,
+R.K. (eds), International Congress of Plant Physiology. India, New
+Delhi, Indian Institute of Agricultural Research. Water Technology
+Centre: Society for Plant Physiology and Biochemistry.
+Phipps, R.H., Fulford, R.J. and Crofts, F.C. (1975). Relationships
+between the production of forage maize and accumulated
+temperature, Ontario heat units and solar radiation. Agricultural
+Meteorology, 14: 385-397.
+Rabbinge, R. and Wit, C.T. de (1989). Systems, models and simulation.
+Pages 3-15. In: Rabbinge, R., Ward, S.A. and Laar, H.H. van
+(ed.), Simulation and systems management in crop protection.
+Wageningen: Pudoc.
+Raymond, W.F., Telley, J.M.A., Derias, R.E. and Minson, D.J. (1960).
+Pages 181-190. In: Production and Uses of Grass.No.9 in the
+Monograph Series. London: Society of Chemical Industry.
+Rietveld, M.R. (1978). A new method for estimating the regression
+coefficients in the formula relating solar radiation to sunshine.
+Agricultural Meteorology, 19: 243-252.
+Robson, M.J. (1980). A physiologist’s approach to raising the potential
+yield of the grass crop through breeding. Pages 33-49. In: Hurd,
+R.G., Biscoe, P.V and Dennis, C. (eds), Opportunities for
+increasing crop yields. London: Pitman Advanced Publishing
+Program.
+Rossing, W.A.H. Groot, J.J.R. and Roermund, H.J.W. van (1989).
+Simulation of aphid damage in winter wheat: a case study. Pages
+240-261. In: Rabbnge, R., Ward, S.A. and Laar, H.H. van (eds),
+
+Page | 64
+Simulation and systems management in crop protection.
+Wageningen: Pudoc.
+Saeki, T. (1960). Interrelationship between leaf amount, light distribution,
+and total photosynthesis in a plant community. Botanical
+Magazine, Tokyo, 73: 404-408.
+SARP (1987). Case studies in Crop Growth Simulation, April 1986-
+January 1987. (Penning de Vries, F.W.T., Jansen, D.M., Bakema,
+A.K., Rabbinge, R. and Garrity, D.P. (eds)). Philippines, Los
+Banos: International Rice Research Institute, The Netherlands,
+Wageningen: Centre for Agro biological Research and
+Department of Theoretical Production Ecology of Wageningen
+Agricultural University.
+SARP (1989a). Case studies in Crop Growth Smulation, February 1986-
+January 1989. (van Laar, H.H., ten Berge, H.F.M., Jansen, D.M.,
+de Jong, P.D and Penning de Vries, F.W.T. (eds.)). Philippines,
+Los Banos: International Rice Research Institute, The
+Netherlands, Wageningen: Centre for Agro biological Research
+and
+Department
+of
+Theoretical
+Production
+Ecology
+of
+Wageningen Agricultural University.
+SARP (1989b). Crop Simulation Research in the SARP-Network: Plans,
+themes and Views. (Penning de Vries, F.W.T. (eds)). Philippines,
+Los Banos: International Rice Research Institute, The
+Netherlands, Wageningen: Centre for Agro biological Research
+and
+Department
+of
+Theoretical
+Production
+Ecology
+of
+Wageningen Agricultural University.
+SARP (1991).Case studies in Crop Growth Simulation. February 1990-
+1991. (van Laar, H.H., Bindraban, P.S., Kropff, M.J., ten Berge,
+H.F.M., Jansan, D.M., de Jong, P.D. and Penning de Vries,
+
+Page | 65
+F.W.T. (eds)). Philippines, Los Banos: International Rice
+Research Institute, The Netherlands, Wageningen: Centre for
+Agro biological Research and Department of Theoretical
+Production Ecology of Wageningen Agricultural University.
+Sarti, R.P. (1987). Modeling the soybean agroecosystem in tropical
+Mexico: production as affected by water supply. Ph.D Thesis.
+Department of Agriculture, University of Reading, U.K. 169 pp.
+Semikhatova, O.A. (1970). Energy efficiency of respiration under
+unfavorable condition. Pages 247-249. In: Prediction and
+measurement photosynthetic productivity. Wageningen: Pudoc.
+Setter, T.L. and Greenway, H. (1988). Growth reductions of rice at low
+root temperature: decrease in nutrition uptake and development
+of chlorosis. J. Exp. Bot., 39: 811-829.
+Sheehy, J.E., Cooby, J.M. and Ryle, G.J.A. (1979). The growth of
+perennial ryegrass: A model. Annals of Botany, 43: 335-354.
+Sinclair, T.T and Wit C. T, de (1975). Photosynthate and nitrogen
+requirement for seed production of various crops. Science, 189:
+565-567.
+Sinclair, T.T and Seligman, N.G. (1996). Crop modeling: From infancy to
+maturity. Agron. J., 88: 698-704.
+Soga, Y. and Nozaki, M. (1957). Studies on the relation between
+seasonal changes of carbohydrates accumulated and the ripening
+at the stage of generative growth in rice plant. Proc. Crop Sci.
+Jpn., 26: 105-108.
+Spedding, C.R.W. (1975a). The biology of agricultural systems. London:
+Academic Press. 261 pp.
+
+Page | 66
+Spedding, C.R.W. (1975b). The study of agricultural systems. Pages 3-
+19. In: Dalton, G.E. (ed.) Study of Agricultural Systems. London:
+Applied Science Publishers Ltd.
+Spitters, C.J.T., Keulen, H. van and Kraalingen, D.W.G van (1989). A
+simple and universal crop growth simulator. Pages 147-181.In:
+Rabbinge, R., Ward, S.A and Laar, H.H. van (eds), Simulation
+and systems management in crop protection. Wageningen:
+Pudoc.
+Stapper, M., Harries, H.C. and Smith, R.C.G. (1983). Risk analysis of
+wheat yields in relation to cultivar maturity type and climate
+adaptability in semi –arid areas, using a crop growth model. In:
+Need for Climatic and Hydrologic Data in Agriculture if Southeast
+Asia. Canberra: UN Univ. Workshop, 12-15 December, 1983.
+Stern, W.R. (1975). Actual and potential photosynthetic productionconclusions.
+Pages
+661-672.
+In:
+
+Cooper,
+J.P.
+(eds),
+Photosynthesis
+and
+productivity
+in
+different
+environment.
+Cambridge: Cambridge University Press.
+Takano, Y. and Tsunoda, S. (1971). Curvilinear regression of leaf
+photosynthetic rate on leaf nitrogen content among strains of
+Oryza sativa species. Jpn. J.breed., 21(2): 9-17.
+Tanaka, A. (1971). Efficiency in respiration. Pages 483-548. In: Proc.
+Symposium
+on
+Rice
+Breeding.
+Philippines,
+Los
+Banos:
+International Rice Research Institute.
+Tanaka, A. and Yamaguchi, J. (1968). The growth efficiency in relation
+to the growth of the rice plant. Soil Science Plant Nutrition, 14:
+110-116.
+Tang, P., Wang, F.C. and Chih, F.C. (1959). Studies on plant
+respiration. Scient. Sin., 8: 1379-1392.
+
+Page | 67
+Terao, H., Otani, Y.Doi and Izumi, S. (1941). Physiological studies on
+rice plant with special reference to the crop failure caused by the
+occurrence of unseasonable low temperature. VIII. The effect of
+various low temperatures on the panicle differentiation, heading
+and ripening in the different stages after transplanting to heading.
+Proc. Crop Sci. Soc. Japan, 13: 317-336.
+Thompson, A.C., Lane, H.C., Jones, J.W. and Hesketh, J.D. (1976).
+Nitrogen concentrations of cotton leaves, buds and balls in
+relation to age and nitrogen fertilization. Agronomy Journal, 68:
+17-621.
+Thorne, G.N., Ford, M.A. and Watson, D.J. (1967). Growth, development
+and yield of spring wheat in artificial climates. Annals of Botany,
+32: 425-446.
+Thorne, G.N., Ford, M.A. and Watson, D.J. (1968). Effects of
+temperature variation at different times on growth and yield of
+sugar beet and barley. Annals of Botany, 31: 71-101
+Thornley, J.H.M. (1976). Mathematical models in plants physiology.
+New York: Academic Press. 123 pp.
+Thornley, J.H.M. (1981). Organogenesis. Pages 49-65. In: Rose, D.A
+and Charles-Edwards, D.A. (eds), Mathematics and plant
+physiology. London: Academic Press.
+Thornley, J.H.M. and Hesketh, J.D. (1972). Growth and respiration in
+cotton bolls. J. Appl. Ecol., 9: 315-317.
+Togari, Y., Okamoto, Y. and Kumura, A. (1954). Studies on the
+production and behavior of carbohydrates in rice plant. I. Porc.
+Crop Sci. Soc. Jpn., 22: 95-97.
+
+Page | 68
+Tollenaar, M., Daynard, T.B. and Hunter, R.B. (1979). Effect of
+temperature on rate leaf appearance and flowering date in maize.
+Crop Science, 19: 363-366.
+Toriyama, K., Sakamoto, S., Iwashita, T. and Hsu, C.S. (1969). Heading
+characteristics of japonica varieties planted at the places of
+different latitudes. Bull. Chugoku Agric. Exp. Stn., Ser., A.17: 1-
+Troughton, J.H. (1975). Photosynthetic mechanisms in higher plants.
+Pages 357-391. In: Cooper, J.P. (ed), Photosynthesis and
+productivity in different environment. Cambridge: Cambridge
+University Press.
+Udagawa, T., Ito, A. and Uchijima, Z. (1974). Phytometrical studies of
+crop canopies. III. Radiation environment in rice canopies. Proc.
+Crop Sci. Soc. Jpn., 43: 180-195.
+Venkateswarlu, B. and Visperas, R.M. (1987). Solar radiation and rice
+productivity. IRRI Research Paper Series. In: 129. Philippines,
+Los Banos: International Rice Research Institute. 22 pp.
+Venkateswarlu, B., Prasad, V.V.S.S. and Rao, A.V. (1977). Effect of low
+light intensity on different growth phases in rice. (Oryza sativa L.)
+Plant Soil. 47: 37-47.
+Vergara, B.S. (1976). Physiological and morphological adaptability of
+rice varieties to climate. Pages 67-75. In: Climate and Rice.
+Philippines, Los Banos: International Rice Research Institute.
+Vergara, B.S. and Chang, T.T. (1976). Flowering response of the rice
+plants to photoperiod: A Review of literature. Intl. Rice Res. Inst.
+Tech. Bull. 8. Philippines, Los Banos: International Rice Research
+Institute. 75 pp.
+
+Page | 69
+Versteeg, M.N. and Keulen, H. van (1986). Potential crop production
+prediction by some simple calculation methods, as compared with
+computer simulation. Agricultural Systems, 19: 249-272.
+Vinay Rai, R.S. and Mutry, K.S. (1979). 14C photosynthesis under
+reduced light intensity in local and high yielding rice cultivars. J.
+Nucl. Agric. Biol., 8: 111-112.
+Vos, J. (1985). Aspects of modeling post-floral growth of wheat and
+calculations of the effects of temperature and radiation. Pages
+143-148. In: Day, W. and Atkin, R.K. (eds), wheat growth and
+modeling. NATO ASI Series A86.New York and London: Plenum
+Press.
+Vos, J., Dress, E.M. and Penning de Vries, F.W.T. (1982). Grain
+formation and assimilate partitioning in wheat. Part II. Modeling
+post-floral growth of wheat. Pages 144-151. In: Penning de Vries,
+F.W.T. and Laar, H.H. van (eds), Simulation of plant growth and
+crop production. Simulation. Monographs. Wageningen: Pudoc.
+Wada, G. (1969). The effect of nitrogenous on the yield-determining
+process of rice plant. Bull. Natl. Inst. Agric. Sci., 16: 27-167.
+Warrington, D.J. and Kanemasu, E.T. (1983). Corn growth response to
+temperature and photoperiod. I. Seedling emergence, tassel
+initiation and anthesis. Agronomy Journal, 75: 749-754.
+Watson, D.J. (1947). Cooperative physiological studies on the growth of
+field crops. I. Variation in net assimilation rate and leaf area
+between species and varieties, and within and between years.
+Annals of Botany, 11: 41-76.
+Whisler, F.D., Acock, B., Baker, D.N., Fye, R.E., Hodges, H.F., Lambert,
+J.R., Lemon, H.E., McKinion, J.M. and Reddy, V.R. (1986). Crop
+
+Page | 70
+simulation models in agronomic system. Advances in Agronomy,
+40: 141-208.
+Wilson, J.M. (1984). Economic importance of chilling injury. Outlook on
+Agriculture, 14(4): 197-203.
+Wit. C.T. de (1965). Photosynthesis of leaf canopies. Research Report
+No 663. Wageningen: Pudoc. 57 pp.
+Wit, C.T. de, Brouwer, R. and Penning de Vries, F.W.T. (1970). The
+simulation of photosynthetic systems. Pages 47-70. In: Prediction
+and measurement of photosynthetic productivity. Wageningen:
+Pudoc.
+Wit, C.T.de, Goudriaan, J., Keulen, H. van, Laar, H.H. van, Louwerse,
+W., Penning de Vries, F.W.T., Rabbainge, R. and Sibma, L.
+(1978). Simulation of assimilation, respiration and transpiration of
+crops. Simulation Monographs. Wageningen: Pudoc.
+Wit, C.T. de, Laar, H.H. and Keulen, H. van (1979). Physiological
+potential of crop production. Pages 47-82. In: Sneep, J. and
+Hendriksen, A.J.T. (eds). Plant Breeding Perspectives. The
+Netherlands: Wageningen.
+Yamaguchi, J. (1978). Respiration and the growth efficiency in relation to
+crop productivity. J. Fac. Agric., Hkkaido Univ., 59: 59-129.
+Yambao, E.B., Ingram, K.T., Dingkuhn, M. and De Datta, S.K. (1987).
+Simulation of potential production of rice using Lorice. In:
+Penning de Vries, F.W.T., Jansen, D.M., Bakema, A.K.,
+Rabbinge, R. and Garrity, D.P. (eds), Case studies in Crop
+Simulation, April 1986-January 1987. Philippines, Los Banos:
+International
+Rice
+Research
+Institute,
+The
+Netherlands,
+Wageningen: Centre for Agro biological Research and
+
+Page | 71
+Department of Theoretical Production Ecology of Wageningen
+Agricultural University.
+Yoshida, S. (1972). Physiological aspects of grain yield. Ann. Rev. Plant
+Physiol., 23: 437-464.
+Yoshida, S. (1981). Fundamentals of rice crop science. Philippines,
+Banos: International Rice Research Institute. 269 pp.
+Yoshida, S. and Ahn, S.B. (1968). Nitrogen nutrition, leaf resistance and
+leaf photosynthetic of the rice plant. Soil Science Plant Nutrition,
+22(2): 207-211.
+Yoshida, S. and Coronel, V. (1976). Nitrogen nutrition, leaf resistance,
+and leaf photosynthetic rate of rice plants. Soil Science Plant
+Nutrition,
+22(2):
+207-211.

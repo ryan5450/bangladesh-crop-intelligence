@@ -1,0 +1,40 @@
+{
+  "document_id": "dae_ff7c764b3d15",
+  "title": "cover 1",
+  "source": "DAE",
+  "url": "https://objectstorage.ap-dcc-gazipur-1.oraclecloud15.com/n/axvjbnqprylg/b/V2Ministry/o/office-dae/2024/12/6ea5384f01334fd8b2e73c5753e38acc.pdf",
+  "language": "bn/en",
+  "categories": [
+    "cereals",
+    "cash_crops",
+    "fiber_crops",
+    "spices",
+    "fertilizer_management",
+    "fruits",
+    "oil_crops",
+    "crops"
+  ],
+  "related_crops": [
+    "Aman Rice",
+    "Aus Rice",
+    "Cotton",
+    "Ginger",
+    "Jute",
+    "Mango",
+    "Mustard",
+    "Rice",
+    "Sugarcane",
+    "Tea",
+    "Turmeric",
+    "Wheat"
+  ],
+  "topics": [
+    "Fertilizer & Soil Nutrient Management"
+  ],
+  "quality_score": 0.92,
+  "filename": "dae_cover_1_bn_en_ff7c76.pdf",
+  "pages": 112,
+  "file_size_kb": 9391.6,
+  "author": null,
+  "extracted_at": "2026-09-23T19:40:30.870834+00:00"
+}

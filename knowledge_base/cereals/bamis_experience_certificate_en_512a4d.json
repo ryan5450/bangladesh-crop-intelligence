@@ -1,0 +1,33 @@
+{
+  "document_id": "bamis_512a4d35cd6e",
+  "title": "Experience Certificate",
+  "source": "BAMIS",
+  "url": "https://www.bamis.gov.bd/res/attachment/2019/08/29/5284.pdf",
+  "language": "en",
+  "categories": [
+    "cereals",
+    "soil_management",
+    "fiber_crops",
+    "vegetables",
+    "crops",
+    "crop_calendar"
+  ],
+  "related_crops": [
+    "Aus Rice",
+    "Boro Rice",
+    "Jute",
+    "Maize",
+    "Potato",
+    "Rice",
+    "Wheat"
+  ],
+  "topics": [
+    "Soil Health & Salinity Management"
+  ],
+  "quality_score": 0.92,
+  "filename": "bamis_experience_certificate_en_512a4d.pdf",
+  "pages": 74,
+  "file_size_kb": 1879.0,
+  "author": "COLLAGEGATE",
+  "extracted_at": "2026-09-23T19:47:12.986213+00:00"
+}

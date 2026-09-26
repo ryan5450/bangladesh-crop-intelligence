@@ -1,0 +1,2870 @@
+November 2015
+Resettlement Policy Framework for
+Bangladesh Weather and Climate
+Services Regional Project
+
+Abbreviation
+AWS
+Automated Weather Stations
+BMD
+Bangladesh Meteorological Department
+BWCSRP
+Bangladesh Weather and Climate Services Regional project
+CBO
+Community-Based Organization
+CCS
+Consultation and Communication Strategy
+CHT
+Chittagong Hill Tracts
+CIF
+Climate Investment Fund
+CUL
+Compensation-Under-Law
+DAE
+Department of Agriculture Extension
+DC
+Deputy Commissioner
+DDC
+District Development Committee
+DDM
+Department of Disaster Management
+DAE
+Department of Agricultural Extension
+DP
+Displaced Persons
+EWS
+Early Warning System
+FGD
+Focused Group Discussion
+GBM
+Ganga-Brahmaputra-Meghna
+GOB
+Government of Bangladesh
+GRC
+Grievance Redress Committee
+GIF
+Gender and Inclusion Framework
+HCG
+House Construction Grant
+HMS
+Hydro meteorological services
+HTG
+House Transfer Grant
+IDA
+International Development Association
+IMD
+Indian Meteorological Department
+INGO
+International non-government organizations
+IP
+Indigenous People
+KII
+Key Informants Interview
+IPP
+Indigenous Peoples Plan
+LAP
+Land Acquisition Proposal
+MOD
+Ministry of Defense
+MODM
+Ministry of Disaster management
+MOF
+Ministry of Finance
+MoWR
+Ministry of Water Resources
+NGO
+Non-Government Organization
+NMS
+National Meteorological service
+OP
+Operation Policy
+PMU
+Program Management Unit
+PCMU
+Project Coordination and Monitoring Unit
+
+PPCR
+Pilot Programme Climate Resilience
+RAP
+Resettlement Action Plan
+RPF
+Resettlement Policy Framework
+RSMC
+Regional Specialized Meteorological Center
+RPF
+Resettlement Policy Framework
+SA
+Social Assessment
+SEVCDF
+Small, Ethnic and other Vulnerable Communities Development Framework
+SIA
+Social Impact Assessment
+SMF
+Social Management Framework
+SPCR
+Special Program for Climate Resilience
+TOR
+Terms of Reference
+VAW
+Violence against women
+VCDP
+Vulnerable Community Development Plan
+WB
+World Bank
+
+Glossary
+Compensation
+Payment made in cash to the project affected persons/households for
+the assets acquired for the program, which includes the compensation
+provided in the Acquisition andRequisition of Immovable Property
+Ordinance 1982and others stipulated in this Social Management
+Framework.
+Compensation-Under-Law
+(CUL)
+Refers to the compensation assessed for the acquired lands and other
+assets, such as trees, houses/structures, etc., by different government
+agencies as per the methods provided in the Land Acquisition
+Ordinance, and paid by the Deputy Commissioners.
+Consultation Framework
+In view of their stakes and interests in the program,the framework is
+prepared to guide the program preparation team about who are to be
+discussed/ consulted about the overall program and its positive and
+negative social impact implications and to seek their inputs and
+feedback in the different stages of the project cycle.
+Cut-off Dates
+These are the dates on which censuses of the affected persons and
+their assets are taken. Assets like houses/structures and others, which
+are built, and the persons or groups claiming to be affected, after the
+cut-off dates, become ineligible for compensation and assistance. For
+private lands, these dates will however not constitute ‘cut-off dates’, if
+the legal Notice 3 is already issued before the censuses are taken. In
+such a situation, the Notice 3 dates are considered ‘cut-off dates’, as
+the acquisition ordinance prohibits changes in the appearance of the
+lands after issuance of Notice 3.
+Entitlement:
+Refers to mitigation measures, which includes cash payments by DCs
+and IA, as well as any non-cash measures stipulated in this SMF (e.g.,
+allowing the affected persons to keep felled trees, salvageable building
+materials, etc.), for which compensation is already paid.
+Tribal Peoples
+Unless they are already recognized, the tribal Peoples are identified in
+particular geographic areas based on these four characteristics: (i) selfidentification as members of a distinct indigenous cultural group and
+recognition of this identity by others; (ii) collective attachment to
+geographically distinct habitats or ancestral territories in the project
+area and to the natural resources in these habitats and territories; (iii)
+customary cultural, economic, social, or political institutions that are
+separate from those of the dominant society and culture; and (iv) an
+indigenous language, often different from the official language of the
+country or region.
+Involuntary Resettlement
+The situation arises where the GoB power of eminent domain requires
+people to acquiesce their rights to personal properties and re-build their
+lives and livelihood in the same or new locations. WB policy Op 4.12 is
+triggered here.
+Participation/Consultation
+Defined as a continuous two-way communication process consisting of:
+“feed-forward” the information on the program’s goals, objectives,
+scope and social impact implications to the program beneficiaries, and
+
+their “feed-back” on these issues (and more) to the policymakers and
+program designers. In addition to seeking feedback on program
+specific issues, participatory planning approach also serve the following
+objectives in all development programs: public relations, information
+dissemination and conflict resolution.
+Physical Cultural
+Property
+Includes monuments, structures, works of art, or sites of “outstanding
+universal value” from the historical, aesthetic, scientific, ethnological, or
+anthropological point of view, including unrecorded graveyards and
+burial sites, and unique natural environmental features like canyons,
+forests and waterfalls. Within this broader definition, cultural property is
+defined as sites and structures having archaeological, paleontological,
+historical, architectural, or religious significance, and natural sites with
+cultural values.
+Project-Affected
+Person/Household
+Persons/households whose livelihood and living standards are
+adversely affected by acquisition of lands, houses and other assets,
+loss of income sources, and the like.
+Rehabilitation
+Refers to improving the living standards or at least re-establishing the
+previous living standards, which may include rebuilding the income
+earning capacity, physical relocation, rebuilding the social support and
+economic networks.
+Replacement Cost
+The World Bank’s OP 4.12 on Involuntary Resettlement describes
+“replacement cost” as the method of valuation of assets that helps
+determine the amount sufficient to replace lost assets and cover
+transaction costs. In applying this method of valuation, depreciation of
+structures and assets are not taken into account. For losses that
+cannot easily be valued or compensated for in monetary terms (e.g.,
+access to public services, customers, and suppliers; or to fishing,
+grazing, or forest areas), attempts are made to establish access to
+equivalent
+and
+culturally
+acceptable
+resources
+and
+earning
+opportunities.
+Stakeholder
+Refers to recognizable persons, and formal and informal groups who
+have direct and indirect stakes in the program, such as affected
+persons/households, squatters, local communities, local governments,
+community-based and civil society organizations, education advocates.
+Top-Up Payment
+Refers to DP’s payment in cases where the compensation-under-law
+(CUL) determined and paid by DCs falls short of the replacement
+costs/market prices of the affected lands and other assets. Top-up
+payment is made by the project authorities.
+
+Executive Summary
+1. Introduction:
+Bangladesh Weather and Climate Services Regional Project intends to introduce a complete
+package of weather forecast to improve accuracy and lead time for weather forecasts and multihazard early warning, increased sharing of data and information for extreme regional events,
+increase in number of end users satisfied by hydro-meteorological services and farmers
+satisfaction with agro-meteorological services. The main objective of the proposed project is to
+strengthen the capacity of Bangladesh Government in delivering weather and climate
+information in priority sectors and to prepare for and respond to climate variability and hydrometeorological disasters. Proper implementation and right communication with stakeholders will
+reduce the damages due to climate change and will play a major role through increasing GDP of
+the country.
+2. Gaps and Needs in Weather and Climate Services in Bangladesh:
+Gaps of the existing Meteorological observation network in the country have been assessed
+through consultation with primary stakeholders as officials of the institution as well as direct
+beneficiaries. To develop the network to a commercially viable organization that will forecast
+equivalent performance to the first world countries, it requires resources and infrastructure to
+produce climate products and provide better climate services like professional staff with
+appropriate training, computing facilities, communication facilities, financial resources,
+application software etc.Therefore, considering the present ability of the department and the
+requirements to fulfill the deviance to a modernized sustainable information system, the project
+is to initiate a complete weather forecast system through specific components.
+3. Project Components, sub-Components and Activities:
+The project has been described in terms of components and potential subcomponents. The
+project includes four components: Component A; Strengthening Meteorological Information and
+services, Component B; Strengthening Water and Flood Information Services, Component C;
+Agro-Met Information Systems Development and Use, and Component D; Contingent
+Emergency Response Component. Bangladesh Metrological Department will implement the
+project components A, Bangladesh Water Development Board will implement component B,
+and Department of Agricultural Extension will implement Component C. There is no particular
+implementing body for the component D yet but if Bangladesh Government prefers to take loan
+from the WB; BMD, BWDB and DAE can jointly implement Component D.The potential
+subcomponents and possible activities and benefits under each subcomponent are identified by
+reviewing the project documents, consulting with the primary and secondary stakeholders.
+There are about 9 subcomponents including three subcomponents in Component A, three in
+Component B, three in Component C.
+4. Resettlement Policy Framework
+The project's activities are primarily based on upgrading existing stations and installing new
+instruments and modernizing hydrological observation network. According to BMD, all the new
+
+instruments will be installed at the upazila level and it will be installed in upazila DAE offices. It
+will be unlikely that these will require any land acquisition. So, social impacts of the project will
+be minimal. Likewise, hydrological gauging stations will be in BWDB land, on the embankment
+or by the embankment. Although the project will intend to avoid and minimize land acquisition
+impacts and the implementation of the instruments are designed at this point within public land,
+the final land acquisition requirements will be determined based on site selection. Nevertheless,
+a Resettlement Policy Framework (RPF) is needed to guide the application of World Bank social
+safeguards policies for all sub-projects and activities that may trigger OP 4.12. A screening of
+each sub-project will be conducted by all three IA’s throughout project implementation by way of
+Social Impact Assessments.
+5. Framework for SECVD:
+A group that has lost collective attachment to geographically distinct habitats or ancestral
+territories in the project area because of forced severance also remains eligible for
+coverage under World Bank’s safeguard policy OP 4.10. Due to the project interventions, if
+the vulnerable and tribal communities affected, then proper mitigation measures have to be
+taken according to the World Bank policy. There are 45 small ethnic communities living in
+28 districts of the country. One of the main objectives of SECVD is to ensure interventions
+to uphold the social and cultural norms and practices of the small ethnic community or
+other vulnerable communities. A detailed framework for SECVD has been provided in a
+separate stand-alone document.
+6. Public Consultation and Participation Framework:
+Consultation is one of the best ways to relate people with the climate products. In line with the
+above, a detailed Public Consultation and Participation Framework (PCPF) have been prepared
+for the Bangladesh Weather and Climate Services Regional Project. The PCPF is intended to
+define objectives and establish the framework necessary to provide understandable information
+to all stakeholders involved. The main objective of the PCPF is to ensure timely, effective and
+multi-directional communications between the EA and the affected persons and communities,so
+that people can get the benefits of the climate products.
+7. Purpose of CSAP Framework:
+The purpose of the Communication Strategy and Action Plan (CSAP) is a living document that
+will link the Bangladesh Regional Weather and Climate Services project related information with
+a feedback process that can be monitored, evaluated, updated and adapted. As such it will
+ensure that the growing knowledge and experience gained during its implementation stages will
+(i) be duly shared with different publics and stakeholders, and (ii) provide guidance to resolve
+any communication conflicts across key stakeholders. The strategy will help duty
+bearers/offices/authorities of Executing agencies at the delivery end to provide specific
+message to target audiences at the recipient end.
+
+8. Institutional Arrangement, Capacity Building, Monitoring and Evaluation
+The Resettlement Policy Framework (RPF) implementation requires an organization support
+structure in the form of organizational requirements, training needs and plan, and information
+management system. The Project management Unit (PMU) is responsible for overall project
+management and coordination through its Ministry of Defence (MoD), Ministry of Water
+Resources (MoWR), and Ministry of Agriculture (MoA). The purpose of project management is
+to ensure (i) Project Oversight and Policy Direction, (ii) Project Coordination and Management,
+and (iii) Project Implementation.
+To carry out the above functions, (i) a Project Steering Committee (PSC) and (ii) three Project
+Implementation Units (PIUs) each at BMD, BWDB and DAE will be established. To facilitate
+coordination between the three PIUs during implementation, the PSC will set up a Project
+management Unit (PMU) and the PMU will have a Safeguard Specialist for the duration of the
+project. Therefore, will have two levels of implementation, at project and also at component
+level.
+PMU will establish a two-tier grievance redress mechanism (GRM) with representative from
+BWDB, local government institutions, Affected Peoples including female. The grievance redress
+committee (GRC) will be formed by the Ministry of Water Resources (MoWR) through a
+notification which will be ultimately published in the Government Gazette. The first tier GRC will
+be at local (Union/Municipality) level (LGRC) and second tier will be at project level (PGRC)
+head quarter level. The convener of the local level GRC is at the rank of Executive Engineer
+(XEN) of the PIU field office whereas Project Director will be the convener of the Project level
+GRC. Participation of the affected people’s representatives in the local level grievance
+mechanism will be ensured as per policy of the RAP.
+Institutional capacity building will include various short and long training and awareness rising to
+the communities about the climate services and its benefits. All such training and awareness
+raising program must include social development aspects such as resettlement, special
+assistance to small ethic and vulnerable communities and disadvantaged groups, inclusiveness,
+participation besides technical and environmental aspects and overall enhancement of
+information dissemination capacity of the concerned organizations and the project in general.
+9. Budget
+A total of 8,97,435 USD$ has been kept in provision for implementation of the safeguard
+documents. The budget is subject to revision based on project requirements.Therefore, it will
+remain as a dynamic process for cost estimate during implementation. The summary of
+estimated budget is hereby presented in the table below.Table Ex 01: Project implementation
+budget.
+Table Ex 01: Project Implementation Budget
+S. No.
+Activities
+Cost in BDT
+Cost In USD(1$=78 BDT
+Capacity Building for the BWDB (training )
+1,00,00,000
+1,28,205
+Capacity Building for the BMD (training )
+1,00,00,000
+1,28,205
+Capacity Building for the DAE (training )
+1,00,00,000
+1,28,205
+
+Consultation
+and
+communication
+with
+different stakeholders for four years
+2,00,00,000
+2,56,410
+Preparation
+and
+implementation
+of
+safeguard documents );
+2,00,00,000
+2,56,410
+
+Contents
+Abbreviation ........................................................................................................................................................ 2
+Glossary ................................................................................................................................................................ 4
+Executive Summary ............................................................................................................................................. 6
+List of Tables ...................................................................................................................................................... 12
+List of Figures ..................................................................................................................................................... 13
+1 Background ................................................................................................................................................. 14
+1.1 Disaster vulnerability of Bangladesh: .................................................................................................... 14
+1.2 Needs in Weather and Climate Services in Bangladesh: ...................................................................... 15
+2.1 Project Components, sub-Components and Activities: ........................................................................ 17
+2.2.1 Component A: Strengthening Meteorological Information and Services ................................... 17
+2.2.2 Component B: Strengthening Water and Flood Information Services ........................................ 18
+2.2.3 Component C: Agro-Met Information Systems Development and Use....................................... 20
+2.2.4 Component D: Contingent Emergency Response Component .................................................... 21
+3. Objectives of RPF ....................................................................................................................................... 21
+3.1 Scope of RPF: ........................................................................................................................................... 22
+4 Approach and Methodology: .................................................................................................................... 22
+4.1 Consultation with the Project Implementing Agencies.................................................................... 23
+4.2 Consultation and FGD with the primary stakeholders: .................................................................... 23
+4.3 Outcomes of the consultation meetings with stakeholders: ........................................................... 24
+5 Policy Principles and Framework .............................................................................................................. 25
+Legal Policy framework: ....................................................................................................................... 26
+6.1 Legal context of land Acquisition in Bangladesh .................................................................................. 26
+6.2 World Bank OP 4.12 on Involuntary Resettlement .............................................................................. 27
+6.3 Social Safeguards Policy Compliance ..................................................................................................... 28
+7 Project impacts and its significance: ......................................................................................................... 28
+7.1 Impact and Screening Procedure ........................................................................................................... 29
+7.2 Mitigation Measures: .............................................................................................................................. 30
+8 Eligibility for Compensation and Assistance............................................................................................. 31
+
+8.1 Eligibility and Entitlement Matrix .......................................................................................................... 32
+8.1.1 Eligibility Criteria .............................................................................................................................. 32
+8.1.2 Compensation and Entitlements .................................................................................................... 33
+8.2 Compensation Payment Procedure ................................................................................................... 37
+8.3 Eligibility and cut-off date .................................................................................................................. 37
+9 Methodology for Preparation of Safeguard Documents .................................................................... 37
+9.1 Preliminary Screening ..................................................................................................................... 37
+9.2 Project Preparation ......................................................................................................................... 37
+9.3 Public Consultation and Participation .......................................................................................... 38
+9.4 Grievance Redress Mechanism .......................................................................................................... 38
+9.5 Grievance Redress Committee (GRC) ................................................................................................ 39
+9.6
+GRM Documentation and Monitoring ........................................................................................ 39
+10 Surveys and Documentation: .................................................................................................................. 41
+10.1 Preliminary Screening ....................................................................................................................... 41
+10.2 RAP Preparation: ............................................................................................................................. 42
+10.3 Abbreviated (Summary) Resettlement Action Plan: ...................................................................... 42
+10.4 Detailed RAP: .................................................................................................................................... 42
+11 Public Consultation and Participation ......................................................................................................... 43
+11.1 Key Objectives of the PCPF ................................................................................................................... 43
+11.2 Guiding Principles of the PCPF ............................................................................................................. 44
+11.3 Key Stakeholders in the Project ........................................................................................................... 44
+11.4 Consultation & Participation from Feasibility to Detailed Design Stage........................................... 44
+11.5 Public Consultation & Participation Processes in Project Implementation ...................................... 44
+11.5.1 Information Dissemination through Upazila: .............................................................................. 45
+11.5.2 Public disclosure of Project-related documents: ........................................................................ 45
+11.5.3 One-day National Seminar on Social and Environmental Safeguards: ...................................... 45
+11.5.4 Special Orientation and Consultation Sessions: .......................................................................... 45
+11.6 Stakeholder engagement in Committees:........................................................................................... 45
+12 Purpose of the CSAPF: ............................................................................................................................. 46
+12.1 Objectives: ............................................................................................................................................. 46
+12.2 Targeted populations for CSAP ............................................................................................................ 46
+12.3 Scope of work ........................................................................................................................................ 46
+
+12.4 Approach ............................................................................................................................................... 47
+12.4.1 Key questions to be discussed ...................................................................................................... 48
+12.4.2 Supplementary questions to be discussed .................................................................................. 48
+13 Implementation Arrangements ......................................................................................................... 48
+13.1 Project Level ...................................................................................................................................... 49
+13.2 Component Level .............................................................................................................................. 49
+13.3 Institutional Mechanism for Cooperation between Implementing Agencies .............................. 50
+14 Institutional Capacity Building ................................................................................................................ 51
+15 Monitoring and Evaluation ...................................................................................................................... 51
+15.1 Indicators for Monitoring and Evaluation: ...................................................................................... 51
+15.2 Stages of Monitoring and Evaluation .............................................................................................. 52
+15.3 M&E at Preparatory Stage ............................................................................................................... 52
+15.4
+M&E at Rehabilitation Stage.................................................................................................... 52
+15.5
+M&E Indicators ............................................................................................................................. 52
+15.6 Process Indicators ............................................................................................................................ 53
+15.7 Output Indicators ............................................................................................................................. 53
+15.8 Impact Indicators ............................................................................................................................. 53
+16 Budget ....................................................................................................................................................... 54
+Annex-1: Social Safeguard Screening for BWCSR Project ............................................................................... 55
+List of Tables
+
+Table 01: Activities adopted in the methodology ........................................................................................... 23
+Table 02: Gaps between GOB LA law and World Bank OP 4.12 ..................................................................... 28
+Table 03: Possible Project impacts and its significance .................................................................................. 29
+Table 04: Classification of the Stakeholders .................................................................................................... 44
+Table 05: Social Safeguard implementation budget ....................................................................................... 54
+
+List of Figures
+Figure 01: A Grievance Redress Flowchart ...................................................................................................... 41
+
+1 Background
+Climate change is one of the most common issuesthat have raised concern over the last
+decade, and the anxiety gets more concentration in developing nations like Bangladesh, one of
+the most vulnerable countries to climate change. The Government of Bangladesh, with support
+from donors, implemented many projects earlier on this issue. And majority of them has
+concentrated on protective schemes. Bangladesh Regional Weather and Climate Services is
+the first project to introduce a complete package of weather forecast in targeting reduced
+agricultural, water resource management and forecasting of site specific weather information. It
+will also collaborate with the regional countries through sharing weather information. Proper
+implementation and right communication with stakeholders will reduce the damages due to
+climate change and will play a major role through increasing GDP of the country that has been
+lost throughout past years. This document will present the framework for RAP depending on
+impact severity of the project following the World Banks safeguard policies (OP4.12) and GoB’s
+policy.
+1.1 Disaster vulnerability of Bangladesh:
+Although due to its geographical location and conical coastal shape, the country is vulnerable to
+tropical cyclones in addition to other natural disasters like flood, land slide, earth quake, in
+addition to climate change issues, Bangladesh has attained remarkable progress in disaster
+preparedness. But the early warning system in Bangladesh is still inadequate. Bangladesh
+Meteorological Department still doesn’t have an accurate measurement system to disseminate
+the right information to the communities. The death tools have reduced significantly due to early
+warning and preparedness but right information can reduce the death toll to zero and reduce
+social vulnerability significantly. Other than cyclones, Bangladesh is vulnerable to flood and river
+erosion. Bangladesh has been placed in no. 5 among 173 countries in terms of natural hazards
+and risks1. Around 88 million people living along four major river basins are exposed to flood
+and river erosion2.
+As Bangladesh does not have the technical skills and equipment to measure the possible water
+level heights for the next 50 or 100 years, most of the flood protection embankments are low
+compared to the height of the water level. On top of that, 90% of the annual rainfall occurs
+during July-September, which causes immense pressure on the flood protection system of the
+country. In monsoon flood during 2014, more than two million people had been found affected
+according to the DDM3. Flood and river bank erosion is a major concern of people living in the
+neighborhood of major rivers in Bangladesh. Huge amount of rainfall during monsoon, extreme
+amount of sediments from the Himalayan Mountains make the large rivers of the country
+behave very aggressive during the rainy season. River banks of the major erosion prone rivers
+get eroded even more than one kilometer a year. It damages lots of plain agricultural land and
+homestead. Millions of crops washed away due to erosion and flood. While these natural
+disasters are often unavoidable, timely disasters are often unavoidable, information
+dissemination and accurate height of the embankment and maintenances of it can save crops
+1 World Risk Report 2012
+2‘Bangladesh Report 2013: Disaster Preparedness Response and Recovery’
+3 DDM: Department of Disaster Management (source: the Daily Star, 1st September 2014)
+
+and give chances to the farmers to produce right crops in right season. Right area specific
+weather information can give the opportunity to the Agronomist to research on the weather
+based crops.
+1.2 Needs in Weather and Climate Services in Bangladesh:
+There are many lacking and gaps with the weather and climate services in Bangladesh and
+these are given below:
+1) Bangladesh Meteorological observation network is not modernized
+2) Institutional capacity building for weather and climate services is urgent
+3) Countries Hydrological Observation Network for forecasting Water and Flood information
+services need to be improved
+4) It is essential to improve accurate and area specific Early Warning System
+5) People are not aware about the benefits of meteorological services
+6) Farmers are not known about the benefits of these services.
+7) Need for higher visibility and recognition of this service as a climate services provider by
+the government authorities
+8) Lack of understanding at the ministerial level of the socio-economic benefits from the use
+of climate services
+9) Lack of policies regarding the role of service in providing climate services
+10) Need for better administrative arrangements and coordination among different agencies
+like BMD, BWDB and DAE
+11) Limited number of stations, which meet the requirements of climate reference network
+12) Limited human, technical and financial resources
+13) Due to limited access to global and regional data, satellite data, non availability of
+appropriate software’s, homogenization of time series, professional staff without
+appropriate training for quality control limit the abilities to produce real climate products
+14) Lack of awareness and interaction with users limit the effectiveness of the use of climate
+information
+According to Bangladesh Development Series by World Bank, in the past decade, Bangladesh
+has made steady economic gains with GDP growing at a rate of more than 6 percent each year.
+The percentage of people living below the poverty line declined from 58.6 percent in 2000 to
+43.3 percent in 2010. There have also been impressive gains in a number of social indicators
+including improvements in literacy, life expectancy, and per capita food consumption. To
+maintain and build on these development gains, leverage ongoing governance and economic
+reforms, and to meet its ambitious goal of becoming a middle-income country by 2021,
+strengthening disaster and climate change preparedness is critical.
+To aid these efforts, the government is making important investments in critical infrastructure
+and in preparedness and response, particularly with respect to tropical cyclones. Despite these
+investments, the country’s hydro-meteorological information infrastructure over land,
+
+atmosphere and ocean, basic public weather services, forecasting, and multi-hazard end-to end
+early warning systems remain weak and need to be strengthened. Furthermore, key climate
+dependent sectors such as water and agriculture, need tailored weather and climate data,
+products, information and services to improve planning and decision-making and to mitigate the
+adverse effects of climate variability and change. Provision of such “climate services” at present
+is limited and needs to be strengthened.
+While strengthening hydro-meteorological services and associated institutions in Bangladesh is
+an essential first step, regional collaboration is also crucial. First, climate and weather patterns
+such as tropical cyclones, monsoons and north-‘west storms impacting Bangladesh are transboundary and best monitored, understood and predicted by taking a regional and global
+perspective. Second, there is a demand in Bangladesh for regional information for weather and
+climate (such as tropical cyclone forecasts over the Bay of Bengal or regional drought forecasts)
+and a demand from regional centers--for example, from the Regional Specialized Meteorology
+Center (RSMC) located at the Indian Meteorology Department (IMD)--for weather and climate
+information (such as for atmospheric observations over Bangladesh) to enable them to make
+improved forecasts of regional and sub-regional weather phenomenon (such as severe
+thunderstorms) that can benefit all affected countries. Regional collaboration can help facilitate
+this exchange. Third, there are economies of scale in regional collaboration. For instance, at
+present, Bangladesh does not have the capacity to forecast extreme events such as cyclones,
+thunderstorms and flash floods with sufficient lead time and accuracy, or the capacity for long
+term climate monitoring and prediction. Regional collaboration can allow Bangladesh to build
+on information products and forecasts already being produced by regional entities rather than
+investing in developing capacity from the start. Finally, regional collaboration can also facilitate
+knowledge exchange on the delivery of climate services (in sectors such as agriculture, fisheries
+and water) and scale up ongoing pilot activities.
+In this regard, it is vital to ensure consequential early warning system that will leave time for
+harvesting/ save produces from being damaged. The BWDB has suggested increasing
+frequency of flood forecasting to twice a day. In addition to that, they have also suggested
+drought and salinity forecasting and to take the advantage of thalweg in reducing riverbank
+erosion. It is also important to review previous best practice experiences and validate
+accountability of central and local practices. In addition to providing shelters from disasters and
+maintenance of infrastructures from flood/cyclone etc, it is also important to train farmers about
+short term crops, flood tolerant crops/ submergible crops and timing for plantation and harvest
+as well as marketing.
+The Bangladesh Weather and Climate Services Regional (BWCSR)Project is conceived as part
+of a “series of projects” being initiated in South Asia Region. The approach is to start from the
+bottom up and strengthen national capacity for weather and climate services that can then allow
+interested countries to be better positioned to collaborate at a sub-regional and regional level.
+The key objective of the BWCSRProject will be to foresee the greater picture of weather
+forecasting and early warning advantages in every possible sector and take it to the next level;
+Where weather forecasting will not only be limited to predicting rainfalls and storm warning, it
+
+will disseminate weather information to the door steps of beneficiaries and make it more
+business oriented commercially rewarding. The “Bangladesh Weather and Climate Services
+Regional Project” can play a major role in disaster preparedness and develop the socio
+economic conditions of Bangladesh.
+2.1 Project Components, sub-Components and Activities:
+The project has been described in terms of components and potential subcomponents. The
+project includes four components: Component A, Component B, Component C, and Component
+D. Bangladesh Metrological Department will implement the project components A,
+Bangladesh Water Development Board will implement component B, and Department of
+Agricultural Extension will implement Component C. There is no particular implementing body
+for the component D yet but if Bangladesh Government prefers to take loan from the WB; BMD,
+BWDB and DAE can jointly implement Component D. The consultant consulted with the
+department to identify specific subcomponents and activities. According to the departments,
+specific subcomponents and detailed activities with possible locations will be identified
+during the project implementation phase. The potential subcomponents and possible
+activities under each subcomponent are identified by reviewing the project documents provided
+by the department. There are about 9 subcomponents including three subcomponents in
+Component A, three in Component B, three in Component C. Main Objectives and benefits of
+the components according to the consultation meetings with the primary and secondary
+stakeholders are given below.
+2.2.1 Component A: Strengthening Meteorological Information and Services
+Sub-Component A1: Strengthening Meteorological Monitoring, Forecasting and Disaster
+Related Early Warning Systems
+Objectives of Sub-component A1
+Expected climate products/benefits
+1. Modernization
+of
+BMD’s
+meteorological
+observation network over land, air and ocean.
+2. Weather
+forecasting
+capacity
+and
+strengthening public weather and climate
+services.
+3. Modernization will be national including critical
+habitats such as the Sunderbans.
+4. Installation
+of
+new
+Automatic
+Weather
+Stations, real time rain gauges with telemetry,
+upper air soundings and strength marine
+meteorology.
+The telecommunication system at BMD and
+its divisional offices, database management,
+will beupgraded.
+1. Historical dataset for atmospheric, oceanic
+and terrestrial observation
+2. Gridded/interpolated data, Satellite data,
+Model data
+3. Tailored products for national scale user
+4. Basic statistics on climate extremes
+Spatial
+patterns
+of
+temperature
+precipitation
+6. Advanced climate statistics and graphical
+products
+7. Application products
+8. Climate watch products
+
+Objectives of Sub-component A1
+Expected climate products/benefits
+The project anticipates improving the national weather forecast services to a higher standard.
+Sub-Component A2: Institutional Capacity Strengthening, Project Management, Monitoring
+and Evaluation.
+Objectives of Sub-component A2
+Expected Benefits
+1) Strategic support for enhancing institutional
+capacity for weather and climate service
+delivery at the national and divisional levels.
+2) It will support strengthening policy and
+regulatory framework for BMD operations.
+3) The capacity strengthening of BMD will be
+improved through modern equipment, trainings
+and
+collaboration
+with
+international
+meteorological institutions.
+1) Right information and data dissemination
+to different organization
+2) Education and training materials will be
+developed in university level
+3) Policies on building human capacities will
+be developed
+4) Regional
+and
+International
+training
+programmes
+to
+enhance
+technical
+capacities
+5) Operating
+system,
+networking
+infrastructure,
+internet
+connections,
+training and education will be improved
+Sub-Component A3: Regional Collaboration
+This sub-component will support scaling up ongoing mechanisms of cooperation between
+Bangladesh and South Asia region countries with the objective of developing climate services in
+Bangladesh. Activities funded by the project include (i) support to scaling up ongoing regional
+pilot cooperation mechanisms such as Bangladesh’s contribution and participation in the South
+Asia Climate Outlook Forum (SASCOF), (ii) twining arrangements with regional and
+international hydro-met agencies, (iii) establishment of climate portal for accessing and sharing
+regional weather and climate information ad products, (iv) support to scaling up SAARC- Severe
+Thunderstorm Observation and Regional Modeling (STORM) program.
+Objectives of Sub-component A3
+Expected Benefits
+Increase the regional collaboration
+Regional data exchange
+1. Understanding of regional climate system
+2. Better prediction and projection skills
+3. Understanding
+and
+communicating
+uncertainty in climate prediction
+2.2.2 Component B: Strengthening Water and Flood Information Services
+Sub-Component B1: Strengthening Hydrological Monitoring, Forecasting
+Objectives of Sub-component B1
+Expected climate products and others
+
+Objectives of Sub-component B1
+Expected climate products and others
+1. Design and modernization of the country’s
+hydrological
+observation
+network
+and
+forecasting
+2. Installation of automated hydrological stations
+Strengthening
+groundwater
+monitoring
+network,
+sediment
+monitoring
+and
+measurement of river morphology.
+4. BWDB’s
+existing
+equipment
+repair
+and
+calibration facility will be upgraded
+5. A centralized Data Center will be established.
+6. Multipurpose communication technologies for
+transmission and processing data to enable
+higher quality forecast and increase flood
+warning lead times.
+Support acquisition of hardware, software for
+improving hydrological and flood (flash floods,
+urban, riverine, coastal floods) forecasting.
+1. Forecasting will be accurate
+2. Products delivered from satellite data for
+monitoring activities
+3. Basic assessment and analysis of spatial and
+temporal
+factors
+for
+tropical
+cyclones,
+monsoon, storms etc
+4. Application products, e.g. probable maximum
+precipitation, floods, intensity duration facility
+etc.
+5. Analysis on climate extremes maps, graphs,
+images etc
+6. Assessment of current climate conditions in
+terms of averages, variance, thresholds,
+percentiles in weekly, 10 days, monthly,
+seasonal and annual time scale
+7. Review and assessment of past climate
+patterns
+8. Analysis
+and
+interpretation
+of
+climate
+statements or products for general public or
+specific users
+Sub-Component B2: Institutional Capacity Strengthening, Project Management, Monitoring
+and Evaluation
+Objectives of Sub-component B2
+Expected Benefits
+1. Support institutional strengthening of the
+Hydrology Division of the BWDB.
+Support
+M&E
+activities
+to
+track
+implementation progress.
+1) Right information and data dissemination to
+different organization
+2) Education and training materials on climate
+services will be developed in university level
+3) Policies on building human capacities will be
+developed
+4) Regional
+and
+International
+training
+programmes
+to
+enhance
+technical
+capacities
+5) BWDM capacity building
+Sub-Component B3: Early Warning Systems and Disaster Risk Management in Priority Areas
+Objectives of Sub-component B3
+Expected climate products and others
+1) Improve Early Warning Systems (EWS) and
+Disaster Risk Management in priority areas.
+2) Development of end-to end flood related early
+warning systems.
+3) Identification of risk through multi-hazard risk
+assessments leading to generation of credible
+1) Accurate and timely data’s will be
+provided to the beneficiaries
+2) Accurate flood related data
+3) Risks in disaster prone areas will be
+easy to identified
+4) Data, maps, images, graphs, diagrams
+
+Objectives of Sub-component B3
+Expected climate products and others
+risk information for informing mitigation actions
+at policy, planning and community levels;
+4) Establish decision support tools for flood risk
+management including software, hardware;
+Installations of a nowcasting system for flash
+floods and strengthen community based early
+warning systems.
+will be provided to the beneficiaries
+Accurate flash flood information, thunder
+storm information will be provided
+2.2.3 Component C: Agro-Met Information Systems Development and Use
+Sub-component C1: Development of a Decision Support System for Agro-Meteorological
+Information
+Objectives of Sub-component C1
+Expected climate products and others
+1. Provide
+agro-meteorological
+services
+to
+farmers in priority areas
+2. Support
+the
+development
+and
+operationalization of a Decision Support
+System for processing agro-meteorological
+information.
+3. Setting up a web-based portal for agro-met
+services
+4. Support for hardware, software, development
+ofagricultural
+monitoring
+products,
+risk
+mapping of climate vulnerablecommunities
+Development
+of
+agricultural
+information
+products
+1. Accurate
+and
+area
+specific
+rain
+information
+2. Accurate
+and
+area
+temperature
+information
+3. Accurate
+and
+area
+specific
+flood
+information
+4. Reducing and managing flood and
+drought risk
+through more reliable
+forecasts
+improve
+decision-making
+to
+build
+resilience of the agriculture sector to
+climate change
+Sub-component C2: Dissemination of Agro-met advisories to farming communities in different
+agro-ecological zones
+Objectives of Sub-component C2
+Benefits
+1. Outreach and dissemination of agro-met
+information services to farmers in priority
+districts
+2. Development of mobile applications and use of
+new technologies.
+Support capacity building and training at the
+farm level for improved use of weather and
+climate information.
+6. Accurate
+and
+area
+specific
+rain,
+temperature and flood information
+7. Reducing and managing flood and
+drought
+risk
+through more
+reliable
+forecasts
+8. Improve
+decision-making
+to
+build
+resilience of the agriculture sector to
+climate change
+Sub-component C3:Institutional Capacity Strengthening, Project Management, Monitoring and
+Evaluation
+Objectives of Sub-component C3
+Benefits
+
+Objectives of Sub-component C3
+Benefits
+1. Technical capacity strengthening of DAE staff,
+technical studies, project management and
+monitoring and evaluation.
+2. The
+use
+and
+impact
+of
+disseminated
+information would be monitored and assessed
+at the community level through this subcomponent.
+6) Right information and data dissemination
+to different organization
+7) Education and training materials on
+climate services will be developed in
+university level
+8) Policies on building human capacities will
+be developed
+9) Regional
+and
+International
+training
+programmes
+to
+enhance
+technical
+capacities
+10) Operating
+system,
+networking
+infrastructure,
+internet
+connections,
+training and education will be improved
+11) DAE capacity building
+2.2.4 Component D: Contingent Emergency Response Component
+Objectives of component D
+Benefits
+support to minimize pre disaster and post disaster
+effects
+Reduce the post disaster effects
+3. Objectives of RPF
+This Resettlement Policy Framework (RPF) seeks to address the inadequacy of the existing
+legal provisions to meet the requirements of the project funded by the World Bank.This RPF will
+be applicable to World Bank funded projects. This policy is based on the philosophy that
+development projects must serve the needs of society and ensure that project affected persons
+(PAPs) are not made worse off by development projects. Thus, the project will not penalize any
+one person in order to benefit many other persons. Resettlement Policy Framework is
+supported by the detailed Implementation Guidelines4 that will be prepared by the design
+consultants. BWCSR project will be responsible for full and proper implementation of this policy
+framework.
+In response to above philosophy, involuntary resettlement should be an important consideration
+in project identification. Three important elements of involuntary resettlement are: (i)
+compensation for loss of assets, loss of livelihood and income, (ii) assistance for relocation,
+including provision of relocation sites with appropriate facilities and services, and (iii) assistance
+for rehabilitation to achieve at least the same level of well-being with the project as without it.
+This can be ensured through the following basic objectives:
+4 The Implementation guidelines will cover, among other things, the processes and procedures, including necessary
+formats & criteria, where relevant, for initial social assessment; screening of project/sub-projects; census,
+inventory and socio-economic baseline surveys; market studies & valuation of different types of assets;
+computerized data management system; format and contents of RPs; monitoring indicators and formats and
+contents for supervision and monitoring reports; public consultation and participation process; documentation for
+grievance redress mechanism; and procedures for private negotiations for acquisition of private assets.
+
+(i)
+Avoid involuntary resettlement where feasible and minimize resettlement where
+population displacement is unavoidable,
+(ii)
+Ensure that displaced people receive compensation, assistance and rehabilitation so
+that they would be at least as well off as they would have been in the absence of the
+project,
+(iii)
+PAPs will benefit from the project, and
+(iv)
+Project stakeholders, including PAPs are consulted and given the opportunity to
+participate, as practicable, in the design, implementation, and operation of the
+project.
+(v)
+Additional assistance should be provided to vulnerable groups.
+3.1 Scope of RPF:
+The scope of this RPF includes the followings;
+1) Assess social impact assessment of all components of the project
+2) To find out the project impacts and benefits component wise
+3) Review policy and acts of Bangladesh and the World Bank (OP4.10, 4.12) in order to
+identify applicable provisions in the proposed program/project and suggest ways to fill
+any gap between GOB and World Bank requirements.
+4) Review of existing social management practices
+5) Carry out a rapid review of social issues involved and make broad-based social
+assessment of the program/project (focusing on components and likely activities listed
+in the pre-feasibility study), highlighting potential positive and negative impacts of the
+program/project.
+6) Assess the capacity of the institutions involved in the project, including the roles and
+responsibilities of implementing agencies, and offer guidelines for capacity development
+to address any gaps.
+7) Assess gender and social inclusion considerations related to project activities. This
+includes: identification of key gender and inclusion related participation issues;
+identification of possible roles for women and disadvantage (or vulnerable groups) in
+project objectives and activities; examine the differences in knowledge, attitudes,
+practices, roles, status, wellbeing, constraints, needs and priorities related to gender
+and other differences; assess the potential for differentiated impact of project based on
+gender and exclusion and identify options to maximize benefits and minimize adverse
+effects;
+8) Develop a communication and consultation strategy ,in line with the overall
+communication and consultation strategy developed for the project to ensure that the
+project affected people as well as the vulnerable groups, including women, benefit from
+the effective and timely delivery of hydro-meteorological events and climate variability
+envisaged in the project;
+4 Approach and Methodology:
+This RPF has been prepared based on preliminary social assessment carried out through
+literature review and stakeholder consultation. Literature review includes desk review of existing
+project documents, government policies, World Bank policies OP 4.10, 4.12 and all available
+secondary documents. It also comprised collection of secondary information, field level
+observation and stakeholder’s consultation. Activities adopted in the methodology for
+
+preparation of RPF are given below:
+Table 01: Activities adopted in the methodology
+Activities
+Purpose
+Outcomes
+Review of project documents
+1. To know about the project and
+importance of the project for
+Bangladesh
+1. Helps screening of the project
+components and its objectives
+Interaction with the project
+implementing
+agencies
+i.e;
+BWDB, BMD and DAE
+1. To know the project details and
+clarification about the project
+2. To select the district for public
+consultation
+1. Obtained key components and
+activities of the project
+2. Discussed the possible sites of
+the activities
+Assessed
+possible
+risks
+factors due to the proposed
+activities
+4. Select three districts (Habigonj,
+Sunamgonj and Sylhet) for field
+visit
+Review
+the
+secondary
+documents and World bank
+safeguard policies
+1. To know the provision of
+legitimacy
+to
+implement
+the
+project
+1. Legal frameworks regarding
+social issues are identified.
+Public consultation at district
+level with different groups
+1. To share the project with the
+primary stakeholders
+2.Identification of possible social
+issues relevant to the project
+3.Local
+level
+stakeholder’s
+perception about the project
+4. Identification of the issues
+about the existing services
+1.Primary
+stakeholders
+know
+about the project and its benefits
+2. communalities want developed
+communication system between
+implementing agencies and local
+communities
+people
+expects
+accurate
+weather information’s
+Analysis the information and
+presentation of
+1.To know the potential risks of
+the subcomponent
+1. People perception about the
+project is assessed.
+4.1 Consultation with the Project Implementing Agencies
+During the study time a series of consultative meetings with the BMD, DAE, BWDB and
+World Bank (WB) officials were conducted for the better understanding of the project.
+One of the main purposes of those meetings was to know about the potential impacts of
+the key activity of the project like Automatic Weather measuring instruments.
+4.2 Consultation and FGD with the primary stakeholders:
+A series of consultation were carried out with the farmers and vulnerable groups in
+Sylhet, Habigonj and Sunamgonj districts. The main purposes of the meetings were
+information dissemination regarding the project objectives to identify the issues and
+possible impacts of the activities of the project. Interactions with women and vulnerable
+groups were carried out at the field level. This step resulted in identification of key issues,
+assessment of the needs of the vulnerable communities and women. Separate
+
+individual interviews were carried out with vulnerable members, meteorological data
+recorders/observers, meteorologists, hydrologists, instruments handling field based
+practitioners/persons, key leaders at community, farmers etc.
+Pictures: FGDswith male and female focus groups
+The interactions were used to share information about the project, understanding their
+views about the project and its potential impacts. Ideas were explored on how the
+project could provide assistance to targeted groups and to the local development
+through the planned services. Discussions were also carried out with part-time
+observers/gauge readers to know their experiences including problems and issues
+regarding existing hydro meteorological monitoring networks at field level.
+4.3 Outcomes of the consultation meetings with stakeholders:
+x
+Area specific timely flood and other weather information will reduce the damages.
+x
+Weather information needed to reach to the farmers; that’s why communication between
+farmers and relevant agencies needs to be improve.
+x
+Farmers need suggestions from the DAE about advance farming ideas (so that farmers
+can cut the crops before flooding) to reduce the damages.
+x
+Fishermen need the weather information rightly for fishing and savings the pond farming
+fish.
+x
+Training for the DAE field level is essential to know the right information about the
+weather.
+x
+A framework for National Climate Services will link Bangladesh to the Regional
+Framework of Climate to improve the reliability and use of short- medium and long-range
+climate information everywhere.
+x Upgrading the existing meteorological and hydrological observing networks and
+forecasting systems will improve the reliability, timeliness and accuracy of weather and
+flood forecasts and warnings resulting in better weather, climate and water services.
+x
+Better decision-making and planning in key vulnerable water resources dependent
+sectors, particularly agriculture is expected. Stronger partnerships between the providers
+and users of weather, climate and water information through dedicated climate working
+groups and existing community organizations will ensure better uptake and use of
+weather, climate and water information.
+
+x
+Improving coordination and information sharing between all of agencies responsible for
+the collection of climate data, analysis and decision-support will also lead to better
+informed decisions.
+x
+Public education and outreach activitiesneed be geared towards improving information
+access and increasing awareness of the challenges caused by climate change.
+Particular attention will be given to communities, which need to take preparatory action
+to mitigate adverse consequences of the climate and hydro-meteorological hazards. The
+goals are to improve community response to flood warnings, improve management of
+surface water resources, enhance food security, improve health outcomes, improve
+climate-resilient coastal zone management, and provide better rural livelihoods.
+x
+According to the BMD, BWDB and DAE officials, major issue in all hydro-meteorological
+modernization programs is how to sustain the financing of operating and maintaining
+new equipment. Without additional support, new systems quickly fall into disrepair and
+disuse. Proper maintenance of the new instrument is necessary. This is a major step
+forward in the modernization of Bangladesh Meteorological and Hydrological Services.
+x
+Greater equality in the workplace is a hallmark of Bangladesh weather and climate
+services regional project. One of the steps can be employing female technical specialists
+with the project implementation unit where they will be benefited from additional
+technical training as well as have the opportunity to make a significant contribution to the
+overall success of the program and to the community.
+x
+Data sharing between government departments has been a perennial problem in
+Bangladesh and has slowed the development of services that depend on intragovernment cooperation. However, in the earliest stages of project implementation, all of
+the parties need to sign a Memorandum of Understanding committing to a data sharing
+policy that will significantly enhance their capacity to exchange data and deliver reliable
+weather, climate and water services.
+
+5 Policy Principles and Framework
+PMU will use the following principles to minimize adverse impacts on affected persons and their
+community:
+x Avoid or minimize acquisition of private lands and use as much public land as possible;
+x Avoid or minimize displacement of people from homesteads, land valued higher in terms of
+productivity and uses, buildings/structures that are used for permanent business and/or
+commercial activities, dislocation of Avoid or minimize acquisition of private lands and use as
+much public land as possible;
+x Avoid or minimize displacement of people from homesteads, land valued higher in terms of
+productivity and uses, buildings/structures that are used for permanent business and/or
+commercial activities, dislocation of squatters/encroachers; and impacts on community facilities,
+such as educational institutions, places of worship, cemeteries, etc., and buildings/structures
+that are socially and historically important.
+x Where the portion of a plot remaining after acquisition becomes economically unviable, the
+landowner will have the option to offer the entire plot for acquisition.
+
+x The policy principles adopted are inclusive and cover both titled and non-titled persons. The
+affected without title will also be entitled for resettlement benefits.
+Where adverse impacts are found unavoidable, project will plan to mitigate them in accordance
+with the following principles:
+i.
+Resettlement of the project-affected persons will be planned and developed as an integral
+part of the project design.
+ii. Absence of legal titles in cases of public land users will not be considered a bar to
+resettlement and rehabilitation assistance, especially for the socio-economically vulnerable
+groups.
+iii. Vulnerability, in terms of socio-economic characteristics of the project affected persons/
+households, will be identified and mitigated according to the provisions of RPF.
+iv. Homestead-losers, including the poor and vulnerable households squatting on public lands,
+will be compensated for their physical assets on the lands and assisted during relocation.
+v. People squatting on public lands under acquisition (without any legal agreement for right to
+use the land) will qualify for financial or any other form of assistance including relocation
+provided the project interventions affect significantly on their livelihood (lose more than 10%
+of their income) and cannot survive without income from the affected land/property.
+vi. Assets like equipment, machinery or parts/ components thereof that can be dismantled and
+moved away intact will not be eligible for compensation, but the owners will be paid the
+actual costs of dismantling and moving them.
+vii. Where the project activities cause community-wide impacts affecting community facilities,
+access to common property resources, etc., PMU will rebuild them with Project finances or
+provide alternatives in consultation with the user communities.
+6. Legal and Policy Framework:
+6.1 Legal context of land Acquisition in Bangladesh
+The principal legal instrument governing land acquisition in Bangladesh is the Acquisition and
+Requisition of Immovable Property Ordinance, 1982 (Ordinance II of 1982 including
+amendments up to 1994 ARIPO 1982) and other land laws. The 1982 Ordinance requires that
+compensation be paid for (i) land and assets permanently acquired (including standing crops,
+trees, and houses) and (ii) any other damages caused by such acquisition. The Ordinance
+provides certain safeguards for the owners and has provision for payment of “fair value” for the
+property acquired.
+Deputy Commissioners (DC) will pay compensation for the land to be acquired based on Land
+Acquisition Proposals to be submitted by the requiring body. DCs, in all the cases, determine
+market value of acquired assets on the date of notice of acquisition (notice under section 3 of
+the Ordinance). The DCs then adds 50% premium on the assessed value for cash
+
+compensation under law (CCL) of all acquired assets except standing crops due to compulsory
+acquisition. The CCL paid for land is generally less than the “current market price” as owners
+customarily report undervalued land transaction prices in order to pay lower stamp duty and
+registration fees. If the land acquired has standing crops cultivated by tenant (bargadar) under
+a legally constituted agreement, the law requires that part of the compensation money be paid
+in cash to the tenants as per the agreement. Places of worship, graveyard and cremation
+grounds are not to be acquired for any purpose. The law requires that the salvaged materials
+upon payment of compensation will be auctioned out by the government. Under the 1982
+Ordinance, the Government is obliged to pay compensation only for the assets acquired.
+6.2 World Bank OP 4.12 on Involuntary Resettlement
+The project interventions may not involve additional private lands and displace people from their
+existing residence. But if the fresh acquisition is required, WB policies have to be followed. The
+project therefore, will trigger the World Bank Operational Policy (OP) 4.12 on Involuntary
+Resettlement, which requires that the economic, social, and environmental risks out of
+involuntary resettlement are mitigated and livelihoods of the displaced persons are restored.
+Involuntary resettlement may cause severe long term hardship, impoverishment, and damage
+unless appropriate measures are carefully planned and carried out. For these reasons, the
+overall objectives of the policy of involuntary resettlement are the following:
+1) Involuntary resettlement should be avoided where feasible, or minimized, exploring all
+viable alternative project designs.
+2) Where it is not feasible to avoid resettlement, resettlement activities should be conceived
+and executed as sustainable development programs, providing sufficient investment
+resources to enable the persons displaced by the project to share in project benefits.
+3) Displaced persons should be meaningfully consulted and should have opportunities to
+participate in planning and implementing resettlement programs.
+4) Displaced persons should be assisted in their efforts to improve their livelihoods and
+standards of living or at least to restore them, in real terms, to pre-displacement levels or
+to levels prevailing prior to the beginning of project implementation, whichever is higher.
+5) Where necessary to achieve the objectives of the policy, the resettlement plan also
+include measures to ensure that displaced persons are
+a. Offered support after displacement, for a transition period, based on a reasonable
+estimate of the time likely to be needed to restore their livelihood and standards of living;
+and
+b. Provided with development assistance in addition to compensation measures such as
+land preparation, credit facilities, training, or job opportunities.
+The Bank policy does not bar compensation and assistance to the displaced persons under the
+resettlement plan in absence of their legal title to land. The non-titled rights may come from
+
+continued possession of public land where the government has not sought eviction or from
+customary and traditional law and usage.
+6.3 Social Safeguards Policy Compliance
+There are some gaps between existing land acquisition law of the country and World Bank
+Operation Policy on Involuntary Resettlement (OP 4.12) in terms of identification of affected
+persons and compensation packages. Gaps between GoB LA law and World Bank OP 4.12 and
+suggested mitigation measures are given below:
+Table 02: Gaps between GOB LA law and World Bank OP 4.12
+Sl.
+No
+Gaps between WB OP 4.12 and GOB
+1982 Ordinance II
+Gap-filling measures/actions to be taken in this Project
+Gaps with regard to avoidance and
+minimized project impacts
+The project designs should aim to minimize impacts and
+adjusted tracks and station design further to reduce
+impacts.
+Existing GOB laws recognize title
+owners only; informal settlers are not
+covered
+All affected persons irrespective of titles will need to be
+identified for compensation and assistance
+Existing
+laws
+and
+methods
+of
+assessments do not ensure full
+replacement costs
+Provisions
+willhave been adopted for additional top up
+payments to ensure replacement costs at current market
+price
+Consultation with affected community
+not legally required under GOB 1982
+Ordinance II
+Extensive consultations will need to be carried out during
+the preparatory phase; similar consultations will continue
+during project implementation
+The affected land owners can object
+to the acquisition in the beginning but
+once hearing is done and settled,
+there is no scope of further complaint
+during the acquisition process.
+There will be a provision of two-tier grievance redress
+mechanism in the project. One local level GRC (LGRC)
+and another project level GRC (PGRC).
+No relocation assistance or support
+under 1982 Ordinance II
+Affected households and businesses will receive relocation
+assistance and support from the project
+No support or program for income
+and livelihood restoration
+The project benefitswill
+include income and livelihood
+restoration
+No provision for reconstruction of
+common property resources
+The project will reconstruct all physical and cultural
+resources (PCRs) and common property resources if
+affected by the project.
+7 Project impacts and its significance:
+Due to the nature of the project, its negative impacts will be minimal. For component A, 25
+square meters land is required in each upazila to set up the equipment’s. But these equipment’s
+will be set up in upazila or DAE premises which is already a government acquired land. As
+these are office premises, no squatters is living there. No land is required for component B and
+C as equipment’s will be set up on the roof or under the bridge. IA’s office premises roof will be
+used.So, project impact over land acquisition, displacement and livelihood will be insignificant.
+But proper implementation of the project will have a great positive impacts on the livelihood of
+
+the people of Bangladesh.Impact (negative) of the BWCSR project will be minimal; as discussed
+in the following table:
+Table 03: Possible Project impacts and its significance
+Type of Loss
+Nature
+and
+scope
+of
+impacts
+Level of impacts and suggestions
+Land
+No land acquisition is required for
+the all three components.
+Project impact over land is insignificant as most of
+the installation work will be on agencies land.
+Project will try to avoid new acquisition.
+Displacement of
+Titled HH’s
+Title HH’s might not be displaced
+due to project interventions’.
+Impacts
+will
+be
+insignificant.
+If
+affected,
+compensation will be paid based on the RPF
+Displacement of
+squatters
+Squatters might not be affected
+Impacts will be insignificant.
+CPR
+CPR will not be affected
+Project
+will
+avoid
+any
+kind
+of
+CPR
+for
+implementation of this project.
+Trees
+Some trees might be affected.
+Impact on trees is insignificant as well. If trees
+needed to be cut off, project will plant double
+amount of trees and proper compensation will be
+paid to the AP’s.
+Income
+and
+Livelihood
+No major impacts is observed
+No significant impact on income and livelihood.
+Gender
+No major impact on gender, but
+there might be less skilled female
+to run the new meteorological
+equipment.
+Mainly the positive impact on the gender
+mainstreaming. Female mainly requested job
+during construction and training to get job with the
+project.
+Vulnerable
+communities
+and
+tribal
+people
+No major impacts but
+small
+ethnic communities might not be
+used to with the new system.
+Significant positive impact will be observed. Small
+ethnic communities have to be involved with the
+project where necessary.
+Farmers
+No major impacts as agricultural
+land will be avoided.
+Significant positive impact will be observed as
+farmers can save their agricultural land and
+products.
+7.1 Impact and Screening Procedure
+During project implementation, if additional land is required for the projectincluding any other
+unanticipated impact the PMU will undertake assessment of impact consistent with the following
+steps-
+i.
+A rapid assessment of the impact
+ii. Considerations to minimize impacts and or options to reduce impacts in consultation with
+the affected persons and communities.
+iii. Conduct full assessment of impacts by involving all stakeholders, particularly the affected
+persons, and establish a full inventory of all assets to be acquired.
+
+iv. Prepare land acquisition and resettlement action planand or update existing RPF where
+feasible.
+v. The entitlement matrix of the project will guide the planning and compensation for all losses
+incurred due to the unanticipated impacts and/ or acquisition of additional properties during
+project implementation.
+vi. New entitlements may be developed depending the scale of any specific impacts caused by
+the construction of the project.
+vii. The RPF will be updated (if required) and disclosed to the affected persons and shared with
+WB for concurrence and approval.
+A screening procedure is attached with Annex-1
+7.2 Mitigation Measures:
+Mitigating impacts: Though project will not cause any significant negative impacts, but if any
+land is required for the project, before taking possession of acquired lands, PAPs will be paid
+compensation and other assistance in full. Where PAPs are entitled to relocation, the relocation
+site will be fully developed before the PAPs are displaced. Project will ensure that the standard
+of living of all affected persons is restored to the level enjoyed before the commencement of the
+project, and, if possible, improved.
+Procedures for land acquisition: If land is required for the project, where possible and
+permitted by regulations, project will acquire private land through direct purchase based on
+‘willing buyer willing seller’ principle, as the first option. Negotiations for direct purchase will be
+carried in a public place and in transparent manner. All proceedings will be documented and
+final agreement will be signed by the negotiating parties. Under private negotiations the
+minimum negotiated price should not be less than replacement cost as established through the
+market surveys. The negotiated amounts will be paid within three month of completing the
+negotiations. Interest @12% will be added for the delay in payment of compensation. Where
+direct purchase by implementing agencies is not possible, required private land for the subprojects will be acquired following the provisions of the Acquisition and Requisition of
+Immovable Property Ordinance, 1982and World Bank Safeguard Policies.
+Compensation at Replacement Cost: In case direct purchase by project is not possible (or
+permitted), all acquisition of land would be under Land Acquisition Act 1982 and World bank
+policies, and following the provisions of this policy framework which provides compensation for
+properties to be acquired and support to be extended for meeting replacement value of the
+property. Under the Land Acquisition Act compensation are assessed, and paid, by DC office to
+PAPs for each mouza where his/her assets are located. Such Compensation under Law (CUL)
+that includes 50% premium on assessed values do not fully meet replacement cost. Project will
+top-up these amounts to make up for the balance so that the total amounts paid to PAPs are at
+replacement cost. To estimate top-up amounts, Project will engage independent institution to
+carry out market studies at the time of baseline surveys to determine market rates for different
+types of assets. Estimated resettlement costs to be included in the Resettlement Action
+
+Planwould be based on the market surveys. The amount of top-up due to a PAP will be
+calculated by comparing the total amount of CUL paid by the DCs for all acquired lands and
+other assets with the total replacement costs/market prices thereof. In case of unusual delays in
+implementation after the market surveys are completed, there may be a need for revaluation of
+market rates at the time of implementation and finalization of top-up amounts.Procedures to
+conduct market surveys for the valuation of affected assets will be described in the
+Implementation Guidelines.
+Entitlements to affected people without legal rights to land: Lack of ownership does not
+imply ineligibility for compensation rights. The lack of legal tenure to land or assets will not be
+regarded as a criterion for withholding financial compensation or assistance in relocation in the
+project. Project will strive to provide suitable alternatives to resettle displaced squatter
+communities.
+Measures to avoid illegal occupation of cleared land. The preparation of a Resettlement
+Action Plan will require that an early cut-off date, preferably at the time of the baseline survey, is
+established. Project will ensure that the information on cut-off date and eligibility are provided to
+the people with the clear understanding that anyone illegally occupying the land after the cut-off
+date will not be entitled to any compensation and/or assistance. Project will also take
+appropriate measure to ensure that all lands that is cleared for the project remains clear of
+squatters.
+Relocation of displaced squatters: Project will explore all possible housing options to
+relocate severely affected/displaced squatters to minimize long-term social and economic
+impacts of displacement and to enable them to restore their livelihood and incomes levels within
+least possible time. In order to minimize disruption of existing social ties and sources of
+incomes and employment, particularly for vulnerable affected persons, the priority will be to
+relocate them as close as possible to the existing locations with access to facilities and services
+better than, or at least similar to, those lost. Affected persons/entities will be provided with viable
+options for relocation to choose from that may include, among others: self-relocation; special
+package for transfer to the place of origin; and relocation to a suitable resettlement site. Where
+attempts to find suitable relocation sites are not successful or the locations of identified sites are
+not acceptable to the PAPs, other options will be considered in consultation with the World
+Bank.
+8 Eligibility for Compensation and Assistance
+Regardless of their tenure status to the lands used for project component, the project affected
+persons/ households will be eligible for compensation and assistance. Pending further
+investigations to identify other impacts and impacted persons, PMU will mitigate impacts on the
+following:
+i.
+Private Landowners: Persons who have legal rights to the acquired lands and other assets,
+such as houses, other structures, trees, etc. built and grown on them.
+
+ii. Squatters: Socio-economically vulnerable persons / households including informal settlers,
+who do not have legal rights to the lands, but use them for residential, commercial or
+livelihood purposes. They will not be compensated for land, but for the assets built and
+grown on the land.
+iii. Owners of Displaced Businesses: Compensation for income loss from businesses that are:
+(i) displaced from private lands and those belonging to requiring body and other public
+agencies and (ii) required to close down temporarily during implementation of the civil works.
+In both cases, compensation/assistance will apply to the actual owners of the affected
+businesses.
+iv. Women headed and other vulnerable households: Women heading the households and the
+households having income level up to area specific poverty line per year5, physically
+challenged, elderly members, etc. will be eligible for a special assistance of one-time cash
+grants.
+v. Employees of Affected Businesses. Persons who are employed in the affected businesses
+enterprises being operated on private or public lands.
+vi. Rental Income Earners. Rental income from built premises situated on private lands by any
+displaced persons and on public/IA and by vulnerable displaced persons6.
+vii. Communities and Groups. Where local communities and groups are likely to lose income
+earning opportunities or access to crucial common property resources used for livelihood
+purposes.
+8.1 Eligibility and Entitlement Matrix
+8.1.1 Eligibility Criteria
+All PAPs irrespective of their title will be entitled to compensation and assistance based on loss
+and impact categories identified through census and IOL survey in respect of the policy
+guidelines adopted for the project. Nevertheless, eligibility to receive compensation and other
+assistance will be limited by the cut-off date. The absence of legal title will not bar PAPs from
+compensation and assistance, as specified in the entitlement matrices.
+PAPs with titles will receive compensation under law and those without title will receive cash
+entitlements under the RPF policy. Title owners will receive additional compensation on top of
+DC’s payment dispossession. Vulnerable PAPs will qualify for additional assistance to facilitate
+their relocation and restore their livelihood status. Non-vulnerable households with structures
+affected will be entitled to compensation for structures and assistance for shifting and
+reconstruction of the same.
+5According to Bangladesh Bureau of Statistics (BBS,) the consumption expenditure for upper poverty line used in
+HIES 2010 that considered the minimum size of upper poverty line of BDT 1311 in rural and maximum size of upper
+poverty line of BDT 2038 in urban area. Acknowledging this, specific poverty lines will be derived according to HH
+size in particular area with rationales to inflation rates.
+
+8.1.2 Compensation and Entitlements
+An Entitlement Matrix has been prepared for the project on the basis of field study and
+consultation with government officials as a part of preparing the resettlement policy framework.
+A person could be eligible for compensation/entitlement in more than one category of losses
+and in more than one mouza. DCs will pay CCL for each mauza separately for one person
+whose lands/assets have been acquired in more than one mauza7. The RPF after review and
+approval by the World Bank will be disclosed in public and websites. Entitle matrix has
+beengiven below:
+Table 4: Entitle matrix
+Type of Loss
+Application
+Entitled Person
+Compensation
+Arable land
+Less than 20 percent of land
+holding8 lost, the remaining
+land economically viable
+Title holder
+-Cash compensation for lost land at replacement
+cost.
+More than 20 percent of land
+holding lost OR where less
+than 20% holding lost but the
+remaining land becomes
+economically unviable
+Title holder
+-Land
+for
+land
+or
+compensation
+in
+cash.
+Compensation by receiving a new parcel of land of
+equivalent size and crop productivity and free of
+taxes, registration and transfer cost; at location
+acceptable to PAP; and with long-term security of
+tenure of better or equivalent nature to that
+affected.
+-Compensation for preparation of replacement land
+-Transition allowance for three months
+-Transfer/shifting allowance
+-PAPs will be entitled to income rehabilitation
+assistance
+Tenant/lease holder
+-Cash compensation equivalent to the replacement
+value of gross harvest for one year or for the
+remaining period of tenancy agreement, whichever is
+greater.
+Agricultural labor
+-Cash compensation equivalent to 6 months salary
+7The awards or CCLs are determined under units of Mauza (minimum boundary under land administration system
+in Bangladesh). As a result, a person becomes entitled to as many awards or CCLs as the number of mauzas where
+his/her property is acquired. The awards are paid separately for each mauza and each category of losses i.e. land,
+structure, trees, etc.
+8 Land holding refers to the land plot directly impacted by the project and does not include any other land holdings
+that a PAP may own at other locations.
+
+and assistance in getting alternative employment.
+Squatters
+Any squatters/encroachers affected by taking of
+agricultural land will not be entitled to compensation
+for land. Affected squatters will however, be
+provided with relocation assistance.
+Residential /
+commercial
+land
+Less than 20% of land holding
+lost and remaining land viable
+for present use
+Title holder
+-Compensation in cash at market value.
+Any squatters/encroachers affected by taking of
+residential land will not be entitled to compensation
+for land. For squatters see entitlements for affected
+structures.
+More than 20% holding
+affected OR where less than
+20% holding affected but the
+remaining area becomes
+smaller than minimally
+accepted under the zoning
+laws and unviable for
+continued use
+Title holder
+-Land for land or cash compensation. Replacement
+land of minimum plot of acceptable size under the
+zoning laws or a plot of equivalentsize, whichever is
+larger, in an area with adequate physical and social
+infrastructure. In the case of loss of commercial land
+the replacement land of sufficient size for business
+continuation in market are or at location comparable
+to previous site.
+-Replacement land to be free from taxes, registration
+and transfer costs.
+-Transition Allowance for three months
+-Transfer/shifting allowance.
+Any squatters/encroachers affected by taking of
+residential land will not be entitled to compensation
+for land. Squatters will however, be provided with
+relocation assistance.
+Tenant/Leaseholders
+-Cash compensation equivalent to the three months
+of rent or for the remaining period of tenancy/lease
+agreement, whichever is greater.
+
+Structures
+Structures partially
+affected but the remaining
+structure viable for
+continued use.
+Ownerwithvalid
+titletoland
+Squatters
+Tenants
+Encroachers
+Compensationincashforaffectedportionofthe
+structure
+andotherfixedassetsatreplacementcost, and
+-Assistance inrestorationoftheremainingstructure
+(RepairAllowance, minimum20%ofcompensation)
+-Compensationincashforaffectedportionofthe
+structure
+- Transfer/shiftingallowance.
+-Transition allowanceforthreemonths.
+-Cashcompensation equivalentto3months'
+rental
+allowance
+-Transfer/shiftingallowance
+-Assistance inalternaterentalaccommodation.
+-
+Early notice on the demolition
+-
+Technical advice in demolition, relocation
+and repairing of affected structure
+-
+Payment for repairing only those damages
+to structure resulting from demolition, if
+required
+-
+Transfer/shifting allowances, if required
+-
+Transitional allowance
+Entire structure affected
+OR where structures
+partially affected such that
+the remaining structure is
+unviable for continued use.
+Ownerwithvalid
+titletoland
+Compensationincashforentireaffectedstructur
+e andotherfixedassets(wells,electricandwater
+connections etc.)atreplacementcost,without
+depreciation.
+-Transfer/shiftingallowance.
+-Transition allowanceforthreemonths.
+Tenant
+-Cashcompensation equivalentto3months'
+rental allowance
+-Transfer/shiftingallowance
+-Assistance inalternaterentalaccommodation.
+
+Squatters
+Allaffectedsquatters willbeentitledto:
+-Compensationincashforaffectedstructure
+-Transfer/Shiftingallowance
+-Transition
+allowanceforthreemonthsAdditionally,squatters
+willbeprovidedwithrelocationassistanceandoffere
+dviableoptionstochoosefrom.
+Encroachers
+-
+Early notice on the demolition
+-
+Technical advice in demolition, relocation
+and repairing of affected structure
+-
+Payment for repairing only those damages
+to structure resulting from demolition, if
+required
+-
+Transfer/shifting allowances
+-
+Transitional allowance
+Loss of business /
+incomes
+or employment
+Temporary or permanent
+loss of business/ incomes/
+employment
+Affected individuals
+(titled/non-titled)
+-Employment in reconstructed enterprise or package
+for re-employment or starting a business
+-Transition allowance for the permanent loss of
+business, incomes & wages equivalent to the loss of
+income/wages for a period of 6 months for each
+affected members of households.
+-In case of temporary loss of business of incomes /
+businesses, compensation will be wages equivalent
+to closure period. Compensation rates will be agreed
+with the business owners and daily laborers and
+calculated on the basis of local surveys.
+-Priority will be given to PAPs when staff would be
+hired for the project
+Standing crops
+Crops affected by land
+acquisition or temporary
+acquisition/easement
+Owner of affected
+crops (titled/nontitled)
+-Compensation in cash at market value.
+Trees
+Trees lost
+Owner of affected
+trees (titled/nontitled)
+-Compensation in cash calculated on the basis of
+type, age and productive value of affected trees.
+Loss of public
+infrastructure
+Infrastructure (electric
+water supply, sewerage &
+telephone lines; public
+health center; public water
+tanks)
+Relevant agencies.
+-Compensation in cash at replacement cost to
+respective agencies or restoration of affected assets.
+Unforeseen
+Losses
+As identified
+As identified
+Appropriate mitigation measures as determined to
+meet the objectives of this policy framework
+
+8.2 Compensation Payment Procedure
+PMU will ensure that the properties (land, structure, and non-structured assets) to be affected
+by the project will be compensated at their full replacement cost determined by a legally
+constituted Resettlement Sub-committee (RSC) as per structure and mandated outlined in the
+RAP. The payment of compensation and other assistance, target replacement of productive
+assets and restoration of loss of income and workdays by the relocated households, especially
+the vulnerable households will be ensured by this committee. Compensation and other cash
+assistance will be paid through bank bills (cheques) payable to Bank accounts opened by the
+affected persons eligible for compensation and assistance under RAP. The Bank account will be
+in the joint name of husband and wife as the case may be.
+Compensation under law (CUL) will be paid through two different channels as per provision of
+RAP. CUL will be paid by Deputy Commissioner mandated for acquisition of land for the PMU
+while PMU will directly pay the remaining as per requirement of the RAPs directly to the project
+affected persons. PMU with the help of the project consultants will advise, assist, and monitor
+the affected persons receiving compensation and other cash assistance for better use of the
+money.
+8.3 Eligibility and cut-off date
+The cut-off date of compensation eligibility for title holders is decided according to the
+Acquisition and Requisition of Immovable Property Ordinance, 1982 and for non-titleholders; it
+is the start date of the census survey. Those who encroach into the subproject area after the
+cut-off date will not be eligible for compensation or any other assistance for relocation and
+resettlement.
+9Methodology for Preparation of Safeguard Documents
+9.1 Preliminary Screening
+During the identification and preliminary stages of project preparation, PMU will undertake
+a preliminary Land Acquisition Assessment to identify the types, degree, and scale of
+potential social impacts of the project. To correctly identify the relevant social issues and to
+assess the type and level of information required during subsequent field investigations,
+particular attention will be paid to adverse impacts to the affected community, such as loss of
+land and other fixed assets and the number of persons marginally or severely affected and the
+types of vulnerable groups affected.
+9.2 Project Preparation
+PMU with the help of consultants will be responsible for carrying out all necessary surveys, field
+studies and investigations, as identified during the screening. Prior to undertaking the survey
+PMU will conduct a public consultation campaign to describe the project components, types
+of impacts, content and schedule for the census and inventory or other background surveys to
+the key stakeholders.
+
+At least three basic types of surveys will be needed: a census; an inventory of affected assets
+and other losses; and a socio-economic baseline survey. The census and the inventory of
+affected assets will cover all PAPs, regardless of entitlement or land ownership. Criteria for
+vulnerability of PAPs should be paid particular attention in order to provide additional
+assistance.
+9.3 Public Consultation and Participation
+PMU will employ numerous consultation and communication methodologies during the
+preparation and implementation of the project. Participatory workshops, household surveys,
+focus groups, etc. will be used to inform communities about possible project impacts, proposed
+mitigation measures, and to receive their feedback on their priorities and concerns, which in
+turn, will be used as key inputs for the preparation of the RAPs. Focus groups will discuss
+gender issues, children and schooling, health, land and security, access to places of
+employment, livelihood generation issues, among others.
+PMU will carry out consultations at various stages of the preparation of the RAPs and the key
+stakeholders will be invited to participate in the deliberations for the formulation of the
+Resettlement and Rehabilitation (R&R) plans. The consultations will start with the
+reconnaissance level surveys followed by scoping workshops, focus group meetings, and follow
+up consultations. The opinions of stakeholders will be documented and incorporated in the R&R
+planning as well as in designing socially acceptable mitigation measures.
+The public consultation exercises undertaken during the preparation of RAPs involve
+information dissemination – i.e., informing the target audience about the details of the project
+intervention in question and inviting their comments before finalizing the R&R design. The
+consultations will be carried out with individuals during the screening survey stage and with both
+individuals and groups during the detailed social impact surveys. Based on preliminary social
+assessments, scoping and initial field appraisals, participatory strategies will be devised to
+ensure the participation of the affected populations in the RAP preparation. This approach will
+help identifying social sensitivities and concerns so as to suitably modify the design and
+planning of the project intervention; review measures to avoid, reduce or mitigate adverse
+impacts and minimize displacement; explain principles and procedures and significance of land
+acquisition, resettlement and rehabilitation compensations and assistance to PAPs. Public
+participation is performed and information will be made available during preparation and
+implementation of the resettlement plan and will include, at a minimum, community meetings
+and focus-group discussions.
+9.4 Grievance Redress Mechanism
+Grievances are issues, concerns, problems, or claims (perceived or actual) that individuals or
+community groups want to address and be resolved by the Project. The grievance mechanism
+is a locally based, project-specific extra-legal way to deal with and resolve complaints and
+grievances faster and thus enhance project performance standards in terms of social and
+resettlement management.
+
+World Bank has specific clauses/guidelines requiring the borrower/client to set up and maintain
+a grievance redress mechanism at the Project level. This mechanism does not replace donors’
+accountability mechanism, but is intended to solve grievances at the local level. If aggrieved, it
+is expected that affected people will first approach the local grievance mechanism before taking
+the issue to other forum. The GRC system established in this project is expected to be effective
+in resolving grievances related to compensation and relocation aspects. All affected persons will
+have full and free access to GRCs.
+9.5 Grievance Redress Committee (GRC)
+A two-tier bottom up GRC system will be established in this Project. First, there will be GRCs at
+the local level, hereafter called Local GRC (union/municipality level); and second, GRC at the
+project level to give room for grievances to be fairly reviewed. These GRCs will be established
+through gazette notifications from the Ministry. The APs will be informed through public
+consultation that they have a right to have their grievances redressed by the local committees
+as well as by the project management. The APs can also call upon the support of the
+implementing NGO (INGO) engaged to implement the RAP to assist them in presenting their
+grievances or queries to the GRC. Other than disputes relating to ownership right under the
+court of law, the GRC will review grievances involving all resettlement assistance, relocation
+and other support. The local GRCs (at the union/municipal level) will hear the grievances first.
+Only unresolved cases will be forwarded to the next tier – Project level GRC for further review
+and resolution. Grievances will be redressed within a month from the date of lodging the
+complaints. GRC decisions will be on a majority basis and will be disclosed and available for
+review by the stakeholders. If any disputant is unhappy or unsatisfied with the outcome of the
+Project level GRC, he/she may file cases in the court.
+GRCs at the union/municipality level (community level) will be formed with representatives from
+BWDB/DAE/BMD, local elected representatives from the Local Government Institutions (LGI),
+representatives of the affected persons (preferably women representative in case of women
+APs), and RAP implementing NGO. There will be one GRC at local (union/municipality) level by
+the project to make it accessible to affected people both in terms of distance and time.
+The Project-Level GRC will review all unresolved cases forwarded to by Local GRCs. It will be
+headed by the Project Director (PD). The Project-level GRC with representation of senior
+elected Upazila official and civil society member will further establish fairness and transparency
+in the resolution of disputes or grievances. In specific cases, Project-level GRC may seek legal
+advice from the INGO Legal Advisor or any external legal advisor, if required.
+9.6
+GRM Documentation and Monitoring
+To ensure impartiality and transparency, hearings on complaints at the GRC level will remain
+open to the public. The GRC will record the details of the complaints and their resolution in a
+register, including intake details, resolution process, and the closing procedures. PMU
+consultant will maintain the following three GRM Books:
+Opening Book: (1) Case no., (2) Date and channel of receipt, (3) Name of complainant, (4)
+Gender, (5) Father or husband, (6) Complete address, (7) Main objection (loss of land/property
+
+or entitlements), (8) Complainants’ story and expectation with evidence, and (8) Previous
+records of similar grievances.
+Resolution Book: (1) Serial no., (2) Case no.,(3) Name of complainant, (4) Complainant’s story
+and expectation, (5) Date of hearing, (6) Date of field investigation (if any), (7) Results of
+hearing and field investigation, (8) Decision of GRC, (9) Progress (pending, solved), and (10)
+Agreements or commitments.
+Closing Book: (1) Serial no. (2) Case no., (3) Name of complainant, (4) Decisions and
+response to complainants, (5) Mode and medium of communication, (6) Date of closing, (7)
+Confirmation of complainants’ satisfaction, and (8) Management actions to avoid recurrence.
+Grievance resolution will be a continuous process during subproject implementation. The GRC
+and PMU will keep records of all resolved and unresolved complaints and grievances (one file
+for each case record) and make them available for review. The GRC will also prepare periodic
+reports on the grievance resolution process and publish these on their websites. PMU will
+consolidate reports from the GRCs on GRM and post in their website. A grievance Redress
+flowchart is given below.
+
+Figure 01: A Grievance Redress Flowchart
+10 Surveys and Documentation:
+10.1 Preliminary Screening:
+During the identification and preliminary stages of any sub-project preparation, PMU will
+undertake a preliminary Social / Land Acquisition Assessment to identify the types, degree and
+scale of potential social impacts of the sub-components. To correctly identify the relevant
+social issues and to assess the type and level of information required during subsequent field
+Aggrieved Persons
+Application submitted to GRC through INGO
+LGRC members
+x
+IA Representative
+x
+INGO Representative
+x
+LGI Representative
+x
+APs Representative (Male-
+1, Female-1)
+Scrutinize complaints by GRC
+Complaints under
+Arbitration or existing
+LA Law
+Not under Arbitration or Law and be settled as per RP
+policy
+Not Redressed
+Referred to DC
+Redressed
+Recommendation for
+compensation
+Approach to PGRC for review
+Decision Accepted
+Claim Rejected
+GRC Hearing within 4 weeks of lodging the claim at LGRC
+Recommendation for
+compensation
+Claim Rejected
+Approach to Court for final verdict
+Decision Accepted
+District Judge’s Court
+PD for Approval
+IA/INGO for Payment
+Approach to
+Court for final
+verdict
+Decision Accepted
+
+investigations, particular attention will be paid to adverse impacts to the affected community,
+such as loss of land and other fixed assets and the number of persons marginally or severely
+affected and the types of vulnerable groups affected. The information collected during the
+preliminary social / land acquisition assessment will provide the basis for determining severity
+of impacts and the level and depth of subsequent field surveys, investigations and
+documentation. In cases, where the preliminary assessment indicates that the potential impact
+of the proposed project will be significant, appropriate preparation will be done for extensive
+field surveys and consultation with key stakeholders and appropriate mitigation will be
+provided.
+10.2RAP Preparation:
+It is most likely a RAP will not be required to prepare for this project. But if it is required, based
+on the census and inventory of data and field investigations, RAP would be prepared in
+sufficient details depending upon the degree and scale of impacts in the project. For the RAP
+preparation process to begin, the exact ground locations of the required lands and other
+structures are to be identified first and demarcated. The LAPs will be prepared for each
+scheme and will include plot schedules, (with dag or plot numbers), the amount of land to be
+acquisitioned from each plot, and the ownership status, such as private and public lands. Land
+acquisition Proposals together with information on affected plot schedules and ownership status
+will be used as the basis by the DC office to determine CUL. Where surplus or other public land
+parcels can be identified these can be considered for relocation of displaced squatters. With the
+acquisition locations demarcated on the ground, work on the major process tasks, such as
+social screening and PAP census, will begin to generate the RAP inputs.
+10.3 Abbreviated (Summary) Resettlement Action Plan:
+In cases where the impacts of the project are marginal such that less than 200 persons (about
+40-50 families) are affected without any large scale displacement, or where the impacts are
+minor, although more than 200 persons may be affected, a simple abbreviated RAP should be
+prepared. It should provide general information on the project, social impacts and the
+number of people affected, entitlements for compensation and other assistance for each
+category of PAPs, estimated cost, and implementation schedule.
+10.4 Detailed RAP:
+In cases where the project affects and/or displaces more than 200 people (40-50 families), a
+time-bound Resettlement Action Plan (RAP) for the project will be prepared in accordance
+with the provisions of this Framework. The threshold of 200 PAPs should apply to all subprojects put together for which one single standalone RAP would be required. Resettlement
+plans should be built around development strategy, and compensation, resettlement, and
+rehabilitation packages should be designed to improve or at least restore the social and
+economic base of those severely affected. Preference should be given to resettling vulnerable
+people dislocated from their existing settings by providing opportunities for sustainable
+income generation in similar settings. Where a project is likely to adversely affect poor
+households the resettlement plans should specify measures additional to the compensation
+
+entitlements, aimed to improve status of the poor to bring them up to an acceptable level above
+the poverty line.
+The RAP will include: (i) project description and brief description of impacts; (ii) specific
+measures taken to minimize adverse impacts; (iii) socio-economic survey; (iv) detailed
+description of impacts and category of PAPs; (v) entitlement for different types of losses;
+(vi) specific measures provided to vulnerable groups and for income rehabilitation
+assistance; (vii) public consultation and participation; (viii) estimated resettlement cost; (ix)
+monitoring and evaluation procedures; (x) organizational responsibilities and implementation
+procedures including valuation of lost assets; identification of alternative relocation sites;
+provisions for shelter, infrastructure and social services; and procedures for landownership,
+acquisition and transfer; and (xi) implementation schedule (xii) grievance redress mechanism.
+The PMU will share the RAP with the WorldBank for review and approval, before the civil works
+packages are accepted for Bank financing. During implementation, PMU will ensure that all
+compensations/entitlements due to the PAPs are paid in full, before the civil works begin
+on the acquired lands, including the public lands repossessed from private uses.
+11Public Consultation and Participation
+Bangladesh Weather and Climate Services Regional Project will provide direct connectivity
+between the project beneficiaries and the project. Consultation and Participation (C&P) is a
+process through which stakeholders influence and share control over development initiatives,
+and the decisions and resources that affect them. It is a two way process wherein the EA, policy
+makers, beneficiaries and affected persons listen to each other and discuss their views and
+concerns in a project process. C&P increases the level of support for the Project and related
+activities from a range of stakeholders, which can speed up processing and reduce challenges
+during implementation. C&P hence improves the effectiveness, relevance, and sustainability of
+development activities in the long run. People of Bangladesh are not well known about the
+benefits of climate services. Consultation is one of the best ways to relate people with the
+climate products. In line with the above, a detailed Public Consultation and Participation
+framework (PCPF) have been prepared for the Bangladesh Weather and Climate Services
+Regional Project.
+11.1Key Objectives of the PCPF
+The PCPF is to design to ensure that adequate and timely information is made available to the
+project affected people and communities and sufficient opportunities are provided to them to
+voice their opinions and participate in influencing the upcoming project decisions and
+processes. The PCPF is intended to define objectives and establish the framework necessary to
+provide understandable information to all stakeholders involved. The main objective of the
+PCPF is to ensure timely, effective and multi-directional communications between the EA and
+the affected persons and communities. So that people can get the benefits of the climate
+products.
+
+11.2Guiding Principles of the PCPF
+The PCPF is guided by the World Bank’s safeguard policies OP 4.12.The policies give high
+priority to public consultation and participation and encourage incorporation of community’s
+views in design and implementation of a socially and environmentally compliant project. These
+policies stress on ensuring that the affected persons and beneficiaries have not only been
+consulted but that their opinion are acknowledged and accounted for in project designs. The
+Government of Bangladesh (GOB) also has some acts and policies in line with this requiring
+consultation with project affected people. The relevant GOB and World Bank’s requirements
+with regard to C&P have been duly incorporated in the PCPF.
+11.3Key Stakeholders in the Project
+A stakeholder is any person, group or institution that has an interest in an activity, plan or
+program. This includes intended beneficiaries and intermediaries, winners and losers, and those
+involved or excluded from decision-making processes.
+Table 07 below presents the classification of the key stakeholders of Bangladesh Weather and
+Climate Services Regional Project.
+Table 04: Classification of the Stakeholders
+Type of Stakeholder
+Stakeholder Profile
+Primary stakeholders
+(those
+ultimately
+affected,
+either
+positively or negatively)
+Project beneficiaries (Government, Non-government organizations,
+farmers, fishermen, tourists, and all climate products users)
+Persons affected due to involuntary displacement and resettlement in
+the project area.
+Secondary
+stakeholders
+(those
+with
+some
+intermediary role)
+Project owner and EA, Deputy Commissioners (DCs) and their
+supporting agencies, Local government, Design and Management
+Consultants, Implementing Non-Government Organization (NGOs)
+and Independent External Monitor
+11.4Consultation & Participation from Feasibility to Detailed Design Stage
+The public consultation processes in the project area was initiated in 2015 and have to continue
+until people started getting the benefits. The consultation and participation process undertaken
+so far has adopted a highly “participatory methodology” fully involving all the stakeholders (both
+primary and secondary stakeholders). The project-affected persons, particularly those in the
+corridor of impact, were consulted in designing the resettlement policy framework and
+entitlements. The consultation process is also necessary during the detailed design period
+through formal and informal meetings, village level workshops, and disclosure of project impacts
+to the affected households and communities.
+11.5Public Consultation & Participation Processes in Project Implementation
+The major C&P process that will be undertaken during the Project implementation will include
+the following:
+
+11.5.1Information Dissemination through Upazila:
+To maintain transparency and keep the communities informed, project information will be
+disseminated to the public from upazila BWDB, DAE offices. These offices will have a key role
+in disseminating project-related information and will be managed by the implementing
+organization.
+11.5.2Public disclosure of Project-related documents:
+
+Project design, impact and policies for mitigation of adverse social and environmental impacts
+will be disclosed in local language (Bangla) to the influence area people particularly the affected
+persons and host communities. Specific provisions for public disclosure of Project related Plans
+have also been incorporated in the specific plan documents. These documents outline the
+specific mechanisms that have been or will be adopted for conducting meaningful consultation
+with affected persons and for enabling their informed participation in preparing, implementing,
+and monitoring of these plans. These documents also outline the specific institutional
+responsibilities as well as the disclosure arrangements for the same.
+The RPF and all safeguard documents will be translated into Bangla (local language) and
+disclosed locally and the English versions will disclosed through the Bank’s Infoshop. PMU will
+upload the above documents in their official websites along with a Bangla translation. RAP in
+Bangla will be available at accessible public places identified during RAP preparation for public
+review and comment. PMU will announce the disclosure in a Bangla and an English Daily with
+wide circulation.
+11.5.3One-day National Seminar on Social and Environmental Safeguards:
+A one-day national seminar on social/resettlement and environment safeguards, following the
+submission of the safeguard documents will be organised. Objectives of the seminar include
+consultation with key stakeholders, dissemination of the policy adopted in the project, share
+details of implementation/institutional arrangements, mechanism for safeguarding the project
+affected people particularly the vulnerable groups, and the opportunities for local stakeholders
+to be involved in the project monitoring and implementation.
+11.5.4Special Orientation and Consultation Sessions:
+The implementing agencies, monitoring agents and the executing agency will identify need for
+occasional consultations with the beneficiaries and affected persons. With the emergence of
+public involvement in special issues to avoid difficulty in the implementation process, EA will
+conduct the meetings.
+11.6Stakeholder engagement in Committees:
+In order to further facilitate participation and consultation with communities, participation of key
+stakeholders has also been integrated in key Committees and Forums related to the Project
+namely - Grievance Redress Committee, Property Valuation Advisory Committee (PVAC) and
+the Resettlement Advisory Committee: During the implementation stage, a Resettlement
+Advisory Committee (RAC) will be formed in each district to seek inputs from local stakeholders
+in the decision making and implementation of the RAP if needed.
+
+12Purpose of the CSAPF:
+The purpose of the Communication Strategy and Action Plan (CSAP) framework is a living
+document that will link the Bangladesh Weather and Climate Services Regional project related
+information with a feedback process that can be monitored, evaluated, updated and adapted. As
+such it will ensure that the growing knowledge and experience gained during its implementation
+stages will (i) be duly shared with different publics and stakeholders, and (ii) provide guidance
+to resolve any communication conflicts across key stakeholders. The strategy will help duty
+bearers/offices/authorities of Executing agencies at the delivery end to provide specific
+message to target audiences at the recipient end.
+12.1 Objectives:
+The objective of the project-centered CSAP is to help the Bangladesh Water Development
+Board (BWDB), Bangladesh Meteorological Department and Department of Agricultural
+Extension:
+x
+To keep the population in the project area as well as all critical stakeholders and the
+wider external publics informed and up-to-date on program activities and progress;
+x
+To communicate the program benefits to relevant stakeholder through appropriate media
+to gain visibility and gather support for the project
+x
+Respond appropriately to media coverage – issue management
+x
+To provide guidelines to BWDB, BMD and DAE for developing a sustainable mechanism
+for dealing with information flow and establishing feedback mechanism internally and
+externally
+12.2Targeted populations for CSAP
+The stakeholders and target population will be identified in detail through stakeholder mapping
+but will include:
+x
+People in the program area, that are directly or indirectly affected
+x
+Stakeholders influencing the development in the project area
+x
+Media outlets and partners on local and national level
+x
+Farmers who are dependent on the weather information for their agricultural productivity
+x
+Organizations/public who are dependent for the climate products
+12.3 Scope of work
+x
+Conduct stakeholder mapping and assessing their roles at different stages of the project
+implementation
+x
+Identify appropriate channels of communication for information sharing and feedback,
+and assessing information needs of different publics on the project
+As part of the social assessment, the communication-relevant parameters will be analyzed; a
+strategy will be formulated and presented in the proposed CSAP, which will have the following
+deliverables:
+
+x
+Audience Analysis will include the state of peoples’ media and communication access in
+the project areas, identify information needs, preferred channels of communication and
+describe the segmentation of the various publics.
+x
+Stakeholder Analysis will include mapping of stakeholder, and identification and analysis
+of their roles
+x
+Communication Capacity will provide an overall assessment of institutional capacities of
+BWDB/DAE/BMD (in relation to dealing with media, communication and information) in
+operating an information dissemination and feedback management system which may
+go beyond the project phase
+x
+Information sharing – strategic activities/tactics & channels,
+x
+Message development
+x
+Guidelines for monitoring and evaluation,
+x
+Budget and implementation timeline
+12.4Approach
+Qualitative methods will be used in collecting data for preparing the Communication Strategy
+and Action Plan. The techniques wouldinclude focus group discussion (FGD), Key Informant
+Interviews (KII), in-depth interview (IDI) and Community Consultation (CC). Primary qualitative
+data will be collected from the priority target groups as mentioned above Interviews with key
+informants; among others will include project personnel and key decision makers.
+As preparing a CSAP for the project will depend on the outputs of other studies, results of
+questionnaire survey of those components will provide crucial information for the strategy as
+well. Participants of KII, IDI and FGD will be selected based on their availability and willingness
+to participate.
+The FGD group would be homogeneous in terms of socio-economic condition, sex and age. On
+average, 8-10 participants will be invited to participate in the FGD. One moderator and one note
+taker will conduct the sessions. However, since the ground level work of the strategy will
+commence after studies of other components have taken place to some extents, at the moment
+the number of FGD, KII and community interview/consultations are not concretely calculated
+here.
+Primary information (such as access to media; and preferable channel of communication to
+receive riverbank improvement project related information) needed in formulating the
+communication strategy will also be collected from the surveys conducted for livelihood, social
+assessment, health, and gender studies. These components will include questions on
+communities’ access to information, preferences in selecting media and channel of
+communication for receiving information (as well giving feedback) on the climate products and
+project. It is also important to know how and through which channel(s) they would like to receive
+and impart information on health, livelihood and gender, for example.
+Information derived from the overall social assessment consultations will also contribute in
+understanding peoples’ communication needs at different levels and identifying the effective
+communication channels for external publics and stakeholders. Moreover,project documents
+
+along with communication reports of similar nature will be most useful in getting secondary
+information.
+12.4.1Key questions to be discussed
+x
+State of communities’/peoples’ access to media (Television, Radio, Newspapers, Mobile
+Phone etc.) in regards of receiving weather information
+x
+If currently people can listen to programs broadcast by Bangladesh Betar, private FM
+channel(s) or any community radio station(s) and can listen the weather information
+x
+What
+kinds/types/categories
+of
+information
+do
+the
+people
+expect
+from
+theGovt./BWDB/DAE/BMD/Project office(s)?
+x
+Most preferred channel of communication and media choice/option to access project
+related information, including weather related issues) in the pre, during and post stages
+of implementation
+x
+Peoples’ views on the role of community leaders, local government, NGOs and elected
+peoples’ representatives etc. in proving information and solving issues/problems (if there
+is any) locally that in one way or another may affect implementation of the project.
+12.4.2 Supplementary questions to be discussed
+x
+Availability and/or access to electricity
+x
+Access to the Internet to recive weather information
+x
+Mobile phone use by the male and female (particularly whether women have access
+to/or ownership of mobile phone).
+x
+If there is are local newspapers published from upazilas with the updated weather
+forecast.
+x
+Availability and readership of newspapers
+x
+Most preferred channel of communication (both media and non-media) for receiving
+weather information’s.
+x
+Most preferred channel of communication and media to receive information on project
+update.
+13 Implementation Arrangements
+The Resettlement Policy Framework (RPF) implementation requires an organization support
+structure in the form of organizational requirements, training needs and plan, and information
+management system. The Project management Unit (PMU) is responsible for overall project
+management and coordination through its Ministry of Defense (MoD), Ministry of Water
+Resources (MoWR), and Ministry of Agriculture (MoA). The purpose of project management is
+to ensure (i) Project Oversight and Policy Direction, (ii) Project Coordination and Management,
+and (iii) Project Implementation.
+To carry out the above functions, (i) a Project Steering Committee (PSC) and (ii) three Project
+Implementation Units (PIUs) each at BMD, BWDB and DAE will be established. To facilitate
+coordination between the three PIUs during implementation, the PSC will set up a Project
+management Unit (PMU) and the PMU will have a Safeguard Specialist for the duration of the
+project. Therefore, will have two levels of implementation, at project and also at component
+level.
+
+13.1 Project Level
+A central Project Steering Committee (PSC) will take the lead in overseeing and monitoring of
+the implementation of components and this unit will periodically supervise and monitor the
+safeguard implementation performance and include the progress/results in the Project Progress
+Report. The PSC will provide an apex platform/forum for overall guidance, policy
+advice/decision, and coordination of project activities addressing inter-agency issues that may
+arise during project implementation.
+The PSC will be convened by the Secretary of the MoWR. The PSC will include the Secretaries,
+or their representatives from the Finance Divisions, Ministry of Defense, Ministry of Agriculture,
+& Ministry of Disaster Management and Relief and any relevant Government Stakeholders.
+Secretariat support will be provided by the PMU office at BWDB. The PSC will oversee,
+(a)
+Compliance with measures agreed with the World Bank on the basis of the findings and
+results of the Screening, as set out in the project documents;
+(b)
+The status of mitigation measures; and
+(c)
+The findings of monitoring programs.
+The Safeguard Specialist will provide support to the PIUs throughout the EA process with
+advice, training, dissemination of good practice, and operational support.
+13.2 Component Level
+During project implementation, the component owner or Project Implementation Units (PIU)
+responsible for each Component will be responsible for ensuring effective implementation of
+safeguard measures in close consultation with local authorities and local communities. This
+means there will be three PIUs associated with each implementing agency. The PIU will assign
+at least one full time staff as the safeguard focal person to be responsible for forging effective
+implementation of safeguard activities in each of the project locations. PIU-BMD and PIU-DAE
+will assign one additional staff each for training purposes and to ensure continuity in case of
+transfer of assigned focal person. The PIU will be responsible for incorporating social
+considerations in bidding and contractual documents. During implementation, the PIU will
+assign local officials to be responsible to monitor safeguard issues. The results will be part of
+the component progress report and the safeguard focal point will be responsible for ensuring
+proper documentation of safeguard activities.
+PIUs will be actively involved in disseminating information on to beneficiaries about the key
+project components, subcomponents, activities, stakeholder involvement, contribution of the
+project and project implementation process. Professional support will be provided to PIU
+through BMD, BWDB and DAE.
+The organizational flowchart is shown in Figure 2,
+
+Figure 2: Implementation Arrangement
+The number of professionals responsible for successful implementation of EA will be,
+Project level: A Safeguard Specialist, part of the PCU will be responsible for effective and timely
+implementation of safeguard activities, monitoring of the impacts of components throughout the
+project period and social enhancement of project activities.
+Component level: A safeguard Focal Point in each of the PIU, that is total three Focal Points in
+each of the PIU who will be responsible for forging effective implementation of safeguard
+activities in each of the project locations.
+13.3 Institutional Mechanism for Cooperation between Implementing Agencies
+The PSC will ensure coordination between the three implementing agencies. Inter-agency coordination mechanism can be institutionalized as follows:
+x
+Forming coordination committee and regular review meeting
+x
+Making Memorandum of Understanding (MoU) or contract among stakeholders, if
+needed for particular information sharing or for implementing particular tasks specified in
+the RPF
+x
+Involvement of stakeholders in the implementation and O&M of the sub-projects
+x
+Regular capacity building programme for stakeholders through training/ seminar/
+workshop
+During implementation, the institutional mechanism for inter-agency co-ordination can be
+assessed by the following criteria:
+x
+Co-ordination committee formed
+Project Management
+Unit (PMU)
+(Safeguard Specialist)
+Project
+Implementation Unit,
+BMD (PIU-BMD)
+Project
+Implementation Unit,
+BWDB (PIU-BWDB)
+Project
+Implementation Unit,
+DAE (PIU-DAE)
+Project Steering
+Committee (PSC)
+The World bank
+
+x
+MoU or contract signed among stakeholder for involvement in project
+x
+Stakeholders consultation workshops held
+Table 4: Roles and responsibilities of project implementation team
+Responsible Unit
+Major Activities
+Output
+Action Time Frame
+Project Steering
+Committee
+(PSC)
+Guide
+overall
+Safeguard
+Performance of the project
+Oversight
+and
+monitoring
+Obtain
+safeguard
+Clearance
+from
+World Bank
+Throughout
+project
+life cycle
+Safeguard
+Specialist, PMU
+Monitor key activities and track
+performance.
+Identify and correct problems.
+Keep
+adequate
+records
+of
+performance.
+Conduct
+periodic
+safeguard
+management system audits
+Capacity development of PIU
+and
+professionals
+of
+implementing agencies
+Instructions to PIU
+Throughout
+project
+life cycle
+Safeguard Focal
+Person,
+Project
+Implementation
+Units (PIU)
+Community relations
+Implementation
+of
+mitigation
+measures
+Support
+implementation
+of
+safeguard documents
+Compliances with
+the
+safeguard
+issues
+Once a month but
+responsibility
+runs
+throughout the project
+life cycle
+14 Institutional Capacity Building
+The project has strong social development focus and the implementation of the project
+interventions with social compliance requires institutional capacity building in this area. It is
+therefore proposed to include Social Development Specialist in each Project Management Unit
+within the Implementing Agencies initially under the project which should later be
+institutionalized in the organizational setup of these agencies.
+Institutional capacity building will also include various short and long training and awareness
+raising program. All such training and awareness raising program must include social
+development aspects such as resettlement, special assistance to small ethic and vulnerable
+communities and disadvantaged groups, inclusiveness, participation besides technical and
+environmental aspects and overall enhancement of disaster management capacity of the
+concerned organizations and the project in general.
+15 Monitoring and Evaluation
+15.1 Indicators for Monitoring and Evaluation:
+Impacts of the proposed subcomponents on physical, socioeconomic and cultural environment
+will be monitored on the basis of a scheduled plan. Frequency of monitoring will depend on size,
+location and magnitude of the project parameters. The PMU is responsible to adhere with
+
+monitoring parameters, locations, schedule and responsibilities. Impact monitoring will be
+carried out through internal monitoring system. Likewise, two time impact evaluation will be
+carried out: mid-term evaluation in two years; and final evaluation in four years.
+15.2Stages of Monitoring and Evaluation
+Monitoring and evaluation process will be focused on indicators specific to process by PIU and
+outcomes at three consecutive stages of RAP implementation (if required): RAP preparatory
+stage, relocation stage and rehabilitation stage. Viewpoint of M&E at these stages will be as
+follows: M&E at Preparatory Stage.
+15.3 M&E at Preparatory Stage
+Monitoring is concerned with administrative issues for the period of the pre-relocation phase of
+the resettlement process such as, establishment of resettlement unit, budget management, and
+requirement for further land acquisition, consultation with DPs in the preparation of resettlement
+plan and their participation in the implementation process, information dissemination on
+payments of entitlement due, grievance redress, and so on. The major issues for monitoring will
+be to:
+x
+Conduct additional baseline survey, if required;
+x
+Consultations;
+x
+Identify DPs and their numbers;
+x
+Identification of different categories of DPs and entitlements of individuals;
+x
+Collection of gender disaggregated data and preferences of women;
+x
+Establish Inventory of losses;
+x
+Ascertain Entitlements;
+x
+Valuation of different assets not covered by PAVC;
+x
+Budget delivery;
+x
+Information dissemination;
+x
+Institutional capacity assessment;
+15.4
+M&E at Rehabilitation Stage
+Once the DPs have resettled at new self-relocated sites, the focus of monitoring will shift to
+issues of livelihood restoration. The key issue of monitoring will be:
+x
+Initiation of livelihood restoration activities;
+x
+Consultations;
+x
+Assistance to enhance the livelihood and quality of life
+15.5
+M&E Indicators
+According to the compliance with the RAP policy and targets the implementation process will
+monitor through setting up indicators. The most vital mechanism/indicators will be monitored
+specific contents of the activities and entitlement matrix. The RAP contains indicators and
+benchmarks for achievement of the objectives under the resettlement program. These indicators
+and benchmarks will be reviewed for implementation process, outcomes and impacts.
+
+15.6 Process Indicators
+x
+Project input, public participation and monitoring
+x
+Setting up an RAP implementation organization
+x
+Deployment of implementing agencies
+x
+Training of resettlement staff
+x
+Census, inventory of loses, baseline socioeconomic survey
+x
+Placement of funds for land acquisition and resettlement
+x
+Expenditure of implementing agencies
+x
+Procedure of identification of eligible affected persons
+x
+Procedure of determining loss and entitlements
+x
+Development of livelihood and income restoration program
+x
+Preparation of disclosure instruments
+x
+Disclosure and consultation events
+x
+Formation of GRC, PAVC and RAC
+x
+Grievance redresses procedures in-place and functioning
+x
+Level of public awareness on RAP policy and provisions
+x
+Cost of compensation collection by DPs
+x
+Monitoring reports submitted
+15.7 Output Indicators
+x
+Delivery of entitlements,
+x
+Relocation and rehabilitation
+x
+Number of households relocated by areas
+x
+Number of households compensated and assisted
+x
+Number of businesses relocated by areas
+x
+Number of affected persons purchased replacement agricultural land
+x
+Amount of compensation disbursed
+x
+Amount of resettlement benefits disbursed
+x
+Number of eligible persons identified for training
+15.8 Impact Indicators
+x
+Longer term impacts
+x
+Changes in housing
+x
+Changes in drinking water and sanitation
+x
+Changes in land holding
+x
+Changes in occupation
+x
+Changes in income and expenditure
+x
+Pace of income against change in expenditure
+x
+Changes in attending health problems
+x
+Nutrition of women and children
+x
+Gender balance and women empowerment
+x
+Changes in vulnerable households and women headed households
+
+16Budget
+To comply with the social safeguard policies, adequate financial resources will be required. A
+total of 8,97,435 USD$ has been kept in provision for the implementation of the safeguard
+documents. The budget is subject to revision based on project requirements during the
+implementation stage. Although it is expected that land acquisition will not be required for
+implementation of the project, but squatters, encroachers, lessees, might need to be resettled
+and rehabilitated before implementation of the project. Financial resources will have to be
+allocated for such activities when a site specific RAP is prepared and implemented. The
+executing agency will have to undergo capacity building trainings as well as trainings for the
+project beneficiaries to be able to have the understanding to be in the information loop. The
+budget should address it as an integrated component within cost of the project. Resettlement
+and rehabilitation will be a primary concern of project budgetary affairs. A particular section of
+the budget will include other costs involved with project implementation including project
+disclosure, public consultations and focus group discussions, surveys, training, and monitoring
+and evaluation. This approximation may be revised based on changes on any additional
+impacts to be considered during implementation. Therefore, the budget will remain as a
+dynamic process for cost estimate during implementation.
+Table 05: Social Safeguard implementation budget
+S.
+No.
+Activities
+Cost in BDT
+Cost
+In
+USD(1$=78 BDT
+Capacity Building for the BWDB (training )
+1,00,00,000
+1,28,205
+Capacity Building for the BMD (training )
+1,00,00,000
+1,28,205
+Capacity Building for the DAE (training )
+1,00,00,000
+1,28,205
+Consultation
+and
+communication
+with
+different stakeholders for four years
+2,00,00,000
+2,56,410
+Preparing safeguard documents if
+needed;
+2,00,00,000
+2,56,410
+Total
+7,00,00,000
+8,97,435
+
+Annex-1: Social Safeguard Screening for BWCSR Project
+[To be filled in for each community jointly by Project Proponent(s) and consultants. Where private lands
+are to be acquired or public lands are to be resumed from authorized and unauthorized private users,
+census of affected persons and inventory of losses to be carried out.]
+A. Identification
+1. Name of Area: .............................
+Ward No/Union name :
+..........................................
+District/Upozila/City Name:
+......................................................
+2. Project component: ...................................................................................... ......................... .......
+3. Brief description of the physical works: ............................................................................
+........................................................................................................................................
+........................................................................................................................................
+4. Screening Date(s): ................................................................................................
+B. Participation in Screening
+5. Names of consultants’ representatives who screened the subproject :
+6. Names of DAE/BWDB/BMDofficials participated in screening:
+7. Local Government representatives and community members & organizations participated in screening:
+List them in separate pages with names and addresses, in terms of community selection and any
+other information to identify them during preparation of impact mitigation plans.
+8. Would-be affected/benefited persons participated in screening: List them in separate pages with
+names, addresses in terms of community selection where they would be affected, and any other
+information to identify them during preparation of impact mitigation plans.
+C. Land Requirements & Ownership
+9. Will there be a need for additional lands* to carry out the intended works under this contract?
+[ ] Yes [ ] No (* ‘Additional lands’ mean lands beyond the existing available land)
+10. If ‘Yes’, the required lands presently belong to (Indicate all that apply):
+[ ] Private citizens
+[ ] Government – khas& other GoB agencies
+[ ] Others (Mention): .............................................................................................
+D. Current Land Use & Potential Impacts
+11. If the required lands belong to Private Citizens, they are currently used for
+(Indicate all that apply):
+[ ] Agriculture
+# of households using the lands: ..........................................
+[ ] Residential purposes
+# of households living on them: ..........................................
+[ ] Commercial purposes
+# of persons using them: .........................
+#of shops: ......
+[ ] Other Uses (Mention): ..........................................................
+# of users: ...
+12. If the required lands belong to Government agencies, they are currently used for (Indicate all that
+apply):
+[ ] Agriculture
+# of persons/households using the lands: ..................................
+[ ] Residential purposes
+# of households living on them: ...............................................
+[]Commercial purposes
+# of persons using them: ...............
+# of shops: ......
+[ ] Other Uses (Mention):
+...........................................................
+# of users: .......
+
+13. How many of the present users have lease agreements with the concerned government agencies?
+.......................................................................................................................................
+14. Number of private homesteads that would be affected on private lands:
+Entirely, requiring relocation: ........
+Partially, but can still live on present homestead: ......
+15. Number of business premises/buildings that would be affected on private lands: ..............
+Entirely and will require relocation: .....................
+# of businesses housed in them: .......
+Partially, but can still use the premises: ............
+# of businesses housed in them: .......
+16. Residential households will be affected on public lands: ..............
+Entirely affected and will require relocation:
+# of these structures: .............
+# of structures built with brick, RCC, & other expensive and durable materials: ..............
+# of structures built with inexpensive salvageable materials (bamboo, GI sheets, etc.: ....
+Partially affected, but can still live on the present homestead:
+# of structures: ..............
+# of structures built with brick, RCC, & other expensive and durable materials: ..............
+# of structures built with inexpensive salvageable materials (bamboo, GI sheets, etc.): ....
+17. # ofbusiness premises that would be affected on public lands:
+Entirely affected and will require relocation:
+# of these structures: .............
+# of businesses housed in these structures: ...............
+# of persons presently employed in the above businesses: ...............
+# of these structures built with brick, RCC, & other durable materials: ...............
+# of structure built with inexpensive salvageable materials (bamboo, GI sheets, etc.): ......
+Partially affected, but can still stay in the present premises:
+# of these structures: .............
+# of businesses housed in these structures: ................
+# of persons presently employed in these businesses: ...............
+# of these structures built with brick, RCC, & other durable materials: ...............
+# of structure built with inexpensive salvageable materials (bamboo, GI sheets, etc.): ......
+18. # of businesses/trading activities that would be displaced from make-shift structures on the project
+area: .................
+19. Do the proposed project works affect any community groups’ access to any resources that are used
+for livelihood purposes?
+[ ] Yes
+[ ] No
+20.If ‘Yes’, description of the resources:
+............................................................................................................................................................
+...............................................................
+...............................................................................................................................................
+........................................................................................................................................
+........................................................................................................................................
+........................................................................................................................................
+21. Do the proposed works affect community facilities like school, cemetery, mosque, temple, or others
+that are of religious, cultural and historical significance?
+[ ] Yes
+[ ] No
+
+22. If ‘Yes’, description of the facilities: .....................................
+........................................................................................................................................
+........................................................................................................................................
+.......................................................................................................................................
+........................................................................................................................................
+........................................................................................................................................
+23. Describe any other impacts that have not been covered in this questionnaire?
+........................................................................................................................................
+........................................................................................................................................
+........................................................................................................................................
+........................................................................................................................................
+24. Describe alternatives, if any, to avoid or minimize use of additional lands:
+........................................................................................................................................
+........................................................................................................................................
+........................................................................................................................................
+........................................................................................................................................
+........................................................................................................................................
+E. ADDITIONAL INFORMATION ON SMALL ETHNIC COMMUNITY PEOPLES
+(This section must be filled in if sites are located in areas that are also inhabited by small ethnic
+community peoples.)
+Is the subproject site located in an area inhabited by small ethnic community peoples?
+[ ] Yes
+[ ] No
+If the answer is no, skip this section of the form.
+If the answer is Yes, is there any TPs Impacted by the land acquisition or any other interventions of
+the project?
+[ ] Yes
+[ ] No
+If the answer is Yes to question no. 26, is there any TPs also likely to be benefited from the
+subproject?
+[ ] Yes
+[ ] No
+If the answer is Yes to question no. 26, is there any TPs likely to be affected by the subproject?
+[ ] Yes
+[ ] No
+If the answers to questions 26, 27 and/or 28 are no, skip the following sections of the form.
+29. Have the TP community and the potential affected TPs been made aware of the potential positive
+and negative impacts and consulted for their feedback and inputs?
+[ ] Yes
+[ ] No
+Has there been a broad-based community consensus on the proposed works?
+[ ] Yes
+[ ] No
+30. Total number of would-be affected TP households: ......................................................
+31. The potential affected TP households have the following forms of rights to the required lands:
+[ ] Legal:
+# of households: ............
+[ ] Customary:
+# of households: ............
+[ ] Lease agreements with any GoB agencies:
+# of households: .............
+[ ] Others (Mention): ............................................
+# of households: .........
+32. Does the project affect any objects that are of religious and cultural significance to the TPs?
+
+[ ] Yes
+[ ] No
+33. If ‘Yes’, description of the objects:
+..................................................................................................................
+..................................................................................................................
+34. The following are the three main economic activities of the potential affected TP households:
+a.
+.................................................................................................
+b.
+.................................................................................................
+c.
+..............................................................................................
+35. Social concerns expressed by TP communities/organizations about the works proposed under the
+subproject: ......................................................................................................................
+..................................................................................................................
+..................................................................................................................
+36. The TP community and organizations perceive the social outcomes of the subproject:
+[ ] Positive
+[ ] Negative
+[ ] Neither positive nor negative
+37. Names of TP community members and organizations who participated in screening:
+....................................................................................................................
+38. Apart from TP, Are the PAP otherwise vulnerable?
+a. Female headed HH Affected persons F
+M
+b. Other Female PAP
+Affected persons F
+M
+c. Disabled PAP
+Affected persons F
+M
+d. Tribal PAP
+Affected persons F
+M
+e. Hijra PAP
+==========================================================
+39. Probable rehabilitation/ development assistance
+What
+Quantity
+Likely Cost
+On behalf of the project consultant, this Screening Form has been filled in by:
+Name: ................................................
+Designation: .........................
+Signature: .............................................
+Date: ........................

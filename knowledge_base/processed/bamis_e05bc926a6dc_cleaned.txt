@@ -1,0 +1,4602 @@
+Baseline Survey Report
+to
+
+Assess User Satisfaction of Agro-Meteorological Advisories
+and Products Under the Agro-Meteorological Information
+Systems Development Project
+
+June 2018
+
+TABLE OF CONTENTS
+
+TABLE OF CONTENTS
+Page
+No.
+
+Acronyms
+
+Executive Summary
+i-vi
+
+Chapter-1
+Background of the Study
+1-8
+
+1.1
+Introduction
+
+1.2
+Background and Rationale of the Project
+
+1.3
+Component of the project
+
+1.4
+Outputs of the project
+
+1.5
+Objectives of the baseline survey
+
+1.6
+Scope of the Work
+
+1.7
+Purpose of Baseline Survey
+Chapter-2
+Approach and Methodology
+9-19
+
+2.1
+Approaches
+
+2.2
+Methodology
+
+2.2.1 Organization of the team of experts
+
+2.2.2 Desk Study: Collection and Review of Data, Reports and
+Information
+
+2.2.3 Set up of a working group on the national level
+
+2.2.4 Preparation of Inception Report
+
+2.3
+Design of the study
+
+2.4
+Sample Design
+
+2.4.1 Summary of the data and information collection is presented below
+
+2.5
+Development and Finalization of Questionnaire
+
+2.6
+Recruitment and Training of Field Staff
+
+2.7
+Data Collection
+
+2.8
+Quality Assurance Measures of Data
+
+2.9
+Data Management, Processing and Analysis
+Chapter-3
+3.0
+Farmer’s Basic Information
+20-23
+
+3.1
+General information of the farmer
+
+3.1.1 Gender and marital status of respondents
+
+3.1.2 Education level of respondents
+
+3.1.3 Major sources of income
+
+3.1.4 Members of the family and engaged with agriculture
+
+3.1.5 Owner of the lands
+
+3.1.6 Soil type of the land under the household
+
+3.1.7 Land type of the farmers
+
+3.1.8 Utilization of irrigation on land
+Chapter-4
+4.0
+Weather and Climate Induced Problems
+24-34
+
+4.1
+Upazila-wise past two years weather and climate information
+
+4.2
+Weather and climate induced problems in Kharif-1 (Aus)
+for crop production
+
+4.3
+Weather and climate induced problems in Kharif-2 (Aman)
+for crop production
+
+4.4
+Weather and climate induced problems in Rabi (Boro)
+for crop production
+
+4.5
+Weather and climate induced problems in hotspots areas of drought,
+cold wave, nor ‘wester, pest & disease
+
+TABLE OF CONTENTS
+
+4.6
+Weather and climate induced problems in hotspots areas of cyclone
+& storm surge, salinity intrusion, pest & disease
+
+4.7
+Weather and climate induced problems in hotspots area
+of flash flood or pre-monsoon flood
+
+4.8
+Weather and climate induced problems in hotspots area
+of forest degradation
+
+4.9
+Extent of crop damages due to the weather and climatic problems
+
+4.10
+Frequency of weather and climatic problems
+
+4.11
+Problems faced during 2016 and 2017
+
+4.12
+Average production loss
+Chapter-5
+5.0
+Agro-Metrological Related Information
+35-46
+
+5.1
+Source of agro-meteorological information
+
+5.2
+Perception about the Govt. organization providing weather & climate
+related information
+
+5.3
+Perception about the govt. organization providing flood related
+information
+
+5.4
+Getting enough time after receiving information to save damage of
+your crops and properties 5.3 Perception about the govt.
+organization providing flood related information
+
+5.5
+Minimum advance forecast time
+
+5.6
+Knowledge about roles of BMD
+
+5.7
+Knowledge about roles of BWDB
+
+5.8
+Knowledge about role of DAE on agro-met services
+
+5.9
+Coordination among BMD, BWDB and DAE
+
+5.10
+Channel of meteorological information delivery
+
+5.11
+Satisfaction of the information provided by BMD, BWDB and DAE
+
+5.12
+Source of getting information
+
+5.13
+Information on seasonal variation data of weather and climate
+
+5.14
+Benefit of meteorological information
+
+5.15
+Necessity of agro-meteorological advisories and services
+
+5.16
+Adoption of new technology and techniques
+
+5.17
+Type of techniques to be adopted
+
+5.18
+5.18 Knowledge on existing weather forecast to protect crop
+production
+
+5.19
+Accessibility of meteorological information to the farmers
+
+5.20
+Effectiveness of Meteorological forecast
+
+5.21
+Traditional methods used for applying weather forecasts
+
+5.22
+Perception of traditional weather forecasts
+
+5.23
+Type of crops to be grown based on forecast
+
+5.24
+Decisions making time for planting crops
+Chapter-6
+
+User Satisfaction Index using Baseline Survey
+41-54
+
+6.1
+Knowledge or experience of the farmers on weather forecast
+
+6.2
+Practice of using different weather forecast by farmers
+
+6.3
+Weather related knowledge prior to agro-activities
+
+6.4
+User’s Satisfaction Level on the accuracy of weather-related
+information
+
+6.5
+Knowledge
+about
+the
+service
+of
+Bangladesh
+Agriculture
+Meteorological Information System (BAMIS)
+
+6.6
+Source of Agro-Meteorological Information
+
+6.7
+Perception about the Govt. organization providing weather & climate
+related information
+
+6.8
+Perception about the govt. organization providing flood related
+information
+
+TABLE OF CONTENTS
+
+6.9
+Timing of information to save crops and properties from the
+damages
+
+6.10
+Minimum advance forecast time
+
+6.11
+Knowledge about Role of BMD
+
+6.12
+Knowledge about Role of BWDB
+
+6.13
+Knowledge about the Role of DAE on agro-met services
+
+6.14
+Coordination among BMD, BWDB and DAE
+
+6.15
+Channel of meteorological information delivery
+
+6.16
+Satisfaction of the information provided by BMD, BWDB and DAE
+
+6.17
+Source of getting information
+
+6.18
+Information on seasonal variation data of weather and climate
+
+6.19
+Benefit of meteorological information
+
+6.20
+Necessity of agro-meteorological advisories and services
+
+6.21
+Knowledge on existing weather forecast to protect crop production
+
+6.22
+Accessibility of meteorological information to the farmers
+
+6.23
+Effectiveness of Meteorological forecast
+
+6.24
+Traditional methods used for applying weather forecasts
+
+6.25
+Perception of traditional weather forecasts
+
+6.26
+Participated in any awareness campaign/training regarding weather
+forecast
+Chapter-7
+
+Training and Awareness
+55-59
+
+7.1
+Knowledge on agro-meteorological weather forecast and cope-up
+techniques
+
+7.2
+Techniques of coping-up this problem
+
+7.3
+Participated in any awareness campaign/training regarding
+weather forecast
+
+7.4
+Willingness to participate in any awareness campaign or training
+
+7.5
+Location of training
+
+7.6
+Areas of interest for awareness campaign or training
+
+7.7
+Preferred ways for receiving weather and climate forecasts
+Chapter-8
+8.0
+Major Findings and Recommendations
+60-61
+
+8.1
+Major findings
+
+8.2
+Recommendations
+
+References
+
+List of Tables
+
+Table-2.1
+
+Summary of Basic Statistics of the Farmers in Project Area
+Table-2.2
+
+Distribution of Sample Farmers by Farm Holdings
+Table-2.3
+
+Upazila-wise sample distribution
+Table-2.4
+
+Number and Types of Respondents
+Table-3.1
+
+Marital status of the respondents
+Table-3.2
+
+Education level of respondents
+Table-3.3
+
+Number of members in the family and engaged with agriculture
+Table-3.4
+
+Land area under the household
+Table-3.5
+
+Soil type of the land under the household
+Table-3.6
+
+Land type of the farmers
+Table-4.1
+
+Upazila-wise-past two years weather and climate information
+Table-4.2
+
+Weather and climate induced problems in Kharif-1 (Aus) season
+Table-4.3
+
+Weather and Climate induced problems in Kharif-2 (Aman) season
+Table-4.4
+
+Weather and climate induced problems in Rabi (Boro) season
+Table-4.5
+
+Weather and climate induced problems in Rabi (Boro) season
+
+TABLE OF CONTENTS
+
+Table-4.6
+
+Weather and climate induced problems in hotspots area of
+cyclone & storm surge, salinity intrusion, pest & disease
+Table-4.7
+
+Weather and climate induced problems in hotspots area of Flash/
+Pre-Monsoon Flood
+Table-4.8
+
+Weather and climate induced problems in hotspots area
+of forest degradation
+Table-4.9
+
+Problems faced during 2016 and 2017
+Table-5.1
+
+Meteorological related information in the project area
+Table-5.2
+
+Perception about Roles of BWDB
+Table-5.3
+
+Coordination among BMD, BWDB and DAE to disseminate hydrometeorological information
+Table-5.4
+
+Channel of meteorological information delivery
+Table-5.5
+
+Source of getting hydro-meteorological information
+Table-5.6
+
+Benefit of meteorological information
+Table-5.7
+
+Type of techniques to be adopted
+Table-5.8
+
+Accessibility of meteorological information to the farmers
+Table-5.9
+
+Effectiveness of Meteorological forecast
+Table-5.10
+
+Decision on type of crops to be grown based on forecast
+Table-6.1
+
+Districts-wise knowledge or experience farmer’s on weather
+forecast
+
+Table-7.1
+
+Participation in any awareness campaign or training regarding
+weather forecast
+Table-7.2
+
+Areas of interest for awareness campaign or training
+Table-7.3
+
+Preferred ways of receiving weather and climate forecasts
+Table-7.4
+
+Preferred ways for receiving weather and climate forecasts
+
+List of Figures
+
+Figure-3.1
+
+Major source of farmers’ income
+Figure-3.2
+
+Response on the utilization of irrigation on agricultural land by
+the farmers
+Figure-4.1
+
+Extent of crop damages due to weather and climatic problems
+Figure-4.2
+
+Frequency of weather and climatic problems faced during crop
+production
+Figure-4.3
+
+Average production loss due to problems
+Figure-5.1
+
+Knowledge about the organization providing weather & climate
+information
+Figure-5.2
+
+Knowledge about the organization providing flood information
+Figure-5.3
+
+Timing of information to save crops and properties from the
+damages
+Figure-5.4
+
+Minimum advance forecast time required to save crop from the
+damages
+Figure-5.5
+
+Perception about Role of DAE on Agro-met Services
+Figure-5.6
+
+Satisfaction of the information provided by BMD, BWDB and DAE
+Figure-5.7
+
+Information on seasonal variation data of weather and climate
+Figure-5.8
+
+Necessity of agro-meteorological services
+
+TABLE OF CONTENTS
+
+Figure-5.9
+
+Adoption of new technology and techniques
+Figure-5.10
+
+Knowledge of existing weather forecast to protect crop production
+Figure-5.11
+
+Perception of traditional weather forecasts
+Figure-5.12
+
+Decision making time for planting crops
+
+Appendix-1
+Beneficiaries Questionnaire (A &B) (Bangla and English)
+
+Appendix-2
+FGD Guideline (A &B) (Bangla and English)
+
+Appendix-3
+Upazila Information (A &B) (Bangla and English)
+
+Appendix-4
+Photographs of FGD and KII of Sample Districts
+
+Appendix-5
+Climate and Weather-related information from UAO
+
+Appendix-6
+Area wise average annual rainfall MAP
+
+Appendix-7
+TOR of the Study
+
+CHAPTER-1
+
+BACKGROUND OF THE STUDY
+
+1.1 Introduction
+
+The baseline survey report was prepared in accordance with the provision of contract
+agreement signed between the Project Director (PD) of Agro-Meteorological Information
+Systems Development Project (AMISDP) and Development Technical Consultants Pvt.
+Limited (DTCL) on 29 March 2018. Development Technical Consultants Pvt. Ltd. (DTCL) is
+pleased to the project authority for selecting DTCL for conducting the baseline survey to
+Assess User Satisfactions of Agro-Meteorological Advisories and Products”. This AMISDP is
+a part of Component-C of Bangladesh Weather and Climate Services Regional Project
+(BWCSRP) which is implementing in 487 upazilas of 64 districts under 8 divisions of
+Bangladesh. The baseline survey was conducted in 16 sample upazilas of Rajshahi,
+Naogaon, Patuakhali, Satkhira, Sunamganj, Netrokona, Khagrachari and Bandarban
+districts.
+
+The aim of the project is to strengthen the capacity of the Department of Agricultural
+Extension (DAE) of the Government of Bangladesh (GOB) to deliver reliable weather, water
+and climate information/advisories or services. The objectives of the project will be achieved
+in improving access to such services for farmers and communities to cope-up with the
+weather and climate risks therefore increase agricultural production. The project is
+implementing by the Department of Agricultural Extension (DAE) of the Ministry of
+Agriculture (MOA) from July 2016 and will be continued until June 2021.
+
+1.2 Background and Rationale of the Project
+
+Agriculture is the main driving force of the economy of Bangladesh, which is highly
+dependent on climatic phenomena. Despite technological improvements such as improved
+crop varieties and irrigation system, weather and climate are still key factors in agricultural
+productivity. Changes in temperature, erratic behavior of rainfall, increasing frequency and
+intensity of weather-related extreme events including floods, droughts, cyclone and stormsurge influence changes in cropping patterns and seasons. Salinity intrusion into inland
+water and soil are other major climate change related threats to agriculture. The impact of
+climate change on agriculture could result in problems with food security and may threaten
+the livelihood activities upon which much of the population depends.
+
+The hydro-meteorological information infrastructure over land, atmosphere and ocean,
+basic public weather services, forecasting, and multi-hazard end-to-end early warning
+systems of the country is still weak and need to be updated and strengthened. Agriculture
+sector needs tailored weather and climate data and services which are very essential for
+proper planning and decision-making to mitigate the adverse effects of climate variability
+and changes. Provision of these types of services is still limited and needs to be
+strengthened for the effectiveness of agro-met service delivery.
+The food production in Bangladesh is highly vulnerable due to the erratic behavior of
+climatic phenomena. However, the rate of variation is not same in all the parts of the
+country. Bangladesh Meteorological Department (BMD) is only the mandated organization
+to generate early warning related to weather and climate hazards along with weather and
+climate prediction information and agro-met services. Currently, BMD provides agro
+climatic advisory bulletin to the Department of Agriculture Extension (DAE) and relevant
+other organizations (BMD, 2007). The bulletins also give some advice to the farmers
+against the disastrous impacts, such as probable water stress, pest infestations and
+diseases, winter fog and cold weather, soil moisture, sunshine hours, solar radiation,
+temperature, evaporation and humidity, etc. However, BMD issued forecast is not easy to
+understand for all of the farmers. Moreover, most of the farmers still do not have the
+facilities to access this information due to lack of required support of the equipment.
+
+Considering the above importance of the sector, the Government of Bangladesh (GoB) with
+support from the World Bank (WB) is implementing the “Agro-Meteorological Information
+Systems Development Project (AMISDP)” under the Component-C of “Bangladesh Weather
+and Climate Services Regional Project (BWCSRP)” to strengthen the capacity of the DAE
+regarding agro-met service delivery. The project will assist in delivering reliable weather
+and climate information/advisories or services to the farmers and communities. The
+objectives of the project will be achieved by strengthening hydro-meteorological
+information/advisories and forecasting delivery related to weather, climate and flood for
+multi-hazard disaster risk management of the agricultural sector. Therefore, hydrometeorological services delivery will be improved to increase agricultural production.
+
+The project is aligned with Sustainable Development Goals (SDG-2) (end hunger, achieve
+food security and improved nutrition and promote sustainable agriculture), SDG-13 (Take
+urgent action to combat Climate Change and its impact) and SDG-15 (Protect, restore and
+promote sustainable use of terrestrial ecosystems, sustainably manage forests, combat
+desertification, and halt and reserve land degradation and halt biodiversity loss).
+
+The project fully conforms to 7th Five Year Plan-4.3.1. Plan Policies and strategies for Crop
+Sub-Sector: Technology based weather prediction and forecasting.
+
+The project targets 30,000 lead farmers to be direct beneficiaries and 300,000 farmers will
+be indirect beneficiaries of the project. This project will increase and sustain the present
+agricultural production through modernized agro-meteorological advisories, early warning
+and forecasting. It will provide better decision-making process of the farming community.
+This project will also help farmers to reduce their production loss by effective use of agromet advisories.1
+
+The summary of the project at a glance is given below:
+Name of the Project
+Agro-Meteorological Information Systems
+Development Project (AMISDP)
+Administrative Ministry
+Ministry of Agriculture
+Funding Agency
+The World Bank and Government of Bangladesh (GOB)
+Implementing/ Executing
+Agency
+Department of Agricultural Extension (DAE)
+Location of the Project
+4051 Union Parishads of 487 Upazilas of 64 Districts of
+08 Divisions
+Estimated Cost
+(Lakh Taka)
+Total: 11,918.08
+GOB: 1304.38
+PA: 10613.70 (World Bank)
+Implementation Period
+Date of Commencement
+Date of Completion
+July 2016
+June 2021
+Source: PAD of BWCSRP
+
+1.3 Component of the project
+
+The brief descriptions of the component and sub-components of the AMISDP had been
+described as follows:
+
+Component C- Agro-Meteorological Information Systems Development: Component C
+is implementing by the Department of Agricultural Extension (DAE), with the support of the
+Agricultural Meteorology Division of the Bangladesh Meteorological Department (BMD). The
+main sub-components include:
+
+Sub-Component C1: Establishment of the Bangladesh Agro-Meteorological
+Information System (BAMIS);
+
+1 Project Appraisal Document (PAD) of BWCSRP)
+
+Sub-Component C2: Training, Capacity Building, Project Management, Monitoring
+and Evaluation; and
+Sub-Component C3: Agricultural Disaster Risk Management through agrometeorological information dissemination.
+
+The brief description of the sub-components is furnished below:
+
+Sub-Component
+C.1:
+Establishment
+of
+the
+Bangladesh
+Agro-Meteorological
+Information System (BAMIS)
+
+This sub-component supports the establishment of BAMIS web portal for the provision of
+data, information, Agro-Meteorological advisories and products such as crop and weather
+bulletins, drought and heat directories, climate-weather risk maps and services such as short
+and medium range weather forecasts and seasonal climate outlooks to stakeholders on the
+web. Specifically, this sub-component will support the following activities:
+
+Setting up a Comprehensive web-portal for BAMIS at DAE,
+BAMIS infrastructure,
+Development of upazila level agro-met databases,
+Agro-met data analysis and future scenario development,
+Development of advisories and
+Risk mapping of climate vulnerable communities.
+
+This component will provide improved Agro-Meteorological services to farmers across the
+country to sustain and increase agricultural production in coping with extremes weather and
+climate. It will support to establish a science-based agro-met information and products to
+mitigate climate-related agricultural production risks. This will also support to improve the
+capacity of DAE officials at different levels for effective delivery of climate information and
+services to the farmers. The following major activities will be performed through the
+component:
+
+Development of upazila level agro-meteorological databases: In 200 upazilas of the
+country where Automatic Weather Stations (AWS) (installed under component A) will provide
+real-time data on all important weather variables. The project is supporting digitalization of
+historical and current agricultural data on the land holdings, crops/cropping systems
+cultivated by farmers, average crop yields in different upazilas etc., (currently available as
+hard copy documents). Under the technical guidance of an International Agro-Meteorological
+Consultant, DAE, with BMD support, integrating the AWS weather and agricultural data and
+compiling Agro-Meteorological databases for the 487 upazilas, which will be located in the
+BAMIS at DAE. These Agro-Meteorological databases will be used to conduct a variety of
+Agro-Meteorological analyses and to generate information and products for use by the
+farming communities in different upazilas.
+
+Agro-Meteorological data analysis and future scenario generation: The project is
+supporting a technical consultancy on conducting Agro-Meteorological data analyses, future
+scenario generation, including the use of crop models and downscaling the scenarios to
+block level. Currently, BMD operates 12 Agro-Meteorological stations (out of its 57 weather
+stations) with long term data for over 40 years for most of the stations. The consultant will
+assist DAE to develop computations of climatological norms for rainfall, maximum and
+minimum air temperatures, rainfall probabilities, and combine them with the upazila
+databases to prepare crop suitability maps for different agro climatic regions in the country.
+The consultant will guide DAE, with support from BARI, BRRI, BSRI, BJRI and BMD, in
+developing Agro-Meteorological products for decision support including the selection of
+optimal planting dates based on expected climate conditions etc. The consultant will also
+provide assistance in training and capacity building of DAE, BARI, BRRI, BSRI, BJRI and
+BMD staff on using Agro-Meteorological data, generation of information on soil and crop
+management practices, and on using a variety of crop models and other tools.
+
+Development of Agro-Meteorological advisories and products for the farming
+communities: The consultant will help DAE to use the Agro-Meteorological databases and
+develop Agro-Meteorological advisories and products for use of farmers to make tactical
+decisions on planting, irrigation, harvesting and processing based on extreme weather
+events such as heavy rainfall, hail storms etc. It will also support them for implementing crop
+protection measures on pests and diseases risk reduction.
+
+Risk mapping of climate-vulnerable farming communities: Given the frequent incidence
+of weather and climate extreme events and the large impact, it is important to identify the
+vulnerability of farming communities. The component will support the procurement of a
+consultant in DAE to conduct agricultural disaster risk analysis based on weather and
+climate information, socio-economic factors such as farmer land holdings and indebtedness,
+soils information, crops/cropping patterns etc. The analysis will be done at the agroecological zone level. Each climate risk can be identified by its natural characteristics,
+impacts on different geographical areas, time of year it is mostly occurs, and its severity etc.,
+The project will guide the preparation of the climate risk vulnerability maps for all 487
+upazilas identifying the areas at risk and vulnerable. Accordingly, DAE and BMD officials will
+be trained in risk mapping. The component will also explore areas for collaboration with the
+students from appropriate Universities in this task.
+
+Sub-component C.2 Training, Capacity Building, Project Management and Monitoring
+and Evaluation:
+
+This Sub-Component aims to strengthen Agro-Meteorological capacity development, project
+management and monitoring and evaluation of project activities. It includes the following
+activities:
+
+a. Sub-Component C2.1 Provision of technical training to staff: This will support
+provision of technical training to professional staff of DAE, BARI, BRRI, BSRI and BJRI: This
+includes, (a) organization of workshops/ seminars at the BAMIS headquarters in AgroMeteorological data analysis and development of products and (b) organization of short term
+training and exposure visits to appropriate institutions and organizations abroad to promote a
+better understanding of the current methods and approaches in the development of AgroMeteorological advisories and products. Given the diversity of weather and climate in
+different agro ecological regions in the country and the range of crops and cropping systems
+which farmers cultivate, there are a number of critical weather, climate and agriculture issues
+on which advanced information will be needed to develop effective strategies to maintain
+agricultural productivity. Hence priority issues will be identified which require detailed
+technical studies and this component will support the recruitment of a Consultant to organize
+such technical studies. As DAE has a good network of offices in the 64 districts providing
+information to farmers, this network will be used for the organization of workshops at the
+regional, district and upazila levels for officials in the use of BAMIS Portal tools. This project
+will provide 74 batches of officers, 367 batches of SAAOs and 1000 batches of farmers
+training. Around 25 National and 70 Regional workshops will also be arranged by the project.
+Eighty percent budget allocation of the foreign training will cover for foreign training of DAE
+officials and 20 percent will be allocated for exposure visit. Officials of DAE, Ministry of
+Agriculture and Planning Commission will be nominated for exposure visit.
+The vision for the Agro-Meteorological Information Systems in Bangladesh is an integrated
+system in which the meteorological community and the agricultural community represented
+by BMD, DAE, and NARS will work together to produce and disseminate climate and
+weather information relevant to agriculture thus enhancing climate resiliency and food
+security in the country. This requires close collaboration between the different agencies
+responsible for Agro-Meteorological data collection and analysis, agricultural research and
+extension. Hence a Joint Technical Working Group (JTWG) on Agro-meteorology will be
+established with the participation of experts from DAE, BARI, BRRI, BSRI, BJRI, BMD and
+BWDB and support will be provided for the effective functioning of the working group and for
+the implementation of the decisions taken by the group.
+
+b. Sub-Component C 2.2 Project management, Monitoring and Evaluation: SubComponent C2.2 will support costs associated with the PIU, operational costs related to
+DAE operations, additional technical studies, and activities associated with M&E, social
+outreach and other operational activities.
+
+Sub-Component C.3: Agricultural Disaster Risk Management through Agrometeorological information dissemination:
+
+This sub-component will support the awareness building and dissemination to farmers of a
+variety of customized Agro-Meteorological products and tools that will help them to better
+utilize weather and climate risk in their planning and cope with agricultural disaster risk. The
+activities include: (1) assessment of farmer’s needs for weather and climate services; (2)
+installation of automatic rain gauges and agro-meteorological display boards at the Union
+Parishad locations; (3) establishment of kiosks, (4) development of mobile apps; (5)
+organization of roving seminars and (6) feedback from farmers.
+
+This sub-component supported by the consultant to conduct a baseline survey for a detailed
+assessment of farmer’s needs for weather and climate services. Feedback from farmers will
+guide quality improvements in Agro-Meteorological products and their dissemination
+mechanisms. Given the diversity of crops and cropping systems in the 64 districts around
+the country, the need assessments will contribute to the development and dissemination of
+need-based advisories and products.
+
+1.4 Outputs of the project
+
+The project increased the capacity of DAE regarding agro-meteorology. Agro-met
+advisories will help the farming community to reduce their production loss and better
+decision making in farming practices.
+Farmers able to use agro-met advisories and send feedback services for user
+satisfaction.
+Crop simulation model and future scenario generation will help to make future plans
+and policies in the agriculture sector.
+BAMIS portal facilitated to get hydro-meteorological information of Bangladesh.
+Digitalization of Upazila information will help to utilize GIS and Remote Sensing
+Technology.
+
+1.5 Objectives of the baseline survey
+
+The main objective of this study is to assess the baseline situation of agro-meteorological
+(e.g. agro-met) services in Bangladesh to increase agricultural productivity and assist the
+farmers in coping with changing weather and extreme climatic events. However, the
+specific objectives of the study are as follows:
+
+▪
+To identify the weather or climate induced hazards effects on agriculture and on
+their livelihood;
+▪
+To identify what type of agro-meteorological services available in Bangladesh and
+who are the service providers;
+▪
+To identify existing agro-meteorological information, ongoing observed parameters
+and technologies of BMD;
+▪
+To assess the farmer’s knowledge and perception on agro-met services at the
+community level;
+▪
+To assess the seasonal variation of climatic and weather parameters (e.g. rainfall,
+temperature etc.) and farmer’s perception in relation to crop planning and crop
+productivity;
+▪
+To collect the information regarding agro-met services and products, its
+functionality, effectiveness and user satisfaction;
+▪
+To assess the need/new requirements for agro-met services in order to ensure and
+
+develop effective and user friendly agro-met advisory services for ensuring crop
+productivity and food security;
+▪
+To collect region specific information on land use pattern, demography, hydrometeorology, agricultural practices, current management practices by farmers and
+the way of solving problems faced by extreme climatic events;
+▪
+To assess whether the existing climate forecast can address the climate variability
+and recommend necessary arrangements and give recommendations for its
+improvement;
+
+1.6 Scope of the Work
+
+The scope of works of the survey is to:
+
+•
+identify the study areas (e.g. District/Upazila/Union) based on the climatic problems
+and hotspots and expert opinion;
+•
+identify and select tools and methods for conducting agro-meteorological baseline
+survey;
+•
+identify the weather or climate induced problems on agriculture and on their
+livelihood through farmers mind/sketch maps and community consultation;
+•
+review of the farmer’s knowledge and perception on agro-met services at community
+level
+•
+observe the seasonal variation of climatic and weather parameters (e.g. rainfall,
+temperature etc.) and farmer’s perception in relation to crop planning and crop
+productivity
+•
+identify and review the existing documents, advisory tools, products and research
+work relevant to agro-meteorological services in Bangladesh;
+•
+collect information regarding existing land use pattern, problems regarding climatic
+events in connection with crop production and the knowledge base, farmers are
+practicing to solve the challenges;
+•
+find out gaps and weakness of the present agro-met services;
+•
+analysis of agro-climate forecast dissemination network;
+•
+assess institutional capacity regarding dissemination of agro-metrological services to
+the farmers; and develop survey tools to conduct the households survey. At least
+1000 questionnaire survey will be done at household level considering climate
+induced agricultural constraint.
+
+1.7 Purpose of Baseline Survey
+
+The baseline survey was conducted to collect benchmark of the project situation so that it
+can compare with the progress of the project activities especially with Mid-term evaluation
+and end of project evaluation data with the target of the result-framework data to assess the
+project impact or changes due to this intervention.
+
+CHAPTER-2
+
+APPROACH AND METHODOLOGY
+
+2.1 Approaches
+
+The consultant’s approach was in line with the main objective of the study that seeks to
+gather information and provide the complete picture of the baseline status of agro
+meteorological (e.g. agro-met) services in Bangladesh to increase agricultural productivity
+and assist the farmers in coping with changing the weather and extreme climatic events.
+More precisely the survey revealed the following answers of the project: (a) weather or
+climate induced problems on agriculture and on the livelihood of farmers; (b) farmer’s
+knowledge and perception on agro-met services at community level; (c) seasonal variation of
+climatic and weather parameters (e.g. rainfall, temperature etc.) in relation to crop planning
+and crop productivity; (d) existing agro-meteorological services in Bangladesh; (e) existing
+farmers’ land use pattern, problems regarding climatic events in connection with crop
+production to solve the challenges; (f) gaps and weakness of the present agro-met services;
+(g) agro-climate forecast dissemination network; and (h) institutional capacity regarding
+dissemination of agro-metrological services to the farmers. A wide range of efforts has been
+done such as i) inception of assignment with PIU-AMISDP/DAE; i) in house meetings among
+the consultants at DTCL office to prepare the inception report; iii) sharing of inception
+activities through workshop with the project officials and other experts of DAE at Head
+Quarter Level; and iv) field visit and interview of relevant stakeholders aiming to gather
+objective oriented information; v) baseline report has been made in accordance with the
+objective and scope of the study.
+
+2.2 Methodology
+
+The methodology for the present baseline survey used system-wide approach, which was
+both detailed and participatory. This approach involved wide-ranging and sequenced
+discussion with PD/PMU and DAE professionals and officials related to assess the socioeconomic and benchmark situation of the project area. The survey involved use of:
+
+(i)
+formal and non-formal interviews;
+(ii) semi-structured interviews by means of focus group discussions and
+(iii) field survey through a structured questionnaire
+(iv) collection of secondary information
+(v) review available reports and
+(vi) series of reconnaissance field visits by consultants to the project area.
+
+The reconnaissance field visits covered the substantial part of the project area. During the
+field visit, consultants interacted with concerned DAE, BMD and BWDB personnel of the
+survey area. The detailed description of the common activities of the survey has been
+presented in the following pages:
+In accordance with the TOR, the Inception Phase was covered in 30 days for the baseline
+survey and was basically aimed at preparing the ground for the survey activities. During this
+phase, the consultant, through the Team of consultants, was engaged in an open and
+inclusive process with the client and other stakeholders in order to collect and assimilate all
+relevant current information that was enabled to make an assessment of the survey
+environment and of the pertinence of the TOR vis-à-vis the actual situation. Following
+discussions and feedback, the final approval of the inception report was taken from the PD.
+During this phase the following tasks were implemented:
+
+2.2.1 Organization of the team of experts
+
+The inception of the services initiated after signing Contract Agreement between the
+PD/PMU and the consulting firm. Consultants and support staff have been deployed to take
+
+up their individual works as per specific inputs stipulated for them in the TOR. The Team
+Leader has organized and set the stage for this. The consultant mobilized both staff and
+logistics together with all arrangements for backup supports and communication. The TL and
+other specialists (according to staffing schedule), as well as support staff, started functioning
+according to the given tasks and times allocated to them. The TL met PIU consultants of
+AMISDP at PD’s office after submitting draft inception report for follow-up and seeking
+comments and suggestions from PIU and DAE. The survey consultancy office was
+accommodated in the firm premises with all furniture and other utilities and together with
+security arrangements.
+
+2.2.2 Desk Study: Collection and Review of Data, Reports and Information
+
+Immediately after the commencement of the survey, the team of experts started analyzing
+relevant documents and existing data on the current development in agriculture in
+Bangladesh. Some of those documents had already been collected during the phase of
+preparation of the technical proposal. Those background relevant documents had been
+analyzed by the team of experts in order to provide an outline of the initial assessment and
+fact finding and have been included in the draft baseline report.
+
+Further, the role of the DAE and the different bodies was analyzed on the basis of policy
+papers and laws in order to draft a detailed scheduled on sharing of responsibilities and
+leading a professional dialogue with these authorities. In addition, detailed review of: (i)
+existing documents on concept, definition, classification and methodology for assessing the
+implementation status of the project components and results and outcomes of project
+support and services; (ii) similar works done in the past in different countries and benefit
+from the findings; (iii) to be undertaken in designing the proposed survey, implementing it,
+analyzing the feedback and preparing reports. The review of relevant documents and data
+collected from secondary sources was done by the senior members of the survey team prior
+to finalization of methodology and data gathering instruments. The consultants were reviewed
+all the existing literature and documents prepared for the project, monitoring/ progress
+reports, DPP, appraisal documents, policy papers, tools and formats for conducting the
+survey and its consequences based on the outcomes indicators and report. The survey team
+was collected relevant literature from the DAE offices. The consultants listed the main
+factors such as household demographics, crops production, consumption, storage,
+marketing, food security and nutrition status, financial status and training etc. The
+consultants gathered baseline information which was used for analyzing the impact and
+implications of the project from its implementation status, achievements and challenges, best
+practices and lessons learned.
+
+2.2.3 Set up of a working group on the national level
+
+As indicated in the general approach, the creation of a working group is an important
+element for ensuring the participation of stakeholders in the implementation of the survey,
+toward the sustainability of the survey results. Therefore, during the inception phase, the
+consultant in cooperation with the partner created the working group, with the objective of
+establishing close working relations with the client and relevant stakeholders. A list of
+possible stakeholders was prepared in order to identify the members of the Working Group
+(WG), and the team of experts established direct contact with them and explained objectives
+and the importance of being becoming a member of the WG. The team of experts shared
+with them information about the survey and requested their feedback. Virtual meetings using
+ICT technology was organized. In addition, the members of the Working Groups accessed
+internal portal of the survey, which was part of the DTCL website in order to provide
+feedback on data collection and diagnostic work. They were involved in the assessment of
+information and data collection; in the elaboration of the methodology for data and
+information collection and in the preparation of the survey.
+
+2.2.4 Preparation of Inception Report
+
+At the end of the inception phase, the team of experts has prepared the inception report that
+was delivered to the client for review and approval. The inception report was an opportunity
+to validate and confirm the consultant suggested approach and methodology towards the
+fulfillment of the Terms of Reference. The inception report contains the final version of the
+Plan of action for the experts, schedule and activities. It was an outline initial assessment
+and fact finding of the survey team in relation to the objectives of the survey including
+sample size and framework, and tools and techniques. In addition, it was included in detail:
+Quality assurance plan, setting up processes for assuring the quality of research; comments
+on research methodology and outcomes of questionnaires and field-test/piloting process.
+
+2.3 Design of the study
+
+• The consultants designed the survey emphasizing on appropriate survey sample frame
+and sampling technique that is statistically sound and acceptable to the client.
+• The survey design included the specific timeline for every activity aiming to complete the
+survey timely.
+• The design also included proper deployment of manpower and systematic monitoring,
+supervision and coordination among all activities so that the activities to be completed
+following a critical path-most efficient and effective time use for desirable
+accomplishment.
+• One most important element of the design was finalization of data collection toolsquestionnaires for respondent survey and data collection checklists for FGD & LG.
+• Prior to the design of the questionnaires and checklists, the consultants finalized a list of
+indicators and measurements of all indicators in detail.
+• The questionnaires and checklists were the techniques to ask questions to get
+measurements of different indicators that are relevant to assess the status of different
+aspects of the farmers and their qualities and quantities.
+• The design also included data collection methodologies-secondary data and primary
+data. The consultants started fieldwork only after approval of the design by the client.
+
+2.4 Sample Design
+
+Two types of analysis were made to gather information about the survey and these are
+quantitative and qualitative.
+
+(i) Quantitative Analysis
+
+For any type of research work representativeness of collected information must be ensured
+so that valid and dependable conclusion can be drawn. The present survey was not
+exclusion. Thus, in order to ensure representativeness of the data and information collected,
+consultants followed probabilistic sampling strategy, which is delineated below.
+
+The population under the survey universe was constituted of farmers in villages of 16
+upazilas in 8 districts of 8 divisions. Thus, it is appropriate to determine a representative
+sample size of farmer households at first. Since consultant had information on necessary
+parameters viz. population size and standard deviation, the consultant used the appropriate
+formula fit for Finite Population Correction (FPC) recommended by Daniel (1999) for
+calculating sample size at the district level as given below:
+
+The survey team considered the respondent as the sample unit
+
+N×p×q×Z2
+n =
+
+(N-1)×e2 + Z2×p×q
+
+× Design effect
+
+Where,
+n = sample size
+P = probability of a dichotomous event. Since information regarding project area indicators is
+absence thus we assume that crop production in the project area has increased around
+30%. i.e. p=0.3
+q = 1-P=1-0.3=0.7
+Z = standardized normal variate which is 1.96 at 5% level of significance with 95%
+confidence interval
+N = population size=30,000 direct beneficiary farmers
+e = relative variation (or relative error) which we assumed for this survey is 4%=0.04
+Design effect = 2
+
+Using the above information, the sample size is determined as approximately as follows for
+each district:
+
+n = (30,000×0.3×0.7×1.962)/{(30,000-1)×0.042+1.962×0.7×0.3}×2
+
+n= 24202.08/48.805×2=495.8921×2~991.78~1000
+
+As per indication of the TOR, there are about 30,000 target direct beneficiary farmers in 64
+districts of 8 divisions. Using a 95% confidence level with 4% margin of error, the consultants
+obtained a representative sample size of farmer households to be n=1000 for this survey.
+
+However, in order to reach such households consultants adopted multistage random
+sampling procedure. At the first stage 8 districts were chosen, two districts from each
+hotspot or climatic problem zone. From these 8 districts, the 16 upazilas were chosen at the
+second stage from each of which a random sample of 2 unions was selected at the third
+stage. From each of selected union 2 dispersed villages were chosen randomly at the fourth
+stage. Thus, the sample of 64 villages from 16 upazilas that means 4 villages in each
+upazila. At the fifth stage selected a random sample of farmer households by farm holding
+types. The sample of villages was chosen using Probability Proportionate Size (PPS)
+identified by the number of the households. However, determined number of households
+was proportionately allotted to chosen upazilas. Allotted number of households at upazila
+levels proportionately allotted to the selected villages.
+
+In order to reach the stipulated farmer households (small, marginal and large including
+women at upazila/village level) a list of farmers was collected from UAO/PMU/PD before the
+survey. The list of different farmers by type of farm holding was aimed at identifying the
+targeted population of farmers in the village. Focus was on climate change vulnerability
+consideration, one upazila from eight districts following the climate induced
+problems. The study areas (e.g. District/Upazila/ Union) selection was based on the climatic
+problems and hotspots and expert opinion. Four hotspots considering the climatic and agroecological constrains are:
+
+a.
+Barind: Drought, Cold Wave, Thunder Storm and Lightening
+b.
+Coastal area: Coastal flood, Salinity Intrusion and Storm Surge due to cyclone
+c.
+Haor area: Flash flood
+d.
+CHT area: Zhum Cultivation and Forest degradation
+
+From this sampling frame, the allotted number of farmer household was randomly chosen
+using Simple Random Sampling (SRS) procedure. In case the required number of farmer
+household was not available in that village, the adjacent village was selected.
+
+Now, for collecting information on some issues like agro-met existing services and service
+providers, weather and climate induced problems on crop planning and crop production,
+existing documents, advisory tools, products and research work relevant to agrometeorological services in Bangladesh as well as existing land use pattern, problems
+regarding climatic events in connection with crop production and the knowledge base,
+
+farmers practiced to solve the challenges etc. some other respondents were involved in the
+survey.
+
+Table 2.1: Summary of Basic Statistics of the Farmers in Project Area2
+
+Type of Hydro
+meteorological
+Extreme ever
+Sample
+Districts
+Sample
+Upazila
+Farm Household by type
+
+Total
+Large &
+Medium
+7.5 acre
+& above
+Landless
+(no agriland)
+Marginal
+(0.05-2.49
+acre)
+Small
+(2.5-7.49
+acre)
+Drought
+Cold
+wave,
+Storm
+Rajshahi
+Naogaon
+Cyclone, Salt,
+flood
+Patuakhali
+Satkhira
+Flash/
+PreMonsoon
+Flood
+Sunamganj
+Netrokona
+Forest
+degradation
+Khagrachari
+Bandarban
+Total
+
+Distribution of sample farmer households by districts, upazila and farm holdings
+
+The number of sample farmer was determined by proportional allocation. The allocation was
+said to be proportional allocation when the total sample size
+(1000) is distributed among
+different districts in proportion to the total number of farmer household of districts. In other
+words, the allocation is proportion if
+for
+1, 2 ......8.
+
+Where
+is the Population (total number of farmer households by farm holdings) in the th
+district
+is the sample size of
+th district and
+is the total number of farm holding in
+respective district. After determination of Sample size in each farm holding, the number of
+household will be further stratified according to their upazila. After determination of farmer
+household by upazila, further stratification was made by farm holdings size (large & medium,
+small, marginal and landless farmers).
+
+Table 2.2: Distribution of Sample Farmers by Farm Holdings
+Type of
+Hydrometeorologi
+cal Extreme
+Event
+Sample
+Districts
+Sample
+Upazila
+Proportionate No of Sample farmers by farm-holding
+
+Total
+Landless
+(without
+agri-land)
+Marginal
+(0.01-0.49
+acre)
+Small
+(0.50-2.49
+acre)
+Large &
+Medium (>
+2.5 acres)
+Propionate
+Adjusted
+Propionate
+Adjusted
+Propionate
+Adjusted
+Propionate
+Adjusted
+Propionate
+Adjusted
+Drought
+Cold wave,
+Storm
+Rajshahi
+Naogaon
+Cyclone,
+Salt, Flood
+Patuakhali
+Satkhira
+Flash/ PreSunamganj
+
+2 Year Book of Bangladesh Agricultural Statistics, BBS-2016, Published in May 2017 (Series 28)
+
+Monsoon
+Flood
+Netrokona
+Forest
+Degradation
+Khagrachari
+Bandarban
+Total
+
+Table 2.3: Upazila-wise sample distribution
+
+Type of Hydro
+meteorological
+Extreme Event
+Sample
+Districts
+Sample
+Upazila
+Distribution of Sample Farmers by Landholdings
+
+Total
+Large &
+Medium
+Landless
+(No agroland)
+Marginal
+(0.05-2.49
+acre)
+Small
+(2.5-7.49
+acre)
+Drought
+Cold wave,
+Nor'wester, Pest
+& Disease
+Rajshahi
+Tanore
+Godagari
+Naogaon
+Sadar
+Mohadevpur
+Cyclone & storm
+surge, Salinity
+intrusion, Pest &
+Disease
+Patuakhali
+Kalapara
+Dumki
+Satkhira
+Kaliganj
+Debhata
+Flash/
+Pre-Monsoon
+Flood
+Sunamganj
+Taherpur
+Sadar
+Netrokona
+Mohanganj
+Kalmakanda
+Forest
+degradation
+Khagrachari Sadar
+Matiranga
+Bandarban
+Sadar
+Lama
+Total
+
+The above formula was used as a guide to ensure the representativeness of the sample.
+However, the consultants along with survey team finalized sample size keeping in mind the
+time and budget constraint in consultation with the PD/PIU/DAE officials. Adjusted size of the
+sample was 1020 farmer households, which fits well in the time and budget framework as well
+as in the formula used.
+(ii) Qualitative Analysis
+
+In this analysis the most appropriate methods were used are as follows:
+
+a) Focus Group Discussion (FGD)
+b) Regional Level Data Validation Workshop
+
+a.
+Focus Group Discussion (FGD)
+
+For the qualitative analysis, total 16 Focus Group Discussions (FGDs) were conducted
+considering one for each of the upazila. The participants for each FGD were 10 to 12
+respondents. The FGD meetings were conducted with concerned stakeholders such as
+farmers of different types including women at district/ upazila and field level. The FGD was
+conducted to collect the information using pre-designed guidelines (Appendix-2)
+encompassing issues about the efficiency and effectiveness of project activities such as:
+
+•
+Weather or climate such as rainfall, temperature, cyclone, storm, drought, cold-wave
+and heatwave, salinity, Zhum cultivation, flood & forest degradation induced
+problems on agriculture
+•
+Farmer’s knowledge and perception on agro-met services at the community level
+•
+Seasonal variation of climatic and weather parameters (e.g. rainfall, temperature
+etc.) and farmer’s perception in relation to crop planning and crop productivity
+
+•
+Existing land use pattern, problems regarding climatic events in connection with
+crop production and the knowledge base, farmers are practicing to solve the
+challenges
+•
+Needs or new requirements of agro-met services in order to ensure and develop
+effective and user friendly agro-met advisory services for ensuring crop productivity
+and food security
+
+b.
+Regional Level Data Validation Meeting
+
+Five (5) regional level data validation meeting was conducted in Tanore upazila under Rajshahi
+district; Sadar and Mohadevpur upazila under Naogaon district; Sadar upazila of Satkhira
+district and Sadar upazila of Patuakhali district. The regional level meetings were conducted to
+validate the collected information using questionnaire by enumerators of the respective
+sampled upazilas with participation of upazila level officers and target respondents.
+
+c.
+Upazila Level Agriculture Information
+
+The upazila level basic agricultural information such as rainfall, temperature, land use pattern,
+demography, hydro- meteorology, agricultural practices, current management practices etc.
+was collected from 16 UAOs using pre-designed semi-structured questionnaire (Appendix-3)
+encompassing issues about the indicators such as:
+
+•
+Past two-year statistics of weather or climate such as rainfall, temperature, cyclone,
+storm, drought, cold and heat wave, salinity, Zhum cultivation, flood & forest
+degradation induced problems on agriculture
+•
+Crop production status of small and marginal farmers and their common problems
+•
+Agro-met services and products, its functionality, effectiveness and user satisfaction
+•
+Land use pattern, demography, hydro-meteorology, agricultural practices, and
+current management practices
+•
+Whether existing climate forecast can address the climate variability?
+•
+Recommendations to address weather and climate problems
+
+2.4.1 Summary of the data and information collection is presented below:
+
+Table 2.4: Number and Types of Respondents
+
+Activity
+Participants/
+Respondents
+No. of
+Respondents
+Respondents Category
+A. Quantitative Survey
+
+A1. Direct
+Interviews with
+Questionnaire
+Direct beneficiary
+farmers
+
+1,020
+Small, marginal and landless
+farmers
+of
+the
+respective
+upazila
+Total
+1,020
+
+A. Qualitative Survey
+
+B1. FGD
+Farmers
+Small, marginal and landless
+farmers
+of
+the
+respective
+upazila
+B2. Regional Level
+data validation
+workshop
+All categories
+people
+
+Farmers,
+DAE,
+researcher,
+academician,
+local
+elites,
+Meteorological official etc.
+B3. District
+/Upazila Level
+Agricultural
+Information
+Upazilla
+Agricultural
+Officer
+UAO, AEO, SAAO etc.
+
+2.5. Development and Finalization of Questionnaire
+
+The baseline survey questionnaire was prepared based on the objectives and scope of work
+and the needs and indicators for the survey as indicated in the TOR. The questionnaires
+were thoroughly reviewed by the experts at different stages including Inception Report
+Presentation Workshop. Additions and modifications were made during meetings/workshops
+with experts and PMU/DAE authorities. After the final approval of the PD/AMISDP the
+questionnaires were discussed in training session with enumerators and were judged about
+their understanding and field-testing were also conducted. The questionnaire was finalized
+incorporating comments and suggestions of client and field-testing and translated into
+Bangla for data collection.
+
+2.6 Recruitment and Training of Field Staff
+
+Total 18 enumerators having bachelor/master’s degree in agriculture were recruited through
+an interview board headed by the Team Leader. A three (03) day training course was
+organized for the data collection team. The first day was devoted to theory, followed by one
+day of practical training in the field for pre-testing and sharing field experiences with each
+other and experts. The third day was for reviewing the field experience. Apart from the
+foundation lectures on how to fill-in the questionnaire, group discussions, role playing in the
+classroom, and question and answer sessions were arranged. The experts and the senior
+key personnel of the firm provided the training.
+
+2.7 Data Collection
+
+The trained survey enumerators and supervisors were placed to collect data in each of the
+survey locations. The survey supervisors were placed for supervising the data collection and
+they were also responsible for monitoring, data checking and field verification of collected
+data. All the field staff reached the survey area with the required number of questionnaires,
+guidelines, checklists, and daily progress reports, manual of data collection, and other
+documents and articles necessary for field activities. The work of enumerators was
+constantly monitored and supervised by the supervisors. The supervisors checked all
+completed questionnaires in the field and re-interviewed some of the respondents to be sure
+about the quality of data. It was done rigorously so as to avoid return visit any particular site,
+to avoid consuming much time. The supervisors were responsible for conducting focus
+group discussions and regional data validation meeting. The consultant made random visits at
+the survey area to ensure quality control of data collection and also to encourage the
+beneficiaries/respondents` and supervisors.
+
+The filled-up questionnaires were checked and verified properly by the Field Supervisors and
+was sent to the DTCL office every weekend right from the second week of the start of the
+survey. In addition to data collection, the consultant conducted visit in the project area to
+evaluate the project activities and knowledge of the DAE officials.
+
+2.8 Quality Assurance Measures of Data
+
+The highest possible care was taken in ensuring a high quality of collected data and
+information. A system of Total Quality Management (TQM) was instituted which comprised
+of all systematic arrangements and activities directed towards safeguarding, maintenance
+and promotion of quality throughout the study period. To ensure the appropriate quality of
+the collected data/information, quality control was maintained in various steps in this study
+with quantitative and qualitative research endeavors. Quality was ensured in all the
+indicators, triangulation, analysis and reporting.
+
+A sound quality control system was developed to adequately monitor the quality of data
+collection. For this purpose, experts, supervisors and quality enumerators were deployed.
+They moved constantly around the sample spots; and ensure quality data through: (i) field
+checking, and (ii) data monitoring. Field checking was undertaken in both ‘presence’ and
+‘absence’ of the field teams. ‘Checking in presence’ was done through verification of the
+
+work of a field team in a sample area during the time of the questionnaire survey and
+qualitative studies. ‘Checking in absence’ was done through verification of the work of a
+field team in a sample area after the team leaves the site, having completed its assigned
+work in the area. During their field checking, the experts performed re-interviews, and
+checked data accuracy. ‘Field checking in presence’ was conducted for all field
+enumerators/facilitators, while ‘field checking in absence’ was done at randomly selected
+sites.
+
+2.9 Data Management, Processing and Analysis
+
+The filled-in questionnaires were considered as the sources of raw data. For effective
+analysis and quality output generation, the following activities were undertaken on the
+collected data:
+
+▪
+Filing the filled-in questionnaires and checklists;
+▪
+Editing and coding the questionnaires and checklists for entry into the computer; and
+▪
+Quality control and coding of open-ended responses.
+
+The filled-in questionnaires and checklists were collected, filed and batched according to
+different strata and task programs to enable easy operation for processing steps (editing,
+coding, entry etc.). The edited and coded questionnaires were dispatched to computer
+operators for data entry/punching to the software installed (SPSS and MC Access) for this
+purpose. The entire work was undertaken under the supervision and guidance of the team
+leader and computer programmer.
+
+All possible in-built conditional, logical and range checking procedures was incorporated in
+the data entry program to detect mistakes done by the entry operator during the data entry.
+
+Frequency tables were prepared for all the variables and necessary cross tables consistent
+with the survey objectives were prepared.
+
+Analysis Plan
+
+For making a sensible analysis of collected data following statistical tools was adopted
+
+▪
+Descriptive summary statistics
+▪
+Graphical representation
+▪
+Confidence Intervals for crucial variables
+▪
+Analyze weather & climate induced problems on agricultural production
+▪
+Inter-regional difference analysis
+▪
+Differential analysis by small, marginal and landless, farm holdings, by gender.
+
+The specific analysis included:
+•
+Socio-demographic profile including the family composition by age & sex, education,
+occupation
+•
+Landownership status
+•
+Land use scenarios such as area, cropping pattern and intensity, cropping plan on
+climate changes and its knowledge
+•
+Cyclone, cold and heat wave, storm, flood, temperature, rainfall, salinity, zhum
+cultivation, flood, lightening related common problems on agricultural production.
+•
+Crop production, productivity, and diversity etc.
+
+CHAPTER- 3
+
+FARMER’S BASIC INFORMATION
+
+This chapter describes about the farmers demographic information such as family,
+ownership of land, land use pattern and production and productivity etc. The objective of the
+study was to identify land use pattern, demography, hydro-meteorology, agricultural
+practices, current management practices etc. of farmers. As per the objectives, findings of
+the study have been presented herewith mainly based on the primary and secondary data.
+
+3.1 General information of the farmer
+
+Gender, marital status, education level, major source of income and number of family
+members were determined by analyzing questionnaires as follows:
+
+3.1.1 Gender and marital status of respondents
+
+Out of 1020 farmers, around all (98.9%) of them were male and 1.1% farmers (11) were
+female participated in the survey. In terms of marital status, 96.5% of the farmers (984) were
+married, 2.4% farmers (25) were unmarried, 0.9% farmers (9) were widow and 0.2% farmers
+(2) were divorce.
+
+Table 3.1 Marital status of the respondents
+
+Marital status
+Response of famer’s
+No
+%
+Married
+96.5
+Unmarried
+2.5
+Divorce
+0.2
+Widow
+0.9
+Total
+
+3.1.2 Education level of respondents
+
+Out of 1020 farmers, 27.5% of them (281) had no formal education, 25.1% farmers (256)
+had secondary school education, 20.4% farmers (208) had primary school education. On the
+other hand, 13.6% farmers (139) could read and write only, 10.4% farmers (106) had college
+level education, 2.3% farmers (23) had university level education and 0.7% farmers (7) had
+technical education.
+
+Table 3.2: Education level of respondents
+
+Education Level
+Number of respondents
+% response
+No formal education
+27.5
+Can read and write
+13.6
+Primary school
+20.4
+Secondary school
+25.1
+Technical education
+0.7
+College
+10.4
+University
+2.3
+Total
+100.0
+
+3.1.3 Major sources of income
+
+All (100%) farmers stated that their major source of income came from the agricultural
+activities/farmland while 17% farmers reported that in addition of agricultural farmland
+income, they had an additional source of income from the non-agricultural activities/nonfarmland.
+
+Figure 3.1. Major source of farmers’ income
+
+3.1.4 Members of the family and engaged with agriculture
+
+Number of members in the family: The average number of the family members
+participated in the survey was 5.36, where the minimum members were 2 and maximum
+family members were 17.
+Number of family members engaged in agriculture: The average family members
+engaged in agriculture was 1.56, where the minimum members engaged in agriculture were
+1 and maximum family members were 9.
+
+Table 3.3. Number of members in the family and engaged with agriculture
+Family parameters
+Member range (no./family)
+Standard
+deviation
+Minimum
+Maximum
+Average
+Member in the family (no.)
+5.36
+2.429
+Family members engaged
+in agriculture (no.)
+1.56
+0.953
+
+3.1.5 Owner of the lands
+
+Total land of the household: The average total land area of the household was 242.17
+decimal/household, whereas the minimum area of total land of the household was 5
+decimals and the maximum area of the total land of the household was 960 decimals.
+
+Own land: The average own land of the household was 200.34 decimal/household, whereas
+the minimum own land of the household was 2 decimals and the maximum own land of the
+household was 960 decimals.
+
+Lease/mortgage land: The average lease/mortgage land of the household was 49.12
+decimal/household, whereas the minimum lease/mortgage land of the household was 4
+decimals and the maximum lease/mortgage land of the household was 90 decimals.
+
+Total cultivable land of the household: The average total cultivable land of the household
+was 239.89 decimal/household, whereas the minimum total cultivable land of the household
+was 4 decimals and the maximum total cultivable land of the household was 980 decimals.
+
+16.6
+No
+%
+Response
+Type of response
+Farm land
+Other than farm land
+
+Own cultivable land: The average own cultivable land of the household was 218.16
+decimal/household, whereas the minimum own cultivable land of the household was 4
+decimals and the maximum cultivable own land of the household was 980 decimals.
+
+Lease/mortgage cultivable land: The average lease/mortgage cultivable land of the
+household was 41.24 decimal/household, whereas the minimum lease/mortgage cultivable
+land of the household was 3 decimals and the maximum lease/mortgage cultivable land of
+the household was 90 decimals.
+
+Table 3.4. Land area under the household
+Land pattern
+Area of land (decimal/family)
+Standard
+deviation
+Minimum Maximum Average
+Total land of the household
+242.17
+207.110
+Own land
+200.34
+225.482
+Lease /mortgage land
+49.12
+36.371
+Total cultivable land of the
+household
+239.89
+217.198
+Own cultivable land
+218.16
+199.024
+Leased/mortgage cultivable land
+41.24
+34.679
+
+3.1.6 Soil type of the land under the household
+
+Out of 1020 farmers participated in the survey, the soil type of the land of 47.1% (480)
+farmers was loamy which was considered ideal soil for agricultural crop production. Whereas
+31.8% farmers (324) had sandy-loam soil land. On the other hand, 8.7% (89) farmers had
+clay soil land, 7.3% farmers had clay-loam soil land and only 5.2% farmers had sandy soil
+land.
+Table 3.5: Soil type of the land under the household
+Soil type
+Number of respondents
+% response
+Sandy and Salty
+5.2
+Loamy
+47.1
+Clay
+8.7
+Sandy-loam and Saline
+31.8
+Clay-loam
+7.3
+Total
+100.0
+
+3.1.7 Land type of the farmers
+
+Land type data indicates that out of 1020 farmers, 34% of them (344) had high land, 35%
+farmers (355) had medium high lands. Therefore, 69% of respondents had high and medium
+high lands and they could practice year-round crop production. On the other hand, 24.1%
+farmers (246) had low land, 6.8% farmers had marshland and only 0.6% farmers (6) had
+pond. Therefore, 31% farmers had low and marshland and pond, which were not suitable for
+year-round crop production.
+
+Table 3.6: Land type of the farmers
+
+Land type
+Number of respondents
+% response
+High
+33.7
+Low
+24.1
+Medium high
+34.8
+Marsh land
+6.8
+Pond
+0.6
+Total
+100.0
+
+3.1.8 Utilization of irrigation on land
+
+Out of 1020, about 90.6% farmers (924) participated in the survey utilized irrigation on their
+agricultural land for crop production. On the other hand, other 9.4% (96) farmers reported
+that they did not use irrigation on their land for crop production.
+
+Per hectare average production in irrigated agricultural land is 7.0 MT and per hectare
+average income is Taka 182,000 in the project sample area.
+
+90.6%
+9.4%
+Figure 3.2. Response on the utilization of irrigation on agricultural
+land by the farmers
+Yes
+No
+
+CHAPTER-4
+
+WEATHER AND CLIMATE INDUCED PROBLEMS
+
+This chapter describes overall weather and climate induced problems faced by the farmers
+for crop production, their losses and overall impact of the farmer’s livelihood etc. The
+objective of the study was to identify what type of agro-meteorological services available in
+Bangladesh and who are the service providers and existing agro-meteorological (if any)
+information, ongoing observed parameters and technologies of BMD. In addition, assess
+the farmer’s knowledge and perception on meteorological or agro-met services at
+community level and the seasonal variation of climatic and weather parameters (e.g.
+rainfall, temperature etc.) and farmer’s perception in relation to crop planning and crop
+productivity. The study also assesses the effectiveness of existing forecast information and
+future requirements. As per the objectives, findings of the study have been presented
+herewith mainly based on the primary and secondary data.
+
+4.1 Upazila-wise past two years’ weather and climate information
+
+The intensity of weather and climate induced problems in 16 upazilas of the 8 sampled
+districts under four hydro meteorological Extreme Region/hotspots areas are varied from one
+location to another. However, the major temperature variation, annual rainfall, cyclone,
+sudden flood, drought, and storm related information have been furnished below:
+
+Minimum Temperature: The lowest 4.90C temperature recorded in Sadar and Mohadebpur
+upazila under Naogaon district which was followed by Sadar upazilas under Rajshahi
+(5.80C), Khagrachari (5.10C), Netrokona (6.20C), and Satkhira (7.50C). However, the highest
+temperature recorded in Bandarban (11.5 0C) followed by Patuakhali (9.50C) and Sunamganj
+(8.80C).
+
+Maximum Temperature: Similar trend of temperature variation had also recorded in case of
+maximum temperature. The highest 350C temperature recorded in Tanore and Godagari
+upazila under Rajshahi district which was followed by Satkhira (340C), Naogaon and
+Sunamganj (330C), Patuakhali (320C). However, the lowest temperature recorded in
+Bandarban and Khagrachari (260C) while average temperature was ranged between 220C-
+300C.
+
+Annual rainfall: The lowest 1075 and 1112 mm rainfall recorded in Tanore and Godagari of
+Rajshahi district which was followed by Sadar and Matiranga upazilas under Khagrachari
+(1224 and 1550 mm), Naogaon (1552 mm), Satkhira (1711 mm) while highest 2800 mm
+recorded in Taherpur of Sunamganj, which was followed by Kalapara of Pataukhali
+(2690mm) Kalmakanda of Netrokona (2460 mm), Bandarban (2300 mm) etc.
+
+Cyclone: Highest 4- and 3-times cyclone recorded in Kalapara and Dumki of Patukhali while
+2 times in Kaliganj upazila of Satkhira, Matiranga upazila of Khagrachari and 1 time in
+Tanore, Sunanganj Sadar and lama upazila of Bandarban etc. There was no record about
+cyclone in the other upazilas in past two years.
+
+Flash Flood: All upazilas of the sample areas were affected due to flash flood. Highest 3
+times flash cyclone recorded in Kalapara and Dumki of Patukhali while 2 times in Kaliganj
+upazila of Satkhira, Matiranga upazila of Khagrachari and 1 time in Tanore, Sunanganj
+Sadar and Lama upazila of Bandarban etc. There was no record about cyclone in the other
+upazilas in past two years.
+
+Drought: The Tanore upazila of Rajshahi district was recorded drought in the past two years
+while mild drought recorded in Patuakhali and Khagrachari districts in rabi season. There
+was no record of drought in other districts in the past two years.
+
+Storm: Highest 12 times storms observed in Sunamganj Sadar, which was followed Tanore
+of Rajshahi and Taherpur of Sunamganj (9), Kalapara of Patuakhali (8), Kaliganj of Satkhira
+(5). However, the lowest (1) number of storm recorded in Naogaon, Debhata of Satkhira,
+Matiranga of Khagrachari, which was followed by Netrokona (2). Almost all upazila storms
+were recorded except Bandarban and Khagrachari Sadar, Mohanganj of Netrokona.
+
+Table 4.1: Upazila-wise-past two years weather and climate information
+
+District
+Upazila
+Minimum
+Maximum
+Average
+Temp.(0C)
+Annual
+Rainfall
+(mm)
+Cyclone
+Flash
+flood
+Drought
+Storm
+Rajshahi
+Tanore
+5.8 0C
+35 0C
+280C
+Present
+Godagari
+5.80C
+350C
+28 0C
+-
+Absent
+Naogaon
+Sadar
+4.9 0C
+330C
+22 0C
+-
+-
+Mohadebpur
+4.9 0C
+330C
+200C
+-
+
+Patuakhali
+Kalapara
+9.5 0C
+320C
+250C
+4 times
+2 times
+Mild
+Drought
+in Rabi
+Season
+Dumki
+9.5 0C
+320C
+270C
+3 times
+2 times
+Mild
+Drought
+in Rabi
+Season
+Satkhira
+Kaliganj
+7.5 0C
+340C
+290C
+2 times
+3 times
+
+Debhata
+7.50C
+340C
+250C
+
+2 times
+
+Sunamganj
+Taherpur
+8.80C
+330C
+270C
+-
+1 time
+-
+Sadar
+8.80C
+330C
+280C
+1 time
+-
+Netrokona
+Mohanganj
+6.20C
+320C
+300C
+
+1 time
+
+-
+Kalmakanda
+6.20C
+320C
+260C
+-
+1 time
+
+Khagrachari
+Sadar
+6.10C
+320C
+300C
+-
+2 times
+Kharif -2
+Season
+-
+Matiranga
+6.10C
+260C
+260C
+Mild
+Drought
+Bandarban
+Sadar
+11.50C
+260C
+220C
+-
+-
+-
+Lama
+11.50C
+260C
+250C
+-
+-
+Source: UAO-DAE 2017-18
+
+4.2 Weather and climate induced problems in Kharif-1 (Aus) for crop production
+
+Basically, the intensity of weather and climate induced problems on crop production are
+varied from one location to another. However, the major and minor problems in Kharif-1
+(Aus) season (16 March to 15 July of the year) for crop production have been illustrated as
+follows:
+
+Major problems in Kharif-1 season: Out of 1020 respondents, the majority (62.64%)
+farmers stated that insect pests attack in crop fields were the major problems in Kharif-1
+(Aus) season for crop production which was followed by disease (51.7%) and weed
+infestation (27.3%). In case of climate related problems, the highest (20.9%) farmers
+indicated that salinity was the major problems for Kharif-1 season for crop production which
+was followed by drought (15.5%), Nor’wester (10.49%), flash flood (10.3%), heat wave
+(8.6%), flood (7%), cold wave (5.8%) and lightening (5%). However, the lowest (0.2%)
+percent farmers stated that they had a major problem of landslide which was followed by
+
+flood inundate (1.6%), cyclone (2%), storm surge (2.3%), and forest degradation (3.6%)
+under multiple responses.
+
+Minor problems in Kharif-1 season: Out of 1020 respondents, 10 to 25% farmers reported
+that the attack of insect and mite pests, diseases on crops, rats in crop field, weed
+infestation were the minor problems for crop production in Kharif-1 season. In case of
+climate related problems, 10% to 14% farmers of the survey area reported that the flood,
+flash flood, storm surge were the minor problems. On the other hand, 4% to 5% farmers
+reported that the drought, thunderstorm, cyclone, forest degradation, etc. were the minor
+problems.
+
+Table 4.2: Weather and climate induced problems in Kharif-1 (Aus) season
+
+Problems
+Major problem
+Minor problem
+Number of
+respondents
+%
+response
+Number of
+respondents
+% response
+Climate related problems
+Drought
+15.5
+4.4
+Cold-wave
+5.8
+1.5
+Heatwave
+8.6
+2.3
+Nor ’wester
+10.49
+4.6
+Lightening
+5.0
+1.7
+Coastal flood
+4.9
+1.9
+Flood
+7.0
+1.5
+Flash Flood
+10.3
+10.1
+Flood Inundate
+1.6
+3.4
+Salinity
+20.9
+13.9
+Storm surge
+2.3
+11.8
+Cyclone
+2.0
+5.3
+Landslide
+0.2
+2.1
+Forest degradation
+3.6
+4.2
+Pest related problems
+Attack of insect pests
+62.64
+25.4
+Attack of diseases
+51.7
+15.1
+Weed infestation
+27.3
+10.4
+Multiple Responses
+
+4.3 Weather and climate induced problems in Kharif-2 (Aman) for crop production
+
+Basically, the intensity of weather and climate induced problems on crop production are
+varied from one location to another. However, the major and minor problems in Kharif-2
+(Aman) season (16 July to 15 October of the year) for crop production have been illustrated
+as follows:
+
+Major problems in Kharif-2 season: Out of 1020 respondents, the majority (51.17%)
+farmers stated that insect pests attack in crop fields were the major problems in Kharif-2
+(Aman) season for crop production which was followed by disease (32.84%) and weed
+infestation (18.7%). In case of climate related problems, the highest (14.5%) farmers
+indicated that flood was the major problems for Kharif-2 season for crop production which
+was followed by flood inundate (10.7%), salinity (9.7%), flash flood (8.1%), storm surge
+(6.9%) and nor’wester (4.7%). However, the lowest (0.4%) percent farmers stated that they
+had a major problem of forest degradation which was followed by landslide (1.1%),
+lightening (2.1%), cold wave (3.4%), cyclone (3.6% and drought (4%).
+
+Minor problems in Kharif-2 season: In terms of weather and climate related problems, out
+of 1020 respondents, drought, cold wave, heat wave, lightening, cyclone, forest degradation,
+etc. were the minor problems in Kharif-2 season for crop production.
+
+Table 4.3: Weather and Climate induced problems in Kharif-2 (Aman) season
+
+Problem
+Major problem
+Minor problem
+Number of
+respondents
+% response
+Number of
+respondents
+%
+response
+Climate related problems
+Drought
+4.0
+2.4
+Cold-wave
+3.4
+1.1
+Heatwave
+4.0
+1.1
+Nor’wester
+4.7
+1.7
+Lightening
+2.1
+1.5
+Coastal flood
+7.4
+2.1
+Flood
+14.5
+2.6
+Flash Flood
+8.1
+3.4
+Flood Inundate
+10.7
+1.9
+Salinity
+9.7
+8.2
+Storm surge
+6.9
+2.3
+Cyclone
+3.6
+1.9
+Landslide
+1.1
+0.3
+Forest degradation
+0.4
+0.3
+Pest related problems
+Attack of insect pests
+51.17
+16.5
+Attack of diseases
+32.84
+26.3
+Weed infestation
+18.7
+2.4
+Multiple responses
+
+4.4 Weather and climate induced problems in Rabi (Boro) for crop production
+
+Basically, the intensity of weather and climate induced problems on crop production are
+varied from one location to another. However, the major and minor problems in Rabi (Boro)
+season (16 October to 15 March of the year) for crop production have been illustrated as
+follows:
+
+Major problems in Rabi (Boro) season: The major problem of crop production in Rabi
+(Boro) season was the drought as reported by the 28.1% respondents, followed by attack of
+insect pest (27.25%), cold wave (22.1%), attack of disease (16.4%), weed infestation (7.1%),
+salinity (6.3%) and flash flood (4.7%). However, none of the response reported in the
+category of flood, heat wave, flood inundate, and landslide while 1.2% farmers indicated that
+the forest degradation was the major problem which was followed by nor’wester (0.8%),
+storm surge (0.5%), cyclone (0.4%), lightening (0.2%), and coastal flood (0.1%).
+
+Minor problems in Rabi (Boro) season: In terms of weather and climate related problems,
+out of 1020 respondents, heat wave, all kinds of floods, storms and cyclone etc. were the
+minor problems in Rabi (Boro) season for crop production.
+
+Table 4.4: Weather and climate induced problems in Rabi (Boro) season
+
+Problem
+Major problem
+Minor problem
+Number of
+respondents
+% response
+Number of
+respondents
+% response
+Drought
+28.1
+0.9
+Cold-wave
+22.1
+0.5
+Heatwave
+0.0
+3.4
+Nor ’wester
+0.8
+3.5
+Lightening
+0.2
+5.5
+Coastal flood
+0.1
+4.4
+Flood
+0.0
+5.0
+
+Flash Flood
+4.7
+4.1
+Flood Inundate
+0.0
+3.9
+Salinity
+6.3
+3.8
+Storm surge
+0.5
+0.2
+Cyclone
+0.4
+1.2
+Landslide
+0.0
+0.2
+Forest degradation
+1.2
+0.2
+Attack of insect pests
+27.25
+27.7
+Attack of diseases
+16.4
+17.9
+Weed infestation
+7.1
+12.6
+Multiple Responses
+
+From above findings, it was revealed that attack of insect pests was the single most major
+problem in Kharif-1, Kharif-2 and Boro seasons for crop production in the survey area which
+was followed by diseases. Other major problems were flash flood/ flood especially in Aman
+and Boro seasons. The salinity problems in Rabi and Kharif-1 season were occurred in
+coastal areas.
+
+4.5 Weather and climate induced problems in hotspots area of Drought, Cold wave,
+Nor ‘wester, Pest & Disease
+
+District-wise response of farmers under hydro meteorological extreme event/hotspots area of
+drought, cold wave, nor ‘wester, pest & disease regarding weather and climate induced
+problems had been furnished below:
+
+Rajshahi: Highest 65.29% farmers indicated that they had a pest infestation problem while
+53.53% farmers opined that they had a diseases infestation problem in the crop field. This
+was followed by drought (32.94%), cold-wave (24.71%), heat wave (27.06%), storm
+(13.53%), and cyclone (11.76%). The lowest 5.29% farmers opined that they had a problem
+of lightening which was followed by nor ‘wester (9.41%). None of the farmers reported about
+the problems of floods, landslide, forest degradation and salinity problems in Rajshahi
+district.
+
+Naogaon: Similar to the Rajshahi, the highest 67.86% farmers indicated that they had a pest
+infestation problem while 56.38% farmers opined that they had a diseases infestation
+problem in their crop field. This was followed by drought (37.77%), cold-wave (32.98%),
+heatwave (27.13%), cyclone (11.70%), and nor ‘wester (11.17%). The lowest 6.91% farmers
+opined that they had a problem of lightening which was followed by storm surge (9.57%).
+
+Table 4.5: Weather and climate induced problems in hotspots area of Drought, Coldwave, nor ‘wester, Pest & Disease
+
+Type of problems
+Rajshahi farmer’s response
+Naogaon farmer’s response
+Number (N=170)
+% response Number (N=188) % response
+Drought
+32.94
+37.77
+Cold-wave
+24.71
+32.98
+Heatwave
+27.06
+27.13
+nor ‘wester
+9.41
+11.17
+Lightening
+5.29
+6.91
+Coastal flood
+-
+
+-
+
+Flood
+-
+
+-
+
+Flash Flood
+-
+
+-
+
+Flood Inundate
+-
+
+-
+
+Salinity
+-
+
+-
+
+Storm surge
+13.53
+9.57
+Cyclone
+11.76
+11.70
+
+Landslide
+-
+
+-
+
+Forest degradation
+-
+
+-
+
+Pest infestation
+65.29
+67.02
+Disease infestation
+53.53
+56.38
+Multiple responses
+
+4.6 Weather and climate induced problems in hotspots area of cyclone & storm surge,
+salinity intrusion, pest & disease
+
+District-wise response of farmers under hydro meteorological extreme event/hotspots area of
+cyclone & storm surge, salinity intrusion, pest & disease regarding weather and climate
+induced problems had been furnished below:
+
+Patuakhali: Highest 66.67% farmers indicated that they had a pest infestation problems and
+salinity while 60.71% farmers opined that they had a diseases infestation problem in the crop
+field. This was followed by salinity (42.86%), storm-surge (32.14%), cyclone and coastal
+flood (30.95%), flash flood (28.57%), flood (25%), and flood inundate (21.43%). However,
+the lowest 10.71% farmers opined that they had a problem of forest degradation which was
+followed by heatwave (17.86%), nor’ wester (15.48%) and lightening (9.52%).
+
+Satkhira: Similar to the Patuakhali, the highest 58.47% farmers indicated that they had a
+pest infestation problems and salinity while 51.69% farmers opined that they had a diseases
+infestation problem in their crop field. This was followed by salinity problems (39.83%), flood
+(33.05%), coastal flood (30.51%), flash flood (27.97%), cyclone (22.88%) and flood inundate
+(22.03%). Conversely, the lowest 9.32% farmers opined that they had a problem of forest
+degradation which was followed by storm-surge (19.49%), nor ‘wester (13.56%), and heat
+wave (12.71%).
+
+Table 4.6: Weather and climate induced problems in hotspots area of cyclone & storm
+surge, salinity intrusion, pest & disease
+
+Type of problems
+Patuakhali farmer’s response
+Satkhira farmer’s response
+Number (N=84)
+% response
+Number (N=118)
+% response
+Drought
+0.00
+0.00
+Cold-wave
+0.00
+0.00
+Heatwave
+17.86
+12.71
+Nor ’wester
+15.48
+13.56
+Lightening
+9.52
+8.47
+Coastal flood
+30.95
+30.51
+Flood
+25.00
+33.05
+Flash Flood
+28.57
+27.97
+Flood Inundate
+21.43
+22.03
+Salinity
+42.86
+39.83
+Storm surge
+32.14
+19.49
+Cyclone
+30.95
+22.88
+Landslide
+0.00
+0.00
+Forest degradation
+10.71
+9.32
+Pest infestation
+66.67
+58.47
+Disease infestation
+60.71
+51.69
+Multiple responses
+
+4.7 Weather and climate induced problems in hotspots area of flash/ pre-monsoon
+flood
+
+District-wise response of farmers under hydro meteorological extreme event/hotspots area of
+flash/pre-monsoon flood regarding weather and climate induced problems had been
+furnished below:
+
+Sunamganj: Around 59.65% farmers indicated that they had a pest infestation problem in
+the crop field which was followed by flood (53.51%), disease infestation (49.12%), flash flood
+(44.74%), flood inundate (42.98%), and cyclone (34.21%). However, the lowest (9.65%
+farmers informed that they had lightening problems which were followed by cold-wave
+(13.16%), nor ‘wester (14.04%), and storm surge (20.18%).
+
+Netrokona: More than fifty percent (56.06%) farmers indicated that they had a pest
+infestation problem which was followed by disease infestation (46.97%), flash flood
+(29.55%), flood (26.52%), and flood inundate (23.48%). However, the lowest 8.33% farmers
+opined that they had a problem of lightening which was followed by nor’wester and cyclone
+(12.12%) and storm-surge (15.91%).
+
+Table 4.7: Weather and climate induced problems in hotspots area of Flash/ PreMonsoon Flood
+Type of problems
+Sunamganj farmer’s response
+Netrokona farmer’s response
+Number
+(N=114)
+% response
+Number (N=132)
+% response
+Drought
+0.00
+0.00
+Cold-wave
+13.16
+8.33
+Heatwave
+0.00
+0.00
+Nor ‘wester
+14.04
+12.12
+Lightening
+9.65
+8.33
+Coastal flood
+0.00
+0.00
+Flood
+53.51
+26.52
+Flash Flood
+44.74
+29.55
+Flood Inundate
+42.98
+23.48
+Salinity
+0.00
+0.00
+Storm surge
+20.18
+15.91
+Cyclone
+34.21
+12.12
+Landslide
+0.00
+0.00
+Forest degradation
+0.00
+0.00
+Pest infestation
+59.65
+56.06
+Disease infestation
+49.12
+46.97
+Multiple responses
+
+4.8 Weather and climate induced problems in hotspots area of forest degradation
+
+District-wise response of farmers under hydro-meteorological extreme event/hotspot area of
+forest degradation regarding weather and climate induced problems had been furnished
+below:
+
+Khagrachari: Less than fifty percent (43.68%) farmers indicated that they had a pest
+infestation problem while 40.80% farmers opined that they had a forest degradation problem.
+This was followed by flood (39.08%) and disease infestation (36.21%).
+
+Bandarban: Similar trend of result had also found in Bandarban. Highest 72.50% farmers
+indicated that they had a pest infestation problem while 67.50% farmers opined that they had
+
+a forest degradation problem. This was followed by flash flood (disease infestation flash
+flood (62.50%), and disease infestation (57.50) %.
+
+Table 4.8: Weather and climate induced problems in hotspots area of forest
+degradation
+
+Type of problems
+Khagrachari farmer’s response
+Bandarban farmer’s response
+Number (N=174)
+% response
+Number (N=40)
+% response
+Drought
+0.00
+2.50
+Cold-wave
+6.32
+2.50
+Heatwave
+0.00
+0.00
+Nor ‘wester
+3.45
+5.00
+Lightening
+3.45
+0.00
+Coastal flood
+0.00
+0.00
+Flood
+39.08
+47.50
+Flash Flood
+26.44
+62.50
+Flood Inundate
+27.59
+35.00
+Salinity
+0.00
+0.00
+Storm surge
+12.07
+17.50
+Cyclone
+6.32
+5.00
+Landslide
+22.41
+37.50
+Forest degradation
+40.80
+67.50
+Pest infestation
+43.68
+72.50
+Disease infestation
+36.21
+57.50
+Multiple responses
+
+4.9 Extent of crop damages due to the weather and climatic problems
+
+Out of 1020 respondents, about 48.1% (491) farmers reported that the extent of crop
+damages due to weather and climatic problems was moderate which is followed by severe
+crop damage as reported by about 35.6% farmers (363) during survey. On the other hand,
+about 16.3% (166) farmers reported that the extent of crop damage was negligible due to
+weather and climatic problems.
+
+From these findings, it was revealed that the extent of crop damage due to weather and
+climatic problems was moderate to severe as reported by about 84% farmers. Therefore,
+early forecast of weather and climate services for the farmers will be very effective to protect
+their crops from the damages.
+
+Figure 4.1: Extent of crop damages due to weather and climate related problems
+
+4.10 Frequency of weather and climate related problems
+
+Out of 1020 respondents, about 95% farmers (967) reported that they faced weather and
+climatic problems at least 1 to 4 times during crop production; of which 48.4% farmers faced
+problems at 3-4 times and 46.4% farmers faced problems at 1-2 times. On the other hand,
+about 5% (50) farmers faced such type of problems at 5-6 times during crop production.
+
+Considering the frequency of weather and climatic problems faced by the farmers during
+crop production, early forecasting of agro-meteorological information will be the most
+effective way to take actions to combat crop damage due to weather and climatic problems.
+
+Figure 4.2: Frequency of weather and climatic problems faced during crop production
+
+4.11 Problems faced during 2016 and 2017
+
+Table below indicated the past two years (2016 and 2017) weather and climate induced
+problems faced by the farmers. Majority (70.1%) farmers reported that insect attack was the
+major problems for producing crops followed by attack of disease (60.9%), flash flood
+(36.2%), weed infestation on crop field (34.1%), drought (22.4%) cold-wave (21.8%) and nor
+‘wester/thunderstorm (10.39%). However, the lowest ((0.6%) farmers indicated forest
+degradation were the major problems followed by landslide (1.2%), coastal flood (1.9%),
+storm surge (3.9%), lightening (7.05%), cyclone (8.4%), flood (9.3%), flood inundate (9.4%),
+and heatwave (9.5%).
+
+To overcome from the huge damage of crops, it is strongly recommended immediate
+availability of agro-meteorological service to the farmers for reducing the crops damage from
+the climate and weather induced problems.
+
+Table 4.9: Problems faced during 2016 and 2017
+
+Problems faced in past 2 years
+(2016 and 2017)
+Number
+%
+Drought
+22.4
+Cold-wave
+21.8
+Heatwave
+9.5
+Thunder storm
+10.39
+Lightening
+7.05
+46.4
+48.4
+4.9
+0.3
+1-2 times
+3-4 times
+5-6 times
+Never
+No.
+%
+
+Coastal flood
+1.9
+Flood
+9.3
+Flash Flood
+36.2
+Flood Inundate
+9.4
+Salinity
+19.6
+Storm surge
+3.9
+Cyclone
+8.4
+Landslide
+1.2
+Forest degradation
+0.6
+Attack of insect
+70.1
+Attack of diseases
+60.9
+Weed infestation
+34.1
+Others
+2.2
+Multiple Responses
+
+4.12 Average production loss
+
+According to the figure 4.3, the extent of problems faced by the farmers were insect attack,
+disease attack, flash flood, weed infestation on crop field, drought, cold-wave and
+thunderstorm. The highest (39.9%) farmers reported that they had a loss of 20-39 kg per
+acre (100 decimal) land which is followed by above 100 kg in per acre (100 decimal) land.
+The lowest (6.5%) farmers opined that they had a loss of 80-100 kg in per acre land which is
+followed by 60-79 kg (8.8%), 41-59 kg (12.1%) and above 100 kg (32.7%).
+
+Figure 4.3: Average production loss due to problems
+
+CHAPTER-5
+
+AGRO-METEOROLOGICAL RELATED INFORMATION
+
+This chapter describes overall weather and climate related information available for farmers.
+The objective of the study was to identify existing agro-meteorological information, ongoing
+observed parameters and technologies of BMD and to assess the farmer’s knowledge and
+perception on agro-met services (if available) at community level. As per the objectives,
+findings of the study have been presented herewith mainly based on the primary and
+secondary data.
+
+5.1 Source of Agro-Meteorological Information
+
+There was no agro-meteorological service for farmers in the country. Farmers were getting
+forecast information on meteorological matters such as rain, storm, cyclone, heat wave, cold
+wave, thunderstorm etc. through different sources. Majority (42.74%) farmers reported that
+they did not get any meteorological information while second highest (37.15%) farmers
+received meteorological information from the TV which was followed by DAE (30.39%),
+community people (30%) and radio (25.6%). However, the lowest (0.2%) farmers indicated
+that they received information from the other sources like DAE IPM club/extension battayan
+club which was followed by local level micing (8%), and mobile SMS (9.4%). Aside this
+around 2.15% farmers indicated that they received meteorological information from the
+social media.
+
+Table 5.1: Meteorological related information in the project area
+
+Source of getting information of weather,
+climate, rainfall and flood etc.
+Multiple responses
+Number
+%
+Radio
+25.6
+TV
+37.15
+Social media
+2.15
+Mobile SMS
+9.4
+Local level miking
+8.0
+Community people
+30.0
+None
+42.74
+DAE
+30.39
+Multiple responses
+
+5.2 Perception about the Govt. organization providing weather & climate related
+information
+
+Asking the question on knowledge about the name of government organizations that
+provided temperature, rainfall, cyclone, storm, heat wave, and cold wave information, the
+majority (56%) farmer reported that they didn’t have any knowledge about the organization
+that provided this information. The second highest (25%) farmer indicated that they were
+getting this information from the Department of Agricultural Extension (DAE) field level
+officials and extension batayan/IPM club etc. Conversely, 19% farmers indicated that they
+are getting weather and climate related information from Bangladesh Meteorological
+Department (BMD) through radio, TV or local level miking. However, none of them reported
+about BWDB.
+
+Figure 5.1: Knowledge about the organization providing weather & climate information
+
+5.3 Perception about the govt. organization providing flood related information
+
+Asking the question on knowledge about the organizations providing flood, flash flood, and
+coastal flood related information, the majority (58.73%) farmer reported that they didn’t have
+any knowledge about the organization who was providing flood related information while
+25.10% farmers indicated that they were getting these flood related information from the
+Department of Agricultural Extension (DAE) field level officials and extension batayan/IPM
+club etc. The lowest (1.37%) farmer indicated that they were getting this information from the
+Bangladesh Meteorological Department (BMD) local level officials which were followed by
+Bangladesh Water Development Board (14.80%). The above findings clearly indicated that
+farmers didn’t have a clear idea about the government agency who was providing flood
+related information.
+
+Figure 5.2: Knowledge about the organization providing flood information
+
+5.4 Timing of information to save crops and properties from the damages
+
+Most (86.6%) of the farmers indicated that they were not getting enough time after receiving
+information to save crops from the damage. Even they were not quite enough sure what to
+do after getting this information as it was only information of weather not any services or
+advise which was required for farmers to save crop from the damages. However, only 13.4%
+
+farmers opined that they were getting enough time after getting information to save crop
+from the damages.
+
+13.4
+86.6
+Yes
+No
+
+Figure 5.3: Timing of information to save crops and properties from the damages
+
+5.5 Minimum advance forecast time
+
+Majority (54.6%) farmers reported that they need at least 7 days’ advance forecast
+information of weather and climate with advisories or services to save their crops from the
+damage which is followed by 15 days (29.3%). However, the lowest (1.5%) farmers reported
+that they need at more than 15 days’ advance forecast information of weather and climate
+with advisories or services to save their crops from the damage which is followed by 3 days
+(14.6%).
+
+Figure 5.4: Minimum advance forecast time required to save crop from the damages
+
+5.6 Knowledge about Role of BMD
+
+Majority (80.78%) farmers opined that they had no knowledge about the roles of BMD
+whether it provided any services or advisories for protecting farmers’ crops from the hazards
+like drought, high temperature, cold & heat wave, storms, cyclone and related calamities.
+Though only 19.22% farmers indicated that they had a little bit knowledge about the roles of
+BMD which was only provided meteorological information like temperature, rainfall and
+cyclone information but not any agro-met services or advisories for protecting farmers from
+
+the hazards like drought, high temperature, cold & heat wave, storms, cyclone and related
+calamities
+
+19.22%
+80.78%
+Yes
+No
+
+Figure 5.4: Perception about Roles of BMD
+
+5.7 Knowledge about Role of BWDB
+
+Majority (91.27%) farmers opined that they had no knowledge about roles of BWDB whether
+they provided any flood related services or advisories for protecting farmer crops from
+hazards like floods related calamities. However, only (8.72%) farmers indicated that they had
+knowledge about roles of BWDB which only provided flood related forecasting information
+but not any agro-met services or advisories for protecting farmers’ crops from the hazards
+like floods related calamities.
+
+Table 5.2: Perception about Roles of BWDB
+
+Response type
+Response of farmers
+No
+%
+Yes
+8.72
+No
+91.27
+Total
+100.0
+
+5.8 Knowledge about the Role of DAE on agro-met services
+
+Majority (79.61%) farmers opined that they had no knowledge about the roles of DAE
+whether it provided any agro-met services or advisories for protecting farmers’ crops from
+the hazards related to weather, climate and flood like natural calamities. However, only
+20.39% farmers indicated that they had knowledge about the role of DAE which was only
+provided rainfall and flood information to the farmers as received from the Field Service
+Wing of DAE via Ministry of Agriculture through BMD but not any agro-met services or
+advisories for protecting farmer crops from the hazards related to weather, climate and flood
+like natural calamities.
+
+Figure 5.5: Perception about Role of DAE on Agro-met Services
+
+5.9 Coordination among BMD, BWDB and DAE
+
+Majority (89.80%) farmers opined that they had no knowledge about the coordination of
+BMD, BWDB and DAE to disseminate hydro-meteorological related information to the farmer
+communities. Though only 10.19% farmers indicated that they had a very little knowledge
+about the coordination of BMD, BWDB and DAE to disseminate hydro-meteorological related
+information due to field officials of DAE.
+
+Table 5.3: Coordination among BMD, BWDB and DAE to disseminate hydrometeorological information
+
+Type of response
+Response of farmers
+No
+%
+Yes
+10.19
+No
+89.80
+Total
+100.0
+
+5.10 Channel of meteorological information delivery
+
+All farmers reported that there were not received any agro-meteorological services which
+were required to protect their crops from the damages. The highest (66.08%) farmers
+indicated that they had not received any meteorological information or services from any
+channel or sources. However, second highest (26.37%) farmers reported that received
+general meteorological information from the TV which was followed by Radio (26.18%).
+Conversely, the lowest (3%) farmers stated that they received this meteorological
+information from mobile SMS of DAE field level officials such as SAAOs, extension batayan
+club or IPM club etc. which was followed by analogue board (1.76%).
+
+Table 5.4: Channel of meteorological information delivery
+Media type
+Response (Number)
+Response (%)
+Analogue board
+1.76
+Radio
+26.18
+TV
+26.37
+Mobile SMS
+3.0
+Others (None)
+66.08
+Multiple Responses
+
+5.11 Satisfaction of the information provided by BMD, BWDB and DAE
+
+Asking question about their satisfaction of information provided by the BMD, BWDB and
+DAE related to weather and climate information, almost all (90.99%) farmers reported that
+they were not satisfied enough of present information provided by BMD, BWDB and DAE as
+it was only an information not any services or advisories so farmers were unable to take any
+measures to protect their crop from the damages. However, only (9.01%) farmers expressed
+their satisfaction with the information provided by the BMD, DAE and BWDB.
+
+Yes
+No
+9.01%
+90.99%
+Yes
+No
+
+Figure 5.6: Satisfaction of the information provided by BMD, BWDB and DAE
+
+5.12 Source of getting information
+
+If they were not satisfying about the information provided by the BMD, BWDB and DAE then
+it was asked them, how they would like to get this information. The highest (51.50%) farmers
+opined that they would like to get this information from mobile SMS which was followed by
+Union Parishad Office (38.1%), and Upazila Agricultural Office (35.88%). The lowest (3.23%)
+farmers indicated that they would like to get this information from electronic & social media
+which was followed by Community people/farmers club etc. (32.6%).
+
+Table 5.5: Source of getting hydro-meteorological information
+
+Source of getting information
+Number
+%
+Upazila Agriculture Office
+35.88%
+Union Parishad Office
+38.1
+Community people
+32.6
+Electronic & Social Media
+3.23
+Mobile SMS
+51.50
+Multiple responses
+
+5.13 Information on seasonal variation data of weather and climate
+
+Asking question to the farmers whether they are getting information on seasonal variation of
+temperature, rainfall and other weather and climate data, all (91.66%) farmers strongly
+reported that they had not received any seasonal variation of temperature, rainfall and other
+weather and climate data which was very important for their crop planning considering
+weather and climate while 8.34% farmers indicated that they had no knowledge about this.
+
+Figure 5.7: Information on seasonal variation data of weather and climate
+
+5.14 Benefit of meteorological information
+
+Majority (61.8%) farmers opined that meteorological information could be very useful for
+insect pests and disease management strategy of crops followed by crop production
+planning (58%), harvest and processing plan of crops (43.7%) and crop management plan
+(40.2%). However, the lowest (0.6%) farmers indicated that it could be useful for others
+category like storage and marketing purposes followed by irrigation planning (28.8%).
+
+Table 5.6: Benefit of meteorological information
+
+Type of benefit
+Number
+%
+Crop Production Planning
+58.0
+Irrigation Planning
+28.8
+Crop Management
+40.2
+Harvest and processing
+43.7
+Insect pests and disease management of crops
+61.8
+Others
+0.6
+Multiple responses
+
+5.15 Necessity of agro-meteorological advisories and services
+
+Almost all (95.10%) farmers opined that they need agro-meteorological products, advisories
+and services to protect their crops from the damage while only 4.90% farmers reported they
+had no requirement of agro-meteorological products, advisories and services to protect their
+crops from the damage. It was due to their lack of knowledge on agro-met services and
+advisories.
+
+0%
+10%
+20%
+30%
+40%
+50%
+60%
+70%
+80%
+90%
+100%
+Yes
+No
+Do Not know
+91.66
+8.34
+Number
+%
+
+Figure 5.8: Necessity of agro-meteorological services
+
+5.16 Adoption of new technology and techniques
+
+Almost all (99.01%) farmers reported that they were not adopted any new technology,
+cropping pattern and crop production schedule to avoid weather and climate induced
+problems as they were not currently getting any agro-meteorological products, advisories
+and services while only 0.99% farmers reported they were adopted new technology,
+cropping pattern and crop production schedule to avoid weather and climate induced
+problems conspiring previous year weather and climate records.
+
+Figure 5.9: Adoption of new technology and techniques
+
+5.17 Type of techniques to be adopted
+
+Majority (78.6%) farmers reported that they could adopt new technology like insect pest
+tolerant crop varieties to avoid weather and climate induced problems which was followed by
+disease tolerant crop varieties (78%) and drought tolerant crop varieties (48.1%). However,
+the lowest (1%) percent farmers reported they could adopt any new technology like others
+such as crop management or planning or changing of cropping pattern which was followed
+by heat tolerant crop varieties (11.2%), salt tolerant crop varieties (12.1), and cold tolerant
+crop varieties (28%) to avoid weather and climate induced problems.
+
+Number
+%
+Yes
+95.1
+No
+4.9
+95.1
+4.9
+Yes
+No
+
+Table 5.7: Type of techniques to be adopted
+
+Adoption type
+Number
+%
+Drought tolerant crop varieties
+48.1
+Salt tolerant crop varieties
+12.1
+Disease tolerant crop varieties
+78.0
+Insect pest tolerant crop varieties
+78.6
+Heat tolerant crop varieties
+11.2
+Cold tolerant crop varieties
+28.0
+Others
+1.0
+Multiple responses
+
+5.18 Knowledge on existing weather forecast to protect crop production
+
+Around three fourth percent (74.71%) farmers out of 1020 respondents indicated that the
+existing weather forecast was not enough to protect crop production from the damage due to
+natural calamities while 24.51% farmers opined that they had no idea about this. However,
+only 0.78% farmers reported that they had knowledge of existing weather forecast to protect
+crop production from the damages.
+
+0.78
+74.71
+24.51
+0.00
+10.00
+20.00
+30.00
+40.00
+50.00
+60.00
+70.00
+80.00
+Yes
+No
+Don’t know
+Response
+No
+%
+
+Figure 5.10: Knowledge of existing weather forecast to protect crop production
+
+5.19 Accessibility of meteorological information to the farmers
+
+More than fifty percent (54.9%) farmers indicated that they had not any access of
+meteorological information or available for them followed by sometimes (36.4%). However,
+the lowest (2.2%) farmers reported that meteorological information was highly accessible or
+available for farmers followed by when I look for it (6.6%).
+
+Table 5.8: Accessibility of meteorological information to the farmers
+
+Frequency of information
+Number
+%
+Not at all
+54.9
+Sometimes
+36.4
+When I look for it
+6.6
+Highly accessible
+2.2
+Total
+100.0
+
+5.20 Effectiveness of Meteorological forecast
+
+Almost all (91.37%) farmers reported that current meteorological information or forecast was
+not effective as it was just a general information not agro-met services thus farmers were
+unable to take any measures to protect their crops from the damages. If they received agrometeorological information with advisories that helpful for them to protect their crops from the
+damages. Currently, they had not no knowledge about the measures to be taken upon
+received weather and climate information to protect crop from the damages. The second
+highest (6.86%) farmers indicated that it was less effective to protect their crop from the
+disaster. However, the lowest (0.69%) percent farmers reported that current meteorological
+information specially rainfall, temperature and flood were very effective to protect crop from
+the damages or risks of weather and climate while 1.08% farmers stated that it was effective
+to protect crop from the damages.
+
+Table 5.9: Effectiveness of Meteorological forecast
+
+Degree of effectiveness
+Number
+%
+Very effective
+0.69
+Effective
+1.08
+Less Effective
+6.86
+Not Effective
+91.37
+Total
+100.0
+
+5.21 Traditional methods used for applying weather forecasts
+
+Due to lack of agro-met services, farmers were mostly used traditional method to protect
+their crops from the weather and climate induced problems. Majority (56.2%) farmers
+reported that they were currently planned their crop production based on past two years’
+weather while 54.1% farmers informed that they were followed last year weather for crop
+planning. However, the lowest (7%) percent farmers reported that they were followed others
+such as weather and climate forecast of government agencies while 38.9% farmers depend
+on prediction or suggestions of older person of the family.
+
+Table 5.12: Methods used for applying weather forecasts
+
+Weather forecasts method
+Number
+Percentage (%)
+last year weather
+54.1
+past 2 years weather
+56.2
+prediction of older person of family
+38.9
+Others (weather forecast)
+7.0
+Multiple Responses
+
+5.22 Perception of traditional weather forecasts
+
+Farmers are mostly using traditional method to protect their crops from weather and climate
+induced problems. While asking about the perception of traditional weather forecast, the
+majority (80.78%) farmers informed that this forecast was not reliable at all but they need to
+depend on it as there was no agro-meteorological products or services. Around (17.94%)
+farmers reported that traditional weather forecasts were sometimes reliable while 1.07%
+farmer opined that it was always reliable.
+
+Not reliable
+Sometimes
+Always reliable
+Other
+80.78
+17.94
+1.07
+0.2
+No.
+%
+
+Figure 5.11: Perception of traditional weather forecasts
+
+5.23 Type of crops to be grown based on forecast
+
+Almost all (92.84) farmers indicated that they didn’t wait for weather forecast for deciding
+what type of crops will be grown as there was no crop and location-based agrometeorological forecast/services or other reliable forecasts which could depend for crop
+planning. Only 7.15% farmers informed that they decided their crop production plan based
+on general weather forecast.
+
+Table 5.10: Decision on type of crops to be grown based on forecast
+
+Type of response
+Farmer response
+Number
+%
+Yes
+7.15
+No
+92.84
+Total
+100.0
+
+5.24 Decisions making time for planting crops
+
+Majority (68%) farmers opined that they used to follow usual season for making decision for
+planting of crop which was followed by use traditional forecast (10.6%) and follow neighbors
+(8.85). However, the lowest (3.4%) farmers informed that they used to make a decision for
+planting crops after receiving forecast of weather and climate which was followed by wait for
+rains (9.1%).
+
+86%
+88%
+90%
+92%
+94%
+96%
+98%
+100%
+After
+receiving
+forecasts
+Follow usual
+season
+Wait for
+rains
+Use
+traditional
+forecasts
+Follow
+neighbors
+%
+3.4
+9.1
+10.6
+8.8
+No
+3.4
+9.1
+10.6
+8.8
+
+Figure 5.12: Decision making time for planting crops
+
+CHAPTER-6
+
+User Satisfaction Index using Baseline Survey
+
+This section describes overall weather forecast and climate related information available for
+farmers. The objective of the study is to identify existing agro-meteorological information,
+ongoing observed parameters and technologies of Bangladesh Meteorological Department
+(BMD) and to assess the farmer’s knowledge and satisfaction on weather forecast and or
+agromet advisory services at community level. It is envisaged to develop Bangladesh
+agricultural meteorological information system services to help farmers mitigate climate
+related production risks, the project provides support for the establishment of early warning
+systems, upgrading the existing hydro-meteorological system, and enhancing human
+capacity. User’s Satisfaction Index provides the information regarding the understanding of
+the user’s or customer’s on goods or services. This is basically the outcome-oriented
+approach regards satisfaction as an attribute extracted from a product or service after its
+consumption whether the objectives of systems or the organizational unit utilizing the
+systems are achieved or not. Thus, this section focuses the knowledge and use of weather
+forecast, present status of the user’s satisfaction level of the district
+
+6.1 Knowledge or experience of the farmers on weather forecast
+
+Regarding the knowledge or experience of the farmers on weather forecast, majority 86.86%
+of the farmers are found to have lack of knowledge on it. Insignificant proportion of the
+farmers had knowledge on weather forecast accounting for only 13.14% of the total farmers.
+However, highest 88.83% of the farmers are found to have lack of knowledge on it in
+Naogaogn district and the lowest (85%) farmers had the knowledge on it in the Bandarban
+district which is presented in the following table.
+
+Table-6.1: Districts-wise knowledge or experience farmer’s on weather forecast
+
+Type of Hydrometeorological
+Extreme Event
+District
+Total
+Respondents
+Farmer’s Response
+Do have
+knowledge
+Do not have
+knowledge
+N=1020
+Number
+%
+Number
+%
+Drought
+Cold wave,
+Storm
+Rajshahi
+12.94
+87.06
+Naogaon
+11.17
+88.83
+Cyclone, Salt,
+Flood
+Patuakhali
+15.48
+84.52
+Satkhira
+15.25
+84.75
+Flash/ PreMonsoon Flood
+Sunamganj
+13.16
+86.84
+Netrokona
+13.64
+86.36
+Forest
+Degradation
+Khagrachari
+13.79
+86.21
+Bandarban
+15.00
+85.00
+
+Total
+13.14
+86.86
+
+6.2 Practice of using different weather forecast by farmers
+
+As has been already mentioned in the above that overwhelming majority of the farmers did not
+have knowledge on weather forecast, however those insignificant proportion of the
+respondents having knowledge on it are using different components of weather forecast during
+the last 12 months such as rain, temperature, cloud cover, direction and speed of wind etc.
+Among those respondents having knowledge on weather forecast, maximum proportion of
+farmers were the users of forecast of rainfall and cyclone accounting for 97.76%, this is
+followed by the users of the temperature forecast, which accounted for 95.52% of the total
+knowledgeable respondents. In case of wind and flood/flash flood, the proportions of users are
+found to be only 76.87% in each and 61.19% in cold-wave of the total knowledgeable
+respondents. Similarly, the users of forecast of other weather components are found to be
+
+comparatively very low viz. users of forecast of landslide stood at 8.21%, this is followed by the
+salinity (14.18%), Lightening (20.15%), Nor ’wester (38.81%), heatwave (46.27%), and drought
+(58.21%) only of the total knowledgeable respondents of 134.
+
+Table-6.2: Use of different weather forecasts in last 12 months by weather
+components
+Weather Components
+Farmer’s Response
+N=134 (13.14%) of the total respondents)
+Number of responses
+% of response
+Rainfall
+97.76
+Temperature
+95.52
+Wind (direction, speed)
+76.87
+Drought
+58.21
+Cold-wave
+61.19
+Heatwave
+46.27
+Nor ’wester
+38.81
+Lightening
+20.15
+Flood/Flash Flood
+76.87
+Salinity
+14.18
+Storm surge
+52.99
+Cyclone
+97.76
+Landslide
+8.21
+Multiple Responses
+
+6.3 Weather related knowledge prior to agro-activities
+
+It is often advisable to the farmers to acquire weather related knowledge prior to agro-activities
+in order to safeguard the seeds to be used or crops to be cultivated or harvested in the farm. In
+this regard, the farmers should have adequate knowledge about the weather and its forecast
+and implement their knowledge by checking weather forecast regularly in time. An enquiry into
+the acquirement of weather-related knowledge prior to agro-activities revealed that
+insignificantly very less proportion of the farmers are found to have acquired weather related
+conditions (knowledge) prior to agro-activities. For instance, out of total 134 farmers having
+knowledge about the weather forecast, only 26.87% of them are found to have acquired
+knowledge prior to agro-activities under less often category. This is followed by acquiring
+knowledge once every three months, which accounted for 20.90% and 14.18% in once in a
+month and once a fortnight. However, the lowest 6.72% farmers are found to have acquired
+weather related knowledge prior to agro-activities under daily basis. This is followed by the 2-3
+days a week (7.46% and once ia week (9.70%).
+
+Table-6.3: Attainment of weather-related knowledge prior to agro-activities by weather
+forecasts
+
+Weather Forecast Schedule
+Farmer’s Response
+N=134 of the total respondents)
+Number of responses
+% of response
+Daily basis
+6.72
+2-3 days a week
+7.46
+Once a week
+9.70
+Once a fortnight
+14.18
+Once in a month
+14.18
+Once every 2-3 months
+20.90
+Less often
+26.87
+Total
+100%
+
+6.4 User’s Satisfaction Level on the accuracy of weather-related information
+
+The methodology for calculation of the user satisfaction index is given below. The
+user’s satisfaction index is a simple and straightforward approach that is used widely
+in planning and evaluation studies such as human development index and rating
+index (Sullivan, 2002; Sullivan et. al. 2003). Specifically, this satisfaction scale was
+developed on the basis of summated rating scale, which is most commonly known
+as Likert scale, was based on the assumption that each attribute on the scale has
+equal 'attitudinal value' or 'importance' or 'weight' in terms of reflecting an attitude
+towards the issue in question. Summated scales consisted of numbers of related
+statements that express either a favourable or unfavourable attitude towards an
+issue of interest. These statements or attributes usually consisted of a mixture of
+favourable and unfavourable statements.
+
+5-point Likert rating scale has been used to provide comparison and analysis by using the
+satisfaction rating classified as (i) Highly favourable (ii) Favourable (iii) Neutral (undecided)
+(iv) Not favourable and (v) Not favourable at all.
+
+4-point Likert rating scale has been used to provide comparison and analysis by using the
+satisfaction rating classified as (i) Highly favourable (ii) Favourable (iii) Not favourable and
+(iv) Not favourable at all.
+
+The responses indicating the least favourable to strongly favourableness degree had given
+the appropriate score; and the User’s Satisfaction Index for different key attributes was
+calculated by using the following formula.
+
+User Satisfaction Index for 5-point scale=
+fhs (Shs)+ fs (Ss)+fu (Su)+fns (Sns)+fnsal (Snsal)
+N
+
+User Satisfaction Index for 4-point scale=
+fhs (Shs)+ fs (Ss)+fns (Sns)+fnsal (Snsal)
+N
+
+Where,
+fhs = frequency of highly satisfied, and Shs = score of highly satisfied
+fs = frequency of satisfied, and Ss = score of satisfied
+fu = frequency of undecided, and Su = score of undecideds
+fns = frequency of not satisfied, and Sns = score of not satisfied
+fnsal = frequency of not satisfied at all, and Snsal = score of not satisfied at all
+N = Total number of observations
+
+The questionnaire contained questions related to service attributes unique to the service
+type. These attributes were then rated against performance using 5 point and 4-point Likert
+scaleTo determine the User’s Satisfaction Index (USI), the following five parameters were
+used as given below:
+❖ Accuracy of weather information (forecast) provided by the service organizations.
+❖ Accessibility of meteorological information to the farmers provided by the service
+organizations
+❖ Effectiveness of Meteorological forecast provided by the service organizations
+
+The 5-point index for any individual attribute falls between 1 to 5. If the index happens to be
+above 3, it shows favourable opinion to the given attribute indicating the percentage of
+people with positive attitude towards the service provided by the service organizations. An
+index of below 3 would mean unfavourable opinion to the given attribute indicating the
+percentage of people with negative attitude towards the service, and exactly 3 would be
+suggestive of a neutral attribute or undecisive perception. The 4-point index is very similar
+where individual value falls between 1 to 4 with no neutral attribute or undecisive perception.
+
+Though the level for different attributes has been measured by using both 5-point and 4-
+point Likert scale, an attempt has also been made to show the satisfaction level (or
+favourableness / unfavourableness) in percentage
+
+As has been already mentioned that there were number of organizations established for
+providing weather related information to the farmers. However, only a small segment of the
+population having knowledge on it were found to have acquired this weather-related
+information. The degree of satisfaction level has been measured by using 5-point Likert
+scale as has been mentioned in the methodology section along with the satisfaction level in
+percentage. An index value of above 3 shows the favourable opinion to the given attribute
+indicating the percentage of people with favourable (or positive) attitude towards the service
+provided by the service organizations. An index of below 3 would mean unfavourable opinion
+(or negative) to the given attribute indicating that they are driven towards the negative
+attitude regarding the service, and exactly 3 would be suggestive of a neutral attribute or
+undecisive perception.
+
+The degree of satisfaction level on the accuracy of weather-related information of the service
+provider perceived by the respondents is shown in Table 4.1.
+
+Table 6.1: Satisfaction level on the accuracy of weather-related information (%)
+Weather
+Compon
+ents
+Farmer’s Response
+
+Highly
+satisfied
+Moderately
+satisfied
+Can’t
+say
+(neutral)
+Not
+satisfied
+Not
+satisfied
+at all
+Total
+Respondents
+Index
+% of
+Satisfacti
+on
+Rainfall
+7.46
+13.43
+38.81
+24.63
+15.67
+100.00
+2.724
+44.48
+Temperat
+ure
+8.21
+14.18
+36.57
+23.13
+17.91
+100.00
+2.717
+44.33
+Wind
+(direction
+, speed)
+0.00
+1.49
+48.51
+26.12
+23.88
+100.00
+2.276
+35.522
+Drought
+1.49
+3.73
+43.28
+27.61
+23.88
+100.00
+2.313
+36.262
+Coldwave
+1.49
+3.73
+43.28
+27.61
+23.88
+100.00
+2.313
+36.262
+Heatwav
+e
+1.49
+3.73
+43.28
+27.61
+23.88
+100.00
+2.313
+36.262
+Nor
+’wester
+3.73
+7.46
+41.04
+26.87
+20.90
+100.00
+2.463
+39.25
+Lightenin
+g
+0.00
+1.49
+50.75
+26.12
+21.64
+100.00
+2.321
+36.42
+Flood/Fla
+sh Flood
+3.73
+8.96
+44.03
+24.63
+18.66
+100.00
+2.545
+40.9
+Salinity
+0.00
+15.45
+39.84
+25.20
+19.51
+100.00
+2.512
+40.25
+Storm
+surge
+1.49
+14.18
+37.31
+26.87
+20.15
+100.00
+2.5
+Cyclone
+5.97
+13.43
+36.57
+26.12
+17.91
+100.00
+2.634
+42.69
+Landslide
+0.00
+0.00
+48.51
+28.36
+23.13
+100.00
+2.254
+35.08
+
+As revealed from the above table, none of the weather parameters have index of above 3.
+However, the highest index value among others are the forecast of rainfall, temperature and
+cyclone showing the index of 2.724, 2.717 and 2.634 and in percentage 44.48, 44.33 and
+42.69% respectively. It is interesting to note that the index value of none of the attributes
+were found to be 3 or greater than 3 nor 2 or less than 2. This shows that neither the service
+recipients are satisfied/highly satisfied nor neutral/not satisfied at all. It shows that the overall
+
+satisfaction level of the common people on the forecast of weather-related information is ‘not
+satisfacied’. Hence there is a definite need of improvement in the service of the service
+organizations.
+
+6.5 Knowledge about the service of Bangladesh Agriculture Meteorological
+Information System (BAMIS)
+
+It is ironical to note that almost all respondents did not have knowledge about the service of
+Bangladesh Agriculture Meteorological Information System (BAMIS). The farmers having
+knowledge about is found to be only 2.45% of the total respondents while 97.55% farmers
+were still unaware about the weather forecast/BAMIS portal service from the AMISDP. This
+is indicating that there is a high need of further dissemination of information about it.
+
+Table 5: Knowledge about the services of BAMIS by area (in%)
+Knowledge
+Response of the Farmer’s (N=1020)
+Number
+Percentage
+Have knowledge
+2.45
+Do not Have knowledge
+97.55
+Total
+
+6.6 Source of Agro-Meteorological Information
+
+There was no agro-meteorological service for farmers in the country. Farmers were getting
+forecast information on meteorological matters such as rain, storm, cyclone, heat wave, cold
+wave, thunderstorm etc. through different sources. Majority (42.74%) farmers reported that
+they did not get any meteorological information while second highest (37.15%) farmers
+received meteorological information from the TV which was followed by DAE (30.39%),
+community people (30%) and radio (25.6%). However, the lowest (0.2%) farmers indicated
+that they received information from the other sources like DAE IPM club/extension battayan
+club which was followed by local level micing (8%), and mobile SMS (9.4%). Aside this
+around 2.15% farmers indicated that they received meteorological information from the
+social media.
+
+Table 6: Meteorological related information in the project area
+Source of getting information of weather,
+climate, rainfall and flood etc.
+Multiple responses
+Number
+%
+Radio
+25.6
+TV
+37.15
+Social media
+2.15
+Mobile SMS
+9.4
+Local level miking
+8.0
+Community people
+30.0
+None
+42.74
+DAE
+30.39
+Multiple responses
+
+6.7 Perception about the Govt. organization providing weather & climate related
+information
+
+Asking the question on knowledge about the name of government organizations that
+provided temperature, rainfall, cyclone, storm, heat wave, and cold wave information, the
+majority (56%) farmer reported that they didn’t have any knowledge about the organization
+that provided this information. The second highest (25%) farmer indicated that they were
+getting this information from the Department of Agricultural Extension (DAE) field level
+officials and extension batayan/IPM club etc. Conversely, 19% farmers indicated that they
+are getting weather and climate related information from Bangladesh Meteorological
+
+Department (BMD) through radio, TV or local level miking. However, none of them reported
+about BWDB.
+
+Figure 6.1: Knowledge about the organization providing weather & climate information
+
+6.8 Perception about the govt. organization providing flood related information
+
+Asking the question on knowledge about the organizations providing flood, flash flood, and
+coastal flood related information, the majority (58.73%) farmer reported that they didn’t have
+any knowledge about the organization who was providing flood related information while
+25.10% farmers indicated that they were getting these flood related information from the
+Department of Agricultural Extension (DAE) field level officials and extension batayan/IPM
+club etc. The lowest (1.37%) farmer indicated that they were getting this information from the
+Bangladesh Meteorological Department (BMD) local level officials which were followed by
+Bangladesh Water Development Board (14.80%). The above findings clearly indicated that
+farmers didn’t have a clear idea about the government agency who was providing flood
+related information.
+
+Figure 2: Knowledge about the organization providing flood information
+
+6.9 Timing of information to save crops and properties from the damages
+
+Most (86.6%) of the farmers indicated that they were not getting enough time after receiving
+information to save crops from the damage. Even they were not quite enough sure what to
+
+do after getting this information as it was only information of weather not any services or
+advise which was required for farmers to save crop from the damages. However, only 13.4%
+farmers opined that they were getting enough time after getting information to save crop
+from the damages.
+13.4
+86.6
+Yes
+No
+
+Figure 3: Timing of information to save crops and properties from the damages
+
+6.10 Minimum advance forecast time
+
+Majority (54.6%) farmers reported that they need at least 7 days’ advance forecast
+information of weather and climate with advisories or services to save their crops from the
+damage which is followed by 15 days (29.3%). However, the lowest (1.5%) farmers reported
+that they need at more than 15 days’ advance forecast information of weather and climate
+with advisories or services to save their crops from the damage which is followed by 3 days
+(14.6%).
+
+Figure 4: Minimum advance forecast time required to save crop from the damages
+
+6.11 Knowledge about Role of BMD
+
+Majority (80.78%) farmers opined that they had no knowledge about the roles of BMD
+whether it provided any services or advisories for protecting farmers’ crops from the hazards
+like drought, high temperature, cold & heat wave, storms, cyclone and related calamities.
+Though only 19.22% farmers indicated that they had a little bit knowledge about the roles of
+BMD which was only provided meteorological information like temperature, rainfall and
+cyclone information but not any agro-met services or advisories for protecting farmers from
+
+the hazards like drought, high temperature, cold & heat wave, storms, cyclone and related
+calamities
+
+19.22%
+80.78%
+Yes
+No
+Figure 5: Perception about Roles of BMD
+
+6.12 Knowledge about Role of BWDB
+
+Majority (91.27%) farmers opined that they had no knowledge about roles of BWDB whether
+they provided any flood related services or advisories for protecting farmer crops from
+hazards like floods related calamities. However, only (8.72%) farmers indicated that they had
+a knowledge about roles of BWDB which only provided flood related forecasting information
+but not any agro-met services or advisories for protecting farmers’ crops from the hazards
+like floods related calamities.
+
+Table 7: Perception about Roles of BWDB
+Response type
+Response of farmers
+No
+%
+Yes
+8.72
+No
+91.27
+Total
+100.0
+
+6.13 Knowledge about the Role of DAE on agro-met services
+
+Majority (79.61%) farmers opined that they had no knowledge about the roles of DAE
+whether it provided any agro-met services or advisories for protecting farmers’ crops from
+the hazards related to weather, climate and flood like natural calamities. However, only
+20.39% farmers indicated that they had knowledge about the role of DAE which was only
+provided rainfall and flood information to the farmers as received from the Field Service
+Wing of DAE via Ministry of Agriculture through BMD but not any agro-met services or
+advisories for protecting farmer crops from the hazards related to weather, climate and flood
+like natural calamities.
+
+Figure 6: Perception about Role of DAE on Agro-met Services
+
+6.14 Coordination among BMD, BWDB and DAE
+
+Majority (89.80%) farmers opined that they had no knowledge about the coordination of
+BMD, BWDB and DAE to disseminate hydro-meteorological related information to the farmer
+communities. Though only 10.19% farmers indicated that they had a very little knowledge
+about the coordination of BMD, BWDB and DAE to disseminate hydro-meteorological related
+information due to field officials of DAE.
+
+Table 9: Coordination among BMD, BWDB and DAE to disseminate hydrometeorological information
+Type of response
+Response of farmers
+No
+%
+Yes
+10.19
+No
+89.80
+Total
+100.0
+
+6.15 Channel of meteorological information delivery
+
+All farmers reported that there were not received any agro-meteorological services which
+were required to protect their crops from the damages. The highest (66.08%) farmers’
+indicated that they had not received any meteorological information or services from any
+channel or sources. However, second highest (26.37%) farmers reported that received
+general meteorological information from the TV which was followed by Radio (26.18%).
+Conversely, the lowest (3%) farmers stated that they received this meteorological
+information from mobile SMS of DAE field level officials such as SAAOs, extension batayan
+club or IPM club etc. which was followed by analogue board (1.76%).
+
+Table 10: Channel of meteorological information delivery
+Media type
+Response (Number)
+Response (%)
+Analogue board
+1.76
+Radio
+26.18
+TV
+26.37
+Mobile SMS
+3.0
+Others (None)
+66.08
+Multiple Responses
+
+6.16 Satisfaction of the information provided by BMD, BWDB and DAE
+
+Asking question about their satisfaction of information provided by the BMD, BWDB and
+DAE related to weather and climate information, almost all (90.99%) farmers reported that
+they were not satisfied enough of present information provided by BMD, BWDB and DAE as
+it was only an information not any services or advisories so farmers were unable to take any
+measures to protect their crop from the damages. However, only (9.01%) farmers expressed
+their satisfaction with the information provided by the BMD, DAE and BWDB.
+
+Yes
+No
+9.01%
+90.99%
+Yes
+No
+Figure 7: Satisfaction of the information provided by BMD, BWDB and DAE
+
+6.17 Source of getting information
+
+If they were not satisfying about the information provided by the BMD, BWDB and DAE then
+it was asked them, how they would like to get this information. The highest (51.50%) farmers
+opined that they would like to get this information from mobile SMS which was followed by
+Union Parishad Office (38.1%), and Upazila Agricultural Office (35.88%). The lowest (3.23%)
+farmers indicated that they would like to get this information from electronic & social media
+which was followed by Community people/farmers club etc. (32.6%).
+
+Table 11: Source of getting hydro-meteorological information
+Source of getting information
+Number
+%
+Upazila Agriculture Office
+35.88%
+Union Parishad Office
+38.1
+Community people
+32.6
+Electronic & Social Media
+3.23
+Mobile SMS
+51.50
+Multiple responses
+
+6.18 Information on seasonal variation data of weather and climate
+
+Asking question to the farmers whether they are getting information on seasonal variation of
+temperature, rainfall and other weather and climate data, all (91.66%) farmers strongly
+reported that they had not received any seasonal variation of temperature, rainfall and other
+weather and climate data which was very important for their crop planning considering
+weather and climate while 8.34% farmers indicated that they had no knowledge about this.
+
+Figure 8: Information on seasonal variation data of weather and climate
+
+6.19 Benefit of meteorological information
+
+Majority (61.8%) farmers opined that meteorological information could be very useful for
+insect pests and disease management strategy of crops followed by crop production
+planning (58%), harvest and processing plan of crops (43.7%) and crop management plan
+(40.2%). However, the lowest (0.6%) farmers indicated that it could be useful for others
+category like storage and marketing purposes followed by irrigation planning (28.8%).
+
+Table 12: Benefit of meteorological information
+Type of benefit
+Number
+%
+Crop Production Planning
+58.0
+Irrigation Planning
+28.8
+0%
+20%
+40%
+60%
+80%
+100%
+Yes
+No
+Do Not know
+91.66
+8.34
+Number
+%
+
+Crop Management
+40.2
+Harvest and processing
+43.7
+Insect pests and disease
+management of crops
+61.8
+Others
+0.6
+Multiple responses
+
+6.20 Necessity of agro-meteorological advisories and services
+
+Almost all (95.10%) farmers opined that they need agro-meteorological products, advisories
+and services to protect their crops from the damage while only 4.90% farmers reported they
+had no requirement of agro-meteorological products, advisories and services to protect their
+crops from the damage. It was due to their lack of knowledge on agro-met services and
+advisories.
+
+Figure 9: Necessity of agro-meteorological services
+
+6.21 Knowledge on existing weather forecast to protect crop production
+
+Around three fourth percent (74.71%) farmers out of 1020 respondents indicated that the
+existing weather forecast was not enough to protect crop production from the damage due to
+natural calamities while 24.51% farmers opined that they had no idea about this. However,
+only 0.78% farmers reported that they had knowledge of existing weather forecast to protect
+crop production from the damages.
+
+0.78
+74.71
+24.51
+0.00
+10.00
+20.00
+30.00
+40.00
+50.00
+60.00
+70.00
+80.00
+Yes
+No
+Don’t know
+Response
+No
+%
+
+Figure 10: Knowledge of existing weather forecast to protect crop production
+
+Number
+%
+Yes
+95.1
+No
+4.9
+95.1
+4.9
+Yes
+No
+
+6.22 Accessibility of meteorological information to the farmers
+
+More than fifty percent (54.9%) farmers indicated that they had not any access of
+meteorological information or available for them followed by sometimes (36.4%). However,
+the lowest (2.2%) farmers reported that meteorological information was highly accessible or
+available for farmers followed by when I look for it (6.6%).
+
+Table 13: Accessibility of meteorological information to the farmers
+Frequency of information
+Number
+%
+Not at all
+54.9
+Sometimes
+36.4
+When I look for it
+6.6
+Highly accessible
+2.2
+Total
+100.0
+The degree of satisfaction level has been measured by using 4-point Likert scale as has
+been mentioned in the methodology section along with the satisfaction level in percentage.
+
+Table 14: Satisfaction level on the accessibility of meteorological related information
+(%)
+Component
+Farmers Response
+
+Not at all
+When I
+look for it
+Sometimes
+Highly
+accessible
+Total
+Respondents
+index
+% of
+Satisfaction
+Accessibility
+54.9
+6.6
+36.4
+2.2
+1.861
+34.025
+
+The above values inferred that neither the information recipients are satisfied/highly satisfied
+nor unsatisfied at all, showing that overall satisfaction level of the common people on
+accessing meteorological related information is on unsatisfied level and need to be improved
+in this regard.
+
+6.23 Effectiveness of Meteorological forecast
+
+Almost all (91.37%) farmers reported that current meteorological information or forecast was
+not effective as it was just a general information not agro-met services thus farmers were
+unable to take any measures to protect their crops from the damages. If they received agrometeorological information with advisories that helpful for them to protect their crops from the
+damages. Currently, they had not no knowledge about the measures to be taken upon
+received weather and climate information to protect crop from the damages.
+
+The second highest (6.86%) farmers indicated that it was less effective to protect their crop
+from the disaster. However, the lowest (0.69%) percent farmers reported that current
+meteorological information specially rainfall, temperature and flood were very effective to
+protect crop from the damages or risks of weather and climate while 1.08% farmers stated
+that it was effective to protect crop from the damages.
+
+Table 15: Effectiveness of Meteorological forecast
+Degree of effectiveness
+Number
+%
+Very effective
+0.69
+Effective
+1.08
+Less Effective
+6.86
+Not Effective
+91.37
+Total
+100.0
+
+The degree of satisfaction level has been measured by using 4-point Likert scale as has
+been mentioned in the methodology section along with the satisfaction level in percentage.
+
+Table 16: Satisfaction level on the effectiveness of meteorological forecast (%)
+Component
+Farmers Response
+
+Very
+effective
+Effective
+Less
+Effective
+Not
+Effective
+Total
+Respondents
+index
+% of Satisfaction
+Degree of
+Effectiveness
+0.69
+1.08
+6.86
+91.37
+1.1109
+15.2725
+
+The above values inferred that neither the information recipients are satisfied/highly satisfied
+nor unsatisfied, showing that overall satisfaction level of the common people on
+effectiveness of meteorological forecast is on ‘not satisfied at all’ and need definite
+improvement in this regard.
+
+6.24 Traditional methods used for applying weather forecasts
+
+Due to lack of agro-met services, farmers were mostly used traditional method to protect
+their crops from the weather and climate induced problems. Majority (56.2%) farmers
+reported that they were currently planned their crop production based on past two years’
+weather while 54.1% farmers informed that they were followed last year weather for crop
+planning. However, the lowest (7%) percent farmers reported that they were followed others
+such as weather and climate forecast of government agencies while 38.9% farmers depend
+on prediction or suggestions of older person of the family.
+
+Table 17: Methods used for applying weather forecasts.
+Weather forecasts method
+Number
+Percentage (%)
+last year weather
+54.1
+past 2 years weather
+56.2
+prediction of older person of
+family
+38.9
+Others (weather forecast)
+7.0
+Multiple Responses
+
+6.25 Perception of traditional weather forecasts
+
+Farmers are mostly using traditional method to protect their crops from weather and climate
+induced problems. While asking about the perception of traditional weather forecast, the
+majority (80.78%) farmers informed that this forecast was not reliable at all but they need to
+depend on it as there was no agro-meteorological products or services. Around (17.94%)
+farmers reported that traditional weather forecasts were sometimes reliable while 1.07%
+farmer opined that it was always reliable.
+
+Not reliable
+Sometimes
+Always reliable
+Other
+80.78
+17.94
+1.07
+0.2
+No.
+%
+
+Figure 11: Perception of traditional weather forecasts
+
+6.26 Participated in any awareness campaign/training regarding weather forecast
+
+All (100%) farmers informed that they had not participate in any awareness campaign or
+training regarding weather forecast as there was no such kind of opportunities created in
+their area but they were interested to participate in awareness campaign or training
+regarding agro-meteorological weather forecast and services.
+
+Table 18: Participation in any awareness campaign or training regarding weather
+forecast
+Type of response
+N
+%
+Yes
+No
+Total
+100.0
+
+CHAPTER-7
+
+TRAINING AND AWARENESS
+
+This chapter describes overall weather and climate related training and awareness. The
+objective of the study was to identify existing training and awareness on weather and
+climate and future requirement of agro-meteorological services training and awareness. As
+per the objectives, findings of the study had been presented herewith mainly based on the
+primary and secondary data.
+
+7.1 Knowledge on agro-meteorological weather forecast and cope-up technique
+
+It was asked to the farmers whether they have any knowledge on agro-meteorological
+weather forecast and cope-up technique, almost all (98.52%) farmers reported that they had
+not any knowledge on agro-meteorological weather forecast and cope-up techniques while
+negligible 1.48% farmers stated that they had knowledge on agro-meteorological weather
+forecast and cope-up technique. It might be their lack of knowledge about agrometeorological weather forecast which is not available right now.
+
+Figure 7.1: Knowledge on agro-meteorological weather forecast and cope-up
+technique
+
+7.2 Techniques of coping-up this problem
+
+If there are any reliable agro-meteorological services based on crop and region, farmer can
+coping-up this problem with cropping pattern, varietal change or adjustment of management
+practices etc. Based on this question were asked to the farmers where majority (89.1%)
+farmers reported that they can use the techniques of varietal change for copping up this
+problem which is followed by changing of crop (71.4%). Aside from this, 13.3% farmers
+indicated they will cope-up with the adjustment of management.
+
+Crop change
+Varietal change
+Adjust
+management
+Other
+Number
+%
+71.4
+89.1
+13.3
+1.2
+71.4
+89.1
+13.3
+1.2
+Response
+
+Figure 6.1: Technique for coping-up this problem
+
+7.3 Participated in any awareness campaign/training regarding weather forecast
+
+All (100%) farmers informed that they had not participate in any awareness campaign or
+training regarding weather forecast as there was no such kind of opportunities created in
+their area but they were interested to participate in awareness campaign or training
+regarding agro-meteorological weather forecast and services.
+
+Table 7.1: Participation in any awareness campaign or training regarding weather
+forecast
+
+Type of response
+N
+%
+Yes
+No
+Total
+100.0
+
+7.4 Willingness to participate in any awareness campaign or training
+
+Almost all (98%) farmers opined that they were interested to participate in any awareness
+campaign or training on weather and climate at DAE regarding weather forecast or agro-met
+products and services while 2% farmers indicated that they are not interested to participate
+in any awareness campaign or training on weather forecast.
+
+Figure 7.2: Willingness to participate in any awareness campaign or training on
+weather forecast
+
+7.5 Location of training
+
+Majority (60.7%) farmers stated that they would like to participate training at DAE regarding
+weather forecast or agro-met products and services while 41.5% farmers indicated that it
+would be better if the training is in BMD. However, the lowest (7.3%) farmers reported that
+they would like to participate in this training in BWDB followed by NGOs (26.5%).
+
+Figure 7.3: Location of training regarding weather forecast
+
+7.6 Areas of interest for awareness campaign or training
+
+Around three-fourth percent (71.5%) farmers indicated that they were interested in
+awareness campaign or training in the field of location specific and crop-based weather and
+climate related forecast followed by agro-mets services or information of weather and
+climate related problems (69.9%). Less than fifty percent (44.4%) farmers stated that they
+were interested in awareness campaign or training in the field of crop management followed
+by planning of irrigation (42%).
+
+Table 7.2: Areas of interest for awareness campaign or training
+Type of awareness campaign or training
+Number
+%
+Location and crop-based weather forecast
+71.5
+Agro-met services of weather & climate problems
+69.9
+Planning of Irrigation
+42.0
+Crop management
+44.4
+Others
+0.8
+Multiple Responses
+
+7.7 Preferred ways of receiving weather and climate forecasts
+
+Around 90.68% farmers informed that their preferred ways to get agrometeorological
+services through SMS followed by television (78.82%) and radio (73.43%). However, lowest
+(3.4%) percent farmers reported that their preferred ways to receive agrometeorological
+services through agriculture field level officials followed by miking (34.41%).
+
+Table 7.3: Preferred ways of receiving weather and climate forecasts
+Type of preferred ways
+Multiple response of farmers
+Number
+Percentage (%)
+Provide agricultural information through Television
+78.82
+Provide agricultural information through radio
+44.3
+SAAO should provide agricultural support to every
+farmers
+73.43
+Agricultural officer should inform farmers
+3.4
+Miking in every village
+34.31
+Others SMS
+90.68
+
+Findings of Qualitative Analysis
+
+Under qualitative data collection and analysis, 197 participants participated in 16 FGD
+meetings. On an average, more than 50% of farmers informed that forecasts especially
+rainfall and temperature were dependable. Forecast on cyclones, storm, drought, floods and
+flash floods were also dependable recently but farmers need crop specific and locationbased agro-meteorological forecast at least 15 days before. It would help farmers for making
+decision on what type of crops to be grown and type of management practices to be followed
+to protect the crop from the weather and climate risks. Presently they have received general
+weather and climate information which was not sufficient for farmers to make decision on
+crop protection.
+
+Over 70% of participants in all 16 FGDs informed that there is significant change in weather
+such as, rain, storm and high temperature compared to prior to last five years. Due to
+weather and climate change, they are incurring huge losses as they don’t have crop and
+region-based weather forecast. Though they are trying to cope-up with the changes situation
+but they need services so that they can understand what to do which situation. With careful
+use of irrigation facilities, respondents are increasing cropping intensity and crop production
+with assistance of new crops.
+
+Regional level data validation: Consultants organized and participated in five regional level
+data validation meeting at Satkhira, Naogaon, Rajshahi etc. and informed that DAE field
+level officials are presently providing weather and climate related information upon getting
+from this to the DAE head Quarter Field Service Wing. DAE quarter used to get this
+information from the Ministry of Agriculture via BMD. It is general information which did not
+serve any purpose of farmers to make any decision of crop planning. Therefore,
+agrometeorological services and products are very much needed specially on region and
+crop-based so that farmers have enough time to make a decision of cropping pattern,
+variety, management practices etc. UAO office used to record rainfall at their respective
+upazilas to provide data to the headquarter. More weather and climate related data is
+required for farmers which can designate through SMS, social media, digital display board
+and UNO and Union Parishad etc.
+
+Upazila level agricultural information: Enumerators and consultants interacted with all 16
+Upazila Agricultural Officers (UAOs) of the selected upazilas. UAOs and SAAOs assisted
+filed enumerators in data collection and interviewing respondents. Information like average
+temperature, average rainfall, and information on cyclone in last years, nature of drought and
+thunder storms in previous two years, salinity intrusion in last two years and deforestation in
+respective upazilas were provided by UAOs. Extent of damages by natural calamities in last
+two years was also provided by UAOs. It indicated that nature is changing and crops are
+affecting. Therefore, agro-meteorological services are time-bound requirement for the
+farmers which can be available through SMS/Apps/Website and social media, TV, radio,
+display etc.
+
+CHAPTER-8
+
+MAJOR FINDINGS AND RECOMMENDATIONS
+
+8.1 Major findings
+
+Major findings of the study are:
+
+There was no existence of agro-meteorological framework for effective service
+delivery
+There was no dissemination mechanism of weather and climate information
+Presently farmers were not getting any agro-meteorological products, advisories or
+services other than weather and climate information
+Farmers were getting weather and climate information from TV, Radio, DAE and
+mobile SMS.
+Farmers were not happy enough of present weather and climate information provided
+by BMD, BWDB and DAE
+Most farmers would like to get agro-met services through mobile SMS, Union
+Parishad Office, Upazila Agricultural Office of DAE, community people or extension
+batayan club, and electronic & social media in addition of TV and Radio.
+Currently, farmers were not getting any seasonal variation forecast on temperature,
+rainfall & flood etc. This would helpful for them in crop production planning and
+management etc.
+Farmers were interested to receive agro-meteorological products, advisories and
+services
+Existing weather forecast was not enough to protect crop production from the
+damage caused due to natural calamities.
+Sometimes farmers were getting meteorological information but not agro-met
+services
+Current meteorological information was less effective as it was just a general
+information not agro-met services
+Farmer needs at least 7-15 days’ advance forecast information
+Farmers had little knowledge about the roles of BMD and BWDB regarding weather
+and climate as well flood related services
+Farmers were currently planning their crop production based on past two year’s
+weather forecast which was not reliable at all.
+Farmer had no wait for weather forecast for deciding what type of crop will grow as
+there was no crop and region-based agro-meteorological forecast/services.
+Farmer used to follow usual season for making decision for planting of crop.
+Major weather and climate related problems in Kharif-1 season are diseases, insect
+pests in addition of salinity, thunderstorm, drought and lightening while flood, flash
+flood, storm surge.
+Major weather and climate related problems in Kharif-2 season were insect pest and
+diseases, flood, flood inundation, coastal flood, flash flood, salinity, storm surge
+thunderstorm, drought, cold-wave, heatwave, lightening, cyclone, forest degradation,
+etc. are minor
+Major weather and climate related problems in Rabi (Boro) season are drought, coldwave, salinity etc. in addition of insect pests, diseases are the major problems while
+floods, storms and cyclone etc. are the minor problems
+Crop damages due to weather and climatic problems were moderate where weather
+and climatic problems occurred at least 1 to 4 times during crop production
+Past two years’ major problems in the study districts are: insect pests attack,
+disease, flash flood, weed infestation, drought, cold-wave, thunderstorm, landslide,
+coastal flood, storm surge, cyclone, flood, flood inundate, and heatwave.
+Average production loss was 20-100 kg in per acre land in the study area due to
+weather and climate problems
+
+Farmer present source of meteorological Information are TV, community people,
+radio, miking, mobile SMS, and social media.
+Farmers had some extend knowledge about weather and climate and flood
+information providing agency but need more awareness campaign
+Farmer’s had no knowledge on agro-meteorological weather forecast and cope-up
+techniques which were needed for coping-up the problem with the varietal change,
+changing of crop and adjustment of management practices
+Farmer had not the opportunity to participate in any awareness campaign or training
+Farmers were interested to participate training on region and crop-based weather
+and climate forecast, crop planning & management and irrigation management.
+
+8.2 Recommendations
+
+The following recommendations are made by the consultants based on the study findings;
+
+•
+Farmer needs agro-meteorological products/services or advisories in locationspecific (up to union) and crop-based so that they can take necessary measures to
+protect their crop from the weather and climate induced problems.
+
+•
+Agro-meteorological framework need to be formulated immediately for effective agromet service delivery
+
+•
+Need-based dissemination mechanism of weather and climate services should be
+developed
+
+•
+Farmer needs reliable seasonal variation data of temperature, rainfall, and flood etc.
+forecast
+
+•
+Advance forecast of agro-met services should be at least 7 to 15 days so that
+farmers can act to save damages
+
+•
+Agro-met services may be disseminated by mobile SMS, digital display board at
+Union Parishad Office, Upazila Agricultural Office, community people or extension
+batayan club/IPM club, and electronic and social media.
+
+•
+Radio and TV should have a predefined schedule and station/channel for weather
+forecast/agro-met services.
+
+•
+Weather and climate services mobile Apps and website should be developed for
+agro-met forecast
+
+•
+Awareness campaign and training on agro-met service may be organized for
+farmers, UAO, and community people for awareness and capacity building
+
+•
+Two-way feedback mechanism for weather and climate induced problems and
+solutions of farmers need to be introduced through SMS platform, call center/e-mail
+etc.
+
+References
+
+•
+Project Appraisal Document (PAD) of Bangladesh Weather and Climate Services
+Regional Project (BWCSRP) financed by World Bank
+
+•
+Development Project Proforma (DPP) of Agro-meteorological Information System
+Development Project (AMISDP)
+
+•
+Practical Issues in Calculating the Sample Size for Studies, Daniel, 1999
+
+•
+Baseline survey report on Northwest Crop Diversification Project (NCDP) of DAE,
+2003-2008
+
+•
+Survey report on Second Crop Diversification Project (SCDP) of DAE
+
+•
+Study Report on Integrated Agricultural Productivity Project (IAPP) of Ministry of
+Agriculture
+
+•
+Technical proposal of the baseline survey to assess user satisfaction of agrometeorological advisories and products under AMISDP-DTCL.
+
+•
+Weather and climate related information at the web page of Bangladesh
+Meteorological Department (BMD)
+
+•
+Flood related information at the webpage of FFWC of Bangladesh Water
+Development Board (BWDB)
+
+•
+Crop seasons information from Krshi Diary of Agriculture Information System (AIS)
+
+•
+Webpage of Bangladesh Agricultural Research Institutes (BARI)
+
+•
+Webpage of Bangladesh Rice Research Institutes (BRRI)
+
+•
+Webpage of Bangladesh Jute Research Institutes (BJRI)
+
+•
+Webpage of Bangladesh Sugarcane Research Institutes (BSRI)
+
+•
+Farm holding statistics at Bangladesh Bureau of Statistics (BBS)

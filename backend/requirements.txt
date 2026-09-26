@@ -1,0 +1,29 @@
+# ==============================================================================
+# Bangladesh Crop Intelligence Assistant - FastAPI Backend Dependencies
+# Python Compatibility: 3.10 - 3.12
+# ==============================================================================
+
+# Core Web Framework & ASGI Server
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.8.0
+pydantic-settings>=2.4.0
+python-dotenv>=1.0.0
+python-multipart>=0.0.9
+
+# Cloud Database & Storage Client
+supabase>=2.8.0
+postgrest>=2.31.0
+
+# Vector Database & Embeddings
+chromadb>=1.5.0
+onnxruntime>=1.20.0
+tokenizers>=0.20.0
+
+# HTTP & Async LLM Communication
+httpx>=0.28.0
+requests>=2.31.0
+
+# Utilities & Monitoring
+rich>=13.0.0
+watchfiles>=0.24.0

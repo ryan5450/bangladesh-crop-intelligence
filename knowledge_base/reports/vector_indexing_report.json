@@ -1,0 +1,12 @@
+{
+  "status": "success",
+  "collection_name": "bangladesh_crop_intelligence",
+  "total_chunks_indexed": 24178,
+  "doc_chunks_indexed": 24039,
+  "variety_profiles_indexed": 139,
+  "final_collection_count": 24178,
+  "duration_seconds": 528.87,
+  "avg_speed_chunks_per_sec": 45.7,
+  "persist_directory": "D:\\Bangladesh Crop Intelligence Assistant\\knowledge_base\\chroma_db",
+  "timestamp": "2026-09-25T20:23:27.726193+00:00"
+}

@@ -1,0 +1,45 @@
+{
+  "document_id": "fao_b912a26cb9e1",
+  "title": "National Agriculture Policy",
+  "source": "FAO",
+  "url": "https://faolex.fao.org/docs/pdf/bgd169557.pdf",
+  "language": "en",
+  "categories": [
+    "cereals",
+    "fiber_crops",
+    "crops",
+    "vegetables",
+    "cash_crops",
+    "irrigation_management",
+    "seed_management",
+    "fertilizer_management",
+    "diseases",
+    "pest_management",
+    "climate_adaptation",
+    "soil_management",
+    "post_harvest"
+  ],
+  "related_crops": [
+    "Aman Rice",
+    "Cotton",
+    "Jute",
+    "Maize",
+    "Potato",
+    "Rice",
+    "Sugarcane",
+    "Wheat"
+  ],
+  "topics": [
+    "Irrigation & Water Regimen (AWD)",
+    "Seed Selection & Preservation",
+    "Fertilizer & Soil Nutrient Management",
+    "Crop Disease Diagnosis & Control",
+    "Integrated Pest Management (IPM)"
+  ],
+  "quality_score": 1.0,
+  "filename": "fao_national_agriculture_policy_en_b912a2.pdf",
+  "pages": 23,
+  "file_size_kb": 170.0,
+  "author": "PPSUMOA",
+  "extracted_at": "2026-09-23T19:48:02.239834+00:00"
+}

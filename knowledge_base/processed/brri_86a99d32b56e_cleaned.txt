@@ -1,0 +1,1099 @@
+BRRI Annual Report Summary 2011-12
+
+Program Area: Varietal Development
+Plant Breeding Division
+Out of of 360 crosses 272 were confirmed. In total 5,724 plants were selected from F2
+populations. From segregating generations 15,709 progenies and 855 fixed lines were
+selected. A total of 662 advanced lines were selected from observational and yield trials. The
+genotype OM1490 was selected for proposed variety trial from ALART in upland Aus rice.
+National seed board (NSB) approved the technical committee recommendation to release
+BRRI dhan29-SC3-28-16-4-HR2 as BRRI dhan58 for Boro season. In farmers field
+condition, this variety yielded 7.5 t/ha with growth duration of 150-155 days in Boro season
+(Table 2). BRRI dhan58 showed grain yield similar to that of BRRI dhan29 but it matured
+one week earlier. NSB technical committee evaluated two promising salt tolerant lines in six
+locations and genotype BR7105-4R-2 produced highest the yield (6.3 t/ha) followed by BRRI
+dhan47 (6.2 t/ha) IR72579-B-3-2-3-3 (5.0 t/ha) and BRRI dhan28 (4.6 t/ha) (Table 1). The
+grain type of BR7105-4R-2 was slender and IR72579-B-3-2-3-3 was medium bold and both
+were non-shattering type. These two genotypes were moved to variety release system as salt
+tolerant variety for Boro season. Field evaluations of BR7323-4B-1 and BW328 have been
+completed during Boro 2011-12 in PVT trials at seven locations of Bangladesh. BR7323-4B-
+1 yielded 0.8 t/ha and BW328 yielded 0.6 t/ha higher than BRRI dhan28 but none of them
+exceeded BRRI dhan29. However, both the lines matured one week later than BRRI dhan28
+(Table 4). In Boro season, BR7840-54-1-2-5 showing 6.4 t/ha and 149 days growth duration
+was recommended for evaluation in proposed variety trial. Field evaluation of BR7517-2R-
+27-3 has been completed during T. Aman 2011-12 in PVT trials at seven locations of
+Bangladesh. BR7517-2R-27-3 yielded (3.6 t/ha) similar to BRRI dhan33 (3.7 t//ha) but
+matured 11 days earlier. BINA dhan7 yielded 0.4 t/ha higher than BR7517-2R-27-3 but
+matured 18 days later. Also, it has long slender grain with intermediate Zn content (20 ppm)
+in polished grain (Table 5). Through marker assisted breeding introgression of SUB1 QTL
+into BRRI dhan33, BRRI dhan44 and BRRI dhan49 have been advanced up to BC4F1
+generation. Four Bangladeshi landraces viz Kalojoma, DG1-349, Putidepa, and Damshi were
+identified as new sources of submergence tolerances having other than SUB1 QTLs and
+development of mapping population has been initiated. Developments of rice varieties with
+abiotic and biotic stress tolerance along with nutritional quality were emphasized.
+
+Hybrid Rice Division
+During T. Aman season 2011, fifty-five test crosses and 54 (Ax R) crosses were made
+from source nursery. Sixty testcrosses (F1s) were evaluated for their pollen fertility status of
+which one entry has been shown complete sterile and it was immediately backcrossed with its
+corresponding male parent for conversion. Thirty-five BC6 generations were designated as
+new CMS lines and included into CMS maintenance and evaluation nursery. Ninety-one
+CMS lines along with their respective maintainer lines were maintained by hand crossing.
+Fifty-five (55) test crosses and 83 (A x R) crosses were made using 7 CMS lines in
+Boro season 2011-12 from source nursery. Twenty-two test crosses (F1s) were evaluated for
+their pollen fertility status of which one entry have been shown complete sterile and it was
+immediately back crossed with its corresponding male parent for conversion. Eight BC6
+generations were stable in terms of pollen sterility and other desirable agronomic
+characteristics and shifted to CMS nursery as new CMS line in the background of
+corresponding elite maintainer lines. A total of 104 CMS lines along with their respective
+maintainer lines were maintained by hand crossing.
+
+At observational trial in Gazipur, during T. Aman 2011 only two hybrids viz
+Jin23A/BR7013-62-1-2R and BRRI11A/BRRI16R were shown about 1.5 t/ha (28.30%) and
+1.7 t/h (32.01%) yield advantage over BR11 and 1.2 t/ha (21.43%) and 1.4 t/ha (25.0%) over
+BRRI dhan49. In Boro 2011-12 seasons seven hybrid combinations out of 83 found higher
+yielder over BRRI dhan28, BRRI dhan29 and BRRI dhan50. All of the selected hybrids
+showed yield potentiality above 7.72 t/h and produced yield more than 1 ton over BRRI
+dhan28 and 2 tons over BRRI dhan50 with growth duration around 150 days.
+In T. Aman 2011, CMS line seed yield 85 kg/plot (2.0 t/ha) and 60 kg/plot (1.6 t/ha)
+were obtained from BRRI10A/B and IR58025A/B respectively. On the other hand, during
+Boro 2011-12 season, CMS line seed yield of 65 kg (2.30 t/ha), 58 kg (2.4 t/ha) and 45 kg
+(1.7 t/ha) were obtained from BRRI10A/B, BRRI11A/B and IR58025A/B respectively. A
+total of 50 kg (2.6 t/ha), 62 kg (2.85 t/ha) and 180kg (1.80 t/ha) hybrid seeds were collected
+from BRRI10A/BRRI10R, BRRI11A/BRRI15R and IR58025A/BRRI10R respectively.
+During the reporting year, hybrid rice breeding component supplied 3,63.5 kg of
+parental lines and hybrid seeds among 34 growers including seven seed companies, BADC
+and farmers.
+
+Biotechnology Division
+
+The broad objectives of the BRRI Biotechnology Division are development of modern rice
+varieties through different biotechnological techniques, molecular characterization of
+important rice genotypes and carry out basic or upstream research pertinent to the
+development of improved variety. This division conducted 13 experiments under four
+projects. Twenty-seven plantlets were regenerated from BRRI dhan29 after transformed with
+GlyI and GlyII. Five putative transformants were confirmed by GUS test. In gene pyramiding
+of bacterial blight study, molecular screening was done on 20 BC5F1 progenies of BRRI
+dhan28*6/IRBB60 and three plants were selected having two BB resistant genes (xa13 and
+Xa21). One plant showed resistance compared to resistant check. Three plants were also
+selected from BRRI dhan29*6/IRBB60 cross having only Xa21 genes and one of them
+showed resistance compared to susceptible checks. Twenty-eight molecular markers were
+used to determine the inheritance pattern of yield enhancing QTLs in 238 individuals of
+BRRI dhan28/Oryza rufipogon (Ac.no.105890). Thirty-five molecular markers were used in
+F2 population of BRRI dhan29/IR4630-22-2-5-1-3 to identify QTLs for salinity tolerance at
+both seedling and reproductive stages. A total of 127 Bangladeshi Aus genotypes (12 BRRI
+released and 115 landraces) were screened against 76 SSR markers and grouped into six
+clusters. All the BRRI developed modern Aus varieties were grouped in the same cluster. In
+sub-1 gene introgression into BRRI dhan44, background selection was carried out in BC4F1
+generation of BRRI dhan44/BRRI dhan52 with 31 SSR markers. Out of 31 markers tested, 24
+were homozygous for recipient parent. Twelve plants were regenerated from anther culture of
+BRRI dhan29/FL378 cross combination. A total of 189 plants were regenerated from seed
+culture of BRRI dhan47. Among them seeds were harvested from 20 plants. In T. Aman
+2011, 204 plants were selected. Ninety-four plants were selected in Boro 2011-12 and 70
+homozygous lines were bulked from pedigree lines. All the selected materials will be
+evaluated in the following season under respective trials. Twelve apparently superior
+genotypes were selected from observational trial for further evaluation
+
+Genetic Resources and Seed Division
+
+Thirty Aus/Jhum, 264 Aman and 39 Boro germplasm were collected from different districts
+including hilly areas of Bangladesh during 2011-12. A total of 429 germplasm were
+characterized with 45 morpho-agronomic characters during T. Aman and Boro seasons.
+
+Besides, 1,607 germplasm accessions including 109 new collections were rejuvenated during
+the reporting year. Apart from this, 82 new collections were registered as accession. Gene
+Bank database preparation is going on and about 100 accessions have been entered into the
+database with available information during the reporting year. Genetic diversity was
+pronounced in 38 traditional hilly rice germplasm and the varieties were grouped into five (5)
+clusters. Among the ten tested germplasm, three viz Joli, Rangpuri (Sada) and Mi-chocho
+have allelopathic potentials and more inhibitory character to suppress weeds in laboratory
+condition. Fifty-three materials were screened against gall midge. Among the tested 398
+landraces, 67 materials found highly resistant against Bacterial blight. Among the tested 98
+genotypes for submergence tolerance, nine genotypes were found with very good recovery
+status, having survivability score 3. Twenty-eight genotypes were found with good recovery
+status having survivability score 5. Thirty genotypes were found with fair recovery status
+having survivability score 7 and 26 genotypes were found with poor recovery status having
+survivability score 9. In another study, among the tested 100 genotypes, 25 genotypes were
+found better having 92-100% survivability its score was 3.
+A total of 52 BRRI developed and recommended varieties were maintained as nucleus stock.
+A total of 115.90 tons of breeder seed of which 37.19 tons from 28 varieties in T. Aman and
+78.71 tons from 10 varieties in Boro seasons were produced during 2011-12. About 29.39
+tons from 23 varieties in T. Aman, 69.76 tons from 10 varieties in Boro and 2.86 tons from
+nine varieties in Aus seasons were distributed during 2011-12. Around 1.95 tons truthfully
+labeled seeds (TLS) from 22 varieties of T. Aman and 7.5 tons truthfully labeled seeds from
+nine varieties of Boro were available for distribution. Around 1.22 tons seeds from 20
+varieties of T. Aman, 7.5 tons seeds from nine varieties of Boro and 168 kg from two
+varieties of Aus were distributed as quality seed (TLS) during 2011-12. Besides, two training
+programmes entitled ‘Breeder seed production and preservation techniques of rice’ were
+organized under breeder seed project for the BRRI scientists and scientific assistants. Four
+training programmes entitled ‘Quality seed production and preservation techniques of rice’
+were organized under breeder seed project for the farmers during 2011-12.
+
+Grain Quality and Nutrition Division
+
+Four breeding lines of boro and five lines for T. Aman were analyzed for physicio- chemical
+and cooking properties of grain. All the lines had satisfactory milling outturn, good to very
+good appearance, acceptable content was found in two lines and other lines contain
+intermediate amylose content. For all the lines, protein content was in satisfactory level.
+Cooking properties of all the lines were in acceptable level.
+In total 62 local and high yielding cultivars were analyzed for physico-chemical
+properties. Among the varieties, 35 showed more than 70% milling yield. But head rice yield
+was unaccepted level. A wide range of cooking time was observed. Cooking properties were
+good for all the cultivars. Amylose content of all the varieties was low to intermediate level.
+Protein content of five cultivars was undesirable.
+BR3 rice samples of Boro 2011-12 season collected from five different BRRI stations
+were analyzed for amylose and protein content. The range of protein content was 7.7-9
+percent and the range of amylose content was found 21.1-25.7 percent. The experiment will
+be continued for the Aus and Aman seasons accordingly.
+Physico-chemical properties of local varieties (12) of hill tract area were analyzed. Milling
+outturn was satisfactory but the range of head rice yield varied from 16.3-69.0 percent.
+Cooking time of the varieties was higher than high yielding varieties. Other cooking
+properties were desirable level. Among the varieties, four contain low amylase content which
+
+can be selected for further breeding programme. Protein content was found more than 7.0
+percent for all varieties.
+Puffed, popped and flattened rice were produced from five modern varieties to
+evaluate the quality products. Comparing few parameters with BR16, none of the varieties
+produce better quality puffed rice, whereas these varieties might be used for production of
+popped rice. Among the varieties, BRRI dhan41, BRRI dhan42 and BRRI dhan45 produce
+similar/better quality flattened rice comparing with BR16.
+
+Program Area: Crop Soil Water Management
+Agronomy Division
+It was possible to obtain sufficient tillers from BRRI dhan29 of the main plot, which was
+used to retransplant 3-4 times more area than main plot in 15 December and 30 January
+transplanting.
+The highest grain yield was observed from 45days old seedlings with20x20 cm
+spacing plus four seedlings per hill, which is followed by 35-day-old seedlings with 20- × 20-
+cm spacing plus four seedlings per hill.
+BR7474-60-5-3 produced higher grain yield in T. Aman season than BR11 (check
+variety) but it was statistically similar with the check and the percent heterosis was not
+satisfactory.
+
+None of the tested entries produced higher grain yield than BRRI dhan28, BRRI
+dhan47, BRRI dhan50 and BRRI dhan55 (the check varieties) in Boro season.
+About 22 - 27 percent urea could be saved in Aman and Boro seasons respectively
+without sacrifying grain yield if 2/3rd of urea was applied as top dress along with 2-3 percent
+urea spraying maintaining 3.5 percent urea solution instead of last top dress. The study needs
+further evaluation.
+
+Among the treatments weed free and herbicide + 1HW treated plot produced higher
+grain yield irrespective of fertilizer doses. Though weed free treated plot showed higher grain
+yield but herbicide + 1HW treated plot is economically more viable.
+Among the treatments, the highest grain yield was obtained from 25 x 15 cm spacing
+(6.63 t ha-1) when USG was deep placed followed by 20 x 20 cm spacing (6.20 t ha-1) than 20
+x 15 cm spacing (6.16 t ha-1).
+Among the tests different time of USG deep placement, the highest grain yield was
+obtained from 15 DAT USG deep placement (6.77 t ha-1) followed by 10 DAT USG deep
+placement (6.72 t ha-1) than 5 DAT USG deep placement (6.36 t ha-1).
+Almost three ton yield advantage over control and 500 kg over recommended rate was
+obtained though the nutrient amount was less than recommended rate.
+Water hyacinth allowed to grown in waste water for 20-30 days and then this water
+might be used for irrigation to obtain similar grain yield of fresh water treated pot.
+
+Though nutrient manger based fertilizer use may save fertilizer cost but it depends on
+knowledge level of the users. It is difficult to collect correct information for nutrient manager
+right now. It requires further improvement.
+
+Grain yield and fertilizer dose of nutrients across the farmers’ fields showed spatial
+variability. The application of appropriate fertilizer dose NPK @ 147, 25, 50 kg ha-1 may
+increase rice yield and minimize cost in all fertility grades of soil to a certain level, which is
+possible with farmers’ present knowledge level.
+Among the treatments recommended doses of fertilizer with USG application
+prodeuced higher yield (4.66 t ha-1) followed by recommended doses of fertilizer with 25%
+additional Gypsum application (4.52 t ha-1) and recommended doses of fertilizer with LCC
+based nitrogen management( 4.44 t ha-1).
+
+Soil test based (STB) fertilizer application produced the highest yield in Aman
+season.
+
+Among the tested varieties/lines, Joli, Rangpuri (sada) and Mi-chocho have
+allelopathic potentials and more inhibitory character to suppress weeds in laboratory
+condition
+
+Evaluation of herbicide with Pretilachlor, Butachlor, Pyrazosulfuran-ethyl, Mefenacet
++ Bensulfuran methyl, Bensulfuran methyl+ Acetachlor and Pyrazosulfuron ethyl 0.6%+
+Pretilachlor 34.4% group control weed effectively in transplanted field.
+On the basis of FGD, researchable issues were identified and accordingly adaptive
+trials and other related activities are in progress.
+
+Soil Science Division
+
+In Boro season, the estimated optimum N rate was 150 kg/ha for the tested lines BR7358-5-3-
+2-1, BR7358-30-3-1, BR7372-18-3-3 and BRRI dhan50. Along with them, the optimum rate
+of K for BRRI dhan51 and BRRI dhan54 was 100 kg/ha while it was 50 kg/ha for BRRI
+dhan52 and BRRI dhan53 in T. Aman season. In Boro 50 kg K/ha is enough to produce
+optimum rice yield for all the tested varieties (BRRI dhan28, BRRI dhan55, BRRI dhan57
+and BRRI dhan58). Twenty-five percent higher N/NP/NK/PK fertilizers need to be applied
+with STB dose depending on location for obtaining optimum rice yield. Long term missing
+element trial in BRRI HQ, Gazipur revealed that omission of N or K from complete treatment
+(NPKSZn) significantly decreased yield in both Boro and T. Aman seasons. Higher yield
+decrease was observed in Boro than T. Aman season due to omission of P fertilizer. At both
+BRRI RS Rangpur and Barisal the omission of N or K in Boro significantly lowered yield
+while in T. Aman only N omission produced such results. Thus, to get optimum yield
+fertilization of NPKSZn is necessary. Soil test based (STB) dose is a good option for
+obtaining higher rice yield either in double or triple rice cropping pattern. Straw surface
+mulch immediately after establishment of rice with minimum tillage builds up soil organic
+carbon compared to rice straw incorporation in soil with minimum tillage. Higher level of
+water arsenic (193 – 462 ppb) of shallow tube well was found at two unions (Alibabad and
+Korola) of Faridpur sadar upazila and two unions (Keragachi and Jalalabad) of Kolaroa
+upazila under Satkhira district. Urea deep placement in the form of USG or NPK briquette is
+a key factor for efficient utilization of N fertilizer and obtaining higher rice yield as well as
+reduces N loss which perhaps decreases N2O emission in the atmosphere.
+
+Irrigation and Water Management Division
+
+Irrigation applied by AWD practice when water level up to 15cm below soil surface
+produced the highest yield (5.56 t/ha) followed by continuous standing water and 30 cm
+AWD (5.33 t/ha) respectively. Higher yield was obtained from non-protected plots
+compared to protected plots covered with polythene sheet in levee. Thus, 15 cm AWD is
+the best water management practice for irrigated Boro production.
+
+Considering specific discharge, an engine speed within 1500-1600 RPM is optimum for
+earthen canal. For polyethylene pipe with five and four inches diameter, 1450 to 1550
+RPM is the optimum and for polyethylene and cotton pipe, 1400-1500 RPM is the
+optimum.
+
+USG in AWD method produced slightly higher yield compared to prilled urea for Boro
+production. But application of USG alone cannot maintain higher yield in longer duration
+
+Boro rice like BRRI dhan29. Therefore, BRRI recommended additional split of prilled
+urea as top dress should be incorporated in the USG treated plots for BRRI dhan29
+cultivation.
+
+Refinement of AWD experiment showed that irrigation (5-7 cm) application is
+economically more viable when water level goes below 15 cm from soil surface. It saved
+20%-25 % water and Tk 4,931/ha compared to continuous standing water practice.
+
+Short and long duration varieties like BRRI dhan33 and BR11 were tested to determine
+the drought sensitivity and to find optimum date of transplanting under climate change
+situation. Both short and long duration T. Aman varieties suffered less from drought and
+showed good yield when transplanted from 24 to 31 July. The early transplanting of T.
+Aman through supplemental irrigation showed effective mitigation of terminal drought at
+reproductive and vegetative stages in T. Aman production.
+
+Among medium duration varieties, BRRI dhan31 and BRRI dhan49 were found less
+sensitive to drought stress. On the other hand, long duration varieties having growth
+duration between 153 and 155 days were found sensitive to drought stress.
+
+In Sonazagi area a good water bearing aquifer existed at a depth from 155 m to 180 m
+(salinity level ranged from 0.30 to 0.57 dS/m). BRRI dhan28, BRRI dhan47 and BRRI
+dhan55 were grown during Boro season and yields were 5.52 t/ha, 5.27 t/ha and 5.70 t/ha
+respectively. All the varieties performed well in irrigated condition. Thus, mono-cropped
+saline area has been converted into a double cropped area which is a good news for the
+coastal saline areas. The adjacent farmers have started installing tubewells for irrigating
+Boro rice. The findings may be disseminated to other areas where similar condition
+exists.
+
+Rain water harvesting in a reservoir with 25 cm high embankment conserved more water
+than without embankment, which could increase irrigated Rabi crops area in the coastal
+region. Rainfed T. Aman (HYV) - Tomato with irrigation cropping sequence is more
+profitable than other cropping sequences. It was also evident that Rabi crop cultivation
+with pond water is also profitable in costal saline areas.
+
+In hilly areas, rain water harvesting, ring well renovation, rubber dam or river cross dam
+in Chegi river and Myani river, hill water conservation from small hill stream by making
+creek dam could be the good source of surface water in this region. Cultivable land can be
+increased by proper management of surface water from those sources.
+
+Among the BRRI regional stations (RS) the highest depth of groundwater level (30.16 m)
+was found in Gazipur during March/April and lowest (1.4 m) in Kushtia area during
+September to October. In Barind area, the highest groundwater level depth (32 m) was
+observed in Nachol area, followed by Godagari (23 m) and Nawabganj (20 m). The
+overall trend indicates the lowering of groundwater level. The main reason for this
+declination was excess withdrawal due to increased demand for both domestic use and
+irrigation;
+
+BRRI dhan54 could be a good option in Aman season in the polder 30 area (Khulna)
+considering the water height in Aman season and higher yield potential than local variety
+(2.4 to 2.8 t/ha). In polder 43/2F (Barguna), establishment of Boro rice in early November
+might be affected due to cold stress but it can be recovered after temperature increase. It
+
+is possible to grow BRRI dhan28 having yield range of 4 to 6 t/ha in polder 30 and more
+than 6 t/ha in polder 43/2F;
+
+Rabi crops can be grown in polder 43/2F (Barguna) under undrained or unmulched
+condition if sown in January. To achieve better establishment and better yield of
+mungbean it needs to be sown early and when the soil moisture is optimum. Therefore, all
+the Rabi crops can be established earlier with proper drainage, which needs further study
+for confirmation.
+
+Irrigation cost for Boro production gradually increased over the last 15 years (1989 to
+2003). It started to increase at faster rate from 2004 till 2011 with some exception in
+2008. After 2011, the projected irrigation cost will increase gradually and it will reach to
+Tk 16,713/ha in 2031. Availability of irrigation water at the farm level is closely related
+to the crops grown. Therefore, steps should be taken to improve on farm water
+management practice. To ensure a regular water supply to crops, it requires an improved
+irrigation plan (ie, when to irrigate and how much water to apply). Thus, agricultural
+extension workers could assist in this regard. In general, policies should be taken to
+promote water management training to farmers for better understanding of on farm water
+management.
+
+Plant Physiology Division
+Based on the visual score and survivability, nine genotypes out of 41 were found saline
+tolerant in comparison with checks. Yield potential of advanced line IR72579 is higher
+compared to other genotypes though the yield (g/pot) was same as tolerant variety BRRI
+dhan47 at 3 and 6 dS/m salinity level. In submergence screening, among the tested
+genotypes, nine were found with very good recovery status of which survivability score is 3.
+Twenty eight genotypes were showed good recovery status with survivability score 5. Out of
+71 genotypes seven performed well in deep rooting which could be used in further breeding
+programme. At maturity, 304 hills tolerant to cold at the reproductive stage were collected
+from 10 F2 crossing line. For quality rice seedling production in winter, 12-hour water
+layered (2-4 cm) at night time in seedbed was suitable for healthy seedling raise avoiding
+cold injury. Twenty four-hour covered seedbed with polyethylene sheet was preferred for
+avoiding cold injury where water was not available or scarce. The seeds of Aman season’s
+crop had high dormancy than that of Aus and Boro seasons. The seeds stored in freeze
+condition exhibited long viability period followed by polythene packet and motka storage.
+Among all the varieties stored in polythene packet and motka, BRRI dhan48 showed the
+highest viability up to 330 days. Automatic weather station (WatchDog 2900ET) can measure
+and record/log daily weather fluctuations more accurately than manual system.
+
+Program Area: Pest Management
+Entomology Division
+• Overall insect pest incidence at BRRI HQ farm, Gazipur was low in the reporting
+year. However, GLH, WLH and GH dominated the pest population in all three
+seasons. The highest incidences of GLH and WLH were observed in Aus seed beds
+but the highest population of GH was found in the T. Aman seed bed.
+• Higher numbers of natural enemies were found in the Aus and Boro seasons than
+Aman season. SPD, damselfly, CDB and LBB were the dominant natural enemy
+population in the reporting year in all three habitats. The domination of SPD
+population, irrespective of habitat, was observed in the Aus and Aman seasons, but
+
+that of LBB was observed in seed beds, grass fallow lands and irrigated rice of the
+Boro season.
+• In Sirajganj (a BPH prone area) BPH and WBPH surpassed the ETL in the Boro
+season. Small brown planthopper was not reported earlier in Bangladesh but has been
+recorded in the yellow sticky trap in this area.
+• Chemical control by double nozzle sprayer has been found more effective than single
+nozzle sprayer in controlling BPH. In an outbreak situation chemical control is
+essential to avoid ‘hopper burn’ of rice.
+• Wing span of gall midge varied from 3 to 4 mm. Female longevity was higher than
+male and the female laid 130-330 eggs during its life time.
+• Developmental duration from egg to adult of Trichogramma zahiri at different
+temperatures showed that the duration decreased with the increase of temperature up
+to certain limit and it ranged from 7 to 15 days.
+• Adult longevity of T. zahiri depends on diets and the highest longevity of female and
+male was found when host food plus 25% honey solution was supplied as food.
+• BRRI dhan42 has been identified to show low yield loss (5%) despite a considerable
+level of hispa damage. This variety might be recommended for hispa prone areas.
+BRRI hybrid2 was also showed higher hispa damage tolerance than the BRRI hybrid
+dhan1 and BRRI hybrid dhan3.
+• A total of 165 insecticides (114 against BPH, 29 against RH and 22 against YSB)
+were found effective out of 190 insecticides 2011-12.
+• Thirty-five and four entries were found moderately resistant to BPH and GLH,
+respectively for further use.
+
+Plant Pathology Division
+
+Survey and monitoring shows that aromatic rice is more susceptible to neck blast disease than
+the other HYVs. Twenty-five advanced breeding lines were tested against BB and ShB
+disease and only five materials showed moderately resistance reaction to ShB. Among the
+tested 85 hybrid materials, only H42 and H61 showed resistant reaction to BB. Two hundred
+and twenty four INGER materials were tested and 10 of then showed resistance against the
+most virulent isolate (BXO9) of BB. The tested pyramid lines showed different types of
+reaction in different locations and seasons. In most cases, IRBB60, IRBB65 and IRBB66
+performed best against BB pathogen. Among the tested 398 materials, 67 materials found
+highly resistant against BB with the cluster mean lesion length 1.19 cm. In total, 16 BB races
+were identified in Bangladesh based on nine NILs. Among them, race 1 is the major race that
+alone occupied 61 percent among the 172 tested isolates. Though Xa21 gene showed
+susceptible reaction to some isolates, the resistant frequency of that gene was still 89.5
+percent that may use as candidate gene for developing BB resistant rice variety in
+Bangladesh.
+A total of 220 blast isolates were screened against MLs. Among the 24 resistant
+genes, Pish, pi9, pita-2, piz-5 and pita=pi4(t) showed higher resistance (>80%) against the
+tested blast isolates. The frequencies of virulent blast isolates against 31 MLs varied widely
+from nine to 68 percent. Specific primers were used to confirm the presence of blast
+resistance genes in rice varieties having Japonica and Indica background. Out of 20 primers,
+18 successfully produced bands from blast resistance MLs. The primer pita 440 for pita gene,
+OSM 89 and RM 7102 for pita2 gene, AOL51, AOL54 and AOL351 for pish gene, NBS3,
+NBS4, NBS/LRR and NBL2 for pi9 gene and primers RM 138, RM 166, RM 208 and SUB
+3-4 for pib gene were effective in producing corresponding bands. In JIRCAS laboratory,
+Japan 26 blast isolates were tested and found 26 races based on 31 MLs. Blast isolates were
+
+categorized into five groups; 10 U blast pathotypes, four for one blast pathotypes, eight for k
+blast pathotypes, seven for z blast pathotypes and seven for ta blast pathotypes. Dominant
+blast pathotypes were U73, I4, k100, z05 and z07 and ta403.
+The mean mycelial growth of R. oryzae-sativae ranged from 0.28 to 0.45 mm/hr.
+Among the isolates, the highest mean growth rate (0.45 mm/hr) was recognized with the
+Mymensingh isolates followed by Jamalpur (0.42 mm/hr). All the isolates of R. oryzaesativae showed virulence to the rice variety BR11. The highest mean lesion height was found
+from the isolate My1 followed by Na2. The growth of this fungus reduced at very strong
+acidic and alkaline pH. Abundant sclerotia were formed at pH level 7 while no sclerotia at pH
+level 3 and 4 after four days of inoculation. Among the six different C sources on R. oryzaesativae growth, the best was found in Dextrose (0.43mm/hr) followed by Sucrose
+(0.42mm/hr). In case of duration of complete mycelium running, the minimum time was
+recorded in Dextrose (105 hrs.) and maximum time was found in Fructose (172 hrs.). The
+highest sclerotial formation was found in Dextrose.
+Among six different N sources, the best mycelial growth of R. oryzae-sativae found in
+peptone (41.25mm) followed by yeast (38.25mm) after four days of incubation. Though
+peptone was found as the best for mycelial growth, no formation of sclerotia, while the
+control plate was fully covered with mycelia after 4 days of incubation and formed abundant
+sclerotia.
+The optimum temperature for F. moniliforme growth was 25oC but did not grow at
+5oC. The rate of sporulation was high at 30oC after nine days of incubation. The maximum
+colony diameter was observed at medium pH 6. Colony diameter was identical on the third
+day at pH 7 compared with 59.45 and 58.48 mm on the same day of incubation for pH 6 and
+8. Maximum sporulation was found at pH 6. The number of spore production was the lowest
+(1.80 x 106/ml) at pH 10.
+Among the three tested fungicides only Dizole 300 EC performed better, which
+reduced fungal growth 87.31%. Among the tested 19 fungicides only Power Blast effectively
+control sheath blight disease and the average disease reduction was 82.07%. Among the
+tested 19 fungicides against blast only Roton 75WP performed better, which reduced the
+disease severity 81 percent over control. The rate of seed infection of tested seeds was very
+low. All of the seeds were free from Bipolaris. The tested chemical Vitaflo 200 was
+insensitive to Fusarium but controlled 100 percent Curvularia and Trichoconis. Effects of
+this chemical on seed germination, seedling growth and yield was insignificant.
+
+Program Area: Rice Farming Systems
+Rice Farming Systems Division
+
+Interventions of farming systems technologies increased the income of landless and small
+farmers by 17.97 and 36% respectively compared to base year at FSR and D site, Kapasia,
+Gazipur. Rearing of layer, pigeon and goat helped farmers to increase their income. Spraying
+mango trees with pesticides and fertilization of jackfruit trees also increased production. LCC
+based N management practice saved 11 kg and 20.10 kg N/ha and increased the yield of
+BRRI dhan46 in T. Aman and BRRI dhan28 in Boro season respectively over the farmers’
+practice. Small farmers who adopted water saving technologies, saved irrigation cost and
+increased rice yield. Growing vegetables, turmeric and ginger as well as rearing rohu, silver
+carp, mrigal and sorputi increased farmer’s income.
+Yield gap experiment at Kapasia showed that the BRRI management practice ie the use of
+quality seed, LCC and USG contributed to higher yield.
+Cropping patterns evaluation in medium highland irrigated ecosystem indicates that the
+highest rice equivalent yield (REY) could be found from Potato-DT Boro-T. Aman followed
+by Potato-T. Aus-T. Aman and Boro-T. Aus-T. Aman.
+
+Sesbania application as green manure and weed management in T. Aman rice in BoroFallow-T. Aman cropping pattern indicates that Sesbania incorporation before T. Aman rice
+significantly influenced rice yield. Sesbania incorporation by applying herbicide 30 days after
+seeding produced the highest yield.
+Use of selective herbicide at 15 DAS is sufficient for Aman rice production in Maize-DS Aus
+(brown manured by Sesbsnia)-DS Aman cropping pattern. One hand weeding was saved in
+Aman season, which might be due to weed suppression effect of Sesbania incorporated
+during Aus season. Maize intercropped with grasspea-DS Aus with herbicide followed by
+one hand weeding-DS Aman with herbicide followed by one hand weeding produced the
+highest REY.
+Double transplanting under late situation produced significantly higher yield than that of
+normal transplanting in both T. Aman and Boro seasons.
+In a long-term study with four cropping patterns, Potato-Boro-T. Aman cropping pattern
+produced the highest REY and gross margin than Boro-Fallow-T. Aman, Boro-T. Aus- T.
+Aman and Maize- Mungbean-T. Aman in both Rangpur and Gazipur.
+Among the three rice cropping patterns the highest yield was obtained from BRRI dhan28-
+BRRI dhan48-BRRI dhan46 (12.18 t/ha) which was 11-15% higher than the farmer’s
+patterns.
+Boro rice grown in costal saline area using fresh reserve water produced 33.70% higher gross
+return in Boro-Fallow-T. Aman cropping pattern compared to Fallow-Fallow-T. Aman
+cropping pattern.
+Among different cropping patterns with vegetables, Tomato-BRRI dhan42-BRRI dhan33
+yielded the highest REY in partially irrigated ecosystem.
+Dry seeded Aman rice, BRRI dhan49 produced the highest grain yield at 30 June seeding
+under Rice-Wheat-Mungbean cropping pattern. While BRRI dhan33 produced the highest
+yield on 30 July and BRRI dhan53 produced the highest yield on 10 July seeding.
+Several activities on validation and delivery of farming systems technologies were carried out
+in different locations of the country. The activity included promotion of improved cropping
+pattern packages, demonstration of poultry manure as a source of phosphorus fertilizer,
+promotion of improved varieties of turmeric cultivation in the homestead and multilocation
+testing of BRRI dhan46/49-BRRI dhan29-Fallow cropping patterns.
+
+Program Area: Farm Mechanization
+Farm Machinery and Postharvest technology Division
+Prime mover of the existing BRRI Winnower was replaced by a 4 hp diesel engine. The
+winnowing capacity of the modified winnower was increased to 550-600 kg/hr. Cleaning
+efficiency and operation costs of modified winnower was found same as previous version
+winnower.
+BRRI USG applicator was re-designed as adjustable type considering line to line and plant to
+plant spacing of 18 x 20 cm, 20 x 20 cm and 22 x 20 cm. Adjustable mechanism of the redesigned applicator was also modified.
+Mechanical transplanting of rice is the process of transplanting specifically raised seedling of
+rice. The seedlings were raised on polythene sheet and cut into slices of 28 × 58 cm size to
+feed into the seedling holding trays of the transplanter. A total of 14 (fourteen) treatments
+combining with different seed covering materials and dry and sprouted seed were used to
+conduct the study. Cow-dung mixed soil and without cow-dung mixed soil were also used
+as base soil treatment for this experiment.
+
+Walking type mechanical rice transplanter was tested in different NATP founded DUART
+project locations during Boro/2012 season. During test, flexible plastic tray (58 x 28 x 2.5
+cm) was used to raise seedling for the transplanter. Yield performance of rice transplanting
+by mechanical rice transplanter were compared with hand transplanting method.
+BRRI USG applicator was re-designed as adjustable one considering line to line spacing
+18cm, 20cm and 22cm. During Boro 2012, the modified applicator performance was
+evaluated in 10 locations under the NATP funded DUART project. In field operation, field
+capacity was found 0.15 ha/hr whereas, manual USG application capacity was 0.019 ha/hr.
+Yield variation was not observed in USG application by hand and applicator in studied ten
+locations. In all the cases, USG gave higher yield compared to hand broadcasting of prilled
+urea. USG also produced around 0.6 ton/ha more yield than prilled urea.
+Minimum tillage along with crop residue retention, after three years, slightly improved
+physical properties of soil such as bulk density and penetration resistance. In rice mazie
+cropping system, bulk density and penetration resistance under different tillage options along
+with residue retention are observed below the critical value which was regarded as sufficient
+to promote the growth and development of crops.
+Energy input in conventional tillage, Single pass wet tillage in rice followed by zero tillage in
+maize, bed planting and Strip tillage was 49, 42, 42 and 41 GJ ha-1, respectively in rice-maize
+cropping system. Maximum energy was consumed for chemical fertilizers. The lowest energy
+input was required for maize and highest for rice due to less irrigation water requirement in
+maize.
+The physical and thermo chemical properties of rice husks were characterized to use as a
+feedstock for energy conversion process. As a source of biomass fuel, the characteristics of
+rice husk of four varieties are determined under this study.
+In the year reporting 190 demonstration cum informal training programmes were conducted
+at different places under FMTD project.. About 3800 participants including farmers,
+machine operators and Sub-Assistant Agricultural Officers (SAAO) attended the
+demonstration cum informal training programmers. As a result, awareness was created
+among the farmers on the benefit of using BRRI farm machinery and they also wanted to
+purchase the machine with subsidised prices. Besides demonstration, BRRI machines were
+also displayed in the Agricultural Machinery Fair 2011-12 with the Cooperation of
+Department of Agricultural Extension (DAE) of Kushtia and Gazipur office, BARI, Gazipur
+and RDA, Bogra .
+We conducted 69 two-day-long training programmes during Aman and Boro seasons 2011-
+12 in different locations within the project areas. Altogether 1380 participants mostly farm
+machinery operators attended the formal training programmes as trainee. A basic idea (how
+to operate new engine; when need to change air, oil and fuel filter etc) on operation, repair
+and maintenance of diesel engine has given to the participants. Trained operator was able to
+repair minor defects of the machine themselves. After training, the operators operated all
+machinery successfully.
+A total of nine training program on ‘Seedling raising techniques for mechanical rice
+transplanter and operation and maintenance of farm machinery’ was conducted during Aman
+2011 and Aus 2012. Different categories of farmers, manufacturer and traders participated in
+the training as trainee. Participants awarded about seedling raising techniques and operation
+of rice transplanter and USG Applicator. Soil collection, seedling tray preparation, rice
+transplanter and USG applicator operation was the parts of the training activities.
+Workshop Machinery and Maintenance Division
+
+The imported self-propelled reaper and existing BRRI developed self-propelled reaper were
+tested in BRRI RS, Rajshahi in Boro 2011-12 and T. Aman 2010-11 seasons. During the field
+operation of the reaper with 1.2m head, average field capacity of imported reaper were found
+0.236 ha/hr (58.29 decimal/hr) and 0.232 ha/hr (57.24 decimal/hr) in Boro 2011-12 and T.
+Aman 2010-11 seasons respectively. On the other hand average field capacity of the existing
+BRRI developed self-propelled reaper with the same head in Boro 2011-12 and T. Aman
+2010-11 seasons were found 0.278 ha/hr (68.66 decimal/hr) and 0.267 ha/hr (65.84
+decimal/hr) respectively. The average fuel consumption of imported reaper and BRRI
+developed reaper were 0.827 l/hr and 0.765 l/hr respectively. The purchase price of imported
+reaper is almost double of BRRI self-propelled reaper. According to the analysis it is clear
+that the overall performance of the BRRI developed reaper was better than that of the
+imported reaper. All the information regarding repair and maintenance are still recorded
+manually. It is really a burdensome work when some queries have to be faced. Therefore, last
+year, using access built-in features and wizard, a simple data base programme ( version: 01)
+was developed . But it had some limitations. To overcome these limitations 2nd version of
+database programme has been developed.
+
+Program Area: Socio-economics Policy
+Agricultural Economics Division
+BRRI dhan28 and BRRI dhan29 were the most popular varieties in Boro season. BR11 is still
+the dominant variety covering about 22 percent of the total T. Aman area. In Aus season, the
+area coverage of BRRI dhan28 was the highest (16%) followed by BR3 (6.95%). BRRI
+dhan29 was the top yielder in both Boro (5.41 t/ha) and Aus (4.58 t/ha) seasons. BRRI
+dhan44 ranked top in terms of per unit yield (4.25 t/ha) in T. Aman season. Some hybrid and
+Indian varieties are being adopted as replacement of MV Aus and Aman due to higher yield
+performance.
+Rice farmers used more seed than the recommended rate and applied lower amount of
+TSP and MP fertilizer. They received lower amount of gross return from MV Aus and MV
+Boro owing to higher production cost and lower market price; although, per hectare yield of
+Boro is higher. MV T. Aman growers received higher net return due to better market prices.
+
+Area under hybrid rice has been declining and area under BRRI dhan29 and other MVs
+has been fluctuating over the period of 2002-11. Although, the yield performance (about 7
+t/ha) of hybrid rice and MVs varied in different districts, the yield of hybrid was higher than
+BRRI dhan 28 (5 t/ha) and BRRI dhan 29 (6 t/ha). Almost all the producers showed their
+enthusiasm to continue growing hybrid rice only expecting better yield.
+
+In southern region, major cropping patterns were Rabi/Khesari-T.Aus-T.Aman, RabiFallow-T. Aman, Fallow-T. Aus-T. Aman and Boro-Fallow-Fallow, indicating there is a lot
+of scope to grow rice and other crops in the Boro and Aus seasons. Whereas the major
+cropping patterns in northern region were Boro-Potato-T. Aman, Boro-Fallow-T. Aman, and
+Tobacco-Jute-T. Aman. The farmers of Barisal region need mainly insect, disease resistant
+and longer seedlings varieties along with harvester, transplanter, applicator of USG, dryer
+etc; while the farmers of Rangpur region need mainly insect, disease and drought resistant
+varieties with long seedlings harvester, transplanter, USG applicator and dryer.
+
+The technology users were enthusiastic to use the given variety for next season. The
+average volume of sale of Aman paddy (1.69 ton) was higher after the project intervention
+compared to than that of (1.09 ton) before the project. Average production of Boro was lower
+in 2011 (4.08 ton) than that of (5.03 ton) 2010 due to cold and drought problem.
+During 1971-72 to 1983-84, the growth in area for Aus, Aman and Boro slowed down while
+the production growth accelerated due to adoption of BRRI developed high yielding rice
+
+varieties. There are significant differences in the area, production and yield of different food
+grains between the period of pre and post establishment of BRRI. It also showed the
+structural changes in the area and production of different food grains between the periods due
+to initiation by the World Bank and govt. subsidies on inputs.
+
+Agricultural Statistics Division
+• In the reporting period BRRI dhan32, BRRI dhan40, BRRI dhan41 and BR11 were
+found most stable in T. Aman season, while BR3, BRRI dhan51 and BRRI dhan52
+appeared to be unstable among the non-aromatic rice. In case of aromatic rice, BRRI
+dhan38 appeared to be most stable followed by BRRI dhan37.
+• BRRI dhan28 and BRRI dhan29 were the most stable varieies and BR1, BR2, BR6,
+BR8 and BR18 appeared to be unstable in Boro season. In case of fine rice BRRI
+dhan50 appeared to be below average stable in Boro season.
+• BRRI variety contributes about 90% of total production of the country. It does not
+reflect in field label because of BRRI variety is being sold in different brand names.
+For example BRRI dhan28 is sold as Nizersail and BRRI dhan29 as Jhingasail and
+Miniket etc. Pure consumers were found to prefer rice varieties on the basis of taste,
+slenderness and availability.
+• Three mathematical models have been developed for consumer and producer
+preference to rice varieties by using four locations/districts farmers’ data of
+Bangladesh in terms of rice deficit and rice surplus area. These three models are used
+to determine factors affecting producers’ decision on varieties for rice cultivation and
+can provide an indication of the factors affecting consumers’ preference to rice
+varieties.
+• The average As content in grain was 0.31 mg/kg at command area level and at upazila
+level it was 0.40 mg/kg, while groundwater As level was 178.6 ppb and 126.3 ppb,
+respectively. Out of 490 upazilas 68 are at high risk, 103 are at medium risk, 130 are
+at low risk and 189 upazilas are risk free. In about 46% of the total area of
+Bangladesh As concentration is below 10 μg l-1. Approximately, in 72% area of
+Bangladesh arsenic concentrations is within 50 μg l-1. About 14% area of Bangladesh
+appears as low As risk with arsenic concentrations in water between 50 μg l-1 to 100
+μg l-1. About 9% area falls under medium risk and about 6% under high risk.
+• Combining the total As of grain and water (drinking water and water for rice cooking)
+more than 800 and 700 ppb, respectively in command area level and upazila level
+consumed per person per day, which may accumulate at least a small amount of As in
+human body. Thus, consumption of rice containing a small amount of As per day may
+lead to accumulation of large amount of As in human body in the long run.
+• A total of 106 different analyses were performed during the reporting year. Besides, a
+number of maps were prepared using GIS and supplied to the scientists of other
+divisions whenever required.
+Farm Management Division
+
+An experiment was conducted at the West Byde of BRRI HQ farm, Gazipur during Boro
+2011-12 season to determine the relative profitability of different sources of N (PU and USG)
+and weed control methods (herbicide Refit, herbicide Super Clean and hand weeding) in
+relation to labour utilization for rice cultivation. The treatments were arranged in a
+randomized complete block design with three replications. BRRI dhan29 was used for
+
+experimental purpose. In PU applied plots, hand weeding produced the highest number tiller
+m-2 and grain panicle-1. Super Clean produced the highest number panicle-1. Weeding
+method had no significant effect on grain yield. All the parameters were higher in USG
+applied plots than PU applied plots. USG applied plots required higher number (6%) of labor
+than PU applied plots. Application of Super Clean instead of Refit produced Tk 4,160 ha-1
+more profit but application of Super Clean instead of hand weeding produced Tk 10,060 ha-1
+more profit. However, application of Refit instead of hand weeding made more profit of Tk
+5,900 ha-1 and application of USG instead of PU made more profit of Tk 6,209 ha-1.
+Another experiment was conducted during Aus 2011, T. Aman 2011 and Boro 2011-12
+seasons at the West Byde of the BRRI HQ farm, Gazipur to determine the cost and return of
+HYV rice cultivation in present situation. The rice varieties BR26, BRRI dhan41 and BRRI
+dhan29 were tested in Aus, Aman and Boro seasons, respectively. Labour requirement in
+Aus, Aman and Boro seasons, was 269, 269 and 273 man days (md) ha-1 respectively. The
+total variable cost, gross return and gross margin for one hectare of land was the highest in
+Boro season followed by Aman and the lowest in Aus season, but the cost of production of
+one kg rice was the highest in Aus season (Tk 14.9) followed by Aman (Tk 12.3) and Boro
+seasons (Tk 12.2). The BCR was 1.46, 1.71 and 1.64 in Aus, Aman and Boro seasons,
+respectively.
+An experiment was conducted during T. Aman 2011 season at the West Byde of BRRI
+HQ farm, Gazipur to find out the effect of different period of direct supervision on labour
+efficiency. The treatments were different level of direct supervision such as 100%, 80%,
+60%, 40%, 20% and no direct supervision. Labour requirements for different operations such
+as seedling uprooting, transplanting, weeding, harvesting and postharvest operation were
+taken. Cent percent supervision required less number of labour and it was increased with
+decreasing of supervision period. Labour requirement was the highest under no supervision.
+Therefore, to increase the labour efficiency supervision must be confirmed.
+Survey and monitoring labourers' wage rate were conducted throughout the year at
+Joydebpur, Chowrasta, Salna, Board Bazar, Konabari, Tongi. The average wage rate per day
+varies from Tk 300 to 330. The wage rate per day during the peak periods of the year were Tk
+460 to 470 in May, Tk 275 to 330 in July-August and Tk 320 to 400 in December-January.
+The wage rate varied between Tk 200-225, 200-225, 200-230, 225-250, 250-300, 225-250,
+250-300 and 300-350 at Habiganj, Rangpur, Rajshahi, Barisal, Sonagazi, Comilla Satkhira
+and Khulna, repectively.
+About 17,003 kg of rice was produced consisting of 10,722 kg seed and 6,281 kg mixed
+rice. In addition 7,215 kg breeder seed and 1,574 kg TLS were also produced.
+BRRI had a total of 485 labourers (227 were regular and 258 were irregular). In BRRI
+HQ, total labourers were 289 of which 129 were regular and 160 were irregular. The institute
+has 274 ha of land including 163 ha of cultivable land.
+Total labour utilization in different divisions was 63,345.5 man days of which 59.57,
+33.54 and 6.88% were utilized for research, support service and holidays, respectively.
+A total of Tk 75,83,587.12; Tk 42,70,232.88 and Tk 8,76,192.54 were paid to the
+labourers for research work, support service works and leaves respectively.
+About 85.3 ha of land was utilized by different divisions in different seasons where 13.9
+ha was used in Aus, 37 ha in Aman and 34.4 ha in Boro season.
+In addition to research, this division is also responsible for the management of BRRI
+garden to maintain the aesthetic view of the campus with colourful flower garden around the
+year.
+
+Program Area: Technology Transfer
+Adaptive Research Division
+
+In ALART 2011, OM1490 was found suitable for proposed variety trial (PVT) in both T. Aus
+and B. Aus. Among the genotypes for ALART (PQR and RLR) in T. Aman 2011, BR7465-
+1-4-1 and BR7875-*5 (NIL)-52-HRI as PQR and BR7465-1-2-4 as RLR were considered for
+PVT. As PQR in Boro 2012, BR7358-5-3-2-1 and BR7358-30-3-1 from tested genotypes
+were considered for PVT, if disease reaction of those lines is accepted by the pathologist.
+Micronutrient dense BR7840-54-1-2-5 was also considered for PVT in Boro 2012.
+During Aus and Aman 2011 and Boro 2012, SPDPs were conducted by using
+different BRRI technologies at different locations of Bangladesh under different programmes
+like SRRPP, BRRI core, AFACI, Climate change etc. Under these programmes, 468
+demonstrations were conducted from which about 265 tons of quality seeds were produced
+and 80 tons seeds were retained by the farmers for next year cultivation.
+
+Under the Minimizing Rice Yield Gap Project (BRRI part), research activities were
+carried out in 75 upazilas under 25 districts of Bangladesh. In Aman 2011, it was seen that on
+average 26.44% yield was increased by BRRI recommended practice and in Boro 2012, yield
+increase was 18.24% over traditional farmers’ practice.
+On-farm farmers' participatory adaptive research trials were conducted under yield
+gap minimization in rice using integrated crop and resource management (ICRM) practices in
+nine upazilas of five districts during T. Aman 2011 and Boro 2012. It was found that yield
+increased in ICRM practices was 0.8-1.2 t/ha over farmers’ practice during Aman season and
+0.9-1.7 t/ha during Boro season.
+During the reporting period, the Adaptive Research Division (ARD) conducted 153
+farmers’ training at differnt locations of the country in which 5,355 trainees (4,590 farmers
+and 765 SAAOs of DAE ) participated. ARD conducted 54 field days at different locations of
+the country. A total of about 10,397 persons participated in those occasions.
+A total of 5785 kg quality seeds of the current rice varieties were produced at BRRI
+HQ farm, Gazipur for adaptive trials in different locations of the country in Aus, Aman and
+Boro seasons.
+Training Division
+The Training Division has conducted 87 training programmes in the reporting period with a
+course duration from 1-day to 1-week depending on their nature and requirement. A total of
+2,853 participants from different government and non-government organizations and farmers
+were trained through these courses. The highest number of participants was from the
+Department of Agricultural Extension (DAE) followed by farmers. The overall improvement
+of knowledge for extension personnel of 1-week rice production training (RPT) varied widely
+and it was 153% for AEO of DAE, 204-314% for SAAO of DAE from different region and
+149% for special prgramme (Junior Agronomist and officers of different NGO). From 1974
+to June 2012, BRRI completed 2,398 training programmes through which 67,539 participants
+were trained on different aspects of rice production technologies. The trainees expressed
+positive views about the course content and training method. Most of the BRRI's speakers’
+performance was very good to excellent. Training Division also organized three 3-day
+workshops on development and utilization of Bangladesh Rice Knowledge Bank (BRKB).
+
+Regional Station
+BRRI RS, Barisal
+A total of 397 progenies and 22 fixed lines were selected from F4 and F5 generations from the
+pedigree nursery (F4 – F6 generation) with emphasis on height, tolerance to tidal
+submergence, earliness, plant type, grain type and high yield potential. From long-term
+
+missing element trial, it may be concluded that BRRI RS, Barisal farm needed complete
+(NPKSZn) fertilization to obtain maximum yield. Omission of any one nutrient element from
+complete treatment decrease yield and the extend of yield decrease depends on each nutrient
+missing. IRBB60, IRBB65 and IRBB66 performed best against BB pathogen in Barisal
+regions. About 4-5 number of irrigation could be saved by using AWD technology, which
+was also increased water productivity in Barisal regions.
+
+BRRI RS, Comilla
+Twenty-nine crosses were made and 47 crosses were confirmed and 326, 213, 116 and 312
+plant progenies with desirable plant type and high yield potential were selected from F2, F3, F4
+and F5 generations, respectively and five plant progenies were selected for bulk under the
+varietal development programme. Twenty-six genotypes were selected from OT for
+uniformity in desirable characters and high yield potential in Boro season.
+
+In PYT-E (T. Aman), one genotype BR7472-16-2-1-2-3 was selected for better yield.
+None of the genotypes were selected from PYT-L. In PYT # PQR, genotypes BR7369-52-3-
+2-1-1, BR7357-6-2-1-1 and BR7647-16-2-2-2-1-1 were selected for higher yield advantage.
+For T. Aman, in SYT #1 (RLR) two genotypes (BR7044-1-5-1and BR7473-12-2-2-6) were
+selected as compared with standard check BRRI dhan31 for yield and earlier growth duration.
+In SYT # 2, none of the genotypes were selected from SYT #2 for comilla region. In SYT,
+PQR genotype BR7357-11-2-4-1-1 was selected for its better yield and earliness.
+
+In RYT #1 (PQR, Boro) two genotypes (BR7358-36-2-2-1 and BR7372-18-2-1-HR1)
+were selected as compared with standard checks BRRI dhan28, BRRI dhan50 and Minikit for
+yield and earliness. In RYT #2 (PQR, Boro) BR7358-35-2-1-1 and BR7372-30-1-1 were
+selected for better yield performance and earliness but genotype BR7358-35-3-2-1 was
+selected only for better yield performance as compared to standard checks. In RYT Boro
+(Micronutrient) genotype BR7830-16-1-5-3 was selected for better yield performance as
+compared to BRRI dhan28 and for earliness as compared with BRRI dhan29.
+
+In Boro season, from multilocation trials of CSISA genotypes, five genotypes BR7372-117-
+3-4-3, BR7358-5-3-2-1, BR7358-56-2-2-1, BR7372-18-2-1-HR1 and BRRI dhan29-SC3-28-
+16-10-8 were selected as compared with BRRI dhan28 in terms of yield and growth duration.
+In Boro, multilocation trials of hybrid rice, genotype BIO 452 was selected for its highest
+yield as compared with checks BRRI dhan28 and BRRI hybrid dhan2 and showed growth
+duration 137 days, which was similar to checks. But all the entries were highly susceptible to
+lodging except BRRI hybrid dhan2.
+
+In AYT (Boro) trials, four genotypes were selected for earliness as compared to BRRI
+dhan28 and BRRI dhan45. From IRLON, nine genotypes were selected considering better
+phenotypic performance as compared to standard checks.
+In T. Aman, 500kg BRRI dhan33 and 892 kg BRRI dhan49 and in Boro, 12283 kg BRRI
+dhan28, 3060 kg BRRI dhan29 and 2620 kg BRRI dhan50 breeder seeds were produced.
+
+Twenty-four T. Aman and 24 Boro rice varieties were evaluated at BRRI RS, Comilla
+farm to identify stability index. Considering yield performance, the top five varieties were
+BRRI dhan41, BRRI dhan49, BRRI dhan44, BRRI dhan46 and BRRI dhan31 in T. Aman and
+BRRI dhan29, BR8, BR3, BRRI dhan28 and BR9 in Boro.
+Thirty-farmers (23 male and 7 female) of Daudkandi of Comilla district were trained by day
+long one training programme on rice production technologies during the reporting year.
+
+Besides, twenty UAO and ten DAE, BARI, BADC personnel of Comilla region were trained
+by day long one training programme on recently released Boro variety BRRI dhan58 and T.
+aman variety BRRI dhan49 during the reporting year.
+BRRI RS, Comilla also participated in one agricultural fair of Daudkandi upazila.
+
+BRRI RS, Habiganj
+In B. Aman season, 73 desirable homozygous plants of DWR were selected. In RYT, all the
+tested entries yielded higher than check Hbj. Aman. In Boro season, 85 F7 plants from 18 F6
+populations, 98 F7 plants from 10 F6 populations and 48 F5 plants from five F4 populations
+were selected with desirable characters for the development of varieties suitable for haor
+areas. Four tested entries yielded higher than BRRI dhan28 (6.5 tha-1) with similar growth
+duration in PYT. In RYT#1, BR7325-4B-1 and BR7226-19-1-3 yielded higher than BRRI
+dhan29 (6.5 tha-1). One of the tested lines BR7742-79-24L4-10 (6.12 tha-1) out yielded BR19
+(5.97 tha-1) in RYT#2. But in RYT#3, all the lines out yielded BRRI dhan45 (5.2 tha-1) and
+IR83140-B-32-B-B, IR83141-B-18-B-B, IR80416-B-32-3, PSBRC82 yielded higher than
+BRRI dhan28 (5.7 tha-1) with almost similar growth duration. Tested entries (BR7840-54-2-
+5-1, BR7830-16-1-5-3, BR83294-9-1-3-2-3 and BR7840-54-1-2-5) yielded higher than BRRI
+dhan28 (4.9 tha-1) in RYT#4, but none of the entries out yielded BRRI dhan29 (6.1 tha-1). In
+MLT#1, none of the line out yielded BRRI dhan28 (5.3 tha-1) but two entries (BR7372-117-
+3-4-3 and BR7873-5*(NIL)-51-HR6) yielded closed to BRRI dhan28 with similar growth
+duration. Among the advanced breeding lines in MLT#2, three entries viz BIO 452 (6.44 tha-
+1), BIO 459 (6.32 tha-1), and BIO 605 (6.29 tha-1) yielded higher than BRRI dhan28 (5.70 tha-
+1) and BRRI Hybrid dhan2 (6.05 tha-1) with almost similar growth duration. Out of 84, only
+three entries viz PK 8601-1-10-3 (6.75 tha-1), PR33993-B-15-2-1-4-5-3-2-2 (6.42 tha-1) and
+IR 09A102 (7.21 tha-1) were selected from IIRON-2011 according to their yield performance,
+phenotypic acceptance and growth duration.
+
+Balanced fertilization with complete treatment significantly increased the rice grain yield.
+The highest rice yield (5.2 tha-1) was obtained with complete fertilizer dose of NPKS and the
+lowest rice yield (2.3 tha-1) was obtained with all missing treatment.
+The recommended patterns (BRRI dhan46-BRRI dhan29-Fallow) produced 14% higher grain
+yield and gross margin over existing farmers’ patterns (BR22-BRRI dhan28-Fallow). The
+recommended cropping pattern produced 12.15 tha-1 yield that earned gross margin of Tk
+1,94,400/ha. In Boro season, normal transplanting and double transplanting (DT) produced
+significantly higher grain yield than the delayed planting.
+
+BRRI RS, Kushtia
+Six lines were tested in RYT, upland rice (Aus) 2011. The yield of the tested lines were
+ranged from 3.3 to 4.0 t/ha. The line BR6855-2B-11-3-5 was the highest yielder (4 t/ha)
+followed by BR7181-2B-2-6, BR7384-2B-5 and BR6976-2B-11-1. The rest two lines
+namely, BR7178-2B-19 and BR7976-2B-15 produced lower yield (3.3 t/ha) among the tested
+lines.
+Three lines were tested in ALART, upland rice (Aus), 2011. The yield of the tested
+lines ranged from 3.4 to 3.9 t/ha and were similar that of the standard check BRRI dhan43 but
+0.8-1.3 t/ha higher yield than the local check Hashikalmi. The line OM1490 produced the
+highest yield (3.9 t/ha) with the highest number of panicles/m2 (278.3) and the shortest plant
+height (80.5 cm).
+In RYT, T. Aus 2011, the tested materials produced similar yield to the check BRRI
+dhan48, but 0.2-0.9 t/ha higher than BR26 except Zirasail. Zirasail showed the lowest yield
+
+(4.0 t/ha) as well as the longest growth duration (120 days) and the tallest plant height (122.4
+cm).
+The yield of the tested line, OM1490 (5.3 t/ha) was similar to the checks, BR26 and
+BRRI dhan48 in the ALART, T. Aus 2011. Growth duration, plant height and thousand grain
+weights were also similar to the checks.
+The highest yield (3.7 t/ha) was found with BR7642-11-2-2 in the trial against rice
+gall midge. Yield advantage for this line was 0.6 and1.7 t/ha over the susceptible and resistant
+checks respectively. Higher number of panicles/m2 with a few number of onion shoot was
+observed in the lines, BR7640-42-3-3, BR7640-44-2-1 and BR7642-11-2-2. Therefore, these
+BRRI developed lines may be resistant against rice gall midge.
+The highest yield (3.8 t/ha) was found in the tested line IR83377-B-B-93-3 followed
+by IR83873-B-B-47-4 (3.6 t/ha) and IR82635-B-B-145-1 (3.6 t/ha) in the PVS in T. Aman
+2011 season. Yield of the other eleven lines ranged from 2.0 to 3.4 t/ha. Among the lines,
+IR83377-B-B-93-3, BR IR83376-B-B-130-2, IR83383-B-B-129-4 was ranked in the 1st, 2nd
+and 3rd position respectively in the farmers' opinion.
+The highest yield (5.9 t/ha) was found in the tested line BR7358-5-3-2-1 followed by
+BR7358-56-2-2-1 (5.7 t/ha), BR7372-117-3-4-3 (5.6 t/ha) and BRRI dhan29-Sc3-28-16-10-8
+(5.6 t/ha) in MLT, CSISA, Boro 2011-12. The lowest yield having the lowest panicles/m2
+was observed in the tested line BRRI dhan29-Sc3-28-16-10-2 (4.1 t/ha) and BRRI dhan29-
+Sc3-28-16-10-6 (4.2 t/ha).
+The early transplanting of T. Aman through supplemental irrigation ensured that T. Aman
+effectively mitigated the terminal drought occurred at reproductive stage and at vegetative
+stage during T. Aman 2011. Both the short and long duration T. Aman varieties suffered less
+drought and showed good yield performance if they were transplanted on 24 to 31 July. In T.
+Aman 2011, suitable transplanting dates were between 24 July and 31 July for BRRI dhan33
+and BR11 respectively.
+Application of supplemental irrigation at three water levels below ground surface
+showed that there was no considerable yield difference among the treatments. The highest
+yield was found in T3 (5.6 t/ha) and the lowest was found in T2 (5.3 t/ha) and yield difference
+was only 6%. However, further trials are needed to draw a conclusion.
+Efficiency of natural enemies was studied at Kushtia sadar upazila in T. Aman 2011.
+Two parasitoids - one Elasmus sp. (Elasmidae) and one Eulophid were found to parasitize the
+leaf folder larvae. Elasmus sp. parasitized 8.3% to 14.3% in different occasions. The
+Eulophid parasitoid was found in one occasion only and its parasitism rate was only 5%.
+
+Yield and growth duration of 23 BRRI varieties were studied in T. Aman 2011.
+Among the 23 varieties 18 were found to give higher yield than the standard yield determined
+for them. The other varieties yielded similar or lower than the standard yield. Growth
+duration of some of the test varieties decreased (up to 12 days as in the case of BR10),
+whereas in some varities it increased up to 28 days as in the case of BRRI dhan46. On the
+other hand, four were found to give higher yield and the other varieties yielded lower than the
+standard yield among the 23 varieties in Boro 2011-12. In this season, growth duration of
+some of the test varieties decreased up to 9 days as in the case of BRRI dhan18, whereas in
+some varities it increased upto 35 days as in the case of BRRI dhan26.
+Yield of BRRI dhan49, BR10 in T. Aman and BRRI dhan28 in Boro season under
+farmers managed and BRRI managed conditions were compared in Shailkupa, sadar and
+Kotchandpur upazilas of Jhenaidah. The yield of the fields having BRRI recommended
+practices was higher than those having farmer’s practices in all of three locations. Overall,
+yield was increased by 25% in the T. Aman and 11% in the Boro season.
+
+In total, five farmer’s trainings were conducted in which around 150 farmers
+participated. Four field day programme were organized to demonstrate BRRI developed
+technologies. We also participated in the agricultural fair.
+BRRI RS, Rajshahi
+
+The selected 50 genotypes in OYT yielded from 1.2 to 3.5 t/ha under reproductive stage stress
+compared to check varieties 0.7-2.1 t/ha. The genotype IR87656-21-1-1-4 produced the highest yield
+(3.5 t/ha) and showed about 100 days growth duration for stress conditions and 110 days for control.
+Nineteen genotypes out of 39 from AYT stress were selected. IR83377-B-B-93-3 and IR83376-B-B-
+86-3 produced the highest yield (3.1 t/ha) with harvest index (0.45).
+IR83377-B-B-42-3 and IR83383-B-B-140-2 both produced the highest yield (3.1 t/ha) at stress
+condition and was a little lower than moderately drought tolerant check variety Apo and BRRI dhan33
+(3.3 t/ha).
+IR87707-446-B-B-B produced the highest yield (1.9 t/ha) in stress condition compared to BINA
+dhan7 (1.2 t/ha) from NIL. The growth duration was 12-16 days shorter than the control condition.
+IR82635-B-B-145-1, IR82635-B-B-75-2 and IR82589-B-B-84-3 stood 1st, 2nd and 3rd drought stress in
+PVS trial and IR83383-B-B-141-2, IR83383-B-B-129-4 and IR82635-B-B-145-1 in control condition.
+IR82635-B-B-145-1 showed the preference for both rain-fed drought stress and control.
+Only 15 of 58 hybrids yielded more than 8 t/ha. The entry H-791 produced the highest yield (9.02
+t/ha) with a growth duration of 160 days.
+All the test genotypes for RYT T. Aus gave better yield compared to the standard check BR26 (2.48
+t/ha) and BRRIdhan48 (2.55t/ha). BR7413-14-3-3 produced the highest yield (3.37 t/ha) followed by
+BR7417-6-1-2 (3.07 t/ha).
+All the genotypes from RYT T. Aman showed tolerance to lodging. Yield was the highest (5.16t/ha)
+for the check BRRI dhan49 followed by IR51491-AC5-4-SC3-20-3-15 (4.91 t/ha).
+Among the tested entries from RYT 1 Boro, BR7372-18-2-1-HR1 produced the highest yield (5.56
+t/ha) followed by BR7358-19-3-1-1 (5.29 t/ha) but none found better than the check Minikit (5.62
+t/ha).
+BR7358-35-2-1-1 produced the highest yield (5.96 t/ha) from RYT 2 Boro, followed by BR7358-35-
+3-2-1 (5.54t/ha) which produced 1.0-1.5 t/ha more yield advantage than the check varieties BRRI
+dhan28 (4.49 t/ha) and BRRI dhan50 (4.36 t/ha).
+BR7831-74-1-5-2 (5.44 t/ha) and BR7840-54-2-5-1 (5.22 t/ha) yielded better than the standard check
+BRRI dhan28 (4.16 t/ha) and BRRI dhan29 (5.17 t/ha) from micro-nutrient dense rice.
+Grain yield amazingly declined with increased seedling age. Irrespective of genotypes the highest
+mean grain yield (4.74 t/ha) was obtained with 25-day-old seedlings transplanted. IR83377-B-B-93-3
+produced the highest mean grain yield (4.67 t/ha) that was at par with IRRI 123 (4.66 t/ha). In general,
+grain yield reduced with increased seedling age conceivably due to less vegetative growth and less
+effective tillers.
+Irrespective of genotype and planting date, the highest mean grain yield (4.82 t/ha) was obtained that
+transplanted on 16 July and was at par with 1 August planting (4.71 t/ha). Among rice genotypes,
+IR83377-B-B-93-3 produced the highest yield (4.74 t/ ha) followed by IRRI 123 (4.65 t/ha) in rainfed environment. It turned out from the experiments that 16 July to 1 August is the suitable time for
+transplanting of the promising drought tolerant rice genotypes.
+Most of the pyramid lines showed resistant reaction against the bacterial blight pathogen under
+artificial inoculation. The susceptible check Purbachi and TN1 showed very sensitive reaction.
+IRBB54, IRBB55 and IRBB57 exhibited most resistant reactions against BB in Rajshahi region.
+Only Power blast was found effective in controlling (89.48%) sheath blight disease.
+The fungicide Controller reduced 57% disease over control plot but was not up to the mark (80%).
+Fungal infection level in the silage at divisional and local district storage was similar. A total of 46
+samples of rice tested for the presence of aflatoxins. None of the samples contained aflatoxin B1
+above the UNICF/WHO/FAO maximum permissible level of 30 μg/kg (ppb) in foods for human
+consumption. Aflatoxin B1 was not detected in the tested samples.
+
+Stem borer (SB), green leaf hopper (GLH), brown plant hopper (BPH) and white leaf hopper (WLH)
+were the most prevalent insect pests. Among the natural enemies, staphylinid beetles were the most
+prevalent predator followed by carabid beetles, earwig, ladybird beetles and damsel fly. Most of the
+insect pests had one peak of occurrence in October and natural enemies had two peaks of occurrence
+in November and April.
+The highest panicle/m2 (194) was recorded in conservation tillage. There were significant variation of
+grain yield due to the treatments. Conventional transplanting method produced the highest mean yield
+(4.28 t/ha) and permanent bed showed the highest gross margin (Tk 25879).
+In Aman season, 400, 160 and 160 kg seeds of BRRI dhan49, BRRI dha53 and BRRI dhan54,
+respectively were produced and 2390, 445 and 455 kg seeds of BRRI dhan28, BRRI dhan29 and
+BRRI dhan50 respectively in Boro. Five one-day farmers training on rice technologies were
+conducted under climate change project in which 175 farmers including 10 female farmers and four
+SAAO participated.
+
+BRRI RS, Rangpur
+
+An on station experiment was conducted with four entries to evaluate submergence tolerant
+varieties under submerged condition. Among them IR64-Sub1 showed higher survivalrate
+(90%).
+PVS function was arranged as on-station PVS mother trial of Sub1 entries at Rangpur.
+Participating farmers selected PVS-2 (Cheharang-Sub1) and PVS-3 (IR64-Sub1) as the best
+material.
+In pedigree experiment 291 tolerant progenies and 61 bulk populations were selected
+with desirable agronomic characters at maturity in 18 days submergence.
+Seventeen genotypes of IRRI origin selected from OT along with one check variety
+were evaluated under controlled stagnant water stress condition. The yield performances of the
+test entries for medium stagnant water ranged from 2.74 to 3.3 t/ha and the range of growth
+duration was 168 to 177 days. Based on overall performances, it might not be possible to
+promote any entries to further yield trials due to very long growth duration.
+Three mother trials were conducted through GO/NGO collaboration in three different
+locations of northern district of Bangladesh. PVS function was arranged as on-farm PVS
+mother trial of Sub1 entries at Alambiditor, (Gongachora, Rangpur) for preference analysis
+during Aman 2011. Participating farmers selected PVS-3 (IR64-Sub1) as the best material.
+Both in Aman and Boro season soil test based (STB) fertilizer recommendation produced
+the highest yield among all treatments followed by fresh poultry litter Applied at 6 t/ha).
+Twelve hours water layered at night time appeared to better compared to the other
+treatments for quality seedlings against cold weather in winter season.
+In rice-maize-mungbean system, maize grown under conventional tillage after puddle
+transplanted rice produced significantly lowest yield (7.4 t/ ha) compared to the rest of the
+treatments (8.0-8.5 t/ ha). In case of rice the highest rice yield (4.77 t/ha) was found in
+ZTDSR plots (After ZT maize).
+The effect of plant population on yield and yield components of maize in 2011-12 was
+studied. Grain yield was significantly the highest (8.7-9.2 t/ ha) for 75000 plants/ ha
+(60×22cm) and 82000 plants/ ha (55×22cm).
+Dry direct seeded rice with short duration variety and crop diversification is a suitable
+technology for northern part of Bangladesh to overcome climate change situation. Dry DSR
+by PTOS produced the highest grain yield (4.56 t/ha).
+The trial was conducted in control condition (inside tank) during T. Aman with different
+nutrient management in nursery bed and seedling age was used as treatments. N2D2T2
+(N2=N:P2O5:K2O::75:40:40(25kg N through 5t/ha of FYM and remaining 50 kg N,
+D2=25g/m2, T2=40 days old seedlings) found the best treatment of all parameters studied.
+
+From the spacing management trial the output of the experimental observation showed,
+15 x 20 cm plant spacing is suitable for BRRI dhan51 and BRRI dhan52 showed the best
+result with 20 x 20 cm spacing. Two seedlings per hill appeared as the best option for both
+varieties.
+In nitrogen management after de-submergence for quick recovery experiment showed that
+10 days after flood water recession was the best for recovery, survivality and yield. N3
+fertilizers option showed better performance for yield and survivality.
+A total of 12,541 kg breeder seeds of six varieties and 7519 kg TLS of fifteen varieties
+were produced and disseminated during 2010-11.
+
+BRRI RS, Satkhira
+
+The short duration rice variety like BRRI dhan28, BRRI dhan 50 successfully survive than
+BRRI dhan 47 and BINA 8 rice variety because from the 01 March to 30 March, soil and
+water salinity become increasing day by day (5.95ds/m to 15ds/m); in this condition, seeding
+of BRRI dhan 28 and BRRI dhan 50 on 01 November and transplanting on 01 December, it
+would be harvested on end of March but long duration rice variety is very difficult to
+cultivate in the saline affected area due to increasing salinity from 01 March to May very
+rapidly.
+
+In T.Aman season, soil salinity and water salinity become reduced due to heavy rainfall and
+rice cultivation depends on rain fed condition. Heavy rainfall, wash out soil salinity and
+water salinity from the month of July to September.
+
+The leaking requirements, the quality of the irrigation water used to leak salts below the root
+zone is an important factor in managing the soil salinity.
+
+Maintaining the soil near field capacity with frequent watering dilutes. Light leeching before
+planting or light irrigation after planting moves salt below the planting and early rooting
+zone.
+
+Potato and Onion with Jute and BRRI dhan 34 and BRRI dhan 46 and BRRI dhan 37 deeply
+helped to obtain higher economic return than a system without T.Aman Rice
+
+Better production and net profit per hector was found in Boro (BRRI dhan 50-Jute-BRRI
+dhan 39) and followed by Boro (BRRI dhan 28)-Jute-(BRRI dhan 33) T.Aman cropping
+pattern. The results implied that short duration Aman varieties BRRI dhan 33 and BRRI
+dhan 39 deeply helped to obtain higher economic return than a system without Aman Rice
+
+BRRI dhan28 in Boro season and BRRI dhan 48 in T. Aus deeply helped to obtain higher
+economic return than a system with out T. Aus rice and it also increased cropping intensity.
+
+In Boro and B.Aman season, BRRI dhan 28 in Boro season and the advanced lines and
+Laxmidigha local aman variety deeply helped to obtain higher economic return than a
+system without B. Aman rice and also increased cropping intensity
+
+BRRI dhan 28 in Boro season and the advanced lines BR6716-B-B-11, BR224-2B-2-5, Hbj-
+A.IV and laxmidgha would be deeply helped to obtain higher economic return than a system
+without B. Aman rice.
+
+Yield gap optimizing Program would minimize yield gap and disseminated the technologies
+and varieties among the farmers.
+
+Sharputi, Salmn, Carp and Tablet Fish could be raised successfully in DWR field without any
+hampering Rice yield. This Rice, Fish systems provide a great source of protein and
+additional income to the farmers. This technology can be help, if the farmers are provided
+with necessary training to adopt the Rice + Fish culture systems would make available much
+needed protein to the users, would raised their income and create self employment.
+
+At farmer’s level, it is necessary to facilitate seed production technology transfer and assist in
+the spread of a variety at the grass root level. A seed producing farmer will not only be able
+to know about a new variety but also to use it profitably furthermore, the seed production plot
+well serve as a demonstration plot through which farmers will be motivated and inspired to
+accept a variety.
+
+BRRI RS, Sonagazi
+
+The highest grain yield (4.60 t/ha) was recorded when 25% additional N fertilizer was added
+with STB during T. Aman season at BRRI RS, Sonagazi.
+
+A good water bearing aquifer exists at a depth from 155 m to 180 m in BRRI RS, Sonagazi
+farm having 0.30- 0.57 dS/m salinity. Rainwater harvesting in a reservoir with 25 cm high
+embankment conserved more water than without embankment, which could increase irrigated
+area of Rabi crops profitably in coastal area.
+
+Eight salt tolerant genetically fixed Aus lines were selected for further trial. Fourteen salt
+tolerant genotypes from OT were selected during Aus season. Genotypes OMCS 2000 and
+AS996 produced 0.3-0.9 t/ha higher grain yield compared to BRRI dhan27 and Binnatoa.
+
+IRBB66 produced 3.52 t/ha grain yield with 4% leaf damage caused by BB as T. Aman crop
+followed by IRBB21 (3.27 t/ha, 3% leaf damage, which are better than IR24, Purbachi and
+TN1. Dizole 300EC, Emiscore and Fiscal 10 EC reduced growth of Rhizoctonia solani by
+70.63-87.31 %. Five major diseases viz brown spot (BS), bacterial leaf blight (BLB), false
+smut, narrow brown spot (NBS) and sheath blight (ShB) were recorded during T. Aman
+season.
+
+A total of 120 farmers were trained on modern rice production techniques. About 11.5 ton
+breeder seed and 11 ton TLS were produced.

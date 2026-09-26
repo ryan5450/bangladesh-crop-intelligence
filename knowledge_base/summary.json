@@ -1,0 +1,43 @@
+{
+  "total_documents": 31,
+  "total_pages": 5459,
+  "total_size_mb": 275.73,
+  "by_category": {
+    "crops": 28,
+    "cereals": 25,
+    "fruits": 16,
+    "vegetables": 19,
+    "pulses": 15,
+    "oil_crops": 15,
+    "fiber_crops": 20,
+    "spices": 17,
+    "cash_crops": 17,
+    "cultivation_methods": 3,
+    "crop_calendar": 9,
+    "soil_management": 20,
+    "fertilizer_management": 9,
+    "irrigation_management": 7,
+    "pest_management": 9,
+    "diseases": 7,
+    "weed_management": 2,
+    "seed_management": 12,
+    "greenhouse": 0,
+    "organic_farming": 0,
+    "climate_adaptation": 10,
+    "harvesting": 1,
+    "storage": 0,
+    "post_harvest": 2
+  },
+  "by_language": {
+    "en": 26,
+    "bn/en": 1,
+    "bn": 4
+  },
+  "by_source": {
+    "DAE": 15,
+    "BARI": 5,
+    "BRRI": 2,
+    "BAMIS": 6,
+    "FAO": 3
+  }
+}

@@ -1,0 +1,773 @@
+CHAPTER 12
+MONITORING AND EVALUATION
+12.0
+INTRODUCTION
+In extension, objectives are based on meeting farmers information needs. Success occurs
+when objectives are met, and indicators are used to help determine the level of success.
+Monitoring is the process of recording these indicators, while evaluation is analysing the
+recorded indicators and determining how to improve performance in the future. Using
+monitoring and evaluation tools DAE is able to ensure that the implementation of extension
+programmes follows their design and takes into account the interests of farmers.
+Effective monitoring and evaluation should provide relevant and accurate information, to the
+right people, at the right time, in the right format, to enable them to take timely decisions and
+action. Decentralisation provides local flexibility and freedom of choice, and monitoring and
+evaluation helps staff make the right choices.
+In DAE monitoring is conducted during implementation and evaluation is usually conducted
+after implementation. Monitoring comes first because without collecting information a valid
+evaluation cannot be made. However, monitoring will only produce its full benefits if the
+collected information is reviewed to learn lessons. This is evaluation. Information for
+planning extension programmes comes from both evaluation and farmer information needs
+assessment - the absence of either source of information will lead to low quality planning.
+In the planning process, monitoring and evaluation are tools to help managers in thanas and
+districts improve their performance. Extension monitoring and evaluation are selfassessment processes which should be carried out by thana and district staff.
+There are two kinds of monitoring and evaluation that are important in ensuring effective
+extension services: assessment of outcome and assessment of process.
+This chapter discusses assessment of DAEs successes in meeting the needs of farmers,
+and shows the appropriateness of each District and Thanas annual extension plan. This
+assessment of outcome is accomplished through the review of BS Diaries, the Seasonal
+Extension Monitoring System (SEMS) and the Knowledge, Attitude, Practice (KAP) survey
+system.
+Chapter 2 discusses assessment of the successes of Districts, Thanas, and on an individual
+basis Block Supervisors, in achieving their work plans i.e. implementing their annual
+extension plan. This assessment process is accomplished through the conduct of Technical
+Audits and the Work Programming System.
+12.1
+THE BLOCK SUPERVISORS DIARY
+The Block Supervisors diary is one of the most important tools used in operating DAEs
+extension approach, and can be used to support monitoring and evaluation. During the day
+to day work of the Block Supervisor, the diary acts as a recording tool and should show what
+is done, with whom, and what the response was. Farmer problems are recorded, farmers
+names listed, and farmers reactions to participating in events are noted - especially in the
+Monitoring and Evaluation in the
+Planning Process
+
+case of individual farm visits. The diary is an important source of detailed block level
+information about what is working well, and why, and what is not working well and why.
+12.2
+THE SEASONAL EXTENSION MONITORING SYSTEM (SEMS)
+The Seasonal Extension Monitoring System (SEMS) is designed to help extension staff
+record indicators of the performance of extension programmes, and to summarise and
+interpret this information in order to help make future planning decisions.
+The following primary indicators are included in SEMS.
+Contact: How many farmers (male and female, large and small) attended extension events,
+and what was the cost per farmer.
+Understanding: How many farmers who attended understood the ideas (technologies)
+contained in the extension event, and what was the cost per farmer who understood.
+Testing: How many of the farmers who attended think that they will try the ideas
+(technologies) contained in the extension event, and what is the cost per farmer who intends
+to test.
+These are the primary indicators of the performance of extension programmes. They should
+occur in sequence based on the assumption that contact leads to understanding, which
+leads to testing.
+Monitoring and evaluation helps to make better management decisions. The management
+decisions which can be made with the help of SEMS are:
+Technology Selection: What agricultural innovations should be included in extension
+programmes.
+Method Selection: Which extension methods should be included in extension programmes.
+Area Selection: Which areas (specific thanas, districts or regions) should be supported or
+supervised more closely.
+SEMS should show which technologies are most or least successful, which extension
+methods are the most or least successful, and which areas are running the most or least
+successful extension programmes. On the basis of the information, many decisions can be
+made and actions taken to continually improve the extension service offered to farmers.
+Listed below are some of the actions that can be taken to improve low performing
+technologies, extension methods or areas.
+Poor Technologies:
+! adjust the technology, with help from research staff and the farmers who have tested;
+! change the extension method - for example, use group training rather than result
+demonstrations;
+Indicators Used in SEMS
+Decisions Made Using SEMS Indicators
+
+! improve the extension events - use better publicity, hold events at more suitable times,
+use more appropriate venues;
+! reduce the budget and resources for the technology in the next extension programme.
+Poor Methods:
+! adjust the extension method;
+! train staff to implement the method more effectively;
+! reduce the number of events of this type in the next extension programme;
+! use the extension method in combination with other extension methods - for example,
+add more field days to result demonstrations;
+! delete the extension method from future extension programmes.
+Poor Area:
+!
+organise extra training for the staff in this area;
+!
+increase the frequency of supervision visits to this area, including the use of Technical
+Audits;
+!
+provide more advice on the selection of technologies and extension methods for
+inclusion in programmes;
+!
+reduce the budget for this area, reducing the size of the programme until performance
+improves.
+SEMS information about contact, understanding and testing also help improve the quality of
+extension programmes. Where contact, understanding or testing is low, the following
+actions can be taken:
+Low Contact:
+! offer more interesting technologies;
+! improve publicity to attract more farmers to events;
+! hold events at appropriate times;
+! review the selection of groups used for this activity;
+! hold events in appropriate places.
+Low Understanding:
+! improve the way in which new ideas are presented - for example, use simple language,
+visual aids, live specimens;
+! train staff in implementing extension events;
+! train staff in facilitation skills;
+! use alternative extension events - for example, rather than Thana Training Days, use
+more village level group meetings.
+Low Testing:
+!
+improve the quality of extension events at which the particular technology is discussed;
+!
+adjust the technology, with the help of research staff and feedback from farmers, to
+make it more appropriate to farmers needs and conditions.
+The decisions that are taken will depend on the type of farmers involved. For example,
+when changing the timing or location of extension events, consideration should be given to
+whether the target group are male or female, as they may have different preferences for
+timing and venue. Decisions about corrective action can be made with the help of additional
+items of information which are collected in SEMS - secondary indicators. A selection
+includes:
+
+Extension Methods:
+! publicity effectiveness;
+! timeliness of event;
+! accessibility.
+Technology:
+!
+profitability, or cost-benefit analysis;
+!
+risk;
+!
+initial capital requirement;
+!
+labour requirement.
+SEMS also allows extension staff to record farmers specific stated reasons for not wishing to
+test a new innovation. There is a limit to the number of secondary indicators that can be
+gathered, as this is time-consuming and complicated. However, some basic indicators of
+extension event quality such as timing, venue and publicity are included in the system to
+give an idea of problem areas.
+The Seasonal Extension Monitoring System applies to all DAE activities, irrespective of
+project or source of funds. There are four SEMS forms, SEMS Forms 1, 2, 3, and 4. SEMS
+Forms 2, 3 and 4 are usually prepared by computer from the data recorded in SEMS Forms
+1. The Thana Agricultural Officer can also manually prepare and send one SEMS 2, one
+SEMS 3 and one SEMS 4 summary to the Deputy Director, District. However, this is not
+mandatory.
+SEMS Form 1: Primary Extension Event Monitoring Form
+SEMS Form 1 is a single form which is used for any extension event. Each Block
+Supervisor, or the senior DAE officer responsible for implementing the activity, is
+responsible for completing one SEMS Form 1 for each activity in the block, irrespective of
+source of funds. Thana staff are responsible for completing a SEMS Form 1 for thana level
+events such as the Thana Fair, or Thana Training Days. Likewise, District staff are
+responsible for completing SEMS Form 1 for each activity at District level such as District
+Training Days.
+During the season, each week and month all of the SEMS Form 1s are brought to the Thana
+office. In every case SEMS 1 must be finalised on the spot, at the time the extension
+event takes place so that the following indicators can be recorded:
+!
+contact - the numbers of farmers who attended;
+!
+understanding - the number of farmers who think they know how to use the technology;
+and
+!
+testing - the number of farmers who think they will try the new technology.
+Other parts of the form such as location, collaborating organisation, crop code, AEZ number,
+date plot established etc. should be completed before the extension event takes place. By
+completing parts of the form early, field staff actually begin making a plan of the event which
+gradually becomes complete as the stages of the event take place.
+Detailed guidelines for completing SEMS Form 1 are shown in Annex XI, Table 1 (a).
+SEMS Form 1 is shown in Annex XI, Table 1 (b).
+SEMS Form 2: Technology Summary Form
+Completing SEMS Forms
+
+SEMS Form 2 is a single form which is used to summarise information about extension
+events which concern the same technology. For example, all extension events dealing with
+the use of balanced fertiliser in rice production would be summarised on SEMS Form 2.
+They can be completed manually but are usually generated by computer at District Offices. If
+they are completed manually then it is the Thana Agricultural Officer who is responsible for
+ensuring that one SEMS Form 2 is prepared for each of the technologies conducted and
+ensuring that as a minimum those sections of the form relating to contact, understanding and
+testing are completed.
+SEMS Form 2 enable start to compare and make choices about the least and most
+successful technologies. At the end of the season, all SEMS Form 1s are collected and
+sorted into piles, one pile for each technology, and average indicators calculated. Detailed
+guidelines for completing SEMS Form 2 are given in Annex XI, Table 2 (a). SEMS Form 2
+is shown in Annex XI, Table 2 (b).
+When each SEMS Form 2 is completed, it is possible to assess the performance of a
+technology. It is also possible to compare technologies. For example, where the proportion
+of farmers intending to test a technology falls below 25 per cent, there may be a problem.
+Care should be taken where a technology has been promoted primarily through mass
+extension methods such as folk songs or dramas, high proportions of farmers willing to test
+new ideas should not be expected. This is because mass extension methods are most
+suited to raising farmers awareness about new ideas, but do not provide enough information
+to enable farmers to apply the ideas or technology.
+Where it is decided that action to improve technology performance is required, refer to the
+options that may be taken outlined in the earlier section on using indicators to make
+decisions.
+SEMS Form 3: Extension Event Summary Form
+SEMS Form 3 is used to summarise information about particular extension methods used
+during the season. There should be one SEMS 3 summary form for each extension method
+- one for result demonstrations (which summarises all result demonstrations, of all types of
+technology), one for thana training days (which summarises all thana training days), and so
+on. If completed manually then a SEMS Form 3 for each different extension method used in
+a thana during an extension programme should be completed by thana staff at the end of the
+season. All SEMS Form 1s should be collected, and sorted into piles, one for each
+extension event, and average indicators calculated. Detailed guidelines for completing
+SEMS Form 3 are shown in Annex XI, Table 3 (a). SEMS Form 3 is shown in Annex XI,
+Table 3 (b).
+SEMS Form 3 can also be generated by the computers at district offices, providing the incharge SEMS officer has received all SEMS 1 Forms from every thana and they have been
+entered onto the SEMS software.
+When all SEMS Form 3 have been completed, it is possible to assess the performance of
+extension methods, and to compare methods. For example, where the proportion of
+attending farmers who understand the technical content in any face to face extension event
+falls below 50 per cent, this may indicate a problem.
+Care should be taken as different extension methods have different impacts - for example,
+field days will provide more detailed information than folk drama events, and levels of
+understanding and testing are bound to be higher. Where it is decided that action to improve
+technology performance is required, possible decisions that can be made are outlined in the
+earlier section on using indicators.
+
+SEMS Form 4: Extension Area Summary Form
+Extension activities are conducted in different blocks, thanas, districts and regions. SEMS
+Form 4 summarises the performance of extension programmes in these areas. SEMS Form
+4 should be completed for each thana, each district and each region. SEMS Form 4 could
+also be completed for the whole country to summarise performance across Bangladesh. At
+the end of each season, thana level staff should complete one SEMS 4 form for each thana,
+district staff should complete one for the district, and regional staff should complete one for
+each region. SEMS Form 4 should be completed using information from SEMS 2 and SEMS
+3. Detailed guidelines for completing SEMS Form 4 are shown in Annex XI, Table 4 (a).
+SEMS Form 4 is shown in Annex XI, Table 4 (b). SEMS Form 4 can also be generated by
+computer.
+Once SEMS Form 4 is completed, it is possible to assess the overall performance of thanas,
+districts and regions, and to make comparisons between areas. For example, when
+comparing thanas, districts or regions, staff could look for an abnormally high cost per farmer
+intending to test new ideas. This would indicate a requirement for additional support,
+training or supervision. Actions that can be taken to improve area performance are outlined
+in the earlier section on making decisions using indicators.
+Where computer services are available the Deputy Director will designate one officer as in
+charge SEMS. The following procedure will be used in operating computerised SEMS:
+!
+the Block Supervisor brings completed SEMS 1 Forms to the thana office each week
+during the season, and these are checked by thana staff;
+!
+the Thana Agricultural Officers submits copies of these SEMS 1 Forms each month to
+the district office;
+!
+the in-charge SEMS ensures that the District Computer Operator enters the SEMS
+Form 1 data onto the computer. Data entry can be planned, as the district and thana
+extension plans will show what events are planned for when, and it is therefore possible
+to see when SEMS 1 Forms should be completed and submitted for data entry;
+!
+in-charge SEMS ensures that a performance report for each thana is printed, and sent
+to the Thana Agricultural Officer, in order to provide information for making thana level
+planning decisions;
+!
+the Deputy Director will ensure that a district performance report is printed using the
+SEMS Computer System, and that a copy of the report and a copy of the computer disk
+are submitted to the Additional Director, Region;
+!
+the Statistical Officer, Region, will ensure that reports from each district are compiled on
+the SEMS Computer System, and that a summary report is prepared and sent to
+headquarters.
+The functions of the in-charge SEMS are to ensure that:
+!
+thanas deliver SEMS Form 1 in time, and that plans and schedules for data entry are
+prepared;
+!
+the computer operator enters SEMS 1 data efficiently and quickly, as soon as they are
+received;
+!
+computer defects are identified and reported;
+!
+data summaries are prepared and distributed in time for analysis and extension planning.
+Computerised Seasonal Extension
+Monitoring System
+
+12.3
+KNOWLEDGE, ATTITUDE AND PRACTICE SURVEYS
+Extension work is only useful if it leads to changes in farm practices. The Knowledge,
+Attitude and Practice (KAP) Survey is a monitoring and evaluation technique which shows
+the actual reaction of farmers to exposure to new ideas. KAP results show what changes in
+farm practices have occurred. While the Seasonal Extension Monitoring System shows
+what happens at extension events, KAP shows what happens after the event.
+KAP is used by District and Thana officers to improve the effectiveness of extension work.
+Most agricultural technology is related to a specific season.
+To find out if new ideas are actually being adopted, KAP surveys are implemented when the
+correct season comes round again, to show if farmers:
+! Have retained KNOWLEDGE of the technology (K)
+! Have a positive ATTITUDE towards the technology (A)
+! Actually PRACTICE the technology.
+(P)
+The levels of Knowledge, Attitude and Practice are found by interviewing a sample of
+farmers who are known to have had exposure to the technology, i.e. those farmers who
+attended specific extension events. The names and addresses of farmers who had contact
+with DAE's previous extension activities can be found in demonstration, training registers or
+BS diaries. These records should be properly maintained.
+If farmers are not using new agricultural practices, that is there are negative answers relating
+to PRACTICE, this indicates a problem, and a requirement for action to be taken.
+The reasons for non-adoption of new ideas can fall into three groups:
+! farmers were not aware of the new idea - they do not have the KNOWLEDGE;
+! farmers are aware of the new ideas, but have rejected them - they have a negative
+ATTITUDE;
+! farmers are aware and favourable in attitude, but some other factor (such as nonavailability of inputs) prevents them from changing practices - they do not PRACTICE.
+The necessary corrective action is different depending on whether there is a knowledge
+problem, an attitude problem, or some external barrier to adoption. Some examples for
+overcoming them include:
+Knowledge Problem: improving extension methods and / or changing choice of methods in
+the next extension programme.
+Attitude Problem: re-examining technical and economic suitability of the technology.
+Practice Problem: identifying ways to break constraints, if not possible, then suspending
+action on this technology.
+In all these cases it is important to find the reasons why the farming practice has not
+changed. Corrective action will depend on the type of farmer. For example, smaller farmers
+are likely to require different corrective action to larger farmers. Smaller farmers may require
+Using KAP Results to Improve Performance
+
+risk or cost reduction in technologies which are being promoted before they decide to
+change practices whereas this might not be as important for larger farmers.
+KAP can be carried out at any level of the Department of Agricultural Extension. In practice,
+KAP will normally be done at district or thana level, because most planning decisions are
+taken at this level, and KAP results are intended to provide district and thana officers with
+information to help make planning decisions.
+At thana level, the AEO, under the management of the Thana Agricultural Officer, is
+responsible for conducting KAP Surveys each season. At district level, the District
+Specialist, under the responsibility of the Deputy Director, District, is responsible for
+conducting KAP Surveys each season. At national level, KAP Surveys should be organised,
+implemented and reported by a team from the Planning and Evaluation Wing.
+There are six steps to conducting a KAP Survey:
+!
+selecting the technology and compiling key points of the technology;
+!
+collecting participation records and establishing a sample;
+!
+designing and pre-testing the survey form;
+!
+conducting interviews;
+!
+summarising and analysing results;
+!
+reporting findings.
+The following sections describe each of these steps.
+Selecting Technology and Compiling Key Points of the Technology
+The first step is selection of the technology to be evaluated. Priority should be given to
+technologies:
+!
+which have been given major emphasis in the extension programme, in terms of funding
+and staff time;
+!
+which are aimed at the more numerous target groups;
+!
+which have not been evaluated already or recently;
+!
+for which new extension methods have been used.
+Because KAP is a follow-up technique, it is usually used to evaluate a technology which was
+in the extension programme for the corresponding season one year ago. For example, the
+start of the Kharif-II season in the current year would be the right time to evaluate the
+adoption of a transplanted Aman variety demonstrated in the Kharif-II season the previous
+year.
+The object of the knowledge part of KAP is to find out whether extension efforts were
+effective in giving information about a new technology to farmers. If farmers did not acquire
+the required knowledge, changes in farm practices are not possible. Knowledge of a
+technology can be broken down into key features, which are the specific components which
+must be understood in order to understand and use the technology. For example, the name
+of a variety and how and when it should be cultivated, or the application rate and timing for a
+specific fertiliser. So, to assess farmer knowledge, about a selected technology, these key
+features / components should be identified and listed. Care should be taken to include only
+those features / components which were covered during the specific extension event.
+Responsibilities
+Implementing a KAP Survey
+
+Collecting Participation Records and Establishing a Sample
+A KAP survey is simply a case of finding some of the farmers who participated in an
+extension event about the selected technology, and, when they have had an opportunity to
+use the technology, finding and interviewing them. Not every farmer who attended extension
+events needs to be contacted. A sample is sufficient. The number of farmers that should
+be contacted and interviewed depends partly on how many farmers were contacted in total,
+and Table 12.1 shows the required sample size for a number of circumstances.
+TABLE 12.1: SAMPLE SIZE FOR KAP SURVEYS
+Total number of farmers listed in
+DAE participation records
+Approximate sample size for
+KAP Survey
+500 or more
+31 or less
+This should be a random selection, where every farmer on the list has an equal chance of
+being selected for interview. In this way, sampling is not biased, selected farmers are
+located in different places rather than only one village, and the results of the KAP survey are
+statistically valid. To make the selection of farmers according to random sampling, the
+following procedure should be used. The procedure is explained using an example.
+EXAMPLE: ESTABLISHING A SAMPLE
+Note: This example, assumes that there were a total of 251 farmers participating, and that the
+required sample size is 30 farmers.
+1. Make a serial list of farmers who participated, using the available records (training attendance
+register, or Block Supervisor diary, or demonstration register etc.). This is known as the sample
+frame. Do not include DAE staff that attended.
+2. Calculate the stepping interval, which will show which farmers should be selected. The stepping
+interval is equal to the total number of farmers (251) divided by the sample size (30), or 8.37,
+rounded down to 8. This means that every 8th farmer on the serial list should be picked.
+3. To decide where to begin on the list select the first farmer using a random number between 1 and
+the stepping interval (8). Use random number tables, or the random number function on a calculator,
+or simply write the numbers on pieces of paper and ask someone to draw one. The names with the
+serial number that matches the random number is selected as the first farmer. For example, the
+random number might be 5, so the fifth farmer on the sample frame serial list is selected.
+4. The remaining sample farmers will be every 8th name on the list after the first farmer or the first
+farmer plus 1 stepping interval, plus 2 stepping intervals, and so on up to the sample size. In the
+example, this is the (5 plus 8) 13th farmer, (5 plus 16) 21st farmer, (5 plus 24) 29th farmer, and so
+on.
+This is the primary sample of farmers. There should be one reserve for each selected farmer.
+During interviews, some of the primary sample may turn out not to be members of the target group for
+the selected technology. Even those who are members of the target group may be unavailable for
+interview in some cases. In these cases interview the reserve farmer instead. The easiest way to
+select a reserve farmer is to take the person who is adjacent in the list of people who attended the
+same event as the farmer who was originally selected.
+Designing and Pre-testing the Survey Form
+
+There is no standard layout for a KAP questionnaire, because the details will depend on the
+number and type of key features / components. The questionnaire should be as simple as
+possible to make interviewing easier. Table 12.2 shows an example questionnaire that has
+been designed for the KAP of a paddy variety technology.
+TABLE 12.2: EXAMPLE KAP QUESTIO NNAIRE
+PART A.
+IDENTIFICATION DETAILS
+Crop/Variety
+T. AUS BR-26
+Technology
+VARIETY
+Season extended
+KHARIF-1 '94
+Season evaluated
+KHARIF-1 '95
+Extension methods
+_________________________________________________
+Farmer Name
+__________________
+Son/wife of
+________________
+OPERATED farm size
+_____ decimals
+Sex M/F
+________________
+(include land worked by farmer on tenancy)
+Village
+__________________
+Block
+_________________
+Thana
+__________________
+District
+_________________
+AEZ
+__________________
+PART B.
+CONFIRMATION OF EXTENSION CONTACT
+Farmer confirms he/she participated in event?
+YES / NO (ring as appropriate)
+PART C.
+KNOWLEDGE, ATTITUDE AND PRACTICE
+a)
+K, A & P relative to Key Points of Technology
+Item of
+Information
+Key Points for
+Recommended
+Technology
+Farmer's
+KNOWLEDGE
+of Key Points
+Farmer's
+PRACTICE
+(this year)
+Farmer's
+ATTITUDE
+of Key Points
+Variety name
+BR-26
+Quality
+Semi-fine
+Season
+Aus
+Duration
+95 days
+Yield
+3.5 mt/ha
+Pest/disease
+resistance
+blight
+b)
+Details of discussion on farmer's ATTITUDE (Continue on Reverse)
+There are three parts to a KAP questionnaire:
+Part A contains the identification details such as the technology, the season, the name and
+location of the farmer, the gender of the farmer and the farm size group of the farmer. This
+information helps to check if DAE targeting criteria are working well.
+Part B contains the contact details, and verifies that the farmer actually attended the
+extension event.
+Part C contains the actual KAP assessment, and assesses knowledge of the key points of
+the recommended technology, the farmers attitude towards the specific key points, and the
+
+farmers actual practice. Part C contains space for recording in more detail the discussion
+regarding the farmer's attitude. This is often the most important, especially when the farmer
+has a negative attitude towards the technology. It is essential to find out why the technology
+is not acceptable, so that corrective action can be taken.
+It is important to note that although the term KAP survey is used, questions are actually
+asked in the following order:
+KNOWLEDGE
+"
+PRACTICE
+"
+ATTITUDE
+This is because the farmers attitude is most important when they know the key points but do
+not practice them. Therefore, practice is checked before attitude. The example
+questionnaire in Table 12.2 has been designed to help this.
+When the questionnaire has been drafted, a pre-test should be conducted. This is done by
+taking a few copies of the draft questionnaire and interviewing a small number of farmers to
+check that the questions are clearly understood and that farmers are able to provide
+answers which can be used for evaluation. Revisions to the format are often required after
+the pre-test.
+The people interviewed for pre-test must be target group members (otherwise they cannot
+provide proper answers), but they must not be in the sample to be used for the main survey -
+or they will be interviewed twice. To avoid this, the pre-test should be done after the sample
+has been selected.
+Conducting Interviews
+Interview techniques with the farmers are important. The four principles for effective
+interviews are described below.
+Interviewers must remain neutral: KAP interviewers must be on their guard against
+prompting farmers for the reply to their questions, or in any way indicating that one type of
+reply is more preferred than another. Once again, all staff must be aware that information
+about problems is the most valuable. Above all, the interviewer must never suggest, or
+indicate by his/her manner, that farmers are wrong.
+Interviewers must be consistent: the items included in the questionnaire must be
+consistently covered in all interviews, in the same way. The questionnaire may be added to
+in individual cases but should never be reduced.
+Interviewers can use checklists: the most difficult part of maintaining consistency is in
+conducting open discussions to throw light on farmers' attitudes to technology (Part C of the
+KAP questionnaire). One way to maintain consistency is to make a checklist of points which
+should be covered. For example:
+!
+which specific qualities of the technology does the farmer like/dislike? (the key points
+could be used as a starting point for discussion);
+!
+does the new technology lack technical superiority compared to existing practice?
+!
+do the benefits of the new technology justify the time and effort required?
+!
+is the new technology too risky? If so, will the farmer possibly adopt in future when
+he/she has seen the technology operating longer?
+
+!
+would adoption of the technology involve giving up some other activity which is more
+profitable or more vital for the household?
+A checklist is not a questionnaire and should not be used like one. It is simply an aid to the
+interviewer's memory. If farmers do not give a reason for attitudes, or if the reason given
+does not seem convincing, the interviewer can raise the various possibilities from the
+checklist. However, the interviewer should not prompt the farmer if they have already stated
+a clear reason for holding a positive or negative attitude.
+Avoiding biases: the objective of a KAP is to find out the target group's true response to
+extension efforts. It is essential to avoid producing results which are biased in any direction.
+Biases can result from many factors and can be avoided by good interviewing technique. All
+interviews should follow guidelines for participatory discussions. Interviewers should
+approach farmers as equals, at a time and place convenient to farmers, and should always
+try to let farmers express themselves as freely and openly as possible. Some tips for
+avoiding biases follow.
+KAP SURVEY - AVOIDING BIASES
+DO
+!
+keep to the randomly drawn sample;
+!
+be consistent between interviews;
+!
+approach farmers as equals, in a relaxed and friendly manner;
+!
+conduct the interview at a time and place convenient to farmers;
+!
+observe all normal rules for participatory discussion.
+DON'T
+!
+give advance information of the selected farmers to Block Supervisors or other junior
+staff;
+!
+let Block Supervisors go looking for selected farmers ahead of the interviewing staff
+member;
+!
+adopt dominating attitudes towards farmers (or let other staff adopt such attitudes);
+!
+prompt the farmer;
+!
+in any way indicate that one reply is preferred.
+Summarising and Analysing Results
+KAP is a tool for guiding action by extension managers. A KAP should be analysed and
+reported immediately - within one week from the end of data collection.
+Steps for analysing KAP are described as follows:
+!
+total farmers who gave replies;
+!
+expressing sub-totals as percentages;
+!
+analysing KAP surveys.
+
+Total the actual number of farmers who gave various replies: for example, the number
+of farmers who did/did not know the variety name, or the number of farmers who are/are not
+practising the technology this season. This is not possible for the results of discussions in
+Part C (b) of the KAP Survey, as it is qualitative rather than quantitative. These have to be
+sorted out into groups before analysis, based on the checklist of possible factors affecting
+attitudes. Items on the checklist can be used as group headings for the summary of
+attitudes, but the officer analysing the KAP must be alert for items which were not on the
+checklist.
+Express sub-totals as percentages of the sample: care is required because percentages
+giving reasons for non-adoption should be calculated on the basis of total non-adopting
+farmers, not total farmers. For example, suppose there are 20 non-adopters out of 30
+farmers, and that 6 of the non-adopters stated that the technology was too risky. The
+percentage stating 'Too risky' should be calculated as (6 ÷ 20 x 100 = 30%). Quoting results
+to the nearest whole percentage point is sufficient.
+Analyse KAP: in analysing a KAP it is not sufficient merely to state the percentage of
+farmers giving various answers to the interview. KAP is intended to form the basis for action.
+This means that the analysis must clearly identify the causes of problems and successes,
+and draw conclusions for the required action. In making the analysis it can be helpful to
+follow a tree structure, shown in Figure 12.1.
+FIGURE 12.1: KAP DECISION TREE
+Problem:
+TECHNOLOGY NOT
+ADOPTED
+KNOWLEDGE OF
+Key Points
+Yes
+No
+ATTITUDE
+negative?
+No
+Yes
+Non-extension
+problem
+exists.
+Able to solve?
+Non-extension
+problem
+exists.
+Able to solve?
+Technology
+does not meet needs.
+Able to modify?
+Technology
+does not meet needs.
+Able to modify?
+Yes
+No
+Suspend outreach
+for this technology
+Suspend outreach
+for this technology
+Take required
+action
+Take required
+action
+Yes
+No
+Suspend outreach
+for this technology
+Suspend outreach
+for this technology
+Take required
+action
+Take required
+action
+Outreach
+Technique
+Problem
+Outreach
+Technique
+Problem
+Yes
+No
+Suspend outreach
+for this technology
+Suspend outreach
+for this technology
+Take required
+action
+Take required
+action
+
+Reporting Findings
+The analysis and reporting of the data should wherever possible be done by the officer who
+did the interviewing, as they will often have made many supporting observations and notes
+which are additional to the basic questionnaire content. Reports should be short and simple
+(no more than ten pages). A one-page summary should always be given, stating very briefly
+the conclusions of the KAP. The full content of a KAP report should include:
+!
+summary;
+!
+introduction;
+!
+results section;
+!
+an analysis; and
+!
+conclusions and action required.
+Summary
+A one-page statement of key features of introduction, analysis and conclusions sections.
+Any results quoted must be highly selective and for illustration only. The summary should not
+contain any material not already given in main text.
+Introduction
+The District and/or Thana(s) covered by the KAP, the technology being evaluated, the
+season and year in which the subject
+technology was originally extended, the dates between which the KAP was conducted.
+Results
+Tables, with BRIEF supporting text, showing the numerical results:
+!
+percentage of farmers from intended target group;
+!
+percentage of farmers who have tried to use the technology;
+!
+percentage of farmers who know each of the key points;
+!
+summary of attitudes for farmers having knowledge but practising differently.
+Analysis
+An assessment of whether the level of adoption is satisfactory, taking into account past
+performance, performance of other technologies and areas, potential benefits to farmers. If
+performance is not satisfactory, whether the problem is due to KNOWLEDGE, ATTITUDE or
+OTHER factors, or a combination, and what corrective action is desirable or possible.
+Conclusions and Action Required
+A clear statement on whether the technology should be continued with more resources, be
+retained at the same level, be modified in technical content, be modified in method of
+outreach, or be deleted from the programme
+The KAP report should give clear recommendations on action to improve extension
+performance for the evaluated technology. The main time for acting on KAP findings is
+when annual thana plans are being prepared. Staff should consider all the available
+information regarding what technology the target groups require, and how successful DAE
+has been in supplying it. This includes information from FINA for targeting new technologies
+Applying KAP Results to Planning Decisions
+
+and outreach methods, and information from SEMS and KAP about the performance
+achieved with past activities.
+Effective action will be more likely if all the concerned DAE personnel have a chance to
+discuss the KAP findings as soon as possible after the report is drafted, in advance of
+annual planning. This enables any differences of opinion regarding the findings to be
+resolved, and permits all the concerned personnel to combine their ideas about how to
+overcome problems. Figure 12.1 can be used as a basis for discussing the type of problems
+identified, and the best way of overcoming these problems in the future.
+A half-day idea sharing session for this purpose should be planned to follow every KAP.
+These types of session also provides an opportunity for personnel to exchange experiences
+about actually conducting the KAP, so that improvements can be introduced next time.
+12.4
+THE ROLE OF PLANNING AND EVALUATION WING IN MONITORING AND
+EVALUATION
+The Planning and Evaluation Wing Management Information System (MIS) Section is the
+central clearing house for monitoring and evaluation information in the Department. The MIS
+Section database includes the:
+Extension Planning System: which contains records of annual extension programmes for
+every thana in Bangladesh, including types of activity, technologies, budgets and sources of
+funds.
+SEMS:which contains records of the farmer contact, understanding and testing as recorded
+on SEMS Form 1 for every extension event conducted by the Department and are also kept
+at District level on computers. This data can be used by managers at any level to query
+extension performance by farmer category, agro-ecological zone, district or thana, by event
+type, or by technology.
+Strong links are maintained with Field Services Wing in relation to the collection and use of
+MIS data.
+Regional staff of Planning and Evaluation Wing include the Statistical Officer and Assistant
+Chief. They provide specialist assistance and support to computer operators dealing with
+SEMS and the EPS.
+The MIS Section at Headquarters comprises one Joint Director, a Deputy Chief, a Systems
+Analyst and a Programmer. The section maintains a Central Computer Support Unit, which
+will have overall responsibility for computer operation, procedures, and programme
+development within DAE.

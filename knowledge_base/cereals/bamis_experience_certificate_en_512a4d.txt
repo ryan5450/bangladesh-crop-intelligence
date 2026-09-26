@@ -1,0 +1,2096 @@
+Basics of Crop Modelling 
+ 
+ 
+ 
+ 
+ 
+ 
+Moin Us Salam 
+v
+v v
+v
+v
+v
+A training manual prepared for 
+Agro-Meteorological Information Systems 
+Development Project (Component "C": Bangladesh 
+Weather and Climate Services Regional Project) 
+v
+v
+v
+v
+ 
+Department of Agricultural Extension (DAE) 
+Khamarbari, Farmgate, Dhaka 1215 
+Bangladesh 
+v
+v
+Mayv2019
+
+First edition 2019 
+Copyrightv©v2019vThevAuthorv
+v
+v
+Published by 
+AgroEMeteorologicalvInformationvSystemsvDevelopmentvProjectv
+(Componentv"C":vBangladeshvWeathervandvClimatevServicesv 
+RegionalvProject),vDepartmentvofvAgriculturalvExtensionv(DAE)v
+Khamarbari,vFarmgate,vDhakaE1215,vBangladeshv
+v
+v
+v
+Correct citation 
+M.vU.vSalam.v2019.vBasicsvofvCropvModelling.vAgroEMeteorologicalv 
+InformationvSystemsvDevelopmentvProject.vDepartmentvofv 
+AgriculturalvExtensionv(DAE),vKhamarbari,vFarmgate,vDhakaE1215,v 
+Bangladesh.v
+v
+v
+v
+Printed by 
+CollegevGatevBindingv&vPrintingv
+1/7,vCollegevgate,vMohammadpur,vv
+Dhakav1207,vBangladeshv
+v
+v
+
+Pagev|v3vv
+Author' note 
+'BasicsvofvCropvModelling'vwasvdevelopedvasvavtrainingvmaterialvforvthev 
+selectedvscientistsvofvBangladeshvAgriculturalvResearchvInstitutev(BARI),v 
+BangladeshvRicevResearchvInstitutev(BRRI),vBangladeshvJutevResearchv 
+Institutev (BJRI),v Bangladeshv Sugarcropv Researchv Institutev (BSRI)v andv 
+DepartmentvofvAgriculturalvExtensionv(DAE).vThisvtraining,vavpartvofvthev 
+AgroEMeteorologicalvInformationvSystemsvDevelopmentvProjectvofvDAE,v 
+wasvconductedvatvBRRIvHeadquartersvatvGazipur,vBangladesh,vinvthreev 
+phasesvduringvJanuaryvthroughvMayv2019;veachvphasevcomprisedvofvfourv 
+fullvdays.vItvcoveredvunderstandingvandvapplyingvmodellingvtechniquesvtov
+fivevcropsv-v'Aus'vrice,vJute,vMaize,vPotatovandvSugarcane.vvvv
+Thev Authorv gratefullyv acknowledgesv thev helpv andv cooperationv ofv Dr.v 
+MazharulvAziz,vProjectvDirector,vandvMr.vSabujvRoy,vTechnicalvOfficer,vofv 
+thev AgroEMeteorologicalv Informationv Systemsv Developmentv Projectv ofv 
+DAEvinvconductingvthevtraining.vThanksvtovMohammadvAbuvSayeedvforv 
+assistingvinvcompilationvofvthevbook.vv
+Thev materialsv compiledv inv thisv bookv derivedv mostlyvfromv thev author'sv 
+PhDv thesisv entitledv "Av Systemsv Approachv tov thev Studyv ofv Potentialv 
+Productionvofv Boro vRicevinvthev Haor vRegionvofvBangladesh"v(Universityv 
+ofvReading,v1992).v
+v
+v
+Moin Us Salam 
+FreelancevInternationalvConsultantv
+(AgriculturalvSystems)
+
+Pagev|v4v
+Contents 
+Section Topic Page 
+1v Whatvisvcropvmodelling?v 6 v
+2v Whyvavsystemsvapproachv 6 v
+3v System,vmodelvandvsimulationv 7 v
+3.1 v Systemv 8v
+3.2 v Modelv 8v
+3.3 v Simulationv 9v
+4v Hierarchyv 10 v
+5v Procedurevofvsimulationvmodelvbuildingv 11 v
+6v Modelingvgrowthvandvthevdevelopmentvprocessv 
+takingvricevasvanvexamplev
+13v
+6.1 v Photosynthesisv 13v
+6.1.1 v Lightvabsorptionvbyvleavesv 14 v
+6.1.2 v Thevinitialvlightvusevefficiencyv 14 v
+6.1.3 v Maximumvratevofvlightvphotosynthesisv 15 v
+6.1.4 v Temperatureveffectvonvleafvphotosynthesisv 16 v
+6.1.5 v LeafENvcontentvandvphotosynthesisv 17 v
+6.1.6 v Canopyvvvphotosynthesisv 18 v
+6.2 v Leafvareavdevelopmentv 22 v
+6.3 v Respirationv 24 v
+6.3.1 v Maintenancevrespirationv 24 v
+6.3.2 v Growthvrespirationv 28v
+6.3.3v Carbohydratevremobilizationv 30 v
+6.4 v Developmentv 31v
+6.5 v Assimilatevpartitioningvandvgrowthvofvindividualv 
+organsv
+34v
+6.5.1 v Assimilatevpartitioningv 34 v
+6.5.2 v Growthvofvdifferentvorgansv 35 v
+
+Pagev|v5vv
+v Contents (continued) v v
+Section v Topicv Page v
+6.5.2.1 v Senescencev 35 v
+6.5.2.2 v Accumulationvofvcarbohydratesv 36 v
+6.5.2.3 v Rootvgrowthvvv 36 v
+6.5.2.4 v Culmvgrowthv 37 v
+6.5.2.5 v Leafvgrowthv 37 v
+6.5.2.6v Growthvofvstoragevorgansv 38 v
+6.6 v Initializationvofvricevgrowingvprocessesvinvthev 
+nurseryvandvmainvpaddyvfieldv
+39 v
+6.6.1 v Nurseryv 39 v
+6.6.2 v Mainvpaddyvfieldv 40 v
+6.6.2.1 v Reductionvinvpopulationvdensityv 40 v
+6.6.2.2 v Transplantingvshockv 41 v
+7v Modelvevaluationv 42v
+8v Sensitivityvanalysisv 44 v
+9v Basicvdatavtovbevrequiredvforvmodelvdevelopmentvandv 
+validationv
+45 v
+10 v Literaturevcitedvandvadditionalvliteraturevforv 
+consultationv
+47 v
+
+Pagev|v6v
+1. WHAT IS CROP MODELLING? 
+Cropv modellingv isv thev dynamicv simulationv ofv cropv growthv byv numericalv 
+integrationv ofv constituentv processesv withv thev aidv ofv computers,v isv av 
+technologyv usedv tov constructv av relativelyv transparentv surrogatev (orv 
+substitute)v forv av realv crop,v onev thatv canv bev analyzedv andv manipulatedv 
+withvfarvgreaterveasevthanvthevcomplexvandvcumbersomevoriginal.vCropv 
+modellingv isv analogousv tov biologicalv lifev cyclesv (Sinclairv andv Seligman,v 
+1996).vThisvdisciplinevisvbasedvonvsystemsvapproach.v
+v
+2. WHY A SYSTEMS APPROACH 
+Thevconventionalvmethodvofvtacklingvproblemsvrelatedvtovcropvproductionv 
+isv tov carryv outv thev fieldv experimentation.v Thisv approachv hasv severalv 
+drawbacks:v
+i.v Tov drawv av resiliencev conclusion,v longv termv experimentationv isv 
+necessaryv whichv isv timev consumingv andv costlyv (Dentvandv 
+Blackie,v1979);v
+ii.v Itvcanvonlyvexplainvthevresponsevtovthevspecificvtreatmentvlevelsv 
+used,v extrapolationv cannotv bev fullyv justifiedv andv mayv leadv tov 
+mistakenvconclusionsv(BiscoevandvWillington,v1985);v
+iii.v Weathervalsovinfluencesvthevprocess,vcomplicatingvinterpretationv 
+ofv thev responsesv andv oftenv makev itv almostv impossiblev tov 
+determinev thev precisev effectv ofv thev treatmentv (Pattersonv etv al.,v 
+1977).v
+Thev generalv approachv inv realv lifev experimentationv isv tov studyv thev 
+componentsv ofv thev wholev processv separately.v Thev questionsvaboutv thev 
+performancevofvthevwholevsystemvcannotvbevansweredv(BakervandvCurry,v 
+1976).v Itv mustv bev studiedv holistically,v thev itemsv mustv bev treatedv asv av 
+whole.v
+
+Pagev|v7vv
+Thevnaturevofvthevproblemvencounteredvinvmanyvfieldvstudiesvcannotvbev 
+properlyv dealtv withv byv conventionalv physicalv experiments.v Weatherv 
+variablesv arev anv essentialv considerationv inv managementv decisionsv 
+(Fischer,v1985)vandvinvsuchvsituationsvthevsystemsvapproachvseemsvtov 
+bevthevmostvappropriatevmethodvofvstudy.vThisvisvnotvonlyvavquickvwayvtov 
+solvevthevproblemvbutvitvconsidersvthevwholevproductionvprocessvandvcanv 
+showvhowvthevmanagementvdecisionsvinteractvwithvonevanothervandvhowv 
+performancev canv bev manipulatedv throughv thesev variables.v Itv hasv beenv 
+establishedvnowvthatvthevsystemsvapproachvisvanvefficientvtechniquevofv 
+thevstudyingvthevagriculturalvenvironmentsv(Spedding,v1975a;vBakervandv 
+Curry,v1976;vDentvandvBlackie,v1979;vConway,v1985).vSuchvanvapproachv 
+canv providev veryv goodv guidancev forv tacklingv problemsv wev facev inv cropv 
+managementv (Stapperv etv al.,v 1983;v Fischer,v 1985;v Penningv dev Vries,v 
+1990).v
+Speddingv(1975a)vdefinesvthevapproachvasvthevstudyvofvhowvcomponentv 
+partsv ofv av systemv interactv andv contributev tov behaviorv ofv thev wholev 
+system.vThev interlinksv betweenv thev componentsv cannotv easilyv bevseenv 
+orv touchedv inv biologicalv systems;v butv theirv existencev hasv attractedv 
+scientistsv(Brockington,v1979).vSincev1960s,vtherevhasvbeenvtremendousv 
+growthvofvinterestvinvthisvdisciplinev(Day,v1985).vThevapproachvpermittingv 
+integrationv ofv thev valuablev informationv generatedv fromv isolatedv 
+experimentsv relatedv tov thev physical,v physiologicalvandv chemicalv 
+propertiesvofvthevplantsvandvtherebyvthevwholevproductionvsystemvcanvbev 
+studiedvinvthevholisticvway.vTherefore,vavsystemvapproachvseemsvtovbev 
+anvappropriatevwayvtovanalyzevthevcropvproductionvsystems.v
+v
+3. SYSTEM, MODEL AND SIMULATION 
+Thev approachv ofv systemsv analysisv canv bev characterizedv byv thev termsv 
+systems,v modelsv andv simulationv (Rabbingev andv dev Wit,v 1989).v Thesev 
+havevbeenvbrieflyvexplainedvbelow.v
+
+Pagev|v8v
+3.1 System 
+Av systemv hasv beenv definedv andv explainedv byv av numberv ofv authorsv 
+(Spedding,v1975a;vBakervandvCurry,v1976;vBrockington,v1979;vDentvandv 
+Blackie,v1979;vJonesvetval.,v1987).vConwayv(1985)vdefinesvavsystemvasv 
+'anvassemblagevofvelementsvcontainedvwithinvavboundaryvsuchvthatvthev 
+elementsvwithinvthevboundaryvhavevstrongvfunctionalvrelationvwithveachv 
+other,vbutvlimited,vweekvorvnonEexistentvrelationshipsvwithvelementsvinvthev 
+otherv assemblages;v thev combinedv outcomev ofv thev strongv functionalv 
+relationshipsvwithinvthevboundaryvisvtovproducevavdistinctivevbehaviorvofv 
+thevassemblagevsuchvthatvitvtendsvtovrespondvtovstimulivasvavwhole,vevenv 
+ifv thev stimulusv isv onlyv appliedv tov onev part'.v Thev definitionv itselfv isv selfE
+explanatory.vThevessentialvconditionsvinvdesigningvavsystemvhavevbeenv 
+givenvbyvSpeddingv(1975a;v1975b).vInvthevsystemvstructure,vavboundaryv 
+isvdrawnvalthoughvinvrealityvitvdoesvnotvoccurv(DentvandvBlackie,v1979).v 
+Withinv thev boundaryv thev components,v asv thev cropv sys tems,v 
+photosynthesis,vtranslocationvandvrespirationvexistvandvinteractvwithveachv 
+other.v Thev systemv isv runv byv inputsv Ev bothv controllablev (managementv 
+decisions)v andv uncontrollablev (weatherv variablesv suchv asv temperaturev 
+andvradiation)vwhichvproducevoutput,ve.g.vthevgrainvyield.v
+3.2 Model 
+Inv thev systemsv approach,v thev systemv underv studyv isvrepresentedv byv 
+somev forms;v thev representationv isv termedv av model.v So,v modelsv arev 
+imitationsv (Moorby,v 1985)v orv analoguesv (Bell,v 1987)v ofv thev realv systemv 
+whilev thev processv ofv developingv thev representationvisv calledv modelingv 
+(Jonesv etv al.,v 1987).v Realityv isv alwaysv simplifiedvinv av model,v partlyv 
+becausev ourv understandingv ofv basicv processv isv limited,v partlyv becausev 
+thisvenablesvusvtovhandlevthevmodelv(vanvKeulenvetval.,v1975).vv
+ModelsvarevbasicallyvofvtwovtypesvEvphysicalvorviconicv(Churchman,v1971)v 
+models,v andv symbolicv orv conceptualv (Churchman,v 1971;v Brockington,v
+
+Pagev|v9vv
+1979)v models.v Therev arev symbolicv modelsv ofv differentv kindsv butv 
+mathematicalv modelsv arev generallyv usedv inv agriculturev (Brockington,v 
+1979).vThesevmodelsvmayvbevempiricalvorvmechanistic.vEmpiricalvmodelsv 
+arevalsovbevtermedvasvinputEoutvorvblockEboxvmodelvwherevtheyvproducev 
+outputvonlyvwithoutvreferringvtovunderlyingvphysicalvorvbiologicalvstructurev 
+betweenv thev variablesv (Chanter,v 1981),v e.g.v statisticalv models.v Onv thev 
+otherv hand,v mechanisticv orv explanatoryv orv whiteEbox v modelsv 
+(Brockington,v 1979)v explicitlyv representv causalityvbetweenv variables.v 
+Mechanisticv modelsv arev thev interestv inv thev systemsvapproach.v Thesev 
+modelsvmayvbevdividedvintovtwovtypesv-vsimulationvtypevandvoptimizationv 
+type.v Optimizationv typev isv usedv tov getv bestv orv optimalv solutionv tov av 
+practicalv problemv inv thev systemv whereasv thev generalv behaviorv ofv thev 
+systemvisvstudiedvbyvsimulationv(Brockington,v1979).v
+3.3 Simulation 
+Simulationvmeansvthatvthevmodelvactsvlikevthevrealvsystem,vforvexample,v 
+avrealvcropvbyvgraduallyvgrowingvroots,vstems,vetc.,vduringvthevseason.vItv 
+doesvnotvjustvpredictvsomevfinalvstatevsuchvasvbiomassvorvyieldv(Whislerv 
+etval.,v1986).vAvformalvmathematicalvstatementvofvassumptionsvisvmadev 
+invsimulationvaboutvthevcroppingvsystemvbeingvstudiedv(CharlesEEdwardsv 
+andvVanderlip,v1985)vwhichvrepresentsvthevbehaviorvofvthevsystemv(vanv 
+Keulenv etv al.,v 1975).v Finallyv experimentationv isv conductedv usingv thev 
+modelv tov obtainv approximatev solutionsv (Stern,v 1975)v inv av wayv thatv 
+representsvthevbehaviorvofvthevrealvsystemvundervdifferentvcircumstancesv 
+(CharlesEEdwards,v1982).vSimulationvmodelsvarevdynamicsvinvnature,vi.e.v 
+predictingvchangesvinvcropvstatusvwithvtime.vAvdeterministicvmodelvmakesv 
+definitev predictionsv forv quantitiesv suchv asv cropv yield,v withoutv anyv 
+associatedvprobabilityvdistributionvwhilevstochasticvmodelsvcontainvsomev 
+explicitlyv randomv elementsv whichv allowv studyv ofv variancev (Francev andv 
+Thornley,v1984).v
+
+Pagev|v10v
+4. HIERARCHY 
+Modelvbuildingvmustvbevconsidervthevlevelvofvdetailvatvwhichvthevmodelv 
+shouldv bev consideredv (Whislerv etv al.,v 1986).v Jonesvandv hisv associatesv 
+(1987)v statev thatv thev fundamentalv goalsv andv objectivesv ofv av modelv 
+shouldv guidev onev tov determinev thev hierarchicalv levelv tov use.v Conwayv 
+(1985)v hasv listedv thev hierarchyv ofv naturalv systemsvas:v organismv -v
+populationv-vcommunityv-vecosystemv-vbiomevEvbiosphere.vEightvlevelsv 
+ofvhierarchyvforvproductionvsystemsvhavevbeenvspecifiedvbyvWhislervetval.v 
+(1986).vThevlevelsvrangevfromvmoleculevtovbiomevandvthevtimevframevisv 
+consideredv fromv secondsv tov yearsv accordingv tov thev level.v Peartv andv 
+Barrettv(1979)vindicatevthatvmodelsvinvagriculturevarevbasedvonv7vlevels:v 
+worldv -v regionv Evfarmingv areasv Ev cropvecosystemsv (corn,vpasturevetc)v Ev
+elementsv (individualv plants)v Ev componentsv (leaves,vroots,v stemsv etc)v Ev
+microEcomponentsv (stomata,v biochemicalv pathwaysv etc).v Ofv these,v thev 
+firstvthreevlevelsvarevconsideredvasvmanagementvorientedvandvthevrestvasv 
+researchvoriented.v 
+Thevcropvproductionvlevelvhasvfurthervbeenvstratifiedvintovfourvlevelsvbyv 
+Prof.vC.T.vdevWitvasvlistedvbyvPenningvdevVries,v1982).vAvbriefvsummeryv 
+hasvbeenvgivenvbelow.v
+ProductionvlevelvI:vAmplevwatervandvnutrients;vgrowthvratevdependsv 
+onlyv onv thev currentv statev ofv thev cropv andv onv currentv weather,v 
+particularlyvradiationvandvtemperature.v
+ProductionvlevelvII:vvGrowthvratevisvlimitedvonlyvbyvthevavailabilityvofv 
+water,vforvatvleastvpartvofvthevgrowingvseason.v
+Productionv levelv III:v Growthv ratev isv restrictedv byvNv shortagev forv atv 
+leastvpartvofvthevgrowingvseasonvandvbyvwatervshortage.v
+Productionv levelv IV:v Growthv ratev isv restrictedv byv Pv andv othersv 
+minerals.v
+
+Pagev|v11vv
+Inv reality,v cropv productionv systemsv reallyv fitv intov onev ofv thesev levels.v 
+However,vthevsimplificationvhasvbeenvdirectedvtowardsvthevdynamicsvofv 
+thevmajorv constraintv andv itsv relationshipv withv cropvproduction.v Disease,v 
+pests,vandvweedsvexertvinfluencevatvanyvonevofvthevlevelsvcausingvfurtherv 
+constraintvtovproductionv(PenningvdevVriesvetval,v1989).v
+v
+5. PROCEDURE OF SIMULATION MODEL BUILDING 
+Av numberv ofv wellEdefinedv andv interlinkedv stepsv arevfollowedv inv thev 
+buildingv simulationv models.v Detailsv ofv thev stepsv havev beenv thoroughlyv 
+describedv byv (Dentv andv Blackie,v 1979)v andv (Jonesv etv al.,v 1987).vvvvvvvvvv 
+Thev proceduresv tov followv inv constructingv av cropv modelv isv presentedv inv 
+Figurev1.v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+Figurev1.vStepsvinvbuildingvavcropvmodelv
+Thev stepsv asv mentionedv inv thev figurev shouldv notv bevviewedv asv strictv 
+sequentialvprocess.vThevstepsvarevrepeatedvinvanvinteractivevfashionvasv 
+informationvisvgainedv(Jonesvetval.,v1987).v
+
+Pagev|v12v
+Afterv thev preliminaryv analysesv thev modelv isv structuredv inv diagrammaticv 
+formv byv symbolicv representationv (Figurev 2);v laterv itv isv convertedv intov av 
+flowv diagramv showingv thev componentsv andv theirv interactions.v Thev 
+interactionsv arev thenv convertedv intov mathematicalv statements.v Thev 
+statementv ofv assumptionsv mayv bev entirelyv empirical,v basedv onv 
+observationsv ofv thev fieldv performances,v orv theyv mayv bev basedv onv anv 
+underlying,v orv knowledgev ofv physiologicalv mechanismsv underlyingv cropv 
+growthv andv productionv (CharlesEEdwardsv andv Vanderlip,v 1985).v Thev 
+model,v thusv considered,v mayv notv predictv correctv behaviorv ofv thev cropv 
+growingvinvthevfieldvbecausevthevassumptionsvarevwrong,vorvputvtogetherv 
+inv thev wrongv way.v v Equally,v itv mayv predictv thev correctv behaviorv 
+fortuitouslyvevenvthoughvsomevofvthevassumptionsvarevwrongvbecausevitv 
+isv insensitivev tov themv underv thesev circumstancesv orv becausev inEbuiltv 
+errorsv cancelv outv (CharlesEEdwardsv andv Vanderlip,v 1985).v Thusv onev 
+needsvtovshufflevbetweenvthevstepsvandvthusvitvmakesvthevwholevprocessv 
+tedious.v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+v
+Figurev2.vRelationalvdiagramvofvavricevmodel.v
+
+Pagev|v13vv
+Invavdynamicvsimulationvmodel,vsystemsvarevapproximatedvtovfirstvorderv 
+differencevequationsvandvdefinedvinvtermsvofvstatevvariablesv(levels)vandv 
+ratevofvchangev(Jonesvetval.,v1987;vPenningvdevVriesvetval,v1989).vThev 
+statev variablesv includev biomassv inv differentv plantvpartsv whereasv thev 
+photosynthesisv ratev isv anv examplev ofv av ratev variable.v Thev systemv isv 
+governedv byv inputsv orv forcingv orv drivingv variablesvlikev radiationv andv 
+temperature,v asv inv thev presentv case;v theirv variationsv arev ofv coursev 
+independentvofvthevstatevofvthevsystemv(Driessen,v1986).vConstantsvandv 
+parameters,vthevcharacteristicsvofvthevcomponentsvofvthevmodel,vusuallyv 
+remainvunalteredvthroughoutvthevsimulatedvtimev(Driessen,v1986;vJonesv 
+etval.,v1987).v
+v
+6. MODELING GROWTH AND THE DEVELOPMENT 
+PROCESS TAKING RICE AS AN EXAMPLE 
+Therevarevtwovbroadvpartsvofvthevricevgrowingvprocess,vthatvwhichvoccursv 
+inv thev nurseryv andv thatv inv thev mainv paddyv field.v v Principlesv involvedv 
+regardingv growthv andv developmentalv processv inv thesev twov partsv v v arev 
+almostv same.v Thisv isv whyv theyv havev beenv describedv inv general.v 
+However,vspecialvprocessesvandv/orvconsideration(s)vnecessaryvtovmodelv 
+eachvofvthevpartsvarevmentionedvaccordingly.vv
+6.1 Photosynthesis 
+Invagriculture,vsolarvenergyvisvconservedvforvfuturevusevviavitsvfixationvinv 
+biomass;v thev processv isv calledv photosynthesisv (vanvHeemst,v 1986a).v 
+Photosynthesisvvvcomprisesvvavveryvcomplexvprocessesvbyvwhichvplantsv 
+reducev carbonv dioxidev (CO 2)v usingv absorbedv radiationv energyv inv thev 
+presencev ofv waterv (H 2O)v v andv formv organicv molecules,v conventionallyv 
+representedv byv thev moleculev glucosev orv carbohydratev (C 6H12 O6v orv 
+CH 2O).v Thev processv isv alsov calledv CO 2v assimilationv andv hencev thev 
+productsvarevoftenvtermedvassimilatesv(vanvHeemst,v1986a).vv
+
+Pagev|v14v
+Photosynthesisv orv CO 2v assimilationv canv bev calculatedv basedv onv thev 
+procedurev ofv Goudriaanv andv vanv Laarv (1978).v Thev biomechanicalv 
+mechanismvofvCO 2v v v assimilationvisvnotvthevsamevforvallvplantsv(Bidwell,v 
+1983).vAlthoughvavfewvexceptionsvhavevbeenvreportedv(HedgevandvJoshi,v 
+1974),v ricev plantsv generallyv possessv thev C 3v typev ofv photosyntheticv 
+pathway.v Photorespiration,v anv intensivev processv invC 3v plants,v isv 
+intimatelyv coupledv withv photosynthesisv itselfv (Penningv dev Vriesv etv al.v 
+1989).v Photosynthesisv isv expressedv inv thev calculationv asv grossv 
+photosynthesisv ofv thev leafv canopyv (Goudriaanv andv vanv Laar,v 1978).v 
+Therevarevthreevimportantvstepsvinvthevcalculationvofvphotosynthesis.v
+6.1.1 Light absorption by leaves 
+Invthevleaves,vthevphotovsyntheticallyvactivevradiationv(PAR)visvabsorbedv 
+byvgreenvchlorophyllvandvothersvpigmentsvandvisvusedvforvthevreductionv 
+ofv CO 2.v PARv belongsv tov thev visiblev radiationv inv thev wavelengthv ofv400E
+700vnm,vrepresentingvaboutv50%vofvthevtotalvglobalvradiationv(Monteith,v 
+1973).v v Thisv isv truev forv bothv tropicalv andv temperatev regionsv (Monteith,v 
+1972).v Inv thev crop,v 10%v ofv thev incomingv radiationv isv reflected,v 10v%v isv 
+absorbedv byv thev pigmentsv notv contributingv tov photosynthesis,v 10%v isv 
+transmittedv throughv thev leavesv andv thev remainingv 70%v isv absorbedv byv 
+chloroplastv(vanvHeemst,v1986a).vSo,vthevfirstvlayervofvthevleavesvutilizesv 
+70%v ofv PARv andv thev secondv layerv onlyv 10%v whereasv thev restv dov 
+substantiallyvnothing.vThusvPARvabsorbedvbyvthevleavesvisvassumedvtov 
+bev80%v(PenningvdevVriesvetval,v1989).v
+6.1.2 The initial light use efficiency 
+Aboutv 15v quantav ofv PARv isv requiredv byv C 3v plantsv tov reducev av singlev 
+moleculev ofv CO 2, vmainlyv duev tov lightv absobptionv byv nonEphotosyntheticv 
+pigments,v andv photorespirationv (Penningv dev Vriesv etv al.v 1989).v Thisv 
+valuev canv bev translatedv intov av measurev ofv lightv efficiencyv usev ratev 
+(EFFE)vofv0.48vkgvCO 2vpervhectarevofvleafvsurfacevandvpervhourvJvm E2sE1.vv
+
+Pagev|v15vv
+Yoshidav (1981)v indicatesv thatv thev EFFEv ofv ricev isv aroundv 0.40.v Itv mayv 
+varyvaccordingvtovvarietyv(McDonald,v1971).v
+Av referencev valuev ofv EFFEv shouldv bev usedv inv thev modelv becausev thev 
+lightvusevefficiencyvmightvbevaffectvbyvtemperaturev(McDonald,v1971).vInv 
+fact,vphotorespirationvincreasevwithvthevrisevofvtemperaturev(Penningvdev 
+Vriesv etv al.,v 1989).v v Inv casev ofv rice,v asv withv otherv C3v plants,v EFFEv isv 
+negativelyvrelatedvtovtemperature.vPenningvdevVriesvandvhisvassociatesv 
+(1989)v reportv thatv thev valuev ofv EFFERv isv notv affectedv whenv thev 
+temperaturevisv10 /ring2/ring2 /ring2/ring2Cvorvbelow,vwhereasvthevvaluevbecomesvaboutv0.01vatv 
+50 /ring2/ring2 /ring2/ring2C.v Thev relativev effectv ofv temperaturev onv EFFERv (EFFET)v tov bev 
+accountedvforvinvthevmodel.v
+ThusvthevEFFEvforvavdayvisvcalculatedvby:v
+EFFE=EFFER*EFFETv
+EFFEvisvinitialvlightvusevefficiencyvexpressedvasvkgvCO 2vha E1hE1vpervvv 
+JvmE2sE1vvv ofvabsorbedvPARv
+EFFERvisvthevreferencevvaluevofvEFFEv
+EFFETvisvthevrelativevfactorvonvEFFERvduevtovtemperaturevvariationvv
+Environmentv factorsv othersv thanv thev temperaturev havev littlev effectv onv 
+EFFEv (Penningv dev Vriesv etv al.,v 1989;v Dingkuhnv etv al.v (1990)v reportedv 
+thatv nitrogenv managementv mightv affectv thev EFFE,v whichv mayv bev 
+consideredvinvthevmodel.vv
+6.1.3 Maximum rate of light photosynthesis 
+Thev valuev ofv thevmaximumv ratev ofv leafv photosynthesisv (AMAX)v atv highv 
+lightv intensitiesv andv normalv CO 2v concentrationv (340v ppmv byv volume)v 
+usuallyv rangesv fromv 25v tov 80v kgv CO 2v ha E1hE1v (Penningv dev Vriesv etv al.,v 
+1989).vHighervvaluesvapplyvtovC 4vplants,vthevnetvassimilationvratevusuallyv 
+variesv fromv 15v tov 50v kgv CO 2v ha E1v hE1v (vanv Heemst,v 1986a).v Forv ricev
+
+Pagev|v16v
+plants,v leafv photosynthesisv rangesv fromv 40v tov 50v kgv CO 2v ha E1vhE1v 
+(Yoshida,v 1981).v Inv thev casev ofv thev modernv varieties,v Yoshidav (1981)v 
+foundvthatvthevleafvphotosynthesisvratevtovbev47vkgvCO 2vha E1hE1v atv25 ○C.v 
+TemperaturevandvleafvthicknessvarevthevmostvimportantvfactorsvofvAMAXv 
+(PenningvdevVriesvetval.,v1989).vThevvariationvinvAMAXvwithinvavspeciesv 
+isvduevtovthevdifferencesvinvthevleafvthicknessv(CharlesEEdwards,v1982).v
+6.1.4 Temperature effect on leaf photosynthesis 
+Horiev(1979)vreportedvnetvphotosynthesisvofvricevvariedvbyvlessvthanv10%v 
+forv leafv temperaturesv betweenv 20 ○v andv 35 /ring2/ring2 /ring2/ring2C.v Indicatingv similarv views,v 
+Venkateswarluv etv al.v (1977)v suggestv thatv temperaturev mayv bev 
+consideredv asv limitingv factorv forv photosynthesisv ofv ricev inv thev tropics.v 
+Whenv thev temperaturev isv lowv itv restrictsv thev growthv morev thanv limitingv 
+photosynthesisv(Evans,v1975b).vCooperv(1975)valsovindicatedvthatvforvav 
+widevrangevofvtemperature,vthevphotosynthesisvvariesvlittle.vConsideringv 
+thesev views,v RICEMODv wasv builtv (McMennanyv andv O'Toole,v 1983)v 
+withoutvconsideringvanyveffectvofvtemperaturevonvphotosynthesis.v
+Thev situationv asv reviewedv abovev isv not,v however,v avtruev picturev ofv thev 
+tropicsv andv subEtropicsv asv av whole.v Evenv betweenv croppingv seasonsv 
+withinv av yearv thev situationv variesv widely.v Forv example,v forv partv ofv thev 
+'Boro'vricevgrowingvseasonvinvHaorvregionvthevtemperaturevdropsvbelowv 
+20 /ring2/ring2 /ring2/ring2C.v Photosynthesisv inv suchv av situationv mayv bev limited,v withv thev 
+interferencevinvchlorophyllvsynthesis,vleafvdevelopmentvandvthevreactionv 
+ratesv ofv chemicalv reactionsv (Troughton,v 1975).v Inv extremev situations,v 
+temperaturevnotvonlyvreducesvphotosynthesis,vbutvtheveffectvmayvprevailv 
+evenv whenv thev temperaturev becomesv favourablev (Bauerv etv al.,v 1975;v 
+Fukaiv etv al.,v 1976;v Marcellos,1977;v Legg,v 1981);v inv somev casesv totalv 
+destructionv ofv plantsv hasv beenv v reportedv (Larcher,v1973).v Atv thev 
+temperaturev levelv ofv 15 /ring2/ring2 /ring2/ring2v tov 19 /ring2/ring2 /ring2/ring2C,v thev ricev cropv hasv beenv reportedv tov 
+sufferv stressv (Teraov etv al.,v1941;v Nishiyamavetv al.,v 1969;v Kabakiv etv al.,v 
+1982;vWilson,v1984;vSettervandvGreenway,v1988),vandvinvsuchvsituationsv
+
+Pagev|v17vv
+thev lossv ofv photosyntheticv capacityv cannotv bev ignoredv (Kishitaniv andv 
+Tsunoda,v1974;vMakinovetval.,v1984;vMollvandvSteinback,v1986).vv
+6.1.5 Leaf-N content and photosynthesis 
+Asv hasv statedv earlier,v thatv thicknessv ofv thev leavesv hasv anv effectv onv 
+photosynthesis;v thev thicknessEphotosynthesisv relationship,v onv thev otherv 
+hand,vdependsvstronglyvonvthevnitrogenvcontentvofvthevleavesv(Penningv 
+devVriesvetval.,v1989).vThevLeafENvcontentvfallsvwithvthevagingvofvthevcrop,v 
+besidesvnewvleavesvhavevlessvNvcontentvthanvoldervvonesv(Raymondvetv 
+al.,v1960;vGreenwoodvetval.,v1965;vThompsonvetval.,vv1976;vGreenwoodv 
+andvBarnes,v1978).vThisvcausesvavchangevinvthevvaluevofvAMAXv(Takanov 
+andvTsunoda,v1971;vYoshidavandvCoronel,v1976).vThevrelationshipvofvthev 
+NEfractionvofvleavesvandvthatvofvthevmaximumvratevofvleafvphotosynthesisv 
+hasv beenv quantitativelyv presentedv byv Penningv dev Vriesv etv al.v (1990).v 
+However,vthevestimationvcanvbevmadevbyvrelatingvplantvagev(days)vwithv 
+thatv ofv thev leafENv contentv (Murata,v 1975a;v McMennamyv andv O'Toole,v 
+1983).v Penningv dev Vriesv etv al.v (1990)v havev presentedv typicalv leafENv 
+fractionvcurvevofvricevthroughoutvitsvgrowthvperiodvundervtwovsituations:v 
+atvhighvlevelvofvsoilvN,vandvatvlowvlevelvofvsoilvN.vAvrelationshipvisvbasedv 
+onvdevelopmentvstagev(DVS)vofvthevcropvrathervthanvsimplyvagevofvthev 
+plantv(day)vcanvbevmorevappropriate.v
+ThevrelationshipvbetweenvleafENvcontentvandvAMAXvhasvbeenvgivenvbyv 
+Dinguhnv etv al.v (1990).v Thev valuev ofv AMAXG,v thev maximumv grossv 
+photosyntheticv rate,v canv bev takenv asv 66v kgv CO 2v ha E1hE1v atv av leafENv 
+contentvofv4.vThevAMAXGvdecreasesvalmostvlinearlyvbelowvthevvaluev4,v 
+andv increasev slowlyv upv tov 6.v Finally,v AMAXv canv bev obtainedv asv av 
+functionv ofv leafEN,v thev AMAXNv andv thenv asv av functionv ofv temperature,v 
+AMAXT.v
+AMAX=AMAXG*AMAXNv
+AMAX=AMAX*AMAXTv
+
+Pagev|v18v
+AMAXvisvthevmaximumvratevofvsinglevleafvphotosynthesisvexpressedv 
+asvkgvCO 2vha E1hE1v v
+AMAXGv isv grossv AMAXv atv leafENv contentv ofv 4v AMAXNv isv thev 
+relativeveffectvofvleafENvonvAMAXG.v
+AMAXTvisvthevrelativeveffectvofvtemperaturevonvAMAXvatvparticularv 
+leafENvlevel.v
+6.1.6 Canopy photosynthesis 
+Canopyvphotosynthesisvisvthevsumvofvthevratesvofvphotosynthesisvofvallv 
+thev leaves.v Ifv thev photov syntheticv ratev wasv proportionalv tov thev lightv 
+intensityv andv ifv allv leavesv hadv identicalv properties,v thenv canopyv 
+photosynthesisvwouldvsimplyvbevequalvtovthevmultiplevofvthevquantityvofv 
+lightv absorbedv andv thev lightv usev efficiencyv (Penningv dev Vriesv etv al.,v 
+1989).v However,v realityv isv complicatedv byv thev influencev ofv directv andv 
+diffusedv light,v totalv leafv area,v leafv anglev distribution,v leafv opticalv 
+propertiesvandvsolarvheightvonvthevdistributionvwithinvthevcanopy,veachvofv 
+whichvhavevtovbevtakenvintovaccountv(vanvHeemst,v1986a).vModelsvhavev 
+beenv developedv whichv makev thesev complicatedv processesv easyv tov 
+tackle.vvCalculationvofvcanopyvphotosynthesisvcanvbevmadevinvthevmodelv 
+accordingv tov thev mechanismsv developedv byv Goudriaanvandv vanv Laarv 
+(1978).v Usingv thisv model,v thev assimilationv ratev ofvav canopyv canv bev 
+calculatedvatvanyvmomentvofvavdayvinvresponsevtovthevincomingvPARvandv 
+dependv onv solarv heightv andv thev degreev ofv cloudinessv ofv thev sky.v Twov 
+extremevsituationsvarevconsidered:vv
+a)v avvcompletelyvclearvday,vandv
+b)v avcompletelyvcloudyvday.v
+Thevassumptionsvmadevinvthevcalculationvare:v
+a)v thevrespirationv(exceptvthevphotorespiration)visvzero,vandvv
+b)v thevleafvareavindexvisv5,vsovthatvthevcanopyvisvpracticallyvclosed.v
+
+Pagev|v19vv
+Thevoverallvequationvis:v
+FGCv=vFO*FOV+v(1EFO)*FCLv
+FGCvisvthevgrossvCO 2vassimilationvratevexpressedvasvkgvCO 2vha E1hE1v
+FOv isv thev fractionv ofv av dayv whichv isv overcastv (FOv isv 0v forv av 
+completelyvclearvday,vandvFOvisv1vforvcompletelyvovercastvday)v
+FOVv isv thev grossv CO 2v assimilationv ratev (kgv CO 2v ha E1hE1)v onv av 
+completelyvovercastvday.v
+FCLv isv thev grossv CO 2v assimilationv ratev (kgv CO 2v ha E1hE1)v onv av 
+completelyvclearvday.v
+Thevfractionvofvthevdayvthevskyvisvovercastv(FO)vcanvbevobtainedvfromvthev 
+actualv dailyv globalv irradiationv andv thev dailyv globalv irradiationv ofv av 
+completelyvclearvday.vThevglobalvirradiationvofvavcompletelyvovercastvdayv 
+mayvbevcalculatedvbyvmultiplyingvthevvaluevforvavperfectvdayvbyv0.2v(dev 
+Wit,v1965).v
+FOv=v(HGEHA)/(HGE0.2*HG)v
+FOvisvthevfractionvofvavdayvisvovercastv
+HGv isv thev totalv globalv irradiationv onv av completelyvclearv dayv 
+expressedvasvJvmE2v dE1.v
+HAvisvthevmeasuredvtotalvglobalvirradiationvofvavgivenvlocationv(Jm E2dE1).v
+ThevvaluevofvHGvhasvbeenvlistedvbyvGoudriaanvandvvanvLaarv(1978)vforv 
+differentvgeographicalvlocations.vThevvaluesvrepresentvthevmiddlevdayvofv 
+eachv month.v Thev measuredv actualv globalv irradiation,v HA,v isv notv 
+measuredv inv allv meteorologicalv stationsv ofv Bangladesh.v Berkhoutv andv 
+vanvKeulenv(1986)vstatevthatvinvsuchvavsituationvitvisvpossiblevtovestimatev 
+thevvaluevofvHAvbyvmeansvofvanvempiricalvrelation,vusingvthevmeasuredv 
+durationv ofv brightv sunshinev hoursv (Blackv etv al.,v 1954).v Thev relationv isv 
+knownvasvthevAngstromvformulav(Angstrom,v1924).v
+
+Pagev|v20v
+HA=RA*(A+(B*SUN(J)/N)v
+HAvisvthevmeasuredvtotalvglobalvirradiationvexpressedvasvJvmE2vdE1.v
+RAv isv Angot'sv valuev orv thev theoreticalv amountv ofv radiationv thatv 
+shouldvreachvthevearth'svsurfacevinvthevabsencevofvanvatmospherev 
+expressedvasvJvmE2vdE1v (List,v1951)vv
+SUNv (J)v isv thev actualvdurationv ofv brightv sunshinev hoursv inv thev Jthv 
+dayv
+Nvisvthevmaximumvpossiblevlengthvofvavcloudiness'vdayvexpressedv 
+asvhoursv
+AvandvBvarevthevempiricalvconstants.v
+ThevvaluesvofvRAvandvNvhavevbeenvlistedvbyvBerkhoutvandvvanvKeulenv
+(1986)vforv differentv geographicalv locationsv andv havev beenv extrapolatedv 
+forvthevstudyvarea.vWithinvthevrangesvofvthevvalues,vitvhasvbeenvassumedv 
+thatvtheyvwouldvbevsamevinvbetweenvthevperiods.vThevnumericalvvaluesv 
+ofv thev constantsv Av andv Bv dependv onv latitudev (Gloverv andv McCulloch,v 
+1958),vandvthevclimatev(Rietveld,v1978).vBlackvetval.v(1954)vshowvthatvthev 
+valuevofvAvequalsv0.023vandvthatvofvBvequalsv0.048.vTheyvalsovreportvthatv 
+Bv remainsv morev orv lessv constantv whereasv Av showsv markedv variation.v 
+Explainingv thev reasons,v Gloverv andv McCullochv (1958)v believev thatv Av 
+dependvuponvopticalvairvmass,vandvhencevthevlatitudevofvanvarea.vInvthev 
+rangev ofv Ov tov 60 0v latitude,v theyv establishedv thatv B=0.052,v andv 
+A=0.29*cosv X,v wherev Xv isv thev latitudev ofv thev area.vThev Foodv andv 
+Agriculturalv Organization,v onv thev otherv hand,v indicatedv thev valuesv ofv Av 
+andvBvundervbroadvclimaticvregions.v
+Oncev thev HAv isv calculated,v thev FOv canv bev obtained.vFinally,v FOVv andv 
+FCLv arev calculatedv (detailsv arev explainedv byv Goudriaanv andv vanv Laarv 
+(1978),vandvthusvthevgrossvCO 2vassimilationvratev(FGC)visvobtainedvforvav 
+particularv day.v Thev absorbedv CO 2v isv reducedv inv thev cropv plantsv inv thev 
+formvofvsugars.v
+
+Pagev|v21vv
+So,v thev grossv assimilatev ratev canv bev expressedv asv sugarv (GASS)v byv 
+multiplyingvFGCvwithvthevratiovofvmolecularvweightsvofvCH 2OvandvCO 2.vv
+GASS=FGC*30/44v
+GASSvisvthevratevofvgrossvassimilationvexpressedvasvkgvCH 2Ovha E1vdE1v
+FGCvisvthevgrossvCO 2v assimilationvratevexpressedvasvkgvCO 2v ha E1vdE1v
+Forvlowvvaluesvofvleafvareavindexv(LAI)vwhenvthevcanopyvdoesvnotvformvav 
+closedv surface,v radiationv isv tov thev soilv andv thusv photosynthesisv isv 
+reducedv (Goudriaanv andv vanv Laar,v 1978).v Thisv reductionv isv estimatedv 
+fromvthevfractionvofvthevincomingvradiationvinterceptedvbyvthevcrop.v
+RF=1EEXP(EK*LAI)v
+RFvisvthevfractionvofvlightvinterceptedvbyvthevcropv
+Kvisvthevextinctionvcoefficientvforvvisiblevlightv
+LAIvisvthevleafvareavindexv
+Thev Kv asv statedv byv Changv (1968)v isv av measurev ofv thev spacev ofv 
+diminution,v orv extinctionv ofv anyv transmittedv light.v Accordingv tov thev 
+physicsv ofv lightv thev extinctionv coefficient,v Kv isv thev ratiov ofv horizontallyv 
+projectedvareavofvanvobjectvtovitsvplanevorvsurfacevareav(Monteith,v1973);v 
+therefore,vinvthevcasevofvanyvcropvplantvitvisvthevratiovofvleafvareavwhenvitv 
+isvvprojectedvonvtovavhorizontalvsurfacevtovthevleafvsurfacevareav(Catrileo,v 
+1990).v Thus,v thev valuev ofv Kv isv relatedv tov thev leafvanglev orv orientationv 
+(Hayashiv andv Ito,v 1962;v Venkateswarluv andv Visperas,v 1987).v Saekiv 
+(1960)v asv quotedv byv Changv (1968)v indicatesv thev valuev ofv Kv forv av 
+herbaceousvcommunityvrangesvbetweenv0.3vtov0.5vinvstandsvwithvuprightv 
+leavesvandvbetweenv0.7vtov1.0vinvstandsvwithvhorizontalvleaves.vForvcropv 
+plantsvKvusuallyvrangesvfromv0.6vtov0.8.v(Goudriaan,v1977).vvAvlistvofvKv 
+valuesv forv differentv cropv speciesv hasv beenv givenv byv Monteithv (1969).v 
+Normanv(1980),vreferringvtovreportsvofvscientistsv(HayashivandvIto,v1962;v 
+Ito,v1969;vUdagawavetval,v1974),vfindvthevvaluevofvKvforvricevisvbetweenv
+
+Pagev|v22v
+0.4vandv0.8.vHoriev(1987)vusedvthevvaluevofv0.6vinvhisvmodelv(forv japonica 
+rice )vonvthevbasisvofvhisvearlyvresearchv(HorievandvSakuratani,v1985).vv
+6.2 Leaf area development 
+Thevamountvofvincomingvradiationvthatvwouldvbevintercepted'visvgovernedv 
+byvthevleafvdensityvofvthevcrop.vThevleafvareavindexv(LAI),vdevelopedvbyv 
+Watsonv (1947),v isv thev commonv wayv ofv characteringv thev leafv foliagev 
+densityv (Chang,v 1968).v Thev LAIv isv expressedv asv totalv surfacev ofv livev 
+leaves,vonevsides,vpervunitvofvsoilvsurfacev(PenningvdevVriesvetval.,v1989).v 
+Generally,v specificv leafv weightv (SLW)v orv specificv leafv areav (SLA)v isv 
+consideredvinvdeterminingvthevLAIv(vanvKeulen,v1986a;vJonesvandvBoote,v 
+1987).vItvmayvbevmentionedvthatvthevLAIvcanvalternativelyvbevcalculatedv 
+independentlyv ofv thev weightv ofv leavesv especiallyv whenv waterv andv 
+nutrientsvarevnotvlimiting.vInvsuchvcasesvLAIvisvtakenvasvfunctionvofvdailyv 
+meanv temperaturev (detailsv arev givenv byv Horie,v 1987).v Thev SLAv isv thev 
+rationv betweenv thev areav andv weightv ofv thev leafv blades;v thev SLAv isv thev 
+inversevofvSLSv(HeskethvandvJones,v1980).vThevSLWvisvconsideredvasv 
+thevstructuralvdryvweightvofvleavesvwithvnovreserves;vthevpetiolesvandvleafv 
+sheathsvarevnotvincluded.vItvisvfurthervassumedvthatvallvthevleafvareavisv 
+equallyv effectivev inv [photosynthesisv ifv exposedv tovthev samev conditionsv 
+(PenningvdevVriesvetval.,v1989).vThevvaluevofvSLWvisvthoughtvtovvaryvlittlev 
+betweenv speciesv (vanv Keulenv etv al.,v 1982)v andv thev rangev liev betweenv 
+200vandv800vkgvha E1,valthoughvthevaveragevforvtheventirevcanopyvrarelyv 
+exceedsv600vkgvha E1v(PenningvdevVriesvetval.,v1989).vInvthevcasevofvrice,v 
+Yoshidav (1981)v givesv av rangev ofv 222v tov 500v kgv ha E1.v Workingv withv av 
+numbervofvmodernvvarieties,vVinayavRaivandvMurtyv(1979)vrecordedvSLWv 
+atvmaximumvtilleringvstagevrangingvbetweenv421vandv514vandvaveragingv 
+455v kgv ha E1.v Vanv Keulenv (1986b)v usedv thev valuev ofv 400v kgv ha E1v in vhisv 
+modelvinvthevcasevofvthevvarietyvIR8.vMuratav(1975b)vindicatedvvariationv 
+ofvSLWvbetweenvcultivars.vThevSLW,vinvfact,vdoesvnotvremainvconstantv 
+throughoutvthevgrowthvperiodvofvavcrop.vItvmayvvaryvduevtovleafvthickness,v
+
+Pagev|v23vv
+leafv position,v growthv stage,v nutrition,v climaticv environmentv (Murata,v 
+1975b).v Consideringv ofv allv thesev factorsv makesv thevcalculationv ofvSLWv 
+complex.v Therefore,v McMennamyv andv O'Toolev (1983),v inv RICEMOD,v 
+usedvavrelationshipvwhichvincreasedvSLWvwithvthevadvancevofvcropvagev 
+invdays.vThusvthevcorrelationvinvSLW(SLN)vforvavparticularvdevelopmentv 
+stagevcanvbevmadevvby:v
+SLN=SLC*CLTv
+SLNvisvthevcorrectedvSLWvforvavparticularvDVSv
+SLCvisvthevspecificvleafvweightvconstantvexpressedvasvkgvha E1v
+SLTvisvthevrelativeveffectvonvDVSvonvthevSLCv
+ThevcalculationvofvLAIvthenvcanvsimplyvbevmadevbyvdividingvthevweightvofv 
+thev livev leavesv byv thev correctedv SLW(SLN)v (vanv Leulenv etv al.,v 1982;v 
+JonesvandvBoote,v1987).v
+LAI=WLV/SLNv
+LAIvisvthevleafvareavindexv
+WLVvisvthevdryvweightvofvlivevleavesvexpressedvasvkgvha E1v
+SLNvisvthevcorrectedvSLWvforvavparticularvDVSv
+Althoughv nonEleafv photosynthesisv isv althoughv tov havev av minorv rolev inv 
+grossv photosynthesis,vthev contributionv ofv stemsv tovthevtotalv greenvareav 
+canv bev significantv especiallyv forv smallv grainsv (Penningv dev Vriesv etv al.,v 
+1989).v Thev contributionv ofv stemv areav canv bev takenv intov consideringv inv 
+LAIv inv thev samev wayv asv thatvofv thev leafv areav byv usingv av 'specificvculmv 
+weightvconstant'v(SCC).vThevSCCvvaluevhasvbeenvindicatedvforvdifferentv 
+cropv speciesv (Penningv dev Vriesv etv al.,v 1989).v According,v thev valuev ofv 
+1000vkgvha E1vusedvinvthevmodel.vThevSCCvhasvbeenvrelatedvtovDVSvduev 
+tovlackvofvinformation.vOnlyvhalfvofvthevstemvareavhasvbeenvconsideredvinv 
+thev calculationv because,v unlikev thev leaf,v onlyv thevupperv surfacev ofv thev
+
+Pagev|v24v
+stemsvarevactivev(PenningvdevVriesvetval.,v1989).vTherefore,vfinalvformvofv 
+thevcomputationvofvLAIvcanvbe:v
+LAIv=v(WLV/SLV)v+v(0.5*(WCU/SCC))v
+LAIvisvthevleafvareavindexv
+WLVvisvthevdryvweightvofvlivevleavesvexpressedvasvkgvha E1v
+SLNvisvthevcorrectedvSLWvforvavparticularvDVSv
+WCUvisvthevdryvweightvculmvexpressedvasvkgvha E1v
+SCCvisvthevspecificvculmvweightvconstantvexpressedvasvkgvha E1v
+6.3 Respiration 
+Cropvplantsvneedvenergyvtovmaintainvcellsvandvtovcarryvoutvphysiologicalv 
+activities.vThevenergyvisvobtainedvfromvthevassimilatesvproducedvduringv 
+photosynthesis;v thev processv isv calledv respirationv (vanv Heemst,v 1986a).v 
+Thev energyv obtainedv isv utilizedv forv twov mainv processes:v i)v forv 
+maintenancevofvionicvgradients,vandvreEsynthesisvofvdegradingvstructuralv 
+proteins;vii)vconversionvofvprimaryvphotosyntheticvproductsvintovstructuralv 
+plantv materials.v Thev processv involvedv inv thev firstvcasev isv calledv 
+maintenancevrespiration,vandvinvthevsecondvcasevisvgrowthvrespiration.v
+6.3.1. Maintenance respiration 
+Maintenancev canv bev consideredv atv differentv levelsv ofv biologicalv 
+organization.v Inv cropv growthv modeling,v itv isv onlyv consideredv atv cellularv 
+levelsv (Penningv dev Vriesv etv al.,v 1989).v Threev componentsv ofv 
+maintenancevatvcellularvlevelvarevdistinguished:vmaintenancevforvproteinv 
+turnover,v forv thev activev transportv processv tov maintainv certainv ionv 
+concentrations,vandvforvmetabolicvactivityv(PenningvdevVries,v1975b;vvanv 
+Heemst,v1986a;vPenningvdevVriesvetval.,v1989).vThevproteinsvinvthevplant,v 
+especiallyvleaves,vconsistvmainlyvofvenzymes,vwhichvhavevonlyvavlimitedv 
+lifev span.v Theyv deterioratev atv av relativev ratev ofv 0.10v d E1.v Energyv thatv isv
+
+Pagev|v25vv
+requiredv forv turningv overv ofv thev enzymesv comev fromvthev maintenancev 
+respirationvprocess.vThevionvconcentrationvinvthevvacuolesvofvplantvcellsv 
+isv higherv thanv inv thev surroundingv tissue;v sov itv leakagev ofv ionsvfromv thev 
+vacuoles.vTovmaintainvthevdesiredvinternalvconcentration,vthevionsvhavev 
+tovbevtakenvupvagainstvavconcentrationvgradient.vThatvrequiresvanvactivev 
+transportv throughv thev cellv membranesv whichv requirevenergy.v Thev 
+biochemicalv basisv ofv metabolicv activityv isv notv wellv understood.v Itv isv 
+assumedvthatvthevmaintenancevcostvherevisvequalvtovbetweenv10vtov20%v 
+ofvdailyvphotosynthesisv(PenningvdevVriesvetval.,v1989).vThevphysiologicalv 
+basisv ofv cropv maintenancev respirationv isv ratherv weakv (Yoshida,v 1981;v 
+Spittersvetvat.,v1989).vSovfarvitvhasvbeenvonlyvpartiallyvquantifiedvandvthisv 
+isvwhyvitvisvavweakvpartvofvmodelingv(PenningvdevVriesvetval.,v1989).vInv 
+earlyv work,v scientistv usedv tov believev that,v apartv fromv temperature,v 
+respirationv ratev wasv proportionalv tov leafv massv (devWitv etv al.,v 1970;v 
+Evans,v 1975a).v However,v laterv itv wasv provedv thatv maintenancev 
+respirationv wasv relatedv tov thev photosyntheticv ratevofv thev cropv surfacev 
+(McCreev andv Troughton,v 1966).v Laterv McCreev (1970;v 1974)v quantifiedv 
+thev ratev ofv maintenancev respirationv asv 0.015v kgv ha E1dE1v ofv thev 
+photosynthesis.v Hev usedv whitev cloverv asv experimentalv crop.v McCree'sv 
+valuevisvthoughtvtovbevwellvestablishedvandvhasvbeenvusedvinvmodelingvofv 
+avnumbervofvspeciesv(devWitvetval.,v1970;vSheehyvetval.,v1979;vJohnsonv 
+andv Thornley,v 1983;v Sarti,v 1987;v Catrileo,v 1990).v However,v relativev 
+maintenancevratevisvlikelyvtovvaryvbetweenvspeciesv(LakevandvAnderson,v 
+1970).v Penningv dev Vriesv (1972)v showedv thatv thev valuev ofv 0.008v andv 
+0.022vkgvha E1dE1vforvmaizevandvbean,vrespectively.vDifferentvvaluev(0.026v 
+kgvha E1dE1)vwasvalsovreportedvforvcottonvseedlingsv(Heskethvetval.,v1971).v 
+Itvwasvfurthervrevealedvthatvrespirationvmayvnotvonlyvdiffervforvspeciesvbutv 
+alsov betweenv differentv plantv parts,v andv forv differentv stagesv ofv plantv 
+growthv (Heskethv etv al.v 1971;v IRRI,v 1972;v Yamaguchi,v 1978).v Av listv ofv 
+maintenancev respirationv coefficientsv forv av numberv ofv cropsv hasv beenv 
+presentedv byv Heskethv etv al.v (1980a).v Penningv dev Vriesv andv vanv Laarv
+
+Pagev|v26v
+(1982)vproposedvavquantitativevdescriptionvofvmaintenancevasvavfunctionv 
+ofvdryvweightvdependingvonvtypevofvorganvasvfollows:v
+MAIN=0.003*LEAF+0.015*STEM+0.01*ROOT+0.01*STORAGEv
+Thev coefficientsv werev derivedv onv thev basisv thatv leavesv werev thev mostv 
+activev tissuev andv highestv inv protein,v withv stemsv beingv aboutv halfv asv 
+activev asv leaves,v andv rootsv evenv lessv active.v Thev maintenancev costv ofv 
+thevstoragevorgansvisvlowv(Norton,v1963).vThisvisvbecausevthevstoredvoil,v 
+starchvorvproteinvisvpresumedvtovbevinactivelyvturningvovervandvthusvnotv 
+requiringvhighvmaintenancev(Bootevetval.,v1987a).vSpittersvetval.v(1989)v 
+suggestvthatvcarbohydratevinvgrainvisvmetabolicallyvinactivevandvdoesvnotv 
+requirevmaintenance.vSo,vthevmaintenancevcoefficientvforvstoragevorgansv 
+shouldvvaryvwithvthevspeciesvconcerned;vforvothervplantvpartsvvariationvisv 
+notvsignificantv(SinclairvandvdevWit,v1975).vMaintenancevrespirationvcanv 
+bevcalculatedvinvmodelsvbyvavslightlyvdifferentvmethodvthanvthatvproposedv 
+byvPenningvdevVriesvandvvanvLaarv(1982).vvThevrespirationvratevofvleavesv 
+canvbevtakenvasv0.02vkgvCO 2vkgvd E1.vDuringvdayvtime,vthevrespirationvofv 
+thevleavesvisvreducedvduevtovexcessvenergy;vthisvisvwhyvthevfractionv0.75v 
+canvbevusedvasvavmultipliervaccordingvtovPenningvdevVriesvetval.v(1989).vv 
+Thevrespirationvratesvofvculmvandvrootsvcanvbevconsideredvasv0.01vandv 
+0.015vkgvCO 2vkgvd E1,vrespectively.vThevrespirationvratevofvstoragevorgansv 
+canvbevtakenvasv0.015vkgvCO 2vkgvd E1vaccordingvtovPenningvdevVriesvetval.v 
+(1989).vItvhasvbeenvstatedvthatvabovev1000vkgvha E1vofvstoragevdryvmatter,v 
+therevisvnovmaintenancevcostv(PenningvdevVriesvetval.,v1989).vvTherefore,v 
+thisvrestrictionvcanvbevmadevinvthevmodel.vApartvfromvthevconsiderationvofv 
+differentvplantvorgans,vthevmetabolicvcostv(RMMA))vcanvbevaccountedvatv 
+20%v ofv thev dailyv grossv photosynthesis.v Thev costv ofvthev metabolicv 
+processvduringvdayvtimevisvthoughtvtovbevreducedvbyv50%v(Penningvdev 
+Vriesvetval.,v1989);vthisvisvwhyvavfactorvofv0.5vcanvbevusedvasvavmultiplier.v 
+PenningvdevVriesv(1975b)vstatedvthatvtemperaturevinfluencesvthevratevofv 
+proteinvturnovervandvthusvitvalsovinfluencesvmaintenancevrespiration.vThev
+
+Pagev|v27vv
+referencevtemperaturev(TR)vatvwhichvthevcoefficientsvcanvbevincorporatedv 
+isv25 /ring2/ring2 /ring2/ring2C.vvThevmaintenancevrespirationvratevisvreportedvtovbevdoubledvforv 
+eachv10 /ring2/ring2 /ring2/ring2Cvrisevofvtemperaturev(McCRee,v1974;vKasevandvCatsky,v1984).v 
+Amthorv (1984)v reportsv lowerv orv higherv values.v Inv thev modelsv thev 
+temperaturevfactorv (Q 10 )v canv bevtakenv asv2.vThevfactorv isv increasedv orv 
+decreasedv inv maintenancev respirationv (TFAC)v canv thenv bev determinedv 
+byvthevformulavgivenvbyvvSpittersvetval.v(1989).vv
+TFAC=vQ 10v ^((TEMPETR)/10)v
+TFACvisvthevrelationvofvmaintenancevrespirationvtovtemperature.vv
+Q10v isvthevfactorvaccountingvforvincreasevinvmaintenancevrespirationv 
+withvav10 /ring2/ring2 /ring2/ring2Cvrisevinvtemperaturev
+TEMPvisvthevmeanvdailyvtemperaturevinv /ring2/ring2 /ring2/ring2Cv
+TRvisvthevreferencevtemperaturevatvwhichvmaintenancevcoefficientsv 
+andvconsidered.v
+Finally,v totalv maintenancev costv ofv thev cropv inv av dayv (RMCR)v canv bev 
+calculatedvbyvaddingvthevcomponentvpartsvandvbyvmultiplyingvitvbyv30/44v 
+(thevratiovofvmolecularvweightvofvCH 2OvandvCO 2),vtovexpressvthevvaluevasv 
+kgvCH 2Ovha E1dE1.v
+Itvhasvbeenvarguedvthat,vforvtheoreticalvconsideration,vitvisvpreferablevtov 
+relatevmaintenancevrespirationvtovthevproteinvorvnitrogenvcontentvofvthev 
+plantv (Barnesv andv Hole,v 1978)v becausev thev respirationv reducesv inv 
+vegetativev partsv asv Nv concentrationv declinesv (Bootev etv al.,v 1987b).v Dev 
+Witv etval.v (1978)v inv BACROSv modelv showv thatv ifv informationv onvNv andv 
+mineralvcontentsvarevavailable,vthevmaintenancevcostvcanvbevestimated.v 
+Vanv Keulenv andv Seligmanv (1987)v usedv thisv procedurevinv theirv model.v 
+However,vthisvrefinementvcanvonlyvbevusedvwhenvNvconcentrationsvarev 
+encounteredvinvcropvmodelsvthatvsimulatevnutrientvuptakev(Legg,v1981).v
+
+Pagev|v28v
+6.3.2 Growth respiration 
+Growthvrefersvtovthevaccumulationvofvmassvorvincreasevinvsizevofvavplantv 
+overv timev (Lowry,v 1967).v Thev processv involvev isv thev biochemicalv 
+conversionv ofv primaryv photosynthesisv intov dryv matterv (Yoshida,v 1981;v 
+vanvHeemst,v1986a;vPenningvdevVriesvetval.,v1989).vEnergyvisvrequiredv 
+forvthevconversionvprocessvandvalsovtovtranslocatevthevassimilatedvfromv 
+thev sourcev tov thev growthv size.v Thev energyv demandv isv metv byv growthv 
+respiration.v Growthv respirationv isv alsov termedv 'conversion'v (Penningv dev 
+Vries,v1972)vorv'constructive'v(Thornley,v1976)vrespiration.vv
+Thev respirationv costv forv growthv canv bev expressedv asv conversionv 
+efficiency.vThevtotalvamountvofvmaintenancevcostv(RMCR)visvsubtractedv 
+fromvthevamountvofvgrossvcarbohydratevassimilatedv(GASS)vwhichvgivesv 
+thevamountvofvdryvmattervavailablevforv(ASAG).vThevamountvofvgrowthvisv 
+thenvdeterminedvfromvthevASAGvconsideringvthevconversionvefficiency.vv
+Semikhatovav (1970)v indicatedv thatv thev conversionv efficiencyv ofv plantsv 
+mightvbevinvbetweenv60vtov80%.vForvwhitevclover,vMcCreev(1970)vfoundv 
+anv efficiencyv ofv 80%;v laterv (1974)v hev correctedv thev valuev tov 75%.v Forv 
+cerealsvinvgeneralvandvforvoilvseedsvthevrangesvofvconversionvefficiencyv 
+havev beenv mentionedv asv 51tov 78%,v andv 88v tov 96%,v respectivelyv 
+(PenningvdevVries,v1972;v1975a),vwhereasvforvcottonvitvisv75%v(Thornleyv 
+andv Hesketh,v 1972)v reportsv onv grassesv showv thatv thev conversionv 
+efficiencyvfactorvisvaboutv0.75v(JohnsonvandvThornley,v1983).vDevWitvandv 
+hisv associatesv (1970)v suggestedv thatv av betterv wayv ofv calculationv thev 
+conversionv efficiencyv wasv tov considerv thev chemicalvcompositionv ofv thev 
+endvproducts.vYamaguchiv(1978)vshowedvthatvthevconversionvefficiencyv 
+ofv proteins,v lipidsv andv carbohydratev were38,v 31v andv 84%v respectively.v 
+Penningv dev Vriesv andv hisv coEresearchersv (1974)v relatedv growthv 
+respirationv withv thev chemicalv compositionv ofv newv biomass.v Theyv 
+consideredvsixvtypesvtissues:vcarbohydratesv(structural),vproteins,vlipidsv
+
+Pagev|v29vv
+(includingv oilsv andv fats),v lignins,v organicv acids,vandv minerals.v Thesev 
+groupvofvtissuesvhavevdifferentvenergyvcosts.v
+Oncevthevcompositionvofvplantsvarevknown,vthevconversionvefficiencyvcanv 
+bevworkedvout.vThevcompositionvmayvgainvvaryvforvdifferentvplantvorgansv 
+andv thusv thev conversionv efficiencyv mayv varyv accordingly.v Usingv 
+quantifiedvinformationvfromvliterature,vthevamountvofvglucosevrequiredvforv 
+convertingv assimilatesv intov organsv ofv leaf,v culm,v rootv andv storagev partv 
+canvbevdeterminedvasv1.326,v1.326,v1.326vandv1.462vkgvkg E1vdryvmatter,v 
+orvinvothervwords,vthevinversevvaluesvprovidedvthevconversionvefficiency.v 
+Invthisvway,vthevoverallvconversionvefficiencyv(CVF)vcanvbevcalculatedvtov 
+determinevthevtotalvcropvratev(GTW).v
+GTW=ASAG*CVFv
+GTWvisvthevtotalvcropvgrowthvratevexpressedvasvkgvDMvd E1v
+ASAGvisvthevtotalvdryvmattervavailablevforvgrowthvexpressedvasvkgv 
+DMvha E1v dE1v
+CVFvisvthevoverallvconversionvefficiency.vv
+Althoughv Robsonv (1980)v indicatesv thatv therev isv av geneticv variationv inv 
+efficiencyv ofv respiration,v thev procedurev appliedv abovev couldv wellv bev 
+applicablev tov allv speciesv (Penningv dev Vriesv etv al.,v 1974)v v becausev thev 
+efficiencyv processesv inv higherv plantsv arev thev samevforv allv speciesv 
+(Penningv dev Vries,v 1975a).v Conversionv efficiencyv isv independentv ofv 
+temperaturev (McCree,v 1974).v Experimentalv evidencesvshowv thatv withinv 
+thev rangev ofv 11v tov 38 0Cv therev werev nov variationsv inv growthv respirationv 
+(Penningv dev Vries,v 1972).v Similarv reportsv werev foundv forv thev ricev cropv 
+(Tangv etv al.,v 1959;v Tanaka,v 1971).v Inv factv inv higherv inv higherv 
+temperature,v thev conversionv processv isv accelerated,v butv pathwaysv arev 
+identical.v Hence,v assimilatev requirementsv dov notv varyv withv temperaturev 
+(Spittersv etv al.,v 1989).v Therefore,v nov considerationv ofv temperaturev isv 
+neededvinvcalculatingvthevconversionvefficiency.v
+
+Pagev|v30v
+6.3.3 Carbohydrate remobilization 
+Thev carbohydratev usedv forv maintenancev andv growthv comev fromv 
+photosynthesis.vHowever,vtherevisvanothervsourcevofvcarbohydratevwhichv 
+comesvfromvmobilizationvorvredistributionv(PenningvdevVriesvatvel.,v1989).v 
+Inv rice,v thev growthv ofv vegetativev organsv morev orv lessv slowv down,v 
+especiallyvaftervthevpaniclevinitiationvstagev((Inada,v1967)vandvasvavresult,v 
+accumulationv ofv availablev carbohydratev beginsv inv thev leafv sheathsv andv 
+culmv basesv (Togariv etv al.,v 1954;v Murayamav etv al.,v 1955;v Muratav andv 
+Matsushima,v 1975a;v Yoshida,v 1981).v Thev accumulatedvcarbohydratev 
+sharplyvincreasesvduringvthevtwovweeksvbeforevheadingv(Yoshida,v1981)v 
+andv reachesv itsv highestv valuev atv anthesisv (Muratav andv Matsushima,v 
+1975a).v Afterv anthesis,v thev amountv rapidlyv decreasesv (Yoshida,v 1972).v 
+Thev accumulatedv carbohydratesv arev mostlyv sugarsv andv starchv (Muratav 
+andv Matsushima,v1975a).v Itv hasvexperimentallyv beenvshownv thatvthesev 
+carbohydratesvarevremobilizedvtovthevpaniclevaftervanthesisv(Muratavandv 
+Matsushima,v 1975a;v Oshima,v 1966;v Cockv andv Yoshidav 1972).v 
+Quantificationv ofv thev amountv remobilizedv carbohydratesv isv av matterv ofv 
+question.v Reportsv indicatev thatv therev isv smallv contributionv ofv thesev 
+reservesvtovthevgrainvyieldvinvwheatv(5E10%,vEvansvetval.,v1975),vmaizev 
+(20%,vDuncan,v1975),vandvbarleyv(20%,vArchboldvandvMukerjee,v1942),v 
+andv tov tuberv yieldv inv potatoesv (10%,v Moorbyv andv Milthorpe,v 1975).v 
+MuratavandvMatsushimav(1975)vreportedvthatvsuchvavcontributionvinvricev 
+yieldvmightvbevfromv0vtov71%.vCulturalvpracticesvlikevlowvlevelvofvNvand/orv 
+highv plantv densityv canv substantiallyv increasev thev mobilizationv (Yoshidav 
+andvAhn,v1968;vWada,v1969)vasvdovclimaticvfactorsvlikevlowvlightvintensityv 
+(Sogav andv Nozaki,v 1957).v Cockv andv Yoshidav (1972)v quantitativelyv 
+showedvthatv2vtvgrainvha E1vmightvcomevfromvaccumulatedvcarbohydratesv 
+whenvthevyieldvwasv7.8vtvha EIvindicatingvavcontributingvofvlittlevoverv25%.v 
+Inv thev ricev modelsv thev fractionv culmv weightv atv floweringv thatv isv 
+remobilzablev(FSTR)vcanvbevtakenvasv0.25.vThevremobilizationvprocessv 
+startsvwhenvthevgrowthvofvthevculmsvstopsvandvthevratevofvremobilizationv
+
+Pagev|v31vv
+isv takenv asv 0.1v d E1v ofv thev amountv ofv thev weightv ofv thev accumulatedv 
+reservesv (WIR)v (Penningv dev Vriesv atv el.,v 1989).v Thev amountv ofv 
+remobilizedv carbohydratesv (LSTR)v hasv beenv addedv tovthev ASAG,v thev 
+carbohydratesvavailablevforvgrowth.vThus,vthevfinalvformvofvcalculationvofv 
+ASAGvbecomes:v
+ASAGv=vGASSERMCRv+v(LSTR*1.111*0.947)v
+ASAGv isv thev amountv ofv carbohydratev availablev forv growthv 
+expressedvasvkgvDMvha E1v dE1v
+GASSvisvthevratevofvgrossvphotosynthesisvexpressedvasvkgvDMvha E1v dE1v
+RMCRvisvthevratevofvtotalvmaintenancevrespirationvexpressedvasvkgv 
+DMvha E1v dE1v
+LSTRv isv thev ratev ofv carbohydratev remobilizationv expressedv asv kgv 
+DMvha E1v dE1v
+Duringv thev processv ofv remobilizationv smallv amountv ofv energyv arev 
+requiredv(PenningvdevVriesvatvel.,v1989).v
+Thevfractionv1.111vdenotesvthevyieldvinvglucosevfromvstarchvhydrolysis.v 
+However,vnotvallvthevglucosevisvconsideredvtovbevremobilized.vItvhasvbeenv 
+reportedv thatv aboutv 5.3%v ofv glucosev isv sacrificedv duringv intercellularv 
+transportv tov providev energyv forv thisv processv (Penningv dev Vriesv atv el.,v 
+1989).v So,v thevfractionv 0.053v isv lostv andvthev remainingv 0.947vaccountsv 
+forvthevfinalvamountvofvLSTR.v
+6.4 Development 
+Developmentv refersv tov thev progressionv inv thev successivev phonologicalv 
+phasesv(vanvHeemst,v1986b;vSpittersvetval.,v1989),vregardlessvofvwhetherv 
+growthvisvgreatvorvsmallv(Lowry,v1967).vInvthevcasevofvrice,vthevchangesv 
+fromv onev stagesv tov anotherv inv sequencev arev markedv byv phenomenav 
+suchv asv emergence,v tillering,v flowering,v grainv fillingv andv grainv maturity.v
+
+Pagev|v32v
+Cropvdevelopmentvisvcharacterizedvbyvthevordervandvratevofvappearancev 
+ofv vegetativev andv reproductivev organsv (vanv Heemst,v1986b).v Althoughv 
+cropv phenologyv isv thev oldestv branchv ofv environmentalv botanyv (Legg,v 
+1981),v thev physiologicalv orv biochemicalv methodsv ofvcharacteringv andv 
+measuringvthevdevelopmentalvprocessesvarevstillvunknownvorvleastvwellv 
+understoodv (Penningv dev Vriesv etv al.,v 1989).v Thisv isv whyv explanatoryv 
+modelsv arev notv availablev forv thisv purpose.v Inv av simplifiedv way,v 
+developmentvisvexpressedvinvthevmodelvonvavnumericallyvdimensionlessv 
+scalevfromv0vtov2;v0vbeingvthevemergence,v1vandv2vbeingvanthesisvandv 
+maturityv respectivelyv (vanv Heemst,v 1986b;v Penningv dev Vriesv etv al.,v 
+1989).v Anthesisv herev refersv tov thev firstv datev whenv50%v ofv fertilev tillersv 
+carryvorvhavevcarriedvopenvflowersv(PenningvdevVriesvetval.,v1989).vvThev 
+ratevofvdevelopmentv(DVR)visvthevpartvofvthevscalevthatvaccumulatedvperv 
+unitv timev expressedv asv d E1v whereasv thev numericalv valuesv addingv thev 
+DVRv constitutev developmentv stagev (DVR)v ofv thev crop.v Inv ricev asv forv 
+othersv crops,v thev majorv environmentalv factorsv whichv affectv cropv 
+developmentv arev temperaturev andv lengthv (vanv Heemst,v 1986b).v Otherv 
+factorsvlikevwatervstressvorvnutritionvdeficiencyvusuallyvhavevavsmallveffectv 
+onv developmentv (Penningv dev Vriesv etv al.,v 1989).v Thev conceptv ofv 
+temperaturev sumv (TSUM)v relatingv developmentv ofv cropsv tov thev 
+temperaturevdatesvbackvoverv200vyearsv(Chang,v1968).vThevTSUMvisvthev 
+summationvofvdailyvmeanvtemperaturesvovervavcertainvperiodvofvgrowthv 
+orv development;v whenv thev temperaturev dropsv tov av certainv level,v thev 
+thresholdv temperature,v thev growthv orv developmentv canv bev assumedv tov 
+havevstopped.vForvexample,vthevricevcropvmayvrequirevavTSUMvofv1000v 
+tov 3000v fromv sowingv tov headingv (Toriyamav etv al.,v 1969v asv citedv byv 
+Yoshida,v1981)vandvavfurtherv800vforvripeningv(Ishizukavetval.,v1973vasv 
+citedvbyvYoshida,v1981).vTSUMvisvexpressedvasvdegreeEdaysv( /ring2/ring2 /ring2/ring2d).vThev 
+thresholdvtemperaturevforvricevgivenvasv10 0Cvforv japonica vandv12 /ring2/ring2 /ring2/ring2Cvforv 
+indica vtypev(Liangzhivetval.,v1987).vThevconceptvofvTSUMvisvalsovknownv 
+asvheatvsumv(Lowry,v1967;vChang,v1968).vUsingvthisvconcept,vthevgrowthv
+
+Pagev|v33vv
+andvdevelopmentvofvcornvhavevbeenvpredictedvsuccessfullyv(Crossvandv 
+Zuber,v1972;vBrown,v1975;vPhippsvetval,v1975;vBunting,v1976,vTollenaarv 
+etval.,v1979;vCoelhovandvDele,v1980).vItvhasvbeenvusedvinvwheatv(Vosvetv 
+al.,v 1982;v Vos,v 1985)v andv otherv modelsv (Biscoev andvWillington,v 1985).v 
+ThevapplicationvofvthevTSUMvconceptvhasvbeenvadvocatedv(Gallaghervetv 
+al.,v 1979;v Warringtonv andv Kanemasu,v 1983;v Moorby,v 1985)v duev tov itsv 
+simplicity.vHeskethvetval.v(1980b)vfoundvthatvaccountingvforvphotoperiod,v 
+TSUMv couldv adequatelyv bev usedv inv thev fieldv situation.v Thev essentialv 
+basisv ofv TSUMv isv linearityv betweenv developmentv ratev andv temperaturev 
+(Yoshida,v 1981)v andv thisv isv thev mainv drawbackv ofv thev conceptv (Jonesv 
+andvHesketh,v1980).vForvexample,vinvthevwholevgrowthvprocessvofvrice,v 
+fromv germinationv tov maturity,v somev processv mayv bev temperaturev 
+insensitive,vsomevprocessvmayvbevlinearlyvrelatedvtovtemperature,vsomev 
+logarithmicallyvdependentv(Yoshida,v1981).ThusvthevTSUMvapproachvisv 
+anv oversimplificationv (Yoshida,v 1981)v andv effortv tov developv av TSUMv 
+functionvforvthevricevgrowthvperiodvhavevnotvbeenvsuccessfulv(Liangzhivetv 
+al.,v1987).vAlternatively,vthevtemperatureveffectvonvthevdevelopmentvratev 
+(DVR)vofvricevhasvbeenvusedvinvavnonElinearvfashion.vTemperaturevhasv 
+differentveffectvinvthevvegetativevandvreproductivevstages.vThevDVRsvinv 
+thev vegetativev stagev (emergencev tov anthesis)v andv duringv thev 
+reproductivevphasevhavevbeenvcalculatedvasvthevinversevofvthevdurationv 
+ofvthevperiodvbetweenvthevstagesvatvavconstantvtemperature.vvAtv25 /ring2/ring2 /ring2/ring2C,v 
+thev constantv DVRv forv thev vegetativev phasev (DVRVC)v andv thatv forv thev 
+reproductivev phasev (DVRRC)v canv bev calculatedv accordingv tov thev 
+informationv onv thev varietyv usedv inv thev modelv (Penningv dev Vriesv etv al.,v 
+1989).v Thev relativev effectv onv DVRv duev tov variousv temperaturesv atv thev 
+vegetativev (DVRVT)v andv reproductivev (DVRRT)v stagesvcanv bev relatedv 
+usingv thev informationv fromv literature.v Oncev DVRVTv andv DVRRTv arev 
+calculated,v thev developmentv artev atv thev vegetativev(DVRV)v andv 
+reproductivev(DVRR)vstagesvcanvbevestimatedvby:vv
+DVRV=DVRVC*DVRVTv
+
+Pagev|v34v
+DVRR=DVRRC*DVRRTv
+DVRVv andv DVRRv arev thev developmentv atv vegetativev andv 
+reproductivev stages,v respectively.v DVRVCv andv DVRRCvarev thev 
+developmentvratevconstantsvatvvegetativevandvreproductivevstages,v 
+respectively.v DVRVTv andv DVRRTv arev thev developmentv ratesv 
+relativev tov temperaturev atv vegetativev andv reproductivev stages,v 
+respectively.v
+Whenvthevdevelopmentvstagev(DVS)visv1vorvbelow,vthevcropvdevelopmentv 
+ratev(DVR)vtakesvthevvaluevofvthevDVRVvandvwhenvthevDVSvisvmorevthanv 
+1,v itv assumesv thev valuev ofv thev DVRR.v Finally,v thev DVSv isv thev updatedv 
+eachvdayvbyvaddingvinitialvDVSvwithvthatvofvthevDVRvofvthatvday.vWhenv 
+thevDVSvreachesv2,vthevcropvattainsvmaturityvandvmodelvstopsvrunning.v 
+Apartvfromvthevtemperature,vthevdayvlengthvcanvinfluencevthevDVRvofvricev 
+(Vergara,v1976;vVergaravandvChang,v1976).vv
+6.5 Assimilate partitioning and growth of individual organs 
+6.5.1 Assimilate partitioning 
+Assimilatesvthatvarevavailablevforvgrowthv(ASAG)varevallottedvtovdifferentv 
+organs;vthevprocessvisvcalledvassimilatevpartitioningv(PenningvdevVriesvetv 
+al.,v1989).vInvthevpresentvmodel,vfourvplantvorgansvhavevbeenvconsideredv 
+-roots,v culms,v leavesv andv storagev organs.v Culmsv arev definedv inv av 
+functionalv ratherv thanv morphologicalv mannerv whichv includesv truev culm,v 
+leafvsheaths,vandvpetiolesv(vanvHeemst,v1986c).vLeavesvconsistsvofvonlyv 
+leafv bladesv whereasv thev storagev organsv comprisev thev wholev paniclesv 
+thatvcontainvgrains,vthevimportantveconomicvpartvofvrice.vThevdistributionv 
+patternv ofv assimilatesv isv av functionv ofv physiologicalv agev (Penningv dev 
+Vriesv etv al.,v 1989),v whichv hasv beenv expressedv inv thev modelv asv 
+developmentvstagev(DVS).vThevpatternvisvindependentvofvthevamountvofv 
+assimilatevavailable.vVanvHeemstv(1986c)vshowedvinvthevpotatovcropvthatv 
+managementvpractices,vlikevshiftingvsowingvdates,vhadvavsmallveffectvonv
+
+Pagev|v35vv
+distributionvpattern.vModeratevnutritionalvshortagevhasvavsmallveffectvonv 
+thev allocationv patternv ofv assimilatesv ofv ricev whereasv significantv 
+differencesvmayvexistvbetweenvcultivarsv(PenningvdevVriesvetval.,v1989).v 
+(PenningvdevVriesvandvhisvassociatesvalsovindicatevthatvlowvtemperaturesv 
+mayv causev abnormalv shootErootv balance.v Thev distributionv patternv ofv 
+assimilatesvusedvinvthevmodelvisvsuchvthatvinitiallyvthevmajorvsharevgoesv 
+tovrootsvandvleaves,vandvthenvtovculmsvandvfinally,vaftervfloweringvallvgov 
+tov thev storagevorgans.v Thevallocationv isvfirstv madevforv thev shootv (FSH)v 
+andv thusv thev restv remainv forv thev roots.v Fromv thev shootv fraction,v 
+distributionv isv madev tov thev leavesv (FL),v andv culmv (FC)v andv thev restv tov 
+storagevorgans.v
+6.5.2 Growth of different organs 
+Oncev assimilatesv arev readyv andv thev distributionv patternv hasv beenv 
+allocated,vthevgrowthvofvdifferentvorgansvcanvtakevplace.vHowever,vtherev 
+arev twov additionalv aspectsv tov bev consideredv inv thevgrowthv processv ofv 
+somev ofv thev organsv ofv rice.v Theyv senescencev andv accumulationv ofv 
+carbohydrates.v
+6.5.2.1 Senescence 
+Senescencev refersv tov thev lossv ofv thev capacityv tov carryv outv essentialv 
+physiologicalv processv andv tov lossv ofv biomassv (Penningv dev Vriesv etv al.,v 
+1989).v Quantitatively,v twov typesv ofv senescencev havev beenv reportedv 
+(Thornley,v 1981),v onev isv triggeredv byv thev environmentv andv thev otherv 
+endogenously.v Environmentalv factorsv suchv asv severevwaterv shortage,v 
+nutritionalv deficiencyv (Fisherv andv CharlesEEdwards,v 1982;v Bootev etv al.,v 
+1987b)vorvhighvtemperaturesv(Thronevetval.,v1967;v1968)vcanvcausevlossv 
+andv deathv ofv plantv materials.v Onv thev otherv hand,v physiologicalv aging,v 
+proteinv breakdown,v canopyv selfEshadingv (CharlesEEdwardsv andv 
+Vanderlip,v1985;vBootevetval.,v1987b;vPenningvdevVriesvetval.,v1989)varev 
+thev majorv causesv ofv senescencev underv nonEstressv conditionsv ofv plantv
+
+Pagev|v36v
+growth.vInvsuchvavsituation,vthevcomponentvofvthevplantvmostvliablevtovbev 
+affectedvisvthevleafvtissue.vInvrice,vleafvsenescencevinv indica vtypevisvfasterv 
+thanv japonica (Yoshida,v1981).vQuantificationvofvsenescencevisvnotvveryv 
+easyv asv thev processv isv notv wellv understoodv (Fishervandv CharlesE
+Edwards,v 1982).v Inv thev models,v av simplev descriptivev approachv canv bev 
+taken.v Inv rice,v vanv Keulenv (1986c)v assumedv inv hisv modelv thatv leafv 
+biomassv declinedv atv av constantv ratev ofv 0.02v kgv kg E1v dE1.v Earlier,v vanv 
+Keulenvandvhisvassociatesv(1982)vreportedvthatvavratevofv0.03vkgvkg E1vdE1v
+couldv bev usedv forv av widev rangev ofv species.v Informationv onv rootv 
+senescencev isv notv widelyv available;v however,v HerreraEReyesv andv 
+Penningv dev Vriesv (1989)v reportedv naturalv lossv ofv afterv thev floweringv ofv 
+rice.v
+6.5.2.2 Accumulation of carbohydrates 
+Itv wasv notedv earlierv thatv carbohydratesv accumulatevinv thev culms,v leafv 
+basesv andv leafv sheathsv ofv rice.v Thev causesv ofv suchvaccumulationv andv 
+thev remobilizationv processv havev alsov beenv discussed.v Itv wasv furtherv 
+indicatedvthatvthevfractionvculmvweightvatvfloweringvthatvisvremobilizablev 
+(FSTR)visv0.25.vvInvestimatingvthevaccumulation,vitvisvassumedvthatvthev 
+FSTRvfractionvofvthevculmvgrowthv(WCU)vwillvbevthevgrossvamountvofvthev 
+assimilates.v Thev accumulatedv carbohydratesv isv consideredv asv starch.v 
+So,vthevcarbonvfractionvhasvbeenvadjusted.v0.431visvthevcarbonvfractionv 
+ofv thev culmv whereasv 0.444v isv thev carbonv fractionv ofv starch.v Thev netv 
+amountv ofv accumulatesv canv bev obtainedv byv subtractin gv thev 
+remobilizationv ratev (LSTR)v fromv thatv ofv thev grossv amount.v Finally,v byv 
+addingveachvday'svprocess,vthevfinalvweightvofvthevreservesv(WIR)vcanvbev 
+updated.v
+6.5.2.3 Root growth 
+Anvestimationvofvcarbohydratevavailablevforvrootvgrowthv(CART)vcanvbev 
+obtainedvfrom:vv
+
+Pagev|v37vv
+CART=ASAGECASHv
+CARTv isv thev carbohydratev availablev forv rootv growthvexpressedv asv 
+kgvDMvha E1dE1v
+ASAGv isv thev amountv ofv carbohydratev availablev forv growthv 
+expressedvasvkgvDMvha E1vdE1v
+CASHvisvthevcarbohydratevavailablevforvshootvgrowthvexpressedvasv 
+kgvDMvha E1vdE1vv
+CASHv isv determinedv byv multiplyingv ASAGv withv thev fractionv 
+allocatedvtovthevshootsv(FSH).vNow,vthevrootvgrowthv(GRT)vcanvbev 
+workedv outv byv multiplyingv thev CARTv withv CERT,v thev conversionv 
+efficiencyvofvroot.vTakingvaccountvofvthevratevofvlossvofvrootv(LRT),v 
+thev finalv weightv ofv rootsv (WRT)v isv obtainedv asv initialv weightv plusv 
+GRTvminusvLRT.v
+6.5.2.4 Culm growth 
+Carbohydratesvavailablevforvculmvgrowthv(CACU)visvobtainedvby:vv
+CACU=CASH*FCv
+CACUvisvcarbohydratevavailablevforvculmvgrowthvexpressedvasvkgv 
+DMvha E1v dE1v
+FCvisvthevfractionvofvFSHvallocatedvtovthevculmsv
+Thevgrowthvratevofvculmsv(GCU)visvthenvcalculatedvconsideringvCECU,v 
+thev conversionv efficiencyv ofv thev culm.v Thev finalv culmv weightv (WCU)v 
+considersvthevinitialvWCUvplusvthevnonEremobilizedvportionv(1EFSTR)vofv 
+thevGCU.v
+6.5.2.5 Leaf growth 
+Estimationvofvthevcarbohydratesvavailablevforvgrowthv(CALV)visvobtainedv 
+from:v
+
+Pagev|v38v
+CALV=CASH*FLv
+CALVvisvthevcarbohydratevavailablevforvleafvgrowthvexpressvasvkgv 
+DMvha E1dE1v
+CASHv isv thev carbohydratev availablev forv growthv expressedv kgv DMv 
+ha E1dE1v
+FLvisvthevfractionvofvFSHvallocatedvtovthevleaves.v
+Thev leafv growthv ratev (GLV)v isv thenv calculatedv byv thev leafv conversionv 
+efficiency,vCELV.v
+6.5.2.6 Growth of storage organs 
+Estimationv ofv thev carbohydratesv availablev forv thev growthv ofv storagev 
+organsv(CASO)visvgivenvby:v
+CASO=vCASHECACUECALVv
+CASOv isv thev carbohydratev availablev forv growthv ofv storagev organsv 
+expressedvasvkgvDMvha E1dE1v
+CASHvisvthevcarbohydratevavailablevforvshootvgrowthvasvkgvDMvha E1v 
+dE1v
+CACUvisvthevcarbohydratevavailablevforvculmvgrowthvexpressedvasv 
+kgvDMvha E1v dE1v
+CALVvisvthevcarbohydratevavailablevforvleafvgrowthvexpressedvasvkgv 
+DMvha E1v dE1vv
+Now,vthevgrowthvratevofvstoragevorgansv(GSO)visvobtainedvbyvmultiplyingv 
+CASOvwithvthevconversionvefficiency,vCESO.vThevweightvofvthevstoragev 
+organsv(WSO)vcanvbevcalculatedvbyvaddingvthevincrementsvofvGSO.vNotv 
+allv ofv thev WSOv isv economicallyv importantv forv rice.vOnlyv 80%v ofv thev 
+paniclesvisvthoughtvtovbevthevgrainvportionvofvricev(Yoshida,v1981).vThisvisv 
+whyvthevweightvofvgrainv(WGR)visvcalculatedvbyvmultiplyingvWSOvbyv0.8.v
+
+Pagev|v39vv
+Itvhasvbeenvobservedvbeforevthatvanvunlimitedvsinkvsizevisvconsideredvinv 
+thevmodelvbutvinvrealityvmayvnotvbevpossible.vCarbohydratevproductionvinv 
+cerealsvcanvbevlimitedvbyvthevcapacityvofvthevgrainsvtovusevthemv(Cockv 
+andvYoshida,v1973;vEvansvandvWardlaw,v1976).vThisvcanvbevtakenvintov 
+accountv ifvmorphologicalvfeaturesvofv ricev canv bev modeled.vv Durationvofv 
+thevintegrationvperiodvisvimportantvinvmodelingvthevmorphologyvofvavcrop.v 
+AlthoughvwheatvmorphologyvhasvbeenvatvoneEdayvintervalsv(vanvKeulenv
+andvSeligman,v1987),vthevearlyvpartvofvtilleringvofvricevisvhardvtovsimulatev 
+properlyv withv suchv anv integrationv period.v Av quarterEdayv integrationv isv 
+better.vAsvthisvisvbeyondvthevscopevofvpresentvstudy,valternativevprocessv 
+werevtaken.vThevharvestvindexv(HI)vhasvbeenvrestrictedvtovitsvuppervlimitv 
+ofv0.55vinvconsonancevwithvthevpresentvsemiEdwarfv indica vtypesvofvricev 
+(Yoshida,v 1981);v thisv techniquev wasv successfullyv usedv byv Duav etv al.,v 
+(1990).vThevHIvcanvbevobtainedvfrom:vv
+HI=WSO/WSSv
+HIvisvthevharvestvindexv
+WSOvisvthevweightvofvstoragevorgansvexpressedvasvkgvDMvha E1dE1v
+WSSvisvthevweightvofvthevshootvstoragevorgansvexpressedvasvkgvDMv 
+ha E1dE1v
+WhenvthevHIvexceedsv0.55,vnovfurthervgrowthvofvthevstoragevorgansv 
+(GSO)vtakesvplace.v
+6.6 Initialization of rice growing processes in the nursery and 
+main paddy field 
+6.6.1 Nursery 
+Thevricevgrowingvprocessvconsideredvinvthevstudyvbeginsvinvthevnursery.v 
+Thev initialv weightsv ofv thev aboveEgroundv dryv mattervandv rootsv arev 
+necessaryvtovstartvthevprocess.vValuesvfromvthevexperimentsvnotvalwaysv 
+available.vSo,vavgeneralvapproachvofvmobilizationvofvcarbohydratesvfromv 
+seedvtovstructuralvplantvmaterialsvcanvbevadoptedv(vanvKeulen,v1986b).v
+
+Pagev|v40v
+Experimentingvwithvavnumbervofvspecies,vPenningvdevVriesvetval.v(1989)v 
+foundvthatvaboutvhalfvofvthevseedvreservesv(endosperm)varevlostvduevtov 
+respirationv andv thev restv isv dividedv equallyv betweenv shootv andv root.v 
+Tanakav andv Yamaguchiv (1968)v alsov foundv similarv findingsv forv rice.v 
+However,v thev efficiencyv attainedv inv thev fieldv situationv isv different.v Thev 
+fractionv ofv seedv reservesv mobilizedv isv oftenv incompletev andv alsov somev 
+organicv componentsv leakv intov thev soil;v thusv evenv inv av highlyv favorablev 
+germinationv conditionv onlyv 25%v ofv thev endospermv isvthoughtv tov bev 
+conversionv(CVR)visvusedvinvthevmodel.vTakingvaccountvofvthevseedvratev 
+(SEED)v andv germinationv percentagev (GERM),v thev amountv ofv availablev 
+dryvmatterv(ADG)vcanvbevcalculated.vOfvthisvADG,vthevrootvfractionv(CR)v 
+accountsv forv 60%v andv thev ratev isv forv thev leafv (CL).v Withv thesev 
+considerations,vthevweightvofvthevinitialvrootsv(WRT)vandvleavesv(WLV)visv 
+calculated.v Inv thev ricev productionv system,v seedsv thatv arev placedv inv thev 
+nurseryv bedv arev preEgerminated,v i.e.v thev developmentv processv hasv 
+begun.vThesevseedlingsvusuallyvspendvtwovdaysvinvthevpreEgerminationv 
+process,v andv thusv (ifv consideringv thev developmentv ratev (DVRVC)v asv 
+0.013,vthevinitialvDVSvcanvbevsetvasv0.026.vInitializationvofvLAIvcanvalsov 
+bev madev accordingly.v Otherv parameterv valuesv canv bevtakenv asv zero.v 
+Ricevseedlingsvbecomevautotrophicvbetweenvtwovandvthreevweeksvofvagev 
+(Yoshida,v 1981).v Thisv whyv itv isv betterv tov startv thev simulationv whenv 
+seedlingsvarevaboutv15vdaysvold.vYoshidav(1973)vshowedvcontributionvofv 
+photosynthesisv atv thev earlyv stagev ofv seedlingv growthv ofv IR8.v Suchv 
+informationv fromv thev reportv canv bev usedv tov estimatev thev lowv ratev ofv 
+utilizationvofvphotosynthesisvduringvearlyvdevelopmentvstagevofvrice.v
+6.6.2 Main paddy field 
+6.6.2.1 Reduction in population density 
+Onlyvavportionvofvbiomassvisvtransferredvfromvavhectarevofvnurseryvtovav 
+hectarevofvmainvpaddyvfield.vThevprogrammingvtovbevtransferredvcanvbev
+
+Pagev|v41vv
+donevinvavstraightvforwardvwayvtakingsvaccountvofvthevplantingvdensityvinv 
+thev mainv paddyv field,v thev SERQ,v capturingv linev tov line,v andv hillv tov hillv 
+distances,v andv alsov thev numberv ofv seedlingsv tov bev usedv inv av hill.v 
+Similarly,vthevexpectedvnumbervofvseedlingvtovbevproducedv(SEEX)vinvthev 
+nurseryv canv bev calculatedv byv consideringv thev seedv rate,v germinationv 
+percentage,v andv thev seedv weight.v Finally,v thev inversev ofv thev factorsv 
+(SEEX/SERQ)v givesv thev proportionv ofv thev dryv mattervtov bev transferredv 
+fromvthevnurseryvtovmainvpaddyvfieldv(PNTM)vduringvtransplanting.vThus,v 
+whenv thev simulatedv dayv (J)v becomesv thev transplantingv dayv (F)v thenv 
+provisionv hasv beenv madev tov takev accountv ofv PNTMv forv roots,v culm,v 
+leavesv andv culmv reserves.v Apartv fromv thev considerationv ofv normalv 
+densityvreductionv(asvdenotedvbyvPNTM),vavlossvofvdryvmattervcanvalsov 
+occurv duringv pullingv thev seedlingsv fromv thev nursery.v Thev stressv thev 
+seedlingsv sufferv duringv thisv timevoccursv immediatelyv aftervtransplantingv 
+andvisvtermedvasv'transplantingvshock',vwhichvcanvalsovbevmodelled.v
+6.6.2.2 Transplanting shock 
+Immediatelyvaftervtransplanting,vricevseedlingvshowsvavveryvslowvgrowth;v 
+thisv isv thev expressionv ofv av shockv duev tov av changev inv thev environmentv 
+fromvthevnurseryvtovthevmainvpaddyvfield.vThisvphenomenonvisvknownvasv 
+'transplantingv shock'.v Unfortunately,v thev processv involvedv inv itv arev notv 
+properlyvunderstoodv(SARP,v1987).vItvisvassumedvthatvthevshockvarisesv 
+duevtovrootvinjuryvandvleafvlossvatvthevtimevofvpullingvthevseedlingvfromvthev 
+nursery;vandvthevdegreevofvshockvdependsvonvavnumbervofvFactorsvlikev 
+agev ofv seedling,v pullingv method,v handlingv duringv transplanting,v andv 
+environmentalvfactorsv likev waterv andv airv temperatures,v soilv fertility,v andv 
+alsov varietalv characteristicsv (SARP,v 1987;v 1989b).vThev generalv 
+assumptionv isv thatv therev willv bev nov shockv ifvseedlingsv arev transplantedv 
+properly.vItvisvreportedvtherevarevdifferencesvinvinitialvgrowthvduevtovthev 
+shockv butv normallyv itv doesv notv affectv finalv yieldv (SARP,v 1987).v Thev 
+durationvofvshock,vdependingvonvthevsituation,vmayvbevasvlongvasvthreev
+
+Pagev|v42v
+weeksv orv more.v Mostv ofv thev riceEbasedv simulationv modelsv dov notv 
+considervthisvsituation,vmainlyvduevlackvofvinformationvonvthevsubjectvandv 
+becausevitvhasvlittleveffectvonvgrainvyield.vHowever,vattemptvcanvbevmadev 
+tov modelv thev phenomenon.v Inv reflectingv thev shockv pe riod,v 
+Mekwatanakarnv(1991)vsimplyvreducedvthevdevelopmentvstagev(DVS)vofv 
+ricevbyvavcertainvfactor.v
+vv
+7. MODEL EVALUATION 
+Oncev thev modelv hasv beenv constructed,v itv needsv anv evaluationv tov seev 
+howvfarvitvcanvmimicvthevrealvworldvandvhowvconfidentlyvitvthenvbevusedv 
+forvworkingvoutvdecisionsvwithvitsvassistancev(DentvandvBlackie,v1979).vInv 
+otherv worlds,v evaluationv isv donev tov judgev thev accuracyv ofv thev model.v 
+Jonesvetval.v(91987)vdefinevaccuracyvinvtermsvthreevprogressivevstages:v 
+verification,vcalibrationvandvvalidation.vv
+Verification v measuresv thev truthfulnessv orv correctnessv ofv thev modelv 
+(BakervandvCurry,v1976);vthevissuevofvprogrammingvlogicvisvquestionedv 
+herev thatv ofv thev programmer'sv intentionsv (Jonesv etval.,v 1987).v Thesev 
+philosophicalvissuesv(asvtermedvbyvDentvandvBlackie,v1979)varevhardvtov 
+quantifyv inv reality,v therebyv makingv thev processv ofvverificationv veryv 
+complex.vAvtypicalvapproachvisvtovrunvthevmodelvwithvhistoricalvinputvdatav 
+recordedvforvthevrealvsystem,vandvthenvtovcomparevthevoutputvfromvthev 
+modelv thatv ofv thev reality,v particularlyv concerningvthev modelv logicv andv 
+parametervvaluesv(BakervandvCurry,v1976).vStaticallyvtoolsvcanvbevusedv
+tov seev thev levelv ofv significance.v Ifv thev modelv doesv notv behavev asv 
+anticipated,v correctionsv arev madev tov thev modelv structure,v calledv 
+'debugging'v(BakervandvCurry,v1976;vDentvandvBlackie,v1979).vItvshouldv 
+bevthatvavverifiedvmodelvdoesvnotvmeanvthatvitv willvcorrectlyvsimulatevav 
+cropv(Whislervetval.,v1986).v
+
+Pagev|v43vv
+Modelv calibrationv isv oftenv carriedv outv withv thev verificationv (Bakerv andv 
+Curry,v1976).vItvrefersvtovthevadjustmentsvmadevtovmodelvparametersvsov 
+asvtovgivevthev'mostvaccurate'vcomparisonvbetweenvsimulatedvresultsvandv 
+resultsv obtainedv fromv fieldv measurementsv (Jonesv etval.,v 1987).v Inv 
+calibration,vavstatisticalvviewvpointvisvtaken:vsomevprobabilityvdistributionv 
+ofv thev deviationsv betweenv modelv andv experimentalv datav isv assumed,v 
+whichvtestsvtovprobabilityvdistributionvforvthevparametersv(Klepper,v1988).v
+Whenv thev modelv isv verifiedv andv calibrated,v thev validation v processv canv 
+startv (Bakerv andv Curry,v 1976;v Dentv andv Blackie,v 1979;v Whislerv etv al.,v 
+1986;v Jonesv etv al.v 1987).v Validationv isv av processv ofv assessingv thev 
+accuracyv forv av givenv purposev ofv av simulationv modelvbyv comparingv 
+model'sv predictionv withv thev independentv resultsv (Spedding,v 1975a).v 
+Independentvresultsvmeanvdatavwhichvhavevnotvbeenvusedvpreviouslyvinv 
+thevdevelopmentvofvthevmodelvorvcalibrationvprocess.vValidationvisvmainlyv 
+concernedvwithvthevusefulnessvofvthevmodelvrathervthanvitsvtruthfulnessv 
+(BakervandvCurry,v1976).vv
+Thev procedurev ofv thev validationv hasv beenv wellv describedv byv Dentv andv 
+Blackiev (1979).v v Validationv canv bev performedv firstly,v byv comparingv thev 
+behaviorvofvthevmodelvwithvthatvofvthevrealvsituationvinvavqualitativevway.v 
+Graphicalvrepresentationvinvthevconventionalvwayvtovcomparevthevresults.vv 
+Thisvsimplevprocedure,vasvDentvandvBlackiev(1979)vmention,vprovidesvav 
+'feel'v forv thev situationv andv av goodv basisv forv furtherv analysis.v Oncev thev 
+qualitativev behaviorv ofv thev modelv explainsv thev realityv sufficiently,v thev 
+quantitativev comparisonv canv bev made.v Statisticalv techniquesv suchv asv 
+simplevlinearvcanvbevappliedvtovmeasurevrelationshipsvbetweenvthevmeanv 
+modelv outputsv andv realv systemsv measures.v Suchv quantificationv alone,v 
+however,v cannotv explainv allv thev discrepanciesv preciselyv (Dentv andv 
+Blackie,v1979);vtherefore,vthevmodelvcannotvbevprovedvtovbevcorrectvorv 
+incorrectv (Penningv dev Vries,v 1977).v Thusv subjectivev interpretationv andv
+assessmentv arev oftenv necessaryv asv well.v Thisv isv whyv itv isv arguedv thatv
+
+Pagev|v44v
+modelvevaluationvisvessentiallyvavsubjectivevprocedurev(Anderson,v1972v 
+quotedvbyvdevCastro,v1988).vv
+Thevtestvofvvalidityvinvanyvcropvsimulationvmodelvshouldvnotvbevperformedv 
+onlyv atv thev levelv ofv itsv finalv predictionv suchv asv grainv yield.v Itv mayv sov 
+happensvthatvthevmodelvisvpredictingvthevbehaviorvfortuitouslyvevenvwhenv 
+somevofvthevunderlyingvassumptionsvarevwrongvbecausevitvisvinsensitivev 
+tovthemvorvbecausevthevinEbuiltverrorsvcancelvoutv(CharlesEEdwardsvandv 
+Vanderlip,v 1985).v So,v informationv onv intermediatev levelsv mayv alsov bev 
+crucialvvvvforvmodelvtesting.vValidationvofvavcropvmodelvisvavcontinuousv 
+process.vOnvonevhand,vcropvmodelsvarevjustvworkingvhypothesesvandvitv 
+isv neverv possiblev tov provev av hypothesisv absolutelyvcorrectv inv sciencev 
+(Whislervetval.,v1986).vOnvthevothervhand,vevenvforvestablishedvmodels,v 
+updatev isv madev suchv asv byv incorporatingv morev managementv variablesv 
+whichvneedsvfurthervassessmentv(DentvandvBlackie,v1979).v
+v
+8. SENSITIVITY ANALYSIS 
+Sensitivityv testsv howv responsivev thev modelv isv tov changesv inv certainv 
+variablesvandvparametersv(Whislervetval.,v1986).vThevpurposevisvtovstudyv 
+thev behaviorv ofv thev modelv (Jonesv etv al.v 1987).v Throughv thev test,v 
+sensitivityvparametersvarevidentified.vAvsensitivevparametervisvonevwhichv 
+causesvmajorvchangevinvthevmodelvoutputv(DentvandvBlackie,v1979).vItvisv 
+alsov helpsv tov identifyv thev prioritiesv forv conventionalv researchv programv 
+associatedvwithvthevsystem.vThisvisvwhyvthevsensitivityvanalysisvisvcalledv 
+'av toolv forv agriculturalv researchv guidance'v (dev Castro,v 1988).v Itv alsov 
+justifiedv thev logicv ofv considerationv ofv thev inputv andv parametersv inv thev 
+studyvofvthevsystem.vSensitivityvanalysisvisvperformedvwithvthevmodelvthatv 
+hasv beenv fullyv orv partiallyv validated.v Sensitivityvanalysisv isv dependsv onv 
+thevobjectivevofvthevstudy.vInvsomevcasesvtherevisvlittlevneedvtovcarryvoutv 
+thevtestvifvavgivenvparametervisvnotvimportantvasvfarvasvthevusevofvavgivenv 
+modelv isv concernedv (Dentv andv Blackie,v 1979).v Whenv thev analysisv
+
+Pagev|v45vv
+consistsvofvexaminingvtheveffectvofvthevuncertaintyvinvmodelvparametersvitv 
+isv calledv 'finev sensitivityv analysesv andv ofv thev uncertaintyv inv thev modelv 
+structurev thenv itv isv calledv 'coarsev sensitivityv analysis'v (Rossingv etv al.,v 
+1989).v
+Thevprocessvofvthevanalysisvstartsvwithvthevselectionvofvthevmodelvoutputsv 
+thatvarevconsideredvtovbevcrucialvthevstudyv(Jonesvetval.v1987).vThenvanv 
+individualv inputv variablev orv parameterv isv changedv tov av certainv degree,v 
+holdingvthevothersvconstantv(Whislervetval.,v1986).vThevcertainvdegreevisv 
+thev 'rangev ofv thev values'v selectedv representingv thev extremev conditionsv 
+associatedvwithveachvparametervtovbevevaluatedv(Jonesvetval.v1987).vThev 
+modelv isv thenv runv andv thev resultsv arev obtained.v Resultsv obtainedv fromv 
+thevanalysisvcanvbevrepresentedvbyvgraphsvshowingvthevchangesvinvthev 
+outputvovervthevrangevofvvaluesvofvparametersvorvinputs.vExpressionvofv 
+thev resultsv inv termsv ofv relativev sensitivityv isv oftenv usedv tov showv thev 
+sensitivityv (Jonesv etv al.v 1987;v Rossingv etv al.,v 1989).v Jonesv andv hisv 
+associatesv(1987)vindicatevthevpossibilityvofvanothervapproachvbyvusingv 
+regressionv analysisv orv responsev surfacev techniquesvinv whichv thev 
+simulationv resultsv arev regressedv againstv onev orv morev parametersv overv 
+thevrangevofvinterest.v
+v
+9. BASIC DATA TO BE REQUIRED FOR MODEL 
+DEVELOPMENT AND VALIDATION 
+Weather data (daily) closer to experimental fields 
+/ring2v Maximumvandvminimumvairvtemperaturesv
+/ring2v Rainfallv
+/ring2v Relativevhumidityv
+/ring2v Solarvradiationv/vSunshinevhoursv
+
+Pagev|v46v
+Crop phenology 
+/ring2v Identificationv ofv cropv developmentv stagesv andv theirv 
+durationsv(invcalendarvday)v-vvarietyvbyvvariety.vMostvofvthev 
+cropsvhavevpreEdefinedvstages,vsuchvasvforvrice,vbeginningv 
+ofv tillering,v maximumv tillering,v paniclev initiation,v floweringv 
+andvmaturity.vForvsomevcropsvlikevjute,vstagesvofvvegetativev 
+phasev arev notv wellv defined.v Inv suchv cases,v onev needsv tov 
+definevthevstagesvinvconsultationvwithvfellowvscientists;vdatav 
+collectionvcanvbevdonevaccordingly.v
+Crop growth 
+/ring2v Dryv matterv ofv plantv partsv (roots,v stem,v leavesv etc);v 
+economicv organsv preferablyv everyv 14v daysv -v panicles,v 
+grains,vbarkv(jute),vstickv(jute),vtuberv(potato),vcobv(maize)v 
+etc.v
+/ring2v Leafvarevindexv(LAI)vpreferablyveveryv14vdays.v
+/ring2v Finalvweightvofvharvestvorgansvpanicles,vgrains,vbarkv(jute),v 
+stickv (jute),v tuberv (potato),v cobv (maize)v etcv withvrecordv ofv 
+moisturevcontent.v
+vv
+
+Pagev|v47vv
+10. LITERATURE CITED AND ADDITIONAL LITERATURE 
+FOR FURTHER CONSULTATION 
+Amthor,vJ.S.v(1984).vThevrolevofvmaintenancevrespirationvinvplantvgrowth.v 
+Plant,vCellvandvEnvironment,v7:v561E569.v
+Anderson,v J.R.v (1972).v Economicv modelsv andv agriculturalv productionv 
+systems.vProc.vAust.vSoc.vAnim.vProd.,v9:v77E83.v
+Angstrom,vA.v(1924).vSolarvandvterrestrialvradiation. QuarterlyvJournalvofv 
+thevRoyalvMeteorologicalvSociety,v50:v121E126. 
+Angus,v J.F.v andv Zandstra,v H.G.v (1979).v Climaticv factorsv andv thev 
+modelingv ofv ricev growthv andv yield.v Pages:v v 189E199.v In:v Agrov 
+meteorologyv ofv thev ricev crop.v Philippines,v Losv Banos:v v Worldv 
+Meteorologicalv Organizationv andv Internationalv RicevResearchv 
+Institute.v
+Archbold,vH.K.vandvMukerjee,vB.N.v(1942).vPhysiologicalvstudiesvinvplantv 
+nutrition.vAnnalsvofvBotany,v6:v1E41.v
+Baker,vC.H.vandvCurry,vR.B.v(1976).vStructurevofvagriculturalvsimulation:vv 
+avphilosophicalvview.vAgriculturalvSystems,v1:v201E218.v
+Barnes,v A.v andv Hole,v C.C.v (1978).v Av theoreticalv basisv ofv growthv andv 
+maintenancevrespiration.vAnnalsvofvBotany,v42:v1217E1221.v
+Bauer,v H.,v Larcher,v W.v andv Walker,v R.B.v (1975).v Influencev ofv 
+temperaturev stressv onv CO 2Egasv exchange.v Pagesv 557E586.v In:vv 
+Cooper,v J.P.v (ed),v Photosynthesisv andv productivityvinv differentv 
+environment.vCambridge:vvCambridgevUniversityvPress.v
+Bell,vC.J.v(1987).vThevtestingvandvvalidationvofvthevmodels.vPagesv299E
+309.In:v v Rose,v D.A.v andv CharlessEEdwards,v D.A.v (eds),v 
+Mathematicsvandvplantvphysiology.vLondon:vvAcademicvPress.v
+
+Pagev|v48v
+Berkhuot,v J.A.A.v andv Keulen,v H.v vanv (1986).v Potenti alv 
+evapotranspiration.vPagesv63E75.vIn:vvKeulen,vH.vvanvandvWolf,vJ.v 
+(eds),v Modelingv ofv agriculturalv production:v v weather,v soilv andv 
+crops.vWageningen:vvvPudoc.v
+Biscoe,vP.V.vandvWillington,vV.B.A.v(1985).vCropvphysiologicalvstudiesvinv 
+relationvtovmathematicalvmodels.vPagesv257E269.vIn:vvDay,vW.vandv 
+Atkin,vR.Kv(eds),vWheatvgrowthvandvmodeling.vNATOvASIvSeriesv 
+A86.vNewvYorkvandvLondon:vvPlenumvPress.v
+Black,vJ.N.,vBonython,vC.W.vandvPresscott,vG.A.v(1954).vSolarvradiationv 
+andv thev durationv ofv sunshine.v Quarterlyv Journalv ofvthev Royalv 
+MeteorologicalvSociety,v80:v231E235.v
+Boote,v K.J.,v Wilkerson,v G.G.,v Jones,v J.W.v andv Mishe,v J.W.v (1987a).v 
+Modelingvdryvweightvgain.vPagesv8E15.vIn:vvSimulationvmodelsvforv 
+soybeansv andv otherv crops.v FFTCv TBv 106.v Taiwan,v Taipeiv City:vv 
+FoodvandvFertilizervTechnologyvCenter.v
+Boote,v K.J.,v Wilkerson,v G.G.v andv Jones,v J.W.v (1987b).v Modelingv podv 
+addition,v shellv growth,v andv seedv growth.v Pagesv 16E24.v In:vv 
+Simulationvmodelsvforvsoybeansvandvothervcrops.vFFTCvTBv106.v 
+Taiwan,vTaipeivCity:vvFoodvandvFertilizervTechnologyvCenter.v
+Brockington,v N.R.v (1979).v Computerv modelingv inv agriculture.v Oxford:vv 
+OxfordvUniversityvPress.156vppv
+Brown,vD.M.v(1975).vHeatvunitsvforvcornvinvSouthernvOntario.vFactvsheetv 
+AGDEXv 111/31,v Orderv No.75E007.v Canada:v v Ontariov Ministryv ofv 
+AgriculturevandvFood.v
+Bunting,vE.S.v(1976).vAccumulatedvtemperaturevandvmaizevdevelopmentv 
+invEngland.vJ.vAgric.vSci.vCamb.,v87:v577E583.v
+
+Pagev|v49vv
+Castro,vA.M.Gvdev(1988).vAvsystemvapproachvtovdeterminingvprioritiesvforv 
+naturalv rubberv researchv inv Brazil.v Ph.Dv Thesis.v Departmentv ofv 
+Agriculture,vUniversityvofvReading,vUK.v290vpp.v
+Catrileo,v A.R.v (1990).v Beefv productionv systemsv fromv grasslandEarablev 
+farmsv inv Southv Chile.v Ph.D.v Thesis.v Departmentv ofv Agriculture,v 
+UniversityvofvReading,vU.K.v213vpp.v
+Chang,v J.H.v (1968).Climatev andv agriculture.v Anv ecologicalv survey.v 
+Illinois,vChicago:vvAldinevPublishingvCompany.v304vpp.v
+Chanter,vD.O.v(1981).vvThevusevandvmisusevofvlinearvregressionvmethodsv 
+inv cropv modeling.v Pagesv 253E267.v In:v v Rose,v D.A.v andv CharlesE
+Edwards,vD.A.v(eds),vMathematicsvandvplantvphysiology.vLondon:vv 
+AcademicvPress.v
+CharlesEEdwards,v D.A.v (1982).v Physiologicalv determinantsv ofv cropv 
+growth.vAustralia,vNewvYork,vLondon:vvAcademicvPress.v161vpp.v
+CharlesEEdwards,v D.A.v andv Vanderlip,v R.L.v (1985).v Interfacingv thev 
+analysisv andv synthesisv ofv cropv growthv performance.vPagesv 275E
+291.v In:v v Day,v W.v andv Atkin,v R.Kv (eds),v Wheatv growthv andv 
+modeling.vNATOvASIvSeriesvA86.vNewvYorkvandvLondon:vvPlenumv 
+Press.v
+Churchman,v C.W.v (1971).v Thev designv ofv inquiryv systems:v v basicv 
+conceptsvofvsystemsvandvorganization.vNewvYork:vvBasicvBooks.v
+Cock,v J.v H.v andv Yoshidav A.v S.v (1972).v Accumulationvofv 14 CElabelledv 
+carbohydratev beforev floweringv andv thev subsequentv redistributionv 
+andv respirationv inv thev ricev plantv Proc.v Cropv Sci.v Soc.v Jpn.,v 41:v 
+226E234.v
+Cock,vJ.H.vandvYoshidavA.S.v(1973).vChangingvsinkvandvsourcevrelationsv 
+inv ricev ( Oryza sativa v L.)v usingv carbondioxydev enrichmentv inv thev 
+respirationvinvthevricevplant.vProc.vCrop.vSci.vJpn.,v41:v226E234v
+
+Pagev|v50v
+Coelho,vD.T.vandvDale,vR.F.v(1980).vAnvenergyEcropvgrowthvvariablevandv 
+temperaturev functionv forv predictingv cornv growthv developmentE
+plantingvtovsilking.vAgronomyvJournal,v72:v503E510.v
+Conway,v G.R.v (1985).v Agrov ecosystemv analysis.v Agric ulturalv 
+Administration,v20:v31E55.v
+Cooper,v J.P.v (1975).v Controlv ofv photosyntheticv productionv inv terrestrialv 
+systems.vPagesv593E621.vInvCOOPER,vJ.P.v(ed),vPhotosynthesisv 
+andvproductivityvinvdifferentvenvironment.vCambridge:vvCambridgev 
+UniversityvPress.v
+Cross,vH.Z.vandvZuber,vM.S.v(1972).Predictingvfloweringvdatesvinvmaizev 
+basedvonvdifferentvmethodsvofvestimatingvthermalvunits.vAgronomyv 
+Journal,v64:v351E355.v
+Day,vW.v(1985).vWheatvgrowthvandvmodeling:vvanvintroduction.Pages1E5.v 
+In:v v Day,vW.v andv Atkin,v R.Kv (eds),vWheatv growthv andv modeling.v 
+NATOvASIvSeriesvA86.NewvYorkvandvLondon:vvPlenumvPress.vv
+Dent,v J.B.v andv Blackie,v M.J.v (1979).v Systemv simulationv inv agriculture.v 
+London:vvAppliedvSciencevPublishersvLtd.v180vpp.v
+Dingkuhn,vM.,vPenningvdevVries,vF.W.T.,vDevDatta,vS.K.vandvLaar,vH.H.v 
+vanv(1990).vNewvplantvtypevconceptsvforvseededvfloodedvtropicalv 
+rice.vPapervpresentedvatvthevInternationalvRicevResearchvInstitutev 
+Conference.vAugustv1990,vSeoul,vSouthvKorea.v
+Driessen,v P.M.v (1986).v Thev collectionv andv treatmentv ofv basicv data:vv 
+Introduction.v Pagesv 203E207.v In:v v Keulen,v H.v vanv andv OWLF,v J.v 
+(eds),v Modelingv ofv agriculturalv production:v v weather,v soilv andv 
+crops.vWageningen:vvPudoc.v
+Dua,vA.B.,vPenningvdevVries,vF.W.T.vandvSeshu,vD.V.v(1990).vSimulationv 
+tovsupportvevaluationvofvthevproductionvpotentialvofvricevvarietiesvinv 
+tropicalvclimates.vTransactionvofvthevASAE,v33(4):vv1145E1194.v
+
+Pagev|v51vv
+Duncan,vW.G.v(1975).vMaize.vPagesv23E25.vIn:vvEvans,vL.T.v(ed),vCropv 
+physiology.vCambridge:vvCambridgevUniversityvPress.v
+Evans,vL.T.v(1975a).vThevphysiologicalvbasisvofvcropvyield.vPagesv327E
+355.v In:v v Evans,v L.T.v (ed),v cropv physiology.v Cambridge:vv 
+CambridgevUniversityvPress.v
+Evans,v L.T.v (1975b).v Beyondv photosynthesisv Ev thev rolev ofv respiration,v 
+translocationv andv growthv potentialv inv determiningv productivity.v 
+Pagesv 501E507.v In:v v Cooper,v J.P.v (ed),v Photosynthesisv andv 
+productivityv inv differentv environment.v Cambridge:v vCambridgev 
+UniversityvPress.v
+Evans,v L.T.v andv Wardlaw,v I.F.v (1976).v Aspectsv ofv comparativev 
+physiologyv ofv grainv yieldv inv cereals.v Advancesv inv Agronomy,v 28:v 
+301E359.v
+Evans,vL.T.,vWardlaw,vI.F.vandvFischer,vR.A.v(1975).vWheat.vPagesv101E
+149.v In:v v Evans,v L.T.v (ed),v Cropv physiology.v Cambridge:vv 
+CambridgevUniversityvPress.v
+Fischer,v R.A.v (1985).v Thev rolev ofv cropv simulationv modelsv inv wheatv 
+agronomy.v Pagesv 237E255.v In:v v Day,v W.v andv Atkin,v R.Kv (eds),v 
+Wheatv growthv andv modeling.v NATOv ASIv Seriesv A86.NewvYorkv 
+andvLondon:vvPlenumvPress.vv
+Fisher,v M.J.v andv CharlesEEdwards,v D.A.v (1982).v Av physiologicalv 
+approachv tov thev analysisv ofv cropv growthv data.v III.vThev effectsv ofv 
+repeatedv shortEtermv soilv waterv deficitsv onv thev growthv ofv spacedv 
+plantsv ofv thev legumev Macroptilium atropurpureum cv .v Sratro.v 
+AnnalsvofvBotany,v49:v341E346.v
+France,v J.v andv Thornley,v J.H.M.v (1984).v Mathematicalv Modelsv inv 
+Agriculture.vLondon:vvButterworths.v335vpp.v
+
+Pagev|v52v
+Fukai,v S.,v Koh,v S.v andv Kumura,v A.v (1976).v Dryv matterv productionv andv 
+photosynthesisvofv Hordeum vulgarevL.vinvthevfield.vJ.vAppl.vEcol.,v 
+13:v877E887.v
+Gallagher,vJ.N.,vBiscoe,vP.V.vandvWallace,vJ.S.v(1979).vFieldvstudiesvofv 
+cerealvleafvgrowth.vIV.vWintervwheatvleafvextensionvinvrelationvtov 
+temperaturevandvleafvwatervstatus.vJ.vExp.vBot.,v30:v657E668.v
+Glover,vJ.vandvMcCulloch,vJ.S.G.v(1958).vThevempiricalvrelationvbetweenv 
+solarv radiationv andv hoursv ofv sunshine.v Quarterlyv Journalv ofv thev 
+RoyalvMeteorologicalvSociety,v84:v172E175.v
+Glover,vP.S.vandvShahi,vH.N.v(1986).vNitrogenvusevefficiencyvinvrelationv 
+tov seedlingv agev andv transplantingv time.v Internationalv Ricev 
+ResearchvNewsletter,v11(1):v28.v
+Goudriaan,v J.v (1977).v Cropv micrometeorology:v v av simulationv study.v 
+SimulationvMonographs.vWageningen:vvPudoc.v249vpp.v
+Gourdiaan,v J.v andv Laar,v H.H.v vanv (1978).v Calculationv ofv dailyv totalsv ofv 
+thev grossv CO 2v assimilationv ofv thev leafv canopies.v Netherlandsv 
+JournalvofvAgriculturalvScience,v26:v373E382.v
+Graf,vB.,vDingkuhn,vM.,vSchnier,vF.,vCoronel,vV.vandvAkita,vS.v(1991).vAv 
+simulationv modelv forv thev dynamicsv ofv ricev growthv an dv 
+development:v v III.v Validationv ofv thev modelv withv highEyieldingv 
+varieties.vAgriculturalvScience,v36:v329E349.v
+Greenwood,vD.J.vandvBarnes,vA.v(1978).vAvtheoreticalvmodelvforvdeclinev 
+inv thev proteinv contentsv inv plantsv duringv growth.v J.v Agric.v Sci.v 
+Camb.,v91:v461E466.v
+Greenwood,v E.A.N.,v Goodall,v D.W.v andv Titmanis,v Z.V.v (1965).v Thev 
+measurementv ofv nitrogenv deficiencyv inv grassv swards.v Plantv andv 
+Soil,v23:v97E116.v
+
+Pagev|v53vv
+Hayashi,v K.v andv Ito,v H.v (1962).v Studiesv onv thev formv ofv plantv inv ricev 
+varietiesv withv particularv referencev tov thev efficiencyv inv utilizingv 
+sunlight.v I.v Thev significancev ofv extinctionv coefficientv inv ricev plantv 
+communities.vProc.vCropvSci.vJpn.,v30:v329E333.v
+Hedge,v B.A.v andv Joshi,v G.V.v (1974).v Patternv ofv photosynthesisv inv av 
+salinev indicav var.v ofv ricev kalav rata.v Pagesv 755E763.In:v v Thev 
+Proceedingv ofv thev symposiumv onv usev ofv radiationsv andv 
+radioisotopesvinvstudiesvofvplantvproductivity.vIndia:vvPantnagar.v
+Heemst,v H.D.J.v vanv (1986a).v Potentialv cropv production:v v physiologicalv 
+principles.v Pagesv 13E26.In:v v Keulen,v H.v vanv andv Wolf,v J.v (eds),v 
+Modelingv ofv agriculturalv production:v v weather,v soilv andv crops.v 
+Wageningen:vvPudoc.v
+Heemst,vH.D.J.vvanv(1986b).vCropvphenologyvandvdryvmattervdistribution.v 
+Pagesv27E40.vIn:vvKeulen,vH.vvanvandvWolf,vJ.v(eds),vModelingvofv 
+agriculturalv production:v v weather,v soilv andv crops.vWageningen:vv 
+Pudoc.v
+Heemst,vH.D.J.vvanv(1986c).vThevdistributionvofvdryvmattervduringvgrowthv 
+ofvavpotatovcrop.vPotatovResearch,v29:v55E66.v
+HerreraEReyes,vC.G.v(1991).vHistoryvofvmodelingvatvIRRI.vPagesv5E9.vInv 
+PenningvdevVries,vF.W.T.,vKropff,vM.J.,vTeng,vP.S.vandvKirk,vJ.D.v 
+(eds),v Systemsv Simulationv atv IRRIv Researchv Paperv Seriesv No.v 
+151.v Philippines,v Losv Banos:v v v Internationalv Ricev Researchv 
+Institute.v
+HerreraEReyes,vC.G.vandvPenningvdevVries,vF.W.T.v(1989).vEvaluationvofv 
+avmodelvforvsimulationvthevpotentialvproductionvofvrice.vPhilippinev 
+JournalvofvCropvScience,v14v(1):vv21E32.v
+
+Pagev|v54v
+Hesketh,v J.D.v andv Jones,v J.W.v (1980).v Integratingv traditionalv growthv 
+analysisvtechniquesvwithvrecentvmodelingvofvcarbonvandvnitrogenv 
+metabolism.v Pagesv 51E92.v In:v v Hesketh,v J.D.v andv Jones,v J.Wv 
+eds),vpredictingvphotosynthesisvforvecosystemvmodels,vI.vFlorida,v 
+BocavRaton:vvCRCvPress.v
+Hesketh,v J.D.,v Baker,v D.N.,v andv Duncan,v W.G.v (1971).v Simulationv ofv 
+growthvandvyieldvinvcotton:vvrespirationvandvcarbonvbalance.vCropv 
+Science,v9:v483E486.v
+Hesketh,v J.D.,v Alberre,v R.S.v andv Jones,v J.W.v (1980a).v Predictionv darkv 
+respirationv inv thev soilEplantv system.v Pagesv 69E84.In:v v Hesketh,v 
+J.D.v andv Jones,v J.W.v (eds),v Predictingv photosynthesisv forv 
+ecosystemvmodels,vII.vFlorida,vBocavRaton:vvCRCvPress.v
+Hesketh,v J.D.,v Rlmore,v J.D.v andv Jones,v J.W.v (1980b).v Predictingv 
+floweringv andv subsequentv leafv expansion.v Pagesv 123E131.In:vv 
+Hesketh,vJ.D.vandvJones,vJ.W.v(eds),vPredictingvphosynthesisvforv 
+ecosystemvmodels,vII.vFlorida,vBocavRaton:vvCRCvPress.v
+Horie,v T.v (1979).v Thev loessv andv thev originv ofv Chinesev agriculture.v Am.v 
+Hist.vRev.,v75:v1E36.v
+Horie,v T.v (1987).v Dynamicv modelsv forv evaluatingv andv predictingv thev 
+growthvandvyieldvofvricevandvsunflowervcropsvfromvweather.vFFTCv 
+TBv 99.v Taiwan,v Tapeiv City.v Foodv andv Fertilizerv Technologyv 
+Center.v13vpp.v
+Horie,v T.v andv Sakuratani,v T.v (1985).v Studiesv onv cropEweatherv 
+relationshipv modelv inv rice.v (1)v Relationshipv betweenv absorbedv 
+solarvradiationvbyvthevcropvandvthevdryvmattervproduction.vJournalv 
+ofvAgriculturalvMeteorology,vTokyo,v40:v331E342.vvv
+
+Pagev|v55vv
+Inada,v K.v (1967).v Physiologicalv characteristicsv ofvricev roots,v especiallyv 
+withvthevviewEpointvofvplantvgrowthvstagevandvrootvage.vBull.vNat.v 
+Inst.vAgr.vSci.vJapan,vSer.D.16:v19E156.v
+IRRIv (1972).v Annualv Reportv forv 1971.Philippines,v Lossv Banos:vv 
+InternationalvRicevResearchvInstitute.v
+IRRIv(1980).vAgrovmeteorologyvofvthevRicevCrop.vPhilippines,vLosvBanos:vv 
+Worldv Meteorologicalv Organizationv andv International v Ricev 
+ResearchvInstitute.v254vpp.v
+Ishizuka,v Y.,v Shimazki,v Y.,v tanaka,v A.,v Satake,v T.vandv Nakayama,v T.v 
+(1973).vRicevgrowingvinvavcoolvenvironment.vTaiwan,vTaipeivCity:vv 
+Foodvandv Fertilizerv Technologyv Center,v Asianv andv Southv Pacificv 
+Council.v98vpp.v
+Ito,v A.v (1969).v Geometricalv structurev ofv ricev canopyv andv penetrationv ofv 
+directvsolarvradiation.vProc.vCropvSci.vSoc.vJpn.,v38:v355E363.v
+Johnson,v I.R.v andv Thornley,v J.H.M.v (1983).v Vegetativev cropv growthv 
+modelv incorporationv leafv areav expansionv andv senescence,v andv 
+appliedvtovgrass.vPlant,vCellvandvEnvironment.6:v721E729.v
+Jones,vJ.WvandvHesketh,vJ.D.v(1980).vPredictingvleafvexpansion.vPagesv 
+85E122.In:v v Hesketh,v J.Dv andv Jones,v J.W.v (eds),v Predictingv 
+photosynthesisv forv ecosystemv models.v II.v Florida,v Bocav Raton:vv 
+CRCvPress.v
+Jones,v J.W.,v Mishoe,v J.W.v andv Boote,v K.J.v (1987).v Introductionv tov 
+simulationv andv modeling.v FFTCv TBv 100.v Taiwan,v Taipeiv City:vv 
+FoodvandvfertilizervTechnologyvCenter.v
+Kabaki,v N.,v Yoneyama,v T.v andv Tajima,v K.v (1982).v Physiologicalv 
+mechanismvofvgrowthvretardationvinvricevseedlingsvasvaffectedvbyv 
+lowvtemperature.vJapan.vJour.vCropvSci.,v51(1):v82E88.v
+
+Pagev|v56v
+Kase,vM.vandvCatsky,vJ.v(1984).vMaintenancevandvgrowthvcomponentsvofv 
+darkvrespirationvratevinvleavesvofvC 3vandvC 4vplantsvasvaffectedvbyv 
+leafvtemperature.vBiologiavPlantarum,v26:v461E470.v
+Keulen,vH.vvanv(1976).vAvcalculationvmethodvforvpotentialvricevproduction.v 
+Contributionsv ofv thev Centralv Researchv Institutev for v 
+Agriculture.NO.21.Indonesia,vBogor:vvvCentralvResearchvInstitutev 
+forvAgriculture.v26vpp.v
+Keulen,v H.v vanv (1986a).v Av simplev modelv ofv potentialv cropv production.v 
+Pagesv41E60.vIn:vvKeulen,vH.vvanvandvWolf,vJ.v(eds),vModelingvofv 
+Agriculturalv production:v v weather,v soilv andv crops.vWageningen:vv 
+Pudoc.v
+Keulen,v H.v vanv (1986b).v Thev collectionv andv treatmentv ofv basicv data:vv 
+Plantvdata.vPagesv235E247.In:vvKeuken,vH.vvanvandvWolf,vJ.v(eds),v 
+Modelingv ofv agriculturalv production:v v weather,v soilv andv crops.v 
+Wageningen:vvPudoc.v
+Keulen,v H.v vanv andv Seligman,v N.G.v (1987).v Simulationv ofv waterv use,v 
+nitrogenvnutritionvandvgrowthvofvspringvwheatvcrop.vWageningen:vv 
+Pudoc.v310vpp.v
+Keulen,vH.vvan,vLouwerse,vW.,vSimba,vL.vandvAlberda,vT.H.v(1975).vCropv 
+simulationvandvexperimentalvevaluationEvavcasevstudy.vPagesv623E
+643.vIn:vvCOOPER,vJ.P.v(ed.),vPhotosynthesisvandvproductivityvinv 
+differentvenvironment.vCambridge:vvCambridgevUniversityvPress.v
+Keulen,v H.v van,v Penningv dev Vries,v F.W.T.,v andv Drees,v E.M.v (1982).v Av 
+summeryvmodelvforvcropvgrowth.vPagesv87E97.In:vvPENNINGvdev 
+Vries,vF.W.T.vandvLaar,vH.H.vvanv(eds),vSimulationvofvplantvgrowthv 
+andv cropv production.v Simulationv monographs.v Wageningen:vv 
+Pudoc.vv
+
+Pagev|v57vv
+Kishitani,vS.vandvTsunoda,vS.v(1974).vEffectvofvlowvandvhighvtemperaturev 
+pretreatmentvonvleafvphotosynthesisvandvtranspirationvinvcultivarsv 
+ofv Oryza sativa. vPhotosynthetica,v8(3):v161E167.v
+Klepper,vO.v(1988).vAvmodelvofvcarbonvflowsvinvrelationvtovmacrobenthicv 
+foodv supplyv inv thev Oosterschedlev estuaryv (S.W.v Netherlands).v 
+Ph.D.vThesis,vWageningenvAgriculturalvUniversity:vv270vpp.vv
+Lake,v J.V.v andv Anderson,v M.C.v (1970).v Discussion:v vDynamicsv ofv 
+developmentv ofv photosyntheticv systems.v Pagesv 131E136.v In:vv 
+Predictionv andv measurementv ofv photosyntheticv productivity.v 
+Wageningen:vvPudoc.v
+Larcher,v W.v (1973).Limitingv temperaturesv forv lifev function.v Pagesv 195E
+231.v In:v v Precht,v H.v Christopherson,v J.,v Hensel,v H.v andv Larcher,v 
+W.v(eds),vTemperaturevandvlife.vBerlin:vvSpringerEVerlag.v
+Lee,v M.H.v andv Shin,v J.C.v (1989).v Simulationv ofv potentialv productionv ofv 
+ricev plantv underv lowv temperaturev conditions.v In:v v vanv Laar,v H.H.v 
+tenvBerge,vH.F.M.,vJansen,vD.M.,vdevJong,vP.D.vandvPenningvdev 
+Vries,v F.W.T.v (eds),v Casev studiesv inv cropv growthv Simulation,v 
+Februaryv 1988EJanuaryv 1989.v Philippines,v Losv Banos: vv 
+Internationalv Ricev Researchv Institute,v Thev Netherla nds,v 
+Wageningen:v v Centrev forv Agrov biologicalv Researchv andv 
+Departmentv ofv Theoreticalv Productionv Ecologyv ofv Wageningenv 
+AgriculturalvUniversity.v
+Legg,v B.J.v (1981).Aerialv environmentv andv cropv growth.v Pagesv 129E
+149.In:vvRose,vD.AvandvCharlesEEdwards,vD.Av(eds),vMathematicsv 
+andvPlantvphysiology.vLondon:vvAcademicvPress.v
+Liangzhi,vG.,vZhiqing,vJ.vandvLin,vL.v(1987).vPhotothermalvmodelsvofvricev 
+growthv durationv forv threev varietalv typesv inv china.vPagesv 301E
+
+Pagev|v58v
+308.In:vvWeathervandvrice.vPhilippines,vLosvBanos:vvInternationalv 
+RicevResearchvInstitute.v
+Lowry,v W.P.v (1967).v Weatherv andv life:v v anv introduct ionv tov 
+biometeorology.v Newv Yorkv andv London:v v Academicv Press.v 305v 
+pp.v
+Makino,v A.,v Mae,v T.v andv Ohira,v K.v (1984).v Changesv inv photosyntheticv 
+capacityv inv ricev leavesv fromv emergencev throughv senescence.v 
+Analysisv fromv RibuloseE1,v 5v biphoshapev carboxylasevandv leafv 
+conductance.vPlantvandvCellvPhysiol.,v25(3):v511E521.v
+Marcellos,v H.v (1977).v Wheatv frostv injuryEfreezingv s tressv andv 
+photosynthesis.vAust.vJ.vAgric.vRes.,v28:v557E564.v
+McCree,v K.J.v (1970).Anv equationv forv thev ratev ofv respirationv ofv whitev 
+clovervplantsvgrownvundervcontrolledvconditions.vPagesv221E229.v 
+In:v v Predictionv andv measurementv ofv photosyntheticv productivity.v 
+Wageningen:vvPudoc.v
+McCree,vK.J.v(1974).vEquationsvforvthevratevofvdarkvrespirationvofvwhitev 
+cloverv andv grainv sorghumv asv functionv ofv weight,v photosyntheticv 
+rate,vvandvtemperature.vCropvScience,v14:v506E514.v
+McCree,vK.J.vandvTroughton,vJ.H.v(1966).NonEexistencevofvanvoptimumv 
+leafvareavindexvforvthevproductionvratevofvwhitevclovervgrownvunderv 
+constantvconditions.vPlantvPhysiology,v41:v1615E1622.v
+McDonald,vD.J.v(1971).vTheveffectvofvtemperaturevandvlightvonvthevratevofv 
+photosynthesisv ofv 20v ricev varietiesv andv hybrids.v Ph.D.v Thesis.v 
+TexasvAv&vMvUniversity,v129vpp.v
+McMennamy,v J.A.v andv O'Toole,v J.C.v (1983).v NonEexistencev ofv anv 
+optimumv leafv areav indexv forv thev productionv ratev ofvwhitev colorv
+
+Pagev|v59vv
+grownv underv constantv conditions.v Plantv Physiology,v41:v 1615E
+1622.v
+Mekwatanakarn,v W.v (1991).v Simulationv ofv potentialv productionv ofv ricev 
+varietyvKDML105vinvthevnortheastvofvThailand.vIn:vvvanvLaar,vH.H.,v 
+Bindraban,v P.S.,v Kropff,v M.J.,v tenv Berge,v H.F.M.,v Jansen,v D.M.,v 
+devJong,vP.D.vandvPennigvdevVries,vF.W.T.v(eds),vCasevstudiesvinv 
+Cropv Growthv Simulation,v Februaryv 1990E1991.Philippines,v Losv 
+Banos:v v Internationalv Ricev Researchv Institute.v ThevNetherlands,v 
+Wageningen:v v Centrev forv Agrobiologicalv Researchv v v andv 
+departmentv ofv Theoreticalv Ecologyv ofv Wageningenv Agriculturalv 
+University.v
+Moll,v B.A.v andv Steinba,v K.E.v (1986).Chillingv sensitivityv inv Oryza sativa :vv 
+thev rolev ofv proteinv phosphorylationv inv protectionv againstv 
+photoinhibition.vPlantvPhysiology,v80:v420E423.v
+Monteith,vJ.L.v(1969).vLightvinterceptionvandvradiativevexchangevinvcropv 
+stands.v Pagesv 89E111.In:v v Eastin,v J.D.,v Haskins,v F.A.,v Sullivan,v 
+C.Y.v andv Bavel,v C.H.M.v vanv (eds),v Physiologicalv aspectv ofv cropv 
+yield.vWisconsin,vMadison:vvAmericanvSocietyvofvAgronomy,vandv 
+CropvSciencevSocietyvofvAmerica.vv
+Monteith,v J.L.v (1972).v Solarv radiationv andv productivityv inv tropicalv 
+ecosystems.vJ.vAppl.vEcol.,v9:v747E766.v
+Monteith,v J.L.v (1973).v Principlesv ofv environmentalvphysics.v London:vv 
+EdwardvArnoldv(Publishers)vLtd.v241vpp.v
+Moorby,v J.v (1985).v Wheatv growthv andv modeling:v v conclusions.v Pagesv 
+381E386.v In:v v Day,v W.v andv Atkin,v R.Kv (eds),v Wheatv growthv andv 
+modeling.vNATOvASIvSeriesvA86.NewvYorkvandvLondon:vvPlenumv 
+Press.v
+
+Pagev|v60v
+Mooby,vJ.vandvMilthorpe,vF.L.v(1975).vPotato.vPagesv225E257.vIn:vvEvans,v 
+L.T.v (ed),v Cropv physiology.v Cambridge:v v Cambridgev Universityv 
+Press.v
+Murata,vY.v(1975).vvTheveffectvofvsolarvradiation,vtemperature,vandvagingv 
+onv nev assimilationv ratev ofv cropv standsEv fromv thev analysisv ofv thev 
+maximumvgrowthvratevexperimentvofvIPB/PP.vProc.vCropvSci.vSoc.v 
+Jpn.,v44(2):v153E159.v
+Murata,vY.vandvMatsushima,vS.v(1975a).vRice.vPagesv73E99.vIn:vvEvans,v 
+L.T.v (ed),v Cropv physiology.v Cambridge:v v Cambridgev Universityv 
+Press.v
+Murata,vY.v(eds)v(1975b).vCropvProductivityvandvsolarvenergyvutilizationv 
+inv variousv climatesv inv Japan.v JIBPv Synthesis,v vol.vII.v Tokyo:v 
+JapanesevCommitteevforvthevInternationalvBiologicalvprogram.v244v 
+pp.v
+Murayama,vN.,vYoshino,vM.vOshima,vM.,vTsukahara,vS.vandvKawarazaki,v 
+Y.v(1955).vStudiesvonvthevaccumulationvprocessvofvcarbohydratesv 
+associatedvwithvgrowthvofvrice.vBull.vNatl.vInst.vAgric.vSci.v(Tokyo),v 
+B.4:v123E166.v
+Nishiyama,v Y.,v Ito,v N.,v Hayase,v H.v andv SATAKE,v T.v (1969).v Protectingv 
+effectv ofv temperaturev andv depthv ofv irrigationv waterv fromv sterilityv 
+causedvbyvcoolvtreatmentvatvthevmitoticvstagevofvricevplants.vProc.v 
+CropvSci.vSoc.vJpn.,v38:v554E555.v
+Norman,v J.M.v (1980).v Interfacingv leafv andv canopyv lightv interceptionv 
+models.v Pagesv 49E67.In:v v Hesketh,v J.D.v andv jones,v J.W.v (eds),v 
+PredictingvPhotosynthesisvforvecosystemvmodels.vII.vFlorida,vBocav 
+Raton:vvCRCvPress.v
+
+Pagev|v61vv
+Norton,v G.v (1963).v Thev respiratoryv pathwaysv inv potatov tubers.v Pagesv 
+148E159.vIn:vvIvins,vJ.D.vandvMilthorpe,vF.L.v(eds),vThevgrowthvofv 
+thevpotato.vLondon:vvButterworth.v
+O'v Toole,v J.C.v andv Jones,v C.A.v (1987).v Cropv modeling:v v applicationv inv 
+directingvandvoptimizingvrainfedvricevresearch.vPagesv255E269.vIn:vv 
+Weatherv andv Rice.v Philippines,v Losv Banos:v v Internationalv Ricev 
+ResearchvInstitute.v
+Oshima,v M.v (1966).v Onv thev translocationv ofv 14 Cv assimilatedv atv variousv 
+growthv stagesv tov grainsv inv ricev plants.v J.v Sci.v Soilv andv Manure,v 
+Japan,v37:v589E593.v
+Patterson,v H.D.,v Silvey,v V.,v Tarbot,v M.v andv Weathorp,v S.T.C.v 
+(1977).VariabilityvinvyieldsvofvcerealvvarietiesvinvUKvtrials.vJ.vAgric.v 
+Sci.,vCamb.,v89:v239E245.v
+Peart,vR.M.vandvBarrett,vJr.,vJ.R.v(1979).vFuturevtrendvinvenvironmentalv 
+modification:vvthevrolevofvsimulation.vPagesv476E480.In:vvBarfield,v 
+B.J.vandvGeber,vJ.F.v(eds),vModificationvofvthevAerialvEnvironmentv 
+ofv Crops.v MI,v St.v Joseph:v v Americanv Societyv ofv Agriculturalv 
+Engineers.v
+Penningv dev Vries,v F.W.T.v (1972).v Respirationv andv growth.v Pagesv 327E
+347.vIn:vvRees,vA.R.,vCockshull,vK.E.Hand,vD.W.vandvHurd,vR.H.v 
+(eds),v Cropv processesv inv controlledv environments.v London,v Newv 
+York:vvAcademicvPress.vv
+Penningv dev Vries,v F.W.T.v (1975a).v Thev usev ofv assimilatesv inv higherv 
+plants.vPagesv459E480.v:vvCooper,vJ.P.v(eds),vPhotosynthesisvandv 
+productivityv inv differentv environment.v Cambridge:v vCambridgev 
+UniversityvPress.v
+PenningvdevVries,vF.W.T.v(1975b).vThevcostvofvmaintenancevprocessvinv 
+plantvcell.vAnnalsvofvBotany,v39:v77E92.v
+
+Pagev|v62v
+Penningv dev Vries,v F.T.W.v (1977).v Evaluationv ofv simulationv modelsv inv 
+agriculturev andv biology:v v conclusionsvofvav workshop.v Agriculturalv 
+Systems,v2:v99E107.v
+PenningvdevVries,vF.T.W.v(1982).vSystemsvanalysisvandvmodelsvofvcropv 
+growth.vPagesv9E19.vIn:vvPenningvdevVries,vF.T.W.vandvLaar,vH.H.v 
+vanv (eds).v Simulationv ofv plantv growthv andv cropv production.v 
+Simulationvmonographs.vWageningen:vvPudoc.v
+Penningv dev Vries,v F.W.T.v (1990).v Canv cropv modelsv containv economicv 
+factor?vPagesv89E103.vIn:vRabbinge,vR,vGoudriaanvJ.,vKeulen,vH.v 
+van,v Penningv dev Vries,v F.T.W.v andv Laar,v H.H.v vanv (eds).v 
+Theoreticalv Productionv Ecology:v Reflectionsv andv Prospects.v 
+Simulationvmonographv34.vWageningen:vvPudoc.v
+Penningv dev Vries,v F.W.T.v (1991).v Improvingv yields:vv designingv andv 
+testingv VHYVs.v Pagesv 13E19.v In:v v Penningv dev Vries,vF.W.T.,v 
+Kropff,vM.J.,vTeng,vP.S.vandvKirk,vG.J.D.v(eds).vSystemvSimulationv 
+atv IRRI.v IRRIv researchv Paperv Seriesv No.151.v Philippines,v Losv 
+Banos:vvInternationalvRicevResearchvInstitute.v
+Penningv dev Vries,v F.W.T.v andv Laar,v H.H.v (1982).v Simulationv ofv growthv 
+processv andv modelv BACROS.v Pagesv 114E135.v In:v v Penningv dev 
+Vries,vF.W.T.vandvLaar,vH.H.vvanv(eds),vSimulationvofvplantvgrowthv 
+andv cropv production.v Simulationv Monographs.v Wageningen:vv 
+Pudoc.v
+PenningvdevVries,vF.W.T.,vBrunsting,vA.H.M.vandvLaarvH.H.vvanv(1974).v 
+Products,v requirementsv andv efficiencyv ofv biosynthesisv -v av 
+quantitativevapproach.vJ.vTheor.vBiol.,v45:v339E377.v
+Penningv dev Vries,v F.W.T.,v Jansen,v D.M.,v Berge,v H.F.M.v tenv andv 
+Bakema,vA.v(1989).vSimulationvofvecophysiologicalvvvvprocessvofv 
+growthvinvseveralvannualvcrops.vWageningen:vvPudoc.v271vpp.vv
+
+Pagev|v63vv
+Penningv dev Vries,v F.W.T.,v Keulen,v H.v vanv andv Alagos,v J.C.v (1990).v 
+Nitrogenv redistributionv andv potentialv productionv ofv rice.v Pagesv 
+513E520.v Sinha,v S.K.,v Lane,v P.V.,v Bhargava,v S.C.v andv Agrawal,v 
+R.K.v(eds),vInternationalvCongressvofvPlantvPhysiology.vIndia,vNewv 
+Delhi,vIndianvInstitutevofvAgriculturalvResearch.vWatervTechnologyv 
+Centre:vvSocietyvforvPlantvPhysiologyvandvBiochemistry.v
+Phipps,v R.H.,v Fulford,v R.J.v andv Crofts,v F.C.v (1975).v Relationshipsv 
+betweenv thev productionv ofv foragev maizev andv accumulatedv 
+temperature,v Ontariov heatv unitsv andv solarv radiation.v Agriculturalv 
+Meteorology,v14:v385E397.v
+Rabbinge,vR.vandvWit,vC.T.vdev(1989).vSystems,vmodelsvandvsimulation.v 
+Pagesv 3E15.v In:v v Rabbinge,v R.,v Ward,v S.A.v andv Laar,v H.H.v vanv 
+(ed.),v Simulationv andv systemsv managementv inv cropv protection.v 
+Wageningen:vvPudoc.v
+Raymond,v W.F.,v Telley,v J.M.A.,v Derias,v R.E.v andv Minson,v D.J.v (1960).v 
+Pagesv 181E190.v In:v v Productionv andv Usesv ofv Grass.No.9v inv thev 
+MonographvSeries.vLondon:vvSocietyvofvChemicalvIndustry.v
+Rietveld,v M.R.v (1978).v Av newv methodv forv estimatingvthev regressionv 
+coefficientsv inv thev formulav relatingv solarv radiationv tov sunshine.v 
+AgriculturalvMeteorology,v19:v243E252.v
+Robson,v M.J.v (1980).v Av physiologist'sv approachv tov raisingv thev potentialv 
+yieldvofvthevgrassvcropvthroughvbreeding.vPagesv33E49.vIn:vvHurd,v 
+R.G.,v Biscoe,v P.Vv andv Dennis,v C.v (eds),v Opportunitiesv forv 
+increasingv cropv yields.v London:v v Pitmanv Advancedv Publishingv 
+Program.v
+Rossing,v W.A.H.v Groot,v J.J.R.v andv Roermund,v H.J.W.vvanv (1989).v 
+Simulationvofvaphidvdamagevinvwintervwheat:vvavcasevstudy.vPagesv 
+240E261.vIn:vvRabbnge,vR.,vWard,vS.A.vandvLaar,vH.H.vvanv(eds),v
+
+Pagev|v64v
+Simulationv andv systemsv managementv inv cropv protection.v 
+Wageningen:vvPudoc.v
+Saeki,vT.v(1960).vInterrelationshipvbetweenvleafvamount,vlightvdistribution,v 
+andv totalv photosynthesisv inv av plantv community.v Botanicalv 
+Magazine,vTokyo,v73:v404E408.v
+SARPv (1987).v Casev studiesv inv Cropv Growthv Simulation,v Aprilv 1986E
+Januaryv1987.v(PenningvdevVries,vF.W.T.,vJansen,vD.M.,vBakema,v 
+A.K.,v Rabbinge,v R.v andv Garrity,v D.P.v (eds)).v Philippines,v Losv 
+Banos:vvvInternationalvRicevResearchvInstitute,vThevNetherlands,v 
+Wageningen:v v Centrev forv Agrov biologicalv Researchv andv 
+Departmentv ofv Theoreticalv Productionv Ecologyv ofv Wageningenv 
+AgriculturalvUniversity.v
+SARPv(1989a).vCasevstudiesvinvCropvGrowthvSmulation,vFebruaryv1986E
+Januaryv1989.v(vanvLaar,vH.H.,vtenvBerge,vvH.F.M.,vJansen,vD.M.,v 
+devJong,vvP.DvandvvPenningvdevVries,vF.W.T.v(eds.)).vPhilippines,v 
+Losv Banos:v v Internationalv Ricev Researchv Institute,v Thev 
+Netherlands,vWageningen:v v Centrev forv Agrov biologicalv Researchv 
+andv Departmentv ofv Theoreticalv Productionv Ecologyv of v 
+WageningenvAgriculturalvUniversity.v
+SARPv(1989b).vCropvSimulationvResearchvinvthevSARPENetwork:vvPlans,v 
+themesvandvViews.v(PenningvdevVries,vF.W.T.v(eds)).vPhilippines,v
+Losv Banos:v v Internationalv Ricev Researchv Institute,v Thev 
+Netherlands,vWageningen:v v Centrev forv Agrov biologicalv Researchv 
+andv Departmentv ofv Theoreticalv Productionv Ecologyv of v 
+WageningenvAgriculturalvUniversity.v
+vSARPv(1991).CasevstudiesvinvCropvGrowthvSimulation.vFebruaryv1990E
+1991.v (vanv Laar,v H.H.,v Bindraban,v P.S.,v Kropff,v M.J.,v tenv Berge,v 
+H.F.M.,v Jansan,v D.M.,v dev Jong,v P.D.v andv Penningv devVries,v
+
+Pagev|v65vv
+F.W.T.v (eds)).v Philippines,v Losv Banos:v v Internationalv Ricev 
+Researchv Institute,v Thev Netherlands,v Wageningen:v v Centrev forv 
+Agrov biologicalv Researchv andv Departmentv ofv Theoreticalv 
+ProductionvEcologyvofvWageningenvAgriculturalvUniversity.v
+Sarti,v R.P.v (1987).v Modelingv thev soybeanv agroecosystemv inv tropicalv 
+Mexico:v v productionv asv affectedv byv waterv supply.v Ph.Dv Thesis.v 
+DepartmentvofvAgriculture,vUniversityvofvReading,vU.K.v169vpp.v
+Semikhatova,v O.A.v (1970).v Energyv efficiencyv ofv respirationv underv 
+unfavorablev condition.v Pagesv 247E249.v In:v v Predictionv andv 
+measurementvphotosyntheticvproductivity.vWageningen:vvPudoc.v
+Setter,vT.L.vandvGreenway,vH.v(1988).vGrowthvreductionsvofvricevatvlowv 
+rootvtemperature:vvdecreasevinvnutritionvuptakevandvdevelopmentv 
+ofvchlorosis.vJ.vExp.vBot.,v39:v811E829.v
+Sheehy,v J.E.,v Cooby,v J.M.v andv Ryle,v G.J.A.v (1979).vThev growthv ofv 
+perennialvryegrass:vvAvmodel.vAnnalsvofvBotany,v43:v335E354.v
+Sinclair,v T.Tv andv Witv C.v T,v dev (1975).v Photosynthatev andv nitrogenv 
+requirementvforv seedv productionv ofv variousv crops.v Science,v 189:v 
+565E567.v
+Sinclair,vT.TvandvSeligman,vN.G.v(1996).vCropvmodeling:vFromvinfancyvtov 
+maturity.vAgron.vJ.,v88:v698E704.v
+Soga,v Y.v andv Nozaki,v M.v (1957).v Studiesv onv thev relationv betweenv 
+seasonalvchangesvofvcarbohydratesvaccumulatedvandvthevripeningv 
+atv thev stagev ofv generativev growthv inv ricev plant.v Proc.v Cropv Sci.v 
+Jpn.,v26:v105E108.v
+Spedding,vC.R.W.v(1975a).vThevbiologyvofvagriculturalvsystems.vLondon:vv 
+AcademicvPress.v261vpp.v
+
+Pagev|v66v
+Spedding,vC.R.W.v(1975b).vThevstudyvofvagriculturalvsystems.vPagesv3E
+19.vIn:vvDalton,vG.E.v(ed.)vStudyvofvAgriculturalvSystems.vLondon:vv 
+AppliedvSciencevPublishersvLtd.v
+Spitters,v C.J.T.,v Keulen,v H.v vanv andv Kraalingen,v D.W.Gv vanv (1989).v Av 
+simplev andv universalv cropv growthv simulator.v Pagesv 147E181.In:vv 
+Rabbinge,v R.,v Ward,v S.Av andv Laar,v H.H.v vanv (eds),v Simulationv 
+andv systemsv managementv inv cropv protection.v Wageningen:vv 
+Pudoc.v
+Stapper,v M.,v Harries,v H.C.v andv Smith,v R.C.G.v (1983).v Riskv analysisv ofv 
+wheatv yieldsv inv relationv tov cultivarv maturityv typevandv climatev 
+adaptabilityv inv semiv -aridv areas,v usingv av cropv growthv model.v In:vv 
+NeedvforvClimaticvandvHydrologicvDatavinvAgriculturevifvSoutheastv 
+Asia.vCanberra:vvUNvUniv.vWorkshop,v12E15vDecember,v1983.vv
+Stern,v W.R.v (1975).v Actualv andv potentialv photosyntheticv productionEv
+conclusions.v Pagesv 661E672.v In:v v Cooper,v J.P.v (eds) ,v 
+Photosynthesisv andv productivityv inv differentv enviro nment.v 
+Cambridge:vvCambridgevUniversityvPress.v
+Takano,v Y.v andv Tsunoda,v S.v (1971).v Curvilinearv regressionv ofv leafv 
+photosyntheticv ratev onv leafv nitrogenv contentv amongvstrainsv ofv 
+Oryza sativa vspecies.vJpn.vJ.breed.,v21(2):v9E17.v
+Tanaka,v A.v (1971).v Efficiencyv inv respiration.v Pagesv 483E548.v In:v v Proc.v 
+Symposiumv onv Ricev Breeding.v Philippines,v Losv Banos: vv 
+InternationalvRicevResearchvInstitute.v
+Tanaka,vA.vandvYamaguchi,vJ.v(1968).vThevgrowthvefficiencyvinvrelationv 
+tov thev growthv ofv thev ricev plant.v Soilv Sciencev Plantv Nutrition,v 14:v 
+110E116.v
+Tang,v P.,v Wang,v F.C.v andv Chih,v F.C.v (1959).v Studiesv onv plantv 
+respiration.vScient.vSin.,v8:v1379E1392.v
+
+Pagev|v67vv
+Terao,v H.,v Otani,v Y.Doiv andv Izumi,v S.v (1941).v Physiologicalv studiesv onv 
+ricevplantvwithvspecialvreferencevtovthevcropvfailurevcausedvbyvthev 
+occurrencev ofvunseasonablev lowv temperature.v VIII.vThev effectvofv 
+variousv lowv temperaturesv onv thev paniclev differentiation,v headingv 
+andvripeningvinvthevdifferentvstagesvaftervtransplantingvtovheading.v 
+Proc.vCropvSci.vSoc.vJapan,v13:v317E336.v
+Thompson,v A.C.,v Lane,v H.C.,v Jones,v J.W.v andv Hesketh,v J.D.v (1976).v 
+Nitrogenv concentrationsv ofv cottonv leaves,v budsv andvballsv inv 
+relationv tov agev andv nitrogenv fertilization.v Agronomyv Journal,v 68:vv 
+17E621.v
+Thorne,vG.N.,vFord,vM.A.vandvWatson,vD.J.v(1967).vGrowth,vdevelopmentv 
+andvyieldvofvspringvwheatvinvartificialvclimates.vvAnnalsvofvBotany,v 
+32:v425E446.v
+Thorne,v G.N.,v Ford,v M.A.v andv Watson,v D.J.v (1968).v Effectsv ofv 
+temperaturev variationv atv differentv timesv onv growthvandv yieldv ofv 
+sugarvbeetvandvbarley.vAnnalsvofvBotany,v31:v71E101v
+Thornley,v J.H.M.v (1976).v Mathematicalv modelsv inv plantsv physiology.vv 
+NewvYork:vvAcademicvPress.v123vpp.v
+Thornley,v J.H.M.v (1981).v Organogenesis.v Pagesv 49E65.v In:v v Rose,v D.Av 
+andv CharlesEEdwards,v D.A.v (eds),v Mathematicsv andv plantv 
+physiology.vLondon:vvAcademicvPress.v
+Thornley,v J.H.M.v andv Hesketh,v J.D.v (1972).v Growthv andv respirationv inv 
+cottonvbolls.vJ.vAppl.vEcol.,v9:v315E317.v
+Togari,v Y.,v Okamoto,v Y.v andv Kumura,v A.v (1954).v Studiesv onv thev 
+productionv andv behaviorv ofv carbohydratesv inv ricev plant.v I.v Porc.v 
+CropvSci.vSoc.vJpn.,v22:v95E97.v
+
+Pagev|v68v
+Tollenaar,v M.,v Daynard,v T.B.v andv Hunter,v R.B.v (1979).v Effectv ofv 
+temperaturevonvratevleafvappearancevandvfloweringvdatevinvmaize.v 
+CropvScience,v19:v363E366.v
+Toriyama,vK.,vSakamoto,vS.,vIwashita,vT.vandvHsu,vC.S.v(1969).vHeadingv 
+characteristicsv ofv japonicav varietiesv plantedv atv thev placesv ofv 
+differentv latitudes.v Bull.v Chugokuv Agric.v Exp.v Stn.,v Ser.,v A.17:v 1E
+16.v
+Troughton,v J.H.v (1975).v Photosyntheticv mechanismsv inv higherv plants.v 
+Pagesv 357E391.v In:v v Cooper,v J.P.v (ed),v Photosynthesisv andv 
+productivityv inv differentv environment.v Cambridge:v vCambridgev 
+UniversityvPress.v
+Udagawa,vT.,vIto,vA.vandvUchijima,vZ.v(1974).vvPhytometricalvstudiesvofv 
+cropvcanopies.vIII.vRadiationvenvironmentvinvricevcanopies.vProc.v 
+CropvSci.vSoc.vJpn.,v43:v180E195.v
+Venkateswarlu,v B.v andv Visperas,v R.M.v (1987).v Solarvradiationv andv ricev 
+productivity.v IRRIv Researchv Paperv Series.v In:v v 129.v Philippines,v 
+LosvBanos:vvInternationalvRicevResearchvInstitute.v22vpp.v
+Venkateswarlu,vB.,vPrasad,vV.V.S.S.vandvRao,vA.V.v(1977).vEffectvofvlowv 
+lightvintensityvonvdifferentvgrowthvphasesvinvrice.v( Oryza sativa L. )v 
+PlantvSoil.v47:v37E47.v
+Vergara,v B.S.v (1976).v Physiologicalv andv morphologicalv adaptabilityv ofv 
+ricev varietiesv tov climate.v Pagesv 67E75.v In:v Climatev andv Rice.v 
+Philippines,vLosvBanos:vInternationalvRicevResearchvInstitute.v
+Vergara,v B.S.v andv Chang,v T.T.v (1976).v Floweringv responsev ofv thev ricev 
+plantsvtovphotoperiod:vAvReviewvofvliterature.vIntl.vRicevRes.vInst.v 
+Tech.vBull.v8.vPhilippines,vLosvBanos:vInternationalvRicevResearchv 
+Institute.v75vpp.v
+
+Pagev|v69vv
+Versteeg,v M.N.v andv Keulen,v H.v vanv (1986).v Potentialv cropv productionv 
+predictionvbyvsomevsimplevcalculationvmethods,vasvcomparedvwithv 
+computervsimulation.vAgriculturalvSystems,v19:v249E272.v
+Vinayv Rai,v R.S.v andv Mutry,v K.S.v (1979).v 14 Cv photosynthesisv underv 
+reducedvlightvintensityvinvlocalvandvhighvyieldingvricevcultivars.vJ.v 
+Nucl.vAgric.vBiol.,v8:v111E112.v
+Vos,v J.v (1985).v Aspectsv ofv modelingv postEfloralv growthv ofv wheatv andv 
+calculationsv ofv thev effectsv ofv temperaturev andv radiation.v Pagesv 
+143E148.v In:v v Day,v W.v andv Atkin,v R.K.v (eds),v wheatvgrowthv andv 
+modeling.vNATOvASIvSeriesvA86.NewvYorkvandvLondon:vvPlenumv 
+Press.v
+Vos,v J.,v Dress,v E.M.v andv Penningv dev Vries,v F.W.T.v (1982).v Grainv 
+formationv andv assimilatev partitioningv inv wheat.v Partv II.v Modelingv 
+postEfloralvgrowthvofvwheat.vPagesv144E151.vIn:vvPenningvdevVries,v 
+F.W.T.vandvLaar,vH.H.vvanv(eds),vSimulationvofvplantvgrowthvandv 
+cropvproduction.vSimulation.vMonographs.vWageningen:vvPudoc.v
+Wada,v G.v (1969).v v Thev effectv ofv nitrogenousv onv thevyieldEdeterminingv 
+processvofvricevplant.vBull.vNatl.vInst.vAgric.vSci.,v16:v27E167.v
+Warrington,vD.J.vandvKanemasu,vE.T.v(1983).vCornvgrowthvresponsevtov 
+temperaturev andv photoperiod.v I.v Seedlingv emergence,v tasselv 
+initiationvandvanthesis.vAgronomyvJournal,v75:v749E754.v
+Watson,vD.J.v(1947).vCooperativevphysiologicalvstudiesvonvthevgrowthvofv 
+fieldv crops.v I.v Variationv inv netv assimilationv ratevandv leafv areav 
+betweenv speciesv andv varieties,v andv withinv andv betweenv years.v 
+AnnalsvofvBotany,v11:v41E76.v
+Whisler,vF.D.,vAcock,vB.,vBaker,vD.N.,vFye,vR.E.,vHodges,vH.F.,vLambert,v 
+J.R.,vLemon,vH.E.,vMcKinion,vJ.M.vandvReddy,vV.R.v(1986).vCropv
+
+Pagev|v70v
+simulationvmodelsvinvagronomicvsystem.vAdvancesvinvAgronomy,v 
+40:v141E208.v
+Wilson,vJ.M.v(1984).vEconomicvimportancevofvchillingvinjury.vOutlookvonv 
+Agriculture,v14(4):v197E203.v
+Wit.vC.T.vdev(1965).vvPhotosynthesisvofvleafvcanopies.vvvResearchvReportv 
+Nov663.vWageningen:vvPudoc.v57vpp.v
+Wit,v C.T.v de,v Brouwer,v R.v andv Penningv dev Vries,v F.W.T.v (1970).v Thev 
+simulationvofvphotosyntheticvsystems.vPagesv47E70.vIn:vvPredictionv 
+andv measurementv ofv photosyntheticv productivity.v Wageningen:vv 
+Pudoc.v
+Wit,v C.T.de,v Goudriaan,v J.,v Keulen,v H.v van,v Laar,v H.H.v van,v Louwerse,v 
+W.,v Penningv dev Vries,v F.W.T.,v Rabbainge,v R.v andv Sibma,v L.v 
+(1978).vSimulationvofvassimilation,vrespirationvandvtranspirationvofv 
+crops.vSimulationvMonographs.vWageningen:vvPudoc.v
+Wit,v C.T.v de,v Laar,v H.H.v andv Keulen,v H.v vanv (1979).v Physiologicalv 
+potentialv ofv cropv production.v Pagesv 47E82.v In:v v Sneep,v J.v andv 
+Hendriksen,v A.J.T.v (eds).v Plantv Breedingv Perspectives.v Thev 
+Netherlands:vvWageningen.v
+Yamaguchi,vJ.v(1978).vRespirationvandvthevgrowthvefficiencyvinvrelationvtov 
+cropvproductivity.vJ.vFac.vAgric.,vHkkaidovUniv.,v59:v59E129.v
+Yambao,v E.B.,v Ingram,v K.T.,v Dingkuhn,v M.v andv Dev Datta,v S.K.v (1987).v 
+Simulationv ofv potentialv productionv ofv ricev usingv Lorice.v In:vv 
+Penningv dev Vries,v F.W.T.,v Jansen,v D.M.,v Bakema,v A.K.,v 
+Rabbinge,v R.v andv Garrity,v D.P.v (eds),v Casev studiesvinv Cropv 
+Simulation,v Aprilv 1986EJanuaryv 1987.v Philippines,v Losv Banos:vv 
+Internationalv Ricev Researchv Institute,v Thev Netherla nds,v 
+Wageningen:v v Centrev forv Agrov biologicalv Researchv andv
+
+Pagev|v71vv
+Departmentv ofv Theoreticalv Productionv Ecologyv ofv Wageningenv 
+AgriculturalvUniversity.v
+Yoshida,vS.v(1972).vPhysiologicalvaspectsvofvgrainvyield.vAnn.vRev.vPlantv 
+Physiol.,v23:v437E464.v
+Yoshida,v S.v (1981).v Fundamentalsv ofv ricev cropv science.v Philippines,v 
+Banos:vvInternationalvRicevResearchvInstitute.v269vpp.v
+Yoshida,vS.vandvAhn,vS.B.v(1968).vNitrogenvnutrition,vleafvresistancevandv 
+leafvphotosyntheticvofvthevricevplant.vSoilvSciencevPlantvNutrition,v 
+22(2):v207E211.v
+Yoshida,v S.v andv Coronel,v V.v (1976).v Nitrogenv nutrition,v leafv resistance,v 
+andv leafv photosyntheticv ratev ofv ricev plants.v Soilv Sciencev Plantv 
+Nutrition,v 22(2):v 207E211.
+
+v

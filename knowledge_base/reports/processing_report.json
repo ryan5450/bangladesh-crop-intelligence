@@ -1,0 +1,41 @@
+{
+  "execution_timestamp": "2026-09-25T16:23:58.178760+00:00",
+  "duration_seconds": 17.6,
+  "configuration": {
+    "chunk_size": 800,
+    "chunk_overlap": 150,
+    "knowledge_base_dir": "D:\\Bangladesh Crop Intelligence Assistant\\knowledge_base"
+  },
+  "summary": {
+    "total_scanned": 31,
+    "total_passed": 31,
+    "total_rejected": 0,
+    "total_pages_extracted": 5459,
+    "total_words_extracted": 2305526,
+    "total_chunks_generated": 24039,
+    "avg_chunk_size_chars": 664.1
+  },
+  "breakdown_by_category": {
+    "cereals": 19,
+    "climate_adaptation": 1,
+    "crops": 3,
+    "fruits": 2,
+    "pest_management": 1,
+    "soil_management": 1,
+    "spices": 3,
+    "vegetables": 1
+  },
+  "breakdown_by_language": {
+    "English": 26,
+    "Bilingual": 1,
+    "Bangla": 4
+  },
+  "breakdown_by_source": {
+    "BAMIS": 6,
+    "BARI": 5,
+    "BRRI": 2,
+    "DAE": 15,
+    "FAO": 3
+  },
+  "rejected_files": []
+}

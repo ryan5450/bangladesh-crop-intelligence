@@ -1,0 +1,46 @@
+{
+  "document_id": "fao_8211a16d59e0",
+  "title": "GIEWS global information and early warning system on food and agriculture",
+  "source": "FAO",
+  "url": "https://www.fao.org/giews/countrybrief/country/BGD/pdf_archive/BGD_Archive.pdf",
+  "language": "en",
+  "categories": [
+    "cereals",
+    "spices",
+    "crops",
+    "climate_adaptation",
+    "soil_management",
+    "harvesting",
+    "crop_calendar",
+    "oil_crops",
+    "fiber_crops",
+    "cultivation_methods",
+    "seed_management"
+  ],
+  "related_crops": [
+    "Aman Rice",
+    "Aus Rice",
+    "Boro Rice",
+    "Chili",
+    "Garlic",
+    "Jute",
+    "Maize",
+    "Onion",
+    "Rice",
+    "Soybean",
+    "Wheat"
+  ],
+  "topics": [
+    "Climate Resilience & Stress Tolerance",
+    "Soil Health & Salinity Management",
+    "Harvest Timing & Mechanization",
+    "Seasonal Sowing & Harvesting Calendar",
+    "Modern Agronomic Practices & Sowing"
+  ],
+  "quality_score": 1.0,
+  "filename": "fao_giews_global_information_and_early_warning_system__en_8211a1.pdf",
+  "pages": 67,
+  "file_size_kb": 8084.3,
+  "author": "Racionzer, Paul (ESTG)",
+  "extracted_at": "2026-09-23T19:48:42.757740+00:00"
+}
