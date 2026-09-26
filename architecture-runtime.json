@@ -2,21 +2,21 @@
   "schema_version": 1,
   "diagram_type": "architecture",
   "meta": {
-    "title": "Bangladesh Crop Intelligence Assistant - Runtime Architecture",
+    "title": "Bangladesh Crop Intelligence Assistant - Detailed Runtime Architecture",
     "output": "architecture-runtime.html",
     "quality_profile": "showcase",
     "views": [
       {
-        "id": "rag-pipeline",
-        "label": "Voice & Text RAG Ingestion",
-        "focus": ["farmer", "speech", "frontend", "gateway", "rag", "chromadb", "ollama", "llm"],
-        "note": "Flow of farmer speech or text questions through RAG vector retrieval and local LLM inference."
+        "id": "rag-voice-path",
+        "label": "Voice & Text RAG Inference Flow",
+        "focus": ["farmer", "speech", "ui_assistant", "gateway", "rag_service", "chromadb", "ollama", "llm"],
+        "note": "Audio capture, 3s silence debounce, semantic search across 24K vectors, and token streaming from local Qwen 2.5."
       },
       {
-        "id": "relational-taxonomy",
-        "label": "Relational Taxonomy & Management",
-        "focus": ["frontend", "gateway", "supabase"],
-        "note": "Querying 139 BRRI rice varieties, phenological growth stages, and disease pathologies."
+        "id": "crop-taxonomy-path",
+        "label": "Agronomic Taxonomy & Cloud DB",
+        "focus": ["farmer", "ui_catalog", "gateway", "crops_api", "supabase", "weather_api"],
+        "note": "Relational queries for 139 BRRI rice varieties, phenological growth stages, and agro-ecological zone mapping."
       }
     ]
   },
@@ -26,26 +26,38 @@
       "type": "external",
       "label": "User / Farmer",
       "sublabel": "Browser / Mobile Client",
-      "pos": [40, 200],
-      "size": [120, 60]
+      "tag": "Bangla / English",
+      "pos": [40, 220],
+      "size": [130, 60]
     },
     {
       "id": "speech",
       "type": "frontend",
       "label": "Web Speech API",
-      "sublabel": "Voice Engine",
+      "sublabel": "Continuous Voice Engine",
       "tag": "3.0s Debounce",
-      "pos": [230, 70],
-      "size": [130, 60]
+      "pos": [230, 80],
+      "size": [140, 60]
     },
     {
-      "id": "frontend",
+      "id": "ui_assistant",
       "type": "frontend",
-      "label": "Next.js 14 App",
-      "sublabel": "App Router :3000",
+      "label": "AI Assistant UI",
+      "sublabel": "SSE Stream Listener",
       "brand": "next-js",
-      "pos": [230, 200],
-      "size": [130, 60]
+      "tag": "/assistant",
+      "pos": [230, 220],
+      "size": [140, 60]
+    },
+    {
+      "id": "ui_catalog",
+      "type": "frontend",
+      "label": "Crop Catalog UI",
+      "sublabel": "Taxonomy Explorer",
+      "brand": "next-js",
+      "tag": "/crops",
+      "pos": [230, 360],
+      "size": [140, 60]
     },
     {
       "id": "gateway",
@@ -53,34 +65,44 @@
       "label": "FastAPI Gateway",
       "sublabel": "Uvicorn ASGI :8000",
       "brand": "fastapi",
-      "pos": [430, 200],
+      "tag": "CORS & Routes",
+      "pos": [440, 220],
       "size": [130, 60]
     },
     {
-      "id": "supabase",
-      "type": "database",
-      "label": "Supabase DB",
-      "sublabel": "139 BRRI Varieties & Crops",
-      "brand": "supabase",
-      "pos": [430, 340],
+      "id": "weather_api",
+      "type": "backend",
+      "label": "Weather Service",
+      "sublabel": "weather_service.py",
+      "tag": "Divisional AEZ",
+      "pos": [640, 80],
       "size": [140, 60]
     },
     {
-      "id": "rag",
+      "id": "rag_service",
       "type": "backend",
-      "label": "RAG Service",
+      "label": "RAG Orchestrator",
       "sublabel": "rag_service.py",
       "tag": "Context & Memory",
-      "pos": [620, 200],
-      "size": [130, 60]
+      "pos": [640, 220],
+      "size": [140, 60]
+    },
+    {
+      "id": "crops_api",
+      "type": "backend",
+      "label": "Crops Router",
+      "sublabel": "routes/crops.py",
+      "tag": "PostgREST Client",
+      "pos": [640, 360],
+      "size": [140, 60]
     },
     {
       "id": "chromadb",
       "type": "database",
-      "label": "ChromaDB",
+      "label": "ChromaDB Store",
       "sublabel": "24,178 Knowledge Vectors",
       "tag": "all-MiniLM-L6-v2",
-      "pos": [620, 340],
+      "pos": [850, 80],
       "size": [140, 60]
     },
     {
@@ -88,7 +110,8 @@
       "type": "backend",
       "label": "Ollama Daemon",
       "sublabel": "Local Inference :11434",
-      "pos": [810, 200],
+      "tag": "Async Engine",
+      "pos": [850, 220],
       "size": [130, 60]
     },
     {
@@ -97,20 +120,30 @@
       "label": "Qwen 2.5 3B",
       "sublabel": "Open-Source LLM",
       "tag": "Cross-lingual",
-      "pos": [1000, 200],
+      "pos": [1040, 220],
       "size": [120, 60]
+    },
+    {
+      "id": "supabase",
+      "type": "database",
+      "label": "Supabase DB",
+      "sublabel": "139 BRRI Varieties & Crops",
+      "brand": "supabase",
+      "tag": "PostgreSQL",
+      "pos": [850, 360],
+      "size": [140, 60]
     }
   ],
   "boundaries": [
     {
       "kind": "security-group",
-      "label": "Client Environment",
-      "wraps": ["farmer", "speech", "frontend"]
+      "label": "Client Environment (Browser)",
+      "wraps": ["farmer", "speech", "ui_assistant", "ui_catalog"]
     },
     {
       "kind": "region",
-      "label": "Local Host Execution",
-      "wraps": ["gateway", "rag", "chromadb", "ollama", "llm"]
+      "label": "Local Host Runtime (FastAPI & Ollama)",
+      "wraps": ["gateway", "weather_api", "rag_service", "crops_api", "chromadb", "ollama", "llm"]
     },
     {
       "kind": "region",
@@ -123,14 +156,14 @@
       "id": "farmer-to-speech",
       "from": "farmer",
       "to": "speech",
-      "label": "audio",
+      "label": "voice audio",
       "fromSide": "top",
       "toSide": "left"
     },
     {
-      "id": "speech-to-frontend",
+      "id": "speech-to-assistant",
       "from": "speech",
-      "to": "frontend",
+      "to": "ui_assistant",
       "label": "transcript",
       "fromSide": "bottom",
       "toSide": "top",
@@ -138,52 +171,81 @@
       "labelDy": 24
     },
     {
-      "id": "farmer-to-frontend",
+      "id": "farmer-to-assistant",
       "from": "farmer",
-      "to": "frontend",
-      "label": "HTTP / UI",
+      "to": "ui_assistant",
+      "label": "chat prompt",
       "variant": "emphasis"
     },
     {
-      "id": "frontend-to-gateway",
-      "from": "frontend",
-      "to": "gateway",
-      "label": "REST / SSE",
-      "variant": "emphasis"
-    },
-    {
-      "id": "gateway-to-supabase",
-      "from": "gateway",
-      "to": "supabase",
-      "label": "SQL",
+      "id": "farmer-to-catalog",
+      "from": "farmer",
+      "to": "ui_catalog",
+      "label": "browse crops",
       "fromSide": "bottom",
-      "toSide": "top",
+      "toSide": "left"
+    },
+    {
+      "id": "assistant-to-gateway",
+      "from": "ui_assistant",
+      "to": "gateway",
+      "label": "POST /stream",
+      "variant": "emphasis"
+    },
+    {
+      "id": "catalog-to-gateway",
+      "from": "ui_catalog",
+      "to": "gateway",
+      "label": "queries",
+      "fromSide": "top",
+      "toSide": "bottom",
       "labelDx": 24,
-      "labelDy": 24
+      "labelDy": 16
+    },
+    {
+      "id": "gateway-to-weather",
+      "from": "gateway",
+      "to": "weather_api",
+      "label": "weather",
+      "fromSide": "top",
+      "toSide": "left"
     },
     {
       "id": "gateway-to-rag",
       "from": "gateway",
-      "to": "rag",
+      "to": "rag_service",
       "label": "route",
       "variant": "emphasis"
     },
     {
-      "id": "rag-to-chroma",
-      "from": "rag",
-      "to": "chromadb",
-      "label": "search",
-      "variant": "dashed",
+      "id": "gateway-to-crops",
+      "from": "gateway",
+      "to": "crops_api",
+      "label": "taxonomy",
       "fromSide": "bottom",
-      "toSide": "top",
-      "labelDx": 28,
-      "labelDy": 24
+      "toSide": "left"
+    },
+    {
+      "id": "rag-to-chroma",
+      "from": "rag_service",
+      "to": "chromadb",
+      "label": "vector search",
+      "variant": "dashed",
+      "fromSide": "top",
+      "toSide": "left"
     },
     {
       "id": "rag-to-ollama",
-      "from": "rag",
+      "from": "rag_service",
       "to": "ollama",
       "label": "prompt",
+      "variant": "emphasis"
+    },
+    {
+      "id": "crops-to-supabase",
+      "from": "crops_api",
+      "to": "supabase",
+      "label": "SQL queries",
       "variant": "emphasis"
     },
     {
@@ -196,29 +258,29 @@
   "cards": [
     {
       "dot": "emerald",
-      "title": "Client Experience",
+      "title": "Client Interaction Tier",
       "items": [
-        "Next.js 14 App Router with responsive glassmorphism UI",
-        "Web Speech API with 3-second conversational silence debounce",
-        "Server-Sent Events (SSE) token streaming display"
+        "Next.js 14 App Router with responsive dark glassmorphism design",
+        "Continuous Web Speech API engine with 3.0s conversational pause debounce",
+        "Dual views: Real-time RAG Assistant (/assistant) and 25-crop taxonomy explorer (/crops)"
       ]
     },
     {
       "dot": "cyan",
-      "title": "FastAPI Core & Persistence",
+      "title": "FastAPI Gateway & Microservices",
       "items": [
-        "FastAPI 2.0 with asynchronous route handlers",
-        "139 BRRI rice varieties stored in Supabase PostgreSQL",
-        "Comprehensive phenology, disease, and 8-division zone mapping"
+        "Asynchronous Uvicorn gateway handling CORS, validation, and route dispatching",
+        "RAG Orchestrator managing multi-turn memory (last 8 turns) and English-default directives",
+        "Crops Router interfacing with Supabase to serve 139 BRRI varieties, stages, and diseases"
       ]
     },
     {
       "dot": "amber",
-      "title": "Offline AI & RAG",
+      "title": "Local AI & Vector Store",
       "items": [
-        "ChromaDB with 24,178 vectorized national agronomy chunks",
-        "Local Ollama daemon running Qwen 2.5 3B open-source LLM",
-        "Cross-lingual query understanding (Bangla, Banglish, English)"
+        "ChromaDB persistent vector store containing 24,178 chunks mined from BRRI/BARI/DAE",
+        "Offline Ollama daemon running Qwen 2.5 3B parameter open-source LLM",
+        "Real-time Server-Sent Events (SSE) token streaming for responsive conversational feedback"
       ]
     }
   ]

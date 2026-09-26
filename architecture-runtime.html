@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="generator" content="archify 2.17.0-dev.1">
-  <title>Bangladesh Crop Intelligence Assistant - Runtime Architecture Diagram</title>
+  <title>Bangladesh Crop Intelligence Assistant - Detailed Runtime Architecture Diagram</title>
   <script>
     // Resolve the theme before first paint so light-preference users don't
     // see a dark flash. The toolbar script below re-applies with UI state.
@@ -5081,11 +5081,11 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
            data-preset-badge-blueprint="BLUEPRINT / REV 01"
            data-preset-badge-editorial="EDITORIAL / FIELD NOTE">
         <div class="pulse-dot"></div>
-        <h1>Bangladesh Crop Intelligence Assistant - Runtime Architecture</h1>
+        <h1>Bangladesh Crop Intelligence Assistant - Detailed Runtime Architecture</h1>
       </div>
     </div>
 
-    <script id="archify-guided-views-data" type="application/json">[{"id":"rag-pipeline","label":"Voice \u0026 Text RAG Ingestion","focus":["farmer","speech","frontend","gateway","rag","chromadb","ollama","llm"],"note":"Flow of farmer speech or text questions through RAG vector retrieval and local LLM inference."},{"id":"relational-taxonomy","label":"Relational Taxonomy \u0026 Management","focus":["frontend","gateway","supabase"],"note":"Querying 139 BRRI rice varieties, phenological growth stages, and disease pathologies."}]</script>
+    <script id="archify-guided-views-data" type="application/json">[{"id":"rag-voice-path","label":"Voice \u0026 Text RAG Inference Flow","focus":["farmer","speech","ui_assistant","gateway","rag_service","chromadb","ollama","llm"],"note":"Audio capture, 3s silence debounce, semantic search across 24K vectors, and token streaming from local Qwen 2.5."},{"id":"crop-taxonomy-path","label":"Agronomic Taxonomy \u0026 Cloud DB","focus":["farmer","ui_catalog","gateway","crops_api","supabase","weather_api"],"note":"Relational queries for 139 BRRI rice varieties, phenological growth stages, and agro-ecological zone mapping."}]</script>
 
     <script id="archify-i18n-data" type="application/json">{"locale":"en","messages":{"viewer.kind.frontend":"Frontend","viewer.kind.backend":"Backend","viewer.kind.database":"Database","viewer.kind.cloud":"Cloud","viewer.kind.security":"Security","viewer.kind.messagebus":"Message bus","viewer.kind.external":"External","viewer.kind.neutral":"Neutral","viewer.kind.node":"Node","viewer.kind.start":"Start","viewer.kind.active":"Active","viewer.kind.waiting":"Waiting","viewer.kind.decision":"Decision","viewer.kind.success":"Success","viewer.kind.failure":"Failure","viewer.toolbar.actions":"Diagram actions","viewer.theme.toggle.title":"Toggle theme (T)","viewer.theme.toggle":"Toggle color theme","viewer.theme.dark":"Dark","viewer.theme.light":"Light","viewer.preset.choose.title":"Choose visual style (S cycles)","viewer.preset.choose":"Choose visual style","viewer.preset.style":"Style","viewer.preset.menu":"Visual style","viewer.preset.identity":"Visual identity","viewer.preset.cycles":"S cycles","viewer.preset.classic":"Classic","viewer.preset.classic.short":"Classic","viewer.preset.classic.hint":"Stable technical default","viewer.preset.flow":"Signal Flow","viewer.preset.flow.short":"Flow","viewer.preset.flow.hint":"Motion-forward presentation","viewer.preset.blueprint":"Blueprint","viewer.preset.blueprint.hint":"Engineering review","viewer.preset.editorial":"Editorial","viewer.preset.editorial.hint":"Publication and launch notes","viewer.preset.badge.signalFlow":"SIGNAL FLOW","viewer.preset.badge.blueprint":"BLUEPRINT / REV 01","viewer.preset.badge.editorial":"EDITORIAL / FIELD NOTE","viewer.preset.badge.editorialPlate":"ARCHIFY / PLATE 04","viewer.preset.current":"Visual style: {style}. Choose visual style","viewer.motion.live":"Live","viewer.motion.still":"Still","viewer.motion.pause":"Pause motion","viewer.motion.resume":"Resume motion","viewer.motion.reduced":"Motion paused by reduced-motion preference","viewer.motion.hidden":"Motion paused while this page is hidden","viewer.motion.yielding":"Pause motion; currently yielding to {owner}","viewer.motion.yielding.title":"Live preview enabled · yielding to {owner}","viewer.owner.story":"the guided story","viewer.owner.chapter":"the active chapter","viewer.owner.chapterPreview":"the chapter delta preview","viewer.owner.handoff":"the chapter handoff","viewer.owner.route":"Route Probe","viewer.owner.lens":"Semantic Lens","viewer.owner.relationship":"Relationship Preview","viewer.owner.intent":"Intent Trace","viewer.owner.focus":"semantic focus","viewer.owner.legend":"legend preview","viewer.owner.reader":"reader interaction","viewer.present.enter":"Enter presentation stage","viewer.present.enter.title":"Presentation stage (F)","viewer.present.exit":"Exit presentation stage","viewer.present.exit.title":"Exit presentation stage (F or Escape)","viewer.present.present":"Present","viewer.present.exit.label":"Exit","viewer.export.button":"Export","viewer.export.button.title":"Export diagram (E)","viewer.export.diagram":"Export diagram","viewer.export.menu":"Export","viewer.export.subtitle":"Portable, clean outputs","viewer.export.share":"Share","viewer.export.shareCard":"Share Card","viewer.export.routeShareCard":"Route Share Card","viewer.export.reachShareCard":"Reach Share Card","viewer.export.copyShareCard":"Copy Share Card","viewer.export.copyDiagram":"Copy diagram","viewer.export.clipboardPng":"PNG to clipboard","viewer.export.raster":"Raster images","viewer.export.image":"Image","viewer.export.lossless":"Lossless image","viewer.export.compact":"Compact image","viewer.export.modern":"Modern image","viewer.export.vectorMotion":"Vector and motion","viewer.export.vectorMotion.heading":"Vector \u0026 motion","viewer.export.editable":"Editable vector","viewer.export.motion6s":"6s motion","viewer.export.unsupported":"Not supported by this browser","viewer.export.clipboardUnsupported":"Clipboard image write not supported by this browser","viewer.export.clipboardUnsupported.period":"Clipboard image write not supported by this browser.","viewer.export.clipboardUnsupported.short":"Clipboard image write not supported in this browser.","viewer.export.motionUnavailable":"Motion capture unavailable in this browser","viewer.export.webmUnavailable":"WebM unavailable in this browser","viewer.export.failed":"Export failed: {message}","viewer.export.unknownVariant":"Unknown Share Card variant: {variant}","viewer.export.routeRequired":"Trace a route before exporting a Route Share Card","viewer.export.reachRequired":"Trace authored reach before exporting a Reach Share Card","viewer.export.unknown":"unknown","viewer.export.routeFailed":"Route Share Card export failed: {message}","viewer.export.reachFailed":"Reach Share Card export failed: {message}","viewer.export.copyFailed":"Copy failed: {message}","viewer.export.copiedPng":"Copied PNG to clipboard","viewer.export.copiedShare":"Copied Share Card","viewer.export.downloadedShare":"Downloaded Share Card","viewer.export.downloadedRoute":"Downloaded Route Share Card","viewer.export.downloadedReach":"Downloaded Reach Share Card","viewer.export.downloadedWebm":"Downloaded WebM","viewer.export.recording":"Recording 6 seconds of motion…","viewer.export.card.routeSummary.one":"Route: {source} → {target} · {count} directed hop","viewer.export.card.routeSummary.other":"Route: {source} → {target} · {count} directed hops","viewer.export.card.reachSummary":"Authored {direction} from {origin} · {nodes} · {links} · max {hops}","viewer.export.card.node.one":"{count} node","viewer.export.card.node.other":"{count} nodes","viewer.export.card.link.one":"{count} link","viewer.export.card.link.other":"{count} links","viewer.export.card.hop.one":"{count} hop","viewer.export.card.hop.other":"{count} hops","viewer.export.card.routeBadge":"ARCHIFY · ROUTE · {hops}","viewer.export.card.reachBadge":"ARCHIFY · {direction} REACH","viewer.export.card.defaultBadge":"ARCHIFY · {preset} · {theme}","viewer.export.direction.upstream":"Upstream","viewer.export.direction.downstream":"Downstream","viewer.export.error.canvasUnavailable":"Canvas unavailable for {label}","viewer.export.error.contextUnavailable":"2D canvas context unavailable for {label}","viewer.export.error.toBlobUnavailable":"canvas.toBlob unavailable for {label}","viewer.export.error.toBlobNull":"canvas.toBlob returned no data for {label}","viewer.export.error.variantsCombined":"Share Card variants cannot be combined","viewer.export.error.viewerState":"Share Card export could not remove temporary viewer state","viewer.export.error.routeState":"Route Card export could not preserve the resolved route safely","viewer.export.error.reachState":"Reach Card export could not preserve authored reach safely","viewer.export.error.webmRequirements":"WebM motion export requires a trace animation and browser MediaRecorder support","viewer.export.error.mediaRecorder":"MediaRecorder failed","viewer.export.error.emptyWebm":"MediaRecorder produced an empty WebM","viewer.export.error.webmBackground":"SVG background could not be loaded for WebM export","viewer.guided.region":"Guided diagram views","viewer.guided.previous":"Previous guided view","viewer.guided.previous.title":"Previous guided view ([)","viewer.guided.next":"Next guided view","viewer.guided.next.title":"Next guided view (])","viewer.guided.views":"Guided views","viewer.guided.explore":"Explore this system","viewer.guided.intro":"Step through curated paths without changing the source diagram.","viewer.guided.trail":"Story trail","viewer.guided.beat":"Beat","viewer.guided.nextBeat":"Next","viewer.guided.play":"Play guided story","viewer.guided.play.title":"Play guided story (P)","viewer.guided.pause":"Pause guided story","viewer.guided.pause.title":"Pause guided story (P)","viewer.guided.replay":"Replay guided story","viewer.guided.replay.title":"Replay guided story (P)","viewer.guided.playStory":"Play story","viewer.guided.pauseStory":"Pause","viewer.guided.replayStory":"Replay story","viewer.guided.motionUnavailable":"Story playback unavailable while motion is Still","viewer.guided.enableMotion":"Switch motion to Live to play the guided story","viewer.guided.selectBeatLink":"Select a Story Beat to copy its exact link","viewer.guided.copyMoment":"Copy moment","viewer.guided.momentCopied":"Moment link copied","viewer.guided.momentCopyFailed":"Could not copy story moment link","viewer.guided.copied":"Copied","viewer.guided.copyFailed":"Copy failed","viewer.guided.showAll":"Show all","viewer.guided.showAll.aria":"Show entire diagram","viewer.guided.chapters":"Story chapters","viewer.guided.storyTrail":"Story trail for {label}: {count} beats","viewer.guided.chapter.open":"Open chapter {index} of {total}: {label}, {count} stops","viewer.guided.chapter.current":"Current chapter {index} of {total}: {label}, {count} stops","viewer.guided.chapter.selectedNodes":"{count} selected nodes","viewer.guided.chapter.stops":"{count} stops","viewer.guided.chapter.stop.one":"{count} stop","viewer.guided.chapter.stop.other":"{count} stops","viewer.guided.chapter.current.title":"{label} — current chapter, {count} stops","viewer.guided.chapter.delta.expanded":"{stay} stay, {enter} enter, {leave} leave","viewer.guided.chapter.delta.aria":"Open chapter {index} of {total}: {label}. Chapter focus delta: {delta}","viewer.guided.chapter.delta.title":"{label} — {delta} chapter focus","viewer.guided.handoff":"{from} → {to} · via {label}","viewer.guided.share.chapter":"Chapter {index} / {total}","viewer.guided.share.initial":"Chapter 01 / 01","viewer.guided.share.default":"Guided chapter","viewer.guided.state.ready":"Ready","viewer.guided.state.playing":"Playing","viewer.guided.state.settled":"Settled","viewer.guided.state.paused":"Paused","viewer.guided.state.pinned":"Pinned","viewer.guided.state.still":"Still","viewer.guided.share.step":"Step {index} / {total} · {label}","viewer.guided.share.staticMoment":"{step} · Static moment","viewer.guided.share.complete":"{count} steps complete · {note}","viewer.guided.share.settled":"Path settled for reading.","viewer.guided.share.staticPath":"{count} steps · Static path","viewer.guided.share.ready":"{count} steps · Ready","viewer.guided.share.aria":"{state} chapter {index} of {total}: {label}. {beat}. {route}","viewer.guided.beat.start":"Beat {index} / {total} · {label} · starting point","viewer.guided.beat.forward":"Beat {index} / {total} · {from} → {to}","viewer.guided.beat.reverse":"Beat {index} / {total} · {from} → {to} · reverse authored link","viewer.guided.beat.multiple":"Beat {index} / {total} · {from} ⇄ {to} · {count} authored links","viewer.guided.beat.group":"Beat {index} / {total} · {from} · {to} · grouped · no direct link","viewer.guided.beat.aria.prefix":"Story beat {index} of {total}: {label}. ","viewer.guided.beat.aria.start":"Starting point.","viewer.guided.beat.aria.forward":"From {from} through one authored forward relationship.","viewer.guided.beat.aria.reverse":"From {from}; the authored relationship points from {to} to {from}.","viewer.guided.beat.aria.multiple":"From {from} through {count} authored relationships; shown without arbitrary motion.","viewer.guided.beat.aria.group":"Grouped from {from} with no direct authored relationship.","viewer.guided.caption.start":"Starting point","viewer.guided.caption.grouped":"Grouped transition · no direct authored link","viewer.guided.caption.more":" +{count} more","viewer.guided.caption.reverse":"Reverse authored relationship","viewer.guided.caption.relationships":"{count} authored relationships","viewer.guided.caption.relationship":"Authored relationship","viewer.guided.caption.direction":"authored direction: {from} → {to}","viewer.guided.caption.starting":"Authored starting point","viewer.guided.beatLink":"Copy link to current story moment: Beat {index} of {total}: {label}","viewer.guided.noStory":"This diagram has no authored guided story.","viewer.guide.eyebrow":"Diagram guide","viewer.guide.close":"Close diagram guide","viewer.guide.inspecting":"Inspecting compiled semantics","viewer.guide.actions":"Diagram exploration actions","viewer.guide.find":"Find any node","viewer.guide.find.hint":"Search labels, responsibilities, kinds, and stable IDs.","viewer.guide.route":"Trace a route","viewer.guide.route.aria":"Trace a directed route","viewer.guide.route.hint":"Ask how two semantic nodes connect in authored direction.","viewer.guide.map":"See the whole system","viewer.guide.map.hint":"Open Semantic Radar with a live viewport and stable nodes.","viewer.guide.lens":"Compare semantic kinds","viewer.guide.lens.hint":"Count roles, reveal their traffic, and compare direct authored links.","viewer.guide.story":"Play the guided story","viewer.guide.story.hint":"Walk the authored chapters and real relationships.","viewer.guide.present":"Enter Presentation Stage","viewer.guide.present.hint":"Give the live diagram the viewport without changing export.","viewer.guide.shortcuts":"Additional keyboard shortcuts","viewer.guide.shortcut.export":"Export","viewer.guide.shortcut.theme":"Theme","viewer.guide.shortcut.style":"Style","viewer.guide.shortcut.reset":"Reset","viewer.guide.shortcut.zoomIn":"Zoom in","viewer.guide.shortcut.zoomOut":"Zoom out","viewer.guide.shortcut.close":"Close","viewer.guide.facts":"{nodes} · {relationships} · {views}","viewer.guide.fact.node.one":"{count} semantic node","viewer.guide.fact.node.other":"{count} semantic nodes","viewer.guide.fact.relationship.one":"{count} relationship","viewer.guide.fact.relationship.other":"{count} relationships","viewer.guide.fact.view.one":"{count} guided view","viewer.guide.fact.view.other":"{count} guided views","viewer.guide.story.available.one":"Walk {count} authored chapter and its real relationships.","viewer.guide.story.available.other":"Walk {count} authored chapters and their real relationships.","viewer.guide.story.unavailable":"No authored guided story in this diagram.","viewer.guide.open":"Open diagram guide","viewer.guide.noStory":"This diagram has no authored guided story.","viewer.finder.title":"Find a node","viewer.finder.close":"Close node finder","viewer.finder.placeholder":"Search labels or IDs","viewer.finder.search":"Search diagram nodes","viewer.finder.results":"Diagram nodes","viewer.finder.empty":"No matching nodes","viewer.finder.result.focus":"Focus {label}","viewer.finder.result.routeStart":"Choose {label} as route start","viewer.finder.result.routeTarget":"Choose {label} as route destination, {links}","viewer.finder.status.empty":"No matching nodes","viewer.finder.status.count.one":"{count} matching node","viewer.finder.status.count.other":"{count} matching nodes","viewer.finder.noun.nodes":"nodes","viewer.finder.link.one":"{count} link","viewer.finder.link.other":"{count} links","viewer.finder.result.focus.one":"Focus {label}, {count} related connection","viewer.finder.result.focus.other":"Focus {label}, {count} related connections","viewer.finder.status.filtered":"{visible} of {available} {noun}","viewer.finder.status.all":"{available} {noun}","viewer.passport.eyebrow":"Semantic passport","viewer.passport.metadata":"Node metadata","viewer.passport.evidence":"Verified source evidence","viewer.passport.verified":"Verified source","viewer.passport.verificationScope":"Verified against local Git at the pinned revision. Remote access has not been checked.","viewer.passport.reach":"Authored reach","viewer.passport.reach.trace":"Trace authored reachability","viewer.passport.upstream":"Upstream","viewer.passport.downstream":"Downstream","viewer.passport.upstream.trace":"Trace upstream authored reachability","viewer.passport.downstream.trace":"Trace downstream authored reachability","viewer.passport.close":"Close semantic passport","viewer.passport.copy":"Copy link","viewer.passport.copy.focus":"Copy link to focused node","viewer.passport.relations":"Relations","viewer.passport.relations.show":"Show connected relationships","viewer.passport.relations.hide":"Hide connected relationships","viewer.passport.relations.list":"Connected relationships","viewer.passport.copyRelation":"Copy relation","viewer.passport.copyNode":"Copy node","viewer.passport.copyPinned":"Copy link to pinned relationship","viewer.passport.copySource":"Copy link to source node","viewer.passport.copy.focused.success":"Focused node link copied","viewer.passport.copy.pinned.success":"Pinned relationship link copied","viewer.passport.copy.focused.failed":"Could not copy focused node link","viewer.passport.copy.pinned.failed":"Could not copy pinned relationship link","viewer.passport.relationship.none":"No connected relationships","viewer.passport.relationship.count.one":"{count} relation","viewer.passport.relationship.count.other":"{count} relations","viewer.passport.relationship.show.one":"Show {count} connected relationship","viewer.passport.relationship.show.other":"Show {count} connected relationships","viewer.passport.relationship.summary":"{out} outgoing · {in} incoming{loops}","viewer.passport.relationship.loops":" · {count} loop","viewer.passport.relationship.explorer":"Direct relationship explorer","viewer.passport.relationship.help":"Use arrow keys to explore relationships. Press Enter or Space to pin details; Escape clears.","viewer.passport.relationship.loopsBack":"loops back","viewer.passport.relationship.connectsTo":"connects to","viewer.passport.relationship.connectsFrom":"connects from","viewer.passport.relationship.pinned":"Pinned relationship · {from} → {to} · {label}","viewer.passport.relationship.inspect":"Inspect relationship {index} of {total}: {from} to {to}, {label}. Press Enter for details.","viewer.passport.relationship.group.out":"Outgoing","viewer.passport.relationship.group.in":"Incoming","viewer.passport.relationship.group.loop":"Self loops","viewer.passport.relationship.row":"{group}: {relationship}, {neighbor}","viewer.passport.relationship.direction.out":"OUT →","viewer.passport.relationship.direction.in":"← IN","viewer.passport.relationship.direction.loop":"LOOP","viewer.passport.sourceCount.one":"{count} verified source reference","viewer.passport.sourceCount.other":"{count} verified source references","viewer.passport.sourceMarker":"SRC","viewer.passport.beacon.one":"{count} verified source; focus this node to inspect","viewer.passport.beacon.other":"{count} verified sources; focus this node to inspect","viewer.passport.repository.open":"Open verified repository revision {revision}","viewer.passport.source.open":"Open verified source {path} at revision {revision}","viewer.passport.source.openLink":"Open ↗","viewer.passport.reach.upstream.one":"Trace {count} upstream authored node","viewer.passport.reach.upstream.other":"Trace {count} upstream authored nodes","viewer.passport.reach.downstream.one":"Trace {count} downstream authored node","viewer.passport.reach.downstream.other":"Trace {count} downstream authored nodes","viewer.passport.reach.noUpstream":"No upstream authored nodes","viewer.passport.reach.noDownstream":"No downstream authored nodes","viewer.passport.reach.status":"{direction} · {nodes} nodes · {links} links · max {hops} hops","viewer.route.eyebrow":"Route probe","viewer.route.start":"Choose a start node","viewer.route.start.find":"Find start","viewer.route.start.find.aria":"Find a route start","viewer.route.copy":"Copy link","viewer.route.copy.aria":"Copy link to traced route","viewer.route.clear":"Clear","viewer.route.clear.aria":"Clear route probe","viewer.route.traced":"Traced route","viewer.route.pickTwo":"Pick two semantic nodes on the diagram","viewer.route.pickOne":"Pick a semantic node on the diagram","viewer.route.controls":"Route journey controls","viewer.route.previous":"Previous route position","viewer.route.play":"Play route journey","viewer.route.pause":"Pause route journey","viewer.route.replay":"Replay route journey","viewer.route.next":"Next route position","viewer.route.journey":"Journey","viewer.route.pause.label":"Pause","viewer.route.replay.label":"Replay","viewer.route.overview":"Overview","viewer.route.overview.aria":"Show complete route overview","viewer.route.instructions":"Choose the source, then the destination. Direction matters.","viewer.route.destination":"Choose a destination from {label}","viewer.route.destination.find":"Find target","viewer.route.destination.find.aria":"Find a reachable route destination","viewer.route.differentDestination":"Choose a different destination","viewer.route.distinct":"A route needs two distinct semantic nodes.","viewer.route.unreachable":"No directed route to {label}","viewer.route.unreachable.detail":"{target} is not reachable from {source}. Pick a highlighted destination.","viewer.route.start.instructions":"Select the source. The next step will reveal only directed destinations.","viewer.route.copy.success":"Traced route link copied","viewer.route.copy.failed":"Could not copy traced route link","viewer.route.position":"Route position {index} of {total}: {label}","viewer.route.step":"Step {index} of {total} · {phase} · {label}","viewer.route.motionRequired":"Automatic journey requires Live motion","viewer.route.trigger.clear":"Clear traced route","viewer.route.overview.status":"{nodes} · {hops} · shortest authored route","viewer.route.overview.node.one":"{count} node","viewer.route.overview.node.other":"{count} nodes","viewer.route.overview.hop.one":"{count} directed hop","viewer.route.overview.hop.other":"{count} directed hops","viewer.route.phase.playing":"Playing","viewer.route.phase.complete":"Complete","viewer.route.phase.inspecting":"Inspecting","viewer.route.destination.count.one":"{count} directed destination available. Pick a highlighted node.","viewer.route.destination.count.other":"{count} directed destinations available. Pick a highlighted node.","viewer.route.noOutgoing":"No outgoing route starts here. Clear and choose another source.","viewer.route.result.title":"{source} to {target}","viewer.route.finder.source.title":"Choose route start","viewer.route.finder.source.placeholder":"Search route sources","viewer.route.finder.source.empty":"No matching route sources","viewer.route.finder.source.results":"Nodes that can start a route","viewer.route.finder.source.noun":"route sources","viewer.route.finder.source.badge":"start","viewer.route.finder.target.title":"Destination from {label}","viewer.route.finder.target.placeholder":"Search reachable destinations","viewer.route.finder.target.empty":"No matching reachable destinations","viewer.route.finder.target.results":"Reachable route destinations","viewer.route.finder.target.noun":"reachable destinations","viewer.route.hop.one":"{count} hop","viewer.route.hop.other":"{count} hops","viewer.lens.eyebrow":"Semantic lens","viewer.lens.title":"Compare system roles","viewer.lens.close":"Close semantic lens","viewer.lens.instruction":"Choose up to two semantic kinds. One reveals its real traffic; two compare only direct authored relationships.","viewer.lens.kinds":"Semantic kinds","viewer.lens.choose":"Choose a kind to inspect its nodes and touching relationships.","viewer.lens.copy":"Copy link to semantic lens","viewer.lens.clear":"Clear semantic lens","viewer.lens.open":"Open semantic lens","viewer.lens.openActive":"Open active semantic lens","viewer.lens.legend":"Semantic legend","viewer.lens.legend.inspect.one":"Inspect {label}, {count} node","viewer.lens.legend.inspect.other":"Inspect {label}, {count} nodes","viewer.lens.kind.count.one":"{label}, {count} node","viewer.lens.kind.count.other":"{label}, {count} nodes","viewer.lens.compare.one":"{first} → {second}: {forward} · {second} → {first}: {reverse} · {count} direct relationship","viewer.lens.compare.other":"{first} → {second}: {forward} · {second} → {first}: {reverse} · {count} direct relationships","viewer.lens.single":"{nodes} · {relationships} · connected peers remain visible","viewer.lens.node.one":"{count} {label} node","viewer.lens.node.other":"{count} {label} nodes","viewer.lens.relationship.one":"{count} touching relationship","viewer.lens.relationship.other":"{count} touching relationships","viewer.radar.title":"Semantic radar","viewer.radar.building":"Building overview","viewer.radar.openFull":"Open full semantic radar","viewer.radar.open":"Open radar","viewer.radar.close":"Close semantic radar","viewer.radar.surface":"Diagram overview. Click a node to focus it, or use arrow keys to pan.","viewer.radar.click":"Click node","viewer.radar.drag":"Drag to pan","viewer.radar.space":"Semantic radar needs more MAP space.","viewer.radar.nodes":"Semantic diagram radar nodes","viewer.radar.focus":"Focus {label} from Semantic Radar","viewer.radar.status":"{count} nodes · {viewport}","viewer.radar.fullMap":"{count} nodes · full map","viewer.radar.compacted":"Radar compacted to avoid covering the Semantic Passport or MAP controls.","viewer.radar.cancelWaiting":"Cancel semantic radar waiting for more MAP space","viewer.radar.needsSpace":"Semantic radar needs more visible MAP space","viewer.radar.viewport.full":"full map","viewer.radar.viewport.width":"{percent}% width","viewer.radar.viewport.scale":"{percent}% viewport","viewer.nav.controls":"Diagram view controls","viewer.nav.route":"Trace a directed route","viewer.nav.route.title":"Trace route (R)","viewer.nav.route.short":"PATH","viewer.nav.radar":"Open semantic radar","viewer.nav.radar.title":"Semantic radar (M)","viewer.nav.radar.short":"MAP","viewer.nav.lens":"Open semantic lens","viewer.nav.lens.title":"Semantic lens (L)","viewer.nav.lens.short":"LENS","viewer.nav.find":"Find a node","viewer.nav.find.title":"Find a node (/)","viewer.nav.guide":"Open diagram guide","viewer.nav.guide.title":"Diagram guide (?)","viewer.nav.zoomOut":"Zoom out","viewer.nav.zoomOut.title":"Zoom out (-)","viewer.nav.reset":"Reset diagram view","viewer.nav.reset.title":"Reset view (0)","viewer.nav.read":"READ","viewer.nav.zoomIn":"Zoom in","viewer.nav.zoomIn.title":"Zoom in (+)","viewer.nav.camera":"{hint}. Reset diagram view","viewer.nav.camera.title":"{semantic}{hint} · reset view (0)","viewer.nav.camera.semantic":"Semantic camera active · ","viewer.nav.level.map":"MAP","viewer.nav.level.read":"READ","viewer.nav.level.full":"FULL","viewer.nav.level.auto":"AUTO","viewer.nav.detail.map":"Zoom in to reveal relationship labels and node context","viewer.nav.detail.read":"Zoom in again to reveal tags and annotations","viewer.nav.detail.full":"Full diagram detail","viewer.intent.summary":"{label}. {out} outgoing, {in} incoming{loops}. {total} connections. Press Enter for details.","viewer.intent.loops":", {count} self loop","viewer.common.copied":"Copied","viewer.common.copyFailed":"Copy failed","viewer.common.copyLink":"Copy link","viewer.common.clear":"Clear","viewer.common.close":"Close"}}</script>
     <div class="guided-views no-print" id="guided-views" hidden aria-label="Guided diagram views">
@@ -5130,8 +5130,8 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
     <!-- Main Diagram -->
     <div class="diagram-container" data-detail-level="read"
          data-preset-badge-editorial-plate="ARCHIFY / PLATE 04">
-      <svg viewBox="0 0 1190 488" role="img" lang="en" aria-labelledby="archify-diagram-title archify-diagram-description" data-preset="classic" data-quality-profile="showcase">
-        <title id="archify-diagram-title">Bangladesh Crop Intelligence Assistant - Runtime Architecture</title>
+      <svg viewBox="0 0 1230 508" role="img" lang="en" aria-labelledby="archify-diagram-title archify-diagram-description" data-preset="classic" data-quality-profile="showcase">
+        <title id="archify-diagram-title">Bangladesh Crop Intelligence Assistant - Detailed Runtime Architecture</title>
         <desc id="archify-diagram-description">An architecture diagram generated by Archify.</desc>
         <!-- Definitions -->
         <defs>
@@ -5156,223 +5156,292 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
         <rect width="100%" height="100%" fill="url(#grid)" />
 
         <!-- Boundaries (behind everything) -->
-        <rect data-graph-role="structural-frame" data-composition-frame-kind="security-group" data-composition-frame-id="0" data-composition-frame-label="Client Environment" x="10" y="40" width="380" height="240" rx="8" class="c-security-group" stroke-width="1"/>
+        <rect data-graph-role="structural-frame" data-composition-frame-kind="security-group" data-composition-frame-id="0" data-composition-frame-label="Client Environment (Browser)" x="10" y="50" width="390" height="390" rx="8" class="c-security-group" stroke-width="1"/>
 
-        <rect data-graph-role="structural-frame" data-composition-frame-kind="region" data-composition-frame-id="1" data-composition-frame-label="Local Host Execution" x="400" y="170" width="750" height="250" rx="12" class="c-region" stroke-width="1"/>
+        <rect data-graph-role="structural-frame" data-composition-frame-kind="region" data-composition-frame-id="1" data-composition-frame-label="Local Host Runtime (FastAPI &amp; Ollama)" x="410" y="50" width="780" height="390" rx="12" class="c-region" stroke-width="1"/>
 
-        <rect data-graph-role="structural-frame" data-composition-frame-kind="region" data-composition-frame-id="2" data-composition-frame-label="Cloud Persistence" x="400" y="310" width="200" height="110" rx="12" class="c-region" stroke-width="1"/>
+        <rect data-graph-role="structural-frame" data-composition-frame-kind="region" data-composition-frame-id="2" data-composition-frame-label="Cloud Persistence" x="820" y="330" width="200" height="110" rx="12" class="c-region" stroke-width="1"/>
 
         <!-- Connection paths (before components for correct z-order) -->
-        <path data-edge-from="farmer" data-edge-to="speech" data-edge-label="audio" data-edge-key="0" data-edge-id="farmer-to-speech" data-composition-points="100,200;100,176;206,176;206,100;230,100" d="M 100 200 L 100 184 Q 100 176 108 176 L 198 176 Q 206 176 206 168 L 206 108 Q 206 100 214 100 L 230 100" class="a-default" stroke-width="1.5" marker-end="url(#arrowhead)"/>
-        <path data-edge-from="speech" data-edge-to="frontend" data-edge-label="transcript" data-edge-key="1" data-edge-id="speech-to-frontend" data-composition-points="295,130;295,200" d="M 295 130 L 295 200" class="a-default" stroke-width="1.5" marker-end="url(#arrowhead)"/>
-        <path data-edge-from="farmer" data-edge-to="frontend" data-edge-label="HTTP / UI" data-edge-key="2" data-edge-id="farmer-to-frontend" data-composition-points="160,230;230,230" d="M 160 230 L 230 230" class="a-emphasis" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
-        <path data-edge-from="frontend" data-edge-to="gateway" data-edge-label="REST / SSE" data-edge-key="3" data-edge-id="frontend-to-gateway" data-composition-points="360,230;430,230" d="M 360 230 L 430 230" class="a-emphasis" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
-        <path data-edge-from="gateway" data-edge-to="supabase" data-edge-label="SQL" data-edge-key="4" data-edge-id="gateway-to-supabase" data-composition-points="495,260;495,284;516,284;516,316;500,316;500,340" d="M 495 260 L 495 276 Q 495 284 503 284 L 508 284 Q 516 284 516 292 L 516 308 Q 516 316 508 316 L 508 316 Q 500 316 500 324 L 500 340" class="a-default" stroke-width="1.5" marker-end="url(#arrowhead)"/>
-        <path data-edge-from="gateway" data-edge-to="rag" data-edge-label="route" data-edge-key="5" data-edge-id="gateway-to-rag" data-composition-points="560,230;620,230" d="M 560 230 L 620 230" class="a-emphasis" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
-        <path data-edge-from="rag" data-edge-to="chromadb" data-edge-label="search" data-edge-key="6" data-edge-id="rag-to-chroma" data-composition-points="685,260;685,284;706,284;706,316;690,316;690,340" d="M 685 260 L 685 276 Q 685 284 693 284 L 698 284 Q 706 284 706 292 L 706 308 Q 706 316 698 316 L 698 316 Q 690 316 690 324 L 690 340" class="a-dashed" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
-        <path data-edge-from="rag" data-edge-to="ollama" data-edge-label="prompt" data-edge-key="7" data-edge-id="rag-to-ollama" data-composition-points="750,230;810,230" d="M 750 230 L 810 230" class="a-emphasis" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
-        <path data-edge-from="ollama" data-edge-to="llm" data-edge-label="tokens" data-edge-key="8" data-edge-id="ollama-to-llm" data-composition-points="940,230;1000,230" d="M 940 230 L 1000 230" class="a-default" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <path data-edge-from="farmer" data-edge-to="speech" data-edge-label="voice audio" data-edge-key="0" data-edge-id="farmer-to-speech" data-composition-points="105,220;105,196;206,196;206,110;230,110" d="M 105 220 L 105 204 Q 105 196 113 196 L 198 196 Q 206 196 206 188 L 206 118 Q 206 110 214 110 L 230 110" class="a-default" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <path data-edge-from="speech" data-edge-to="ui_assistant" data-edge-label="transcript" data-edge-key="1" data-edge-id="speech-to-assistant" data-composition-points="300,140;300,220" d="M 300 140 L 300 220" class="a-default" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <path data-edge-from="farmer" data-edge-to="ui_assistant" data-edge-label="chat prompt" data-edge-key="2" data-edge-id="farmer-to-assistant" data-composition-points="170,250;230,250" d="M 170 250 L 230 250" class="a-emphasis" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+        <path data-edge-from="farmer" data-edge-to="ui_catalog" data-edge-label="browse crops" data-edge-key="3" data-edge-id="farmer-to-catalog" data-composition-points="105,280;105,304;206,304;206,390;230,390" d="M 105 280 L 105 296 Q 105 304 113 304 L 198 304 Q 206 304 206 312 L 206 382 Q 206 390 214 390 L 230 390" class="a-default" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <path data-edge-from="ui_assistant" data-edge-to="gateway" data-edge-label="POST /stream" data-edge-key="4" data-edge-id="assistant-to-gateway" data-composition-points="370,250;440,250" d="M 370 250 L 440 250" class="a-emphasis" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+        <path data-edge-from="ui_catalog" data-edge-to="gateway" data-edge-label="queries" data-edge-key="5" data-edge-id="catalog-to-gateway" data-composition-points="300,360;300,320;498,320;498,280" d="M 300 360 L 300 328 Q 300 320 308 320 L 490 320 Q 498 320 498 312 L 498 280" class="a-default" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <path data-edge-from="gateway" data-edge-to="weather_api" data-edge-label="weather" data-edge-key="6" data-edge-id="gateway-to-weather" data-composition-points="505,220;505,196;616,196;616,110;640,110" d="M 505 220 L 505 204 Q 505 196 513 196 L 608 196 Q 616 196 616 188 L 616 118 Q 616 110 624 110 L 640 110" class="a-default" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <path data-edge-from="gateway" data-edge-to="rag_service" data-edge-label="route" data-edge-key="7" data-edge-id="gateway-to-rag" data-composition-points="570,250;640,250" d="M 570 250 L 640 250" class="a-emphasis" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+        <path data-edge-from="gateway" data-edge-to="crops_api" data-edge-label="taxonomy" data-edge-key="8" data-edge-id="gateway-to-crops" data-composition-points="512,280;512,304;616,304;616,390;640,390" d="M 512 280 L 512 296 Q 512 304 520 304 L 608 304 Q 616 304 616 312 L 616 382 Q 616 390 624 390 L 640 390" class="a-default" stroke-width="1.5" marker-end="url(#arrowhead)"/>
+        <path data-edge-from="rag_service" data-edge-to="chromadb" data-edge-label="vector search" data-edge-key="9" data-edge-id="rag-to-chroma" data-composition-points="710,220;710,196;826,196;826,110;850,110" d="M 710 220 L 710 204 Q 710 196 718 196 L 818 196 Q 826 196 826 188 L 826 118 Q 826 110 834 110 L 850 110" class="a-dashed" stroke-width="1.5" marker-end="url(#arrowhead-dashed)"/>
+        <path data-edge-from="rag_service" data-edge-to="ollama" data-edge-label="prompt" data-edge-key="10" data-edge-id="rag-to-ollama" data-composition-points="780,250;850,250" d="M 780 250 L 850 250" class="a-emphasis" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+        <path data-edge-from="crops_api" data-edge-to="supabase" data-edge-label="SQL queries" data-edge-key="11" data-edge-id="crops-to-supabase" data-composition-points="780,390;850,390" d="M 780 390 L 850 390" class="a-emphasis" stroke-width="1.8" marker-end="url(#arrowhead-emphasis)"/>
+        <path data-edge-from="ollama" data-edge-to="llm" data-edge-label="tokens" data-edge-key="12" data-edge-id="ollama-to-llm" data-composition-points="980,250;1040,250" d="M 980 250 L 1040 250" class="a-default" stroke-width="1.5" marker-end="url(#arrowhead)"/>
 
         <!-- Components -->
-        <g id="node-farmer" data-node-id="farmer" data-node-label="User / Farmer" tabindex="0" role="button" aria-label="Focus User / Farmer, Browser / Mobile Client, Client Environment" aria-pressed="false" data-node-kind="external" data-node-sublabel="Browser / Mobile Client" data-node-context="Client Environment">
-          <title>User / Farmer · Browser / Mobile Client · Client Environment</title>
-          <rect x="40" y="200" width="120" height="60" rx="6" class="c-mask"/>
-          <rect x="40" y="200" width="120" height="60" rx="6" class="c-external" stroke-width="1.5"/>
-          <g aria-hidden="true" data-semantic-sigil="external" class="semantic-sigil s-external" transform="translate(46 206) scale(0.6875)">
+        <g id="node-farmer" data-node-id="farmer" data-node-label="User / Farmer" tabindex="0" role="button" aria-label="Focus User / Farmer, Browser / Mobile Client, Client Environment (Browser)" aria-pressed="false" data-node-kind="external" data-node-sublabel="Browser / Mobile Client" data-node-tag="Bangla / English" data-node-context="Client Environment (Browser)">
+          <title>User / Farmer · Browser / Mobile Client · Client Environment (Browser) · Bangla / English</title>
+          <rect x="40" y="220" width="130" height="60" rx="6" class="c-mask"/>
+          <rect x="40" y="220" width="130" height="60" rx="6" class="c-external" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="external" class="semantic-sigil s-external" transform="translate(46 226) scale(0.6875)">
             <rect x="2.5" y="5" width="8.5" height="8" rx="1.5"/>
             <path d="M8 2.5h5.5V8M13.5 2.5 7.5 8.5"/>
           </g>
-          <text data-node-label="" data-detail-anchor="" x="100" y="228" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">User / Farmer</text>
-        <text data-detail="context" x="100" y="244" class="t-muted" font-size="8.1" text-anchor="middle">Browser / Mobile Client</text>
+          <text data-node-label="" data-detail-anchor="" x="105" y="248" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">User / Farmer</text>
+        <text data-detail="context" x="105" y="264" class="t-muted" font-size="8.8" text-anchor="middle">Browser / Mobile Client</text>
+        <text data-detail="fine" x="105" y="272" class="t-external" font-size="7" text-anchor="middle">Bangla / English</text>
         </g>
 
-        <g id="node-speech" data-node-id="speech" data-node-label="Web Speech API" tabindex="0" role="button" aria-label="Focus Web Speech API, Voice Engine, Client Environment" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="Voice Engine" data-node-tag="3.0s Debounce" data-node-context="Client Environment">
-          <title>Web Speech API · Voice Engine · Client Environment · 3.0s Debounce</title>
-          <rect x="230" y="70" width="130" height="60" rx="6" class="c-mask"/>
-          <rect x="230" y="70" width="130" height="60" rx="6" class="c-frontend" stroke-width="1.5"/>
-          <g aria-hidden="true" data-semantic-sigil="frontend" class="semantic-sigil s-frontend" transform="translate(236 76) scale(0.6875)">
+        <g id="node-speech" data-node-id="speech" data-node-label="Web Speech API" tabindex="0" role="button" aria-label="Focus Web Speech API, Continuous Voice Engine, Client Environment (Browser)" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="Continuous Voice Engine" data-node-tag="3.0s Debounce" data-node-context="Client Environment (Browser)">
+          <title>Web Speech API · Continuous Voice Engine · Client Environment (Browser) · 3.0s Debounce</title>
+          <rect x="230" y="80" width="140" height="60" rx="6" class="c-mask"/>
+          <rect x="230" y="80" width="140" height="60" rx="6" class="c-frontend" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="frontend" class="semantic-sigil s-frontend" transform="translate(236 86) scale(0.6875)">
             <rect x="2" y="3" width="12" height="10" rx="2"/>
             <path d="M2 6.5h12"/>
             <circle cx="4.1" cy="4.8" r=".7" class="sigil-fill"/>
             <circle cx="6.3" cy="4.8" r=".7" class="sigil-fill"/>
           </g>
-          <text data-node-label="" data-detail-anchor="" x="295" y="98" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">Web Speech API</text>
-        <text data-detail="context" x="295" y="114" class="t-muted" font-size="9" text-anchor="middle">Voice Engine</text>
-        <text data-detail="fine" x="295" y="122" class="t-frontend" font-size="7" text-anchor="middle">3.0s Debounce</text>
+          <text data-node-label="" data-detail-anchor="" x="300" y="108" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">Web Speech API</text>
+        <text data-detail="context" x="300" y="124" class="t-muted" font-size="9" text-anchor="middle">Continuous Voice Engine</text>
+        <text data-detail="fine" x="300" y="132" class="t-frontend" font-size="7" text-anchor="middle">3.0s Debounce</text>
         </g>
 
-        <g id="node-frontend" data-node-id="frontend" data-node-label="Next.js 14 App" tabindex="0" role="button" aria-label="Focus Next.js 14 App, App Router :3000, Client Environment, Next.js" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="App Router :3000" data-node-context="Client Environment" data-node-brand="Next.js" data-node-brand-id="next-js" data-node-brand-status="preset" data-node-brand-source="https://vercel.com/design/brands#next-js">
-          <title>Next.js 14 App · App Router :3000 · Client Environment · Next.js</title>
-          <rect x="230" y="200" width="130" height="60" rx="6" class="c-mask"/>
-          <rect x="230" y="200" width="130" height="60" rx="6" class="c-frontend" stroke-width="1.5"/>
-          <g aria-hidden="true" data-semantic-sigil="frontend" class="semantic-sigil s-frontend" transform="translate(236 206) scale(0.6875)">
+        <g id="node-ui_assistant" data-node-id="ui_assistant" data-node-label="AI Assistant UI" tabindex="0" role="button" aria-label="Focus AI Assistant UI, SSE Stream Listener, Client Environment (Browser), Next.js" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="SSE Stream Listener" data-node-tag="/assistant" data-node-context="Client Environment (Browser)" data-node-brand="Next.js" data-node-brand-id="next-js" data-node-brand-status="preset" data-node-brand-source="https://vercel.com/design/brands#next-js">
+          <title>AI Assistant UI · SSE Stream Listener · Client Environment (Browser) · /assistant · Next.js</title>
+          <rect x="230" y="220" width="140" height="60" rx="6" class="c-mask"/>
+          <rect x="230" y="220" width="140" height="60" rx="6" class="c-frontend" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="frontend" class="semantic-sigil s-frontend" transform="translate(236 226) scale(0.6875)">
             <rect x="2" y="3" width="12" height="10" rx="2"/>
             <path d="M2 6.5h12"/>
             <circle cx="4.1" cy="4.8" r=".7" class="sigil-fill"/>
             <circle cx="6.3" cy="4.8" r=".7" class="sigil-fill"/>
           </g>
-          <g aria-hidden="true" data-brand-mark="next-js" data-brand-title="Next.js" data-brand-status="preset" data-brand-source="https://vercel.com/design/brands#next-js" class="brand-mark" transform="translate(338 206)">
+          <g aria-hidden="true" data-brand-mark="next-js" data-brand-title="Next.js" data-brand-status="preset" data-brand-source="https://vercel.com/design/brands#next-js" class="brand-mark" transform="translate(348 226)">
             <rect width="16" height="16" rx="4" class="brand-mark-badge"/>
             <path d="M18.665 21.978C16.758 23.255 14.465 24 12 24 5.377 24 0 18.623 0 12S5.377 0 12 0s12 5.377 12 12c0 3.583-1.574 6.801-4.067 9.001L9.219 7.2H7.2v9.596h1.615V9.251l9.85 12.727Zm-3.332-8.533 1.6 2.061V7.2h-1.6v6.245Z" transform="translate(3 3) scale(0.4166666666666667)" fill="#000000"/>
             <rect width="16" height="16" rx="4" class="brand-mark-frame"/>
           </g>
-          <text data-node-label="" data-detail-anchor="" x="295" y="228" class="t-primary" font-size="8.8" font-weight="600" text-anchor="middle">Next.js 14 App</text>
-        <text data-detail="context" x="295" y="244" class="t-muted" font-size="9" text-anchor="middle">App Router :3000</text>
+          <text data-node-label="" data-detail-anchor="" x="300" y="248" class="t-primary" font-size="9.3" font-weight="600" text-anchor="middle">AI Assistant UI</text>
+        <text data-detail="context" x="300" y="264" class="t-muted" font-size="9" text-anchor="middle">SSE Stream Listener</text>
+        <text data-detail="fine" x="300" y="272" class="t-frontend" font-size="7" text-anchor="middle">/assistant</text>
         </g>
 
-        <g id="node-gateway" data-node-id="gateway" data-node-label="FastAPI Gateway" tabindex="0" role="button" aria-label="Focus FastAPI Gateway, Uvicorn ASGI :8000, Local Host Execution, FastAPI" aria-pressed="false" data-node-kind="backend" data-node-sublabel="Uvicorn ASGI :8000" data-node-context="Local Host Execution" data-node-brand="FastAPI" data-node-brand-id="fastapi" data-node-brand-status="preset" data-node-brand-source="https://github.com/tiangolo/fastapi/blob/ffb4f77a11f83132b521ba0aac6c95792c19e797/docs/en/docs/img/icon-white.svg">
-          <title>FastAPI Gateway · Uvicorn ASGI :8000 · Local Host Execution · FastAPI</title>
-          <rect x="430" y="200" width="130" height="60" rx="6" class="c-mask"/>
-          <rect x="430" y="200" width="130" height="60" rx="6" class="c-backend" stroke-width="1.5"/>
-          <g aria-hidden="true" data-semantic-sigil="backend" class="semantic-sigil s-backend" transform="translate(436 206) scale(0.6875)">
+        <g id="node-ui_catalog" data-node-id="ui_catalog" data-node-label="Crop Catalog UI" tabindex="0" role="button" aria-label="Focus Crop Catalog UI, Taxonomy Explorer, Client Environment (Browser), Next.js" aria-pressed="false" data-node-kind="frontend" data-node-sublabel="Taxonomy Explorer" data-node-tag="/crops" data-node-context="Client Environment (Browser)" data-node-brand="Next.js" data-node-brand-id="next-js" data-node-brand-status="preset" data-node-brand-source="https://vercel.com/design/brands#next-js">
+          <title>Crop Catalog UI · Taxonomy Explorer · Client Environment (Browser) · /crops · Next.js</title>
+          <rect x="230" y="360" width="140" height="60" rx="6" class="c-mask"/>
+          <rect x="230" y="360" width="140" height="60" rx="6" class="c-frontend" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="frontend" class="semantic-sigil s-frontend" transform="translate(236 366) scale(0.6875)">
+            <rect x="2" y="3" width="12" height="10" rx="2"/>
+            <path d="M2 6.5h12"/>
+            <circle cx="4.1" cy="4.8" r=".7" class="sigil-fill"/>
+            <circle cx="6.3" cy="4.8" r=".7" class="sigil-fill"/>
+          </g>
+          <g aria-hidden="true" data-brand-mark="next-js" data-brand-title="Next.js" data-brand-status="preset" data-brand-source="https://vercel.com/design/brands#next-js" class="brand-mark" transform="translate(348 366)">
+            <rect width="16" height="16" rx="4" class="brand-mark-badge"/>
+            <path d="M18.665 21.978C16.758 23.255 14.465 24 12 24 5.377 24 0 18.623 0 12S5.377 0 12 0s12 5.377 12 12c0 3.583-1.574 6.801-4.067 9.001L9.219 7.2H7.2v9.596h1.615V9.251l9.85 12.727Zm-3.332-8.533 1.6 2.061V7.2h-1.6v6.245Z" transform="translate(3 3) scale(0.4166666666666667)" fill="#000000"/>
+            <rect width="16" height="16" rx="4" class="brand-mark-frame"/>
+          </g>
+          <text data-node-label="" data-detail-anchor="" x="300" y="388" class="t-primary" font-size="9.3" font-weight="600" text-anchor="middle">Crop Catalog UI</text>
+        <text data-detail="context" x="300" y="404" class="t-muted" font-size="9" text-anchor="middle">Taxonomy Explorer</text>
+        <text data-detail="fine" x="300" y="412" class="t-frontend" font-size="7" text-anchor="middle">/crops</text>
+        </g>
+
+        <g id="node-gateway" data-node-id="gateway" data-node-label="FastAPI Gateway" tabindex="0" role="button" aria-label="Focus FastAPI Gateway, Uvicorn ASGI :8000, Local Host Runtime (FastAPI &amp; Ollama), FastAPI" aria-pressed="false" data-node-kind="backend" data-node-sublabel="Uvicorn ASGI :8000" data-node-tag="CORS &amp; Routes" data-node-context="Local Host Runtime (FastAPI &amp; Ollama)" data-node-brand="FastAPI" data-node-brand-id="fastapi" data-node-brand-status="preset" data-node-brand-source="https://github.com/tiangolo/fastapi/blob/ffb4f77a11f83132b521ba0aac6c95792c19e797/docs/en/docs/img/icon-white.svg">
+          <title>FastAPI Gateway · Uvicorn ASGI :8000 · Local Host Runtime (FastAPI &amp; Ollama) · CORS &amp; Routes · FastAPI</title>
+          <rect x="440" y="220" width="130" height="60" rx="6" class="c-mask"/>
+          <rect x="440" y="220" width="130" height="60" rx="6" class="c-backend" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="backend" class="semantic-sigil s-backend" transform="translate(446 226) scale(0.6875)">
             <path d="M6 3 3 8l3 5M10 3l3 5-3 5"/>
           </g>
-          <g aria-hidden="true" data-brand-mark="fastapi" data-brand-title="FastAPI" data-brand-status="preset" data-brand-source="https://github.com/tiangolo/fastapi/blob/ffb4f77a11f83132b521ba0aac6c95792c19e797/docs/en/docs/img/icon-white.svg" class="brand-mark" transform="translate(538 206)">
+          <g aria-hidden="true" data-brand-mark="fastapi" data-brand-title="FastAPI" data-brand-status="preset" data-brand-source="https://github.com/tiangolo/fastapi/blob/ffb4f77a11f83132b521ba0aac6c95792c19e797/docs/en/docs/img/icon-white.svg" class="brand-mark" transform="translate(548 226)">
             <rect width="16" height="16" rx="4" class="brand-mark-badge"/>
             <path d="M12 .0387C5.3729.0384.0003 5.3931 0 11.9988c-.001 6.6066 5.372 11.9628 12 11.9625 6.628.0003 12.001-5.3559 12-11.9625-.0003-6.6057-5.3729-11.9604-12-11.96m-.829 5.4153h7.55l-7.5805 5.3284h5.1828L5.279 18.5436q2.9466-6.5444 5.892-13.0896" transform="translate(3 3) scale(0.4166666666666667)" fill="#009688"/>
             <rect width="16" height="16" rx="4" class="brand-mark-frame"/>
           </g>
-          <text data-node-label="" data-detail-anchor="" x="495" y="228" class="t-primary" font-size="8.2" font-weight="600" text-anchor="middle">FastAPI Gateway</text>
-        <text data-detail="context" x="495" y="244" class="t-muted" font-size="9" text-anchor="middle">Uvicorn ASGI :8000</text>
+          <text data-node-label="" data-detail-anchor="" x="505" y="248" class="t-primary" font-size="8.2" font-weight="600" text-anchor="middle">FastAPI Gateway</text>
+        <text data-detail="context" x="505" y="264" class="t-muted" font-size="9" text-anchor="middle">Uvicorn ASGI :8000</text>
+        <text data-detail="fine" x="505" y="272" class="t-backend" font-size="7" text-anchor="middle">CORS &amp; Routes</text>
         </g>
 
-        <g id="node-supabase" data-node-id="supabase" data-node-label="Supabase DB" tabindex="0" role="button" aria-label="Focus Supabase DB, 139 BRRI Varieties &amp; Crops, Cloud Persistence, Supabase" aria-pressed="false" data-node-kind="database" data-node-sublabel="139 BRRI Varieties &amp; Crops" data-node-context="Cloud Persistence" data-node-brand="Supabase" data-node-brand-id="supabase" data-node-brand-status="preset" data-node-brand-source="https://github.com/supabase/supabase/blob/4031a7549f5d46da7bc79c01d56be4177dc7c114/packages/common/assets/images/supabase-logo-wordmark--light.svg">
-          <title>Supabase DB · 139 BRRI Varieties &amp; Crops · Cloud Persistence · Supabase</title>
-          <rect x="430" y="340" width="140" height="60" rx="6" class="c-mask"/>
-          <rect x="430" y="340" width="140" height="60" rx="6" class="c-database" stroke-width="1.5"/>
-          <g aria-hidden="true" data-semantic-sigil="database" class="semantic-sigil s-database" transform="translate(436 346) scale(0.6875)">
+        <g id="node-weather_api" data-node-id="weather_api" data-node-label="Weather Service" tabindex="0" role="button" aria-label="Focus Weather Service, weather_service.py, Local Host Runtime (FastAPI &amp; Ollama)" aria-pressed="false" data-node-kind="backend" data-node-sublabel="weather_service.py" data-node-tag="Divisional AEZ" data-node-context="Local Host Runtime (FastAPI &amp; Ollama)">
+          <title>Weather Service · weather_service.py · Local Host Runtime (FastAPI &amp; Ollama) · Divisional AEZ</title>
+          <rect x="640" y="80" width="140" height="60" rx="6" class="c-mask"/>
+          <rect x="640" y="80" width="140" height="60" rx="6" class="c-backend" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="backend" class="semantic-sigil s-backend" transform="translate(646 86) scale(0.6875)">
+            <path d="M6 3 3 8l3 5M10 3l3 5-3 5"/>
+          </g>
+          <text data-node-label="" data-detail-anchor="" x="710" y="108" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">Weather Service</text>
+        <text data-detail="context" x="710" y="124" class="t-muted" font-size="9" text-anchor="middle">weather_service.py</text>
+        <text data-detail="fine" x="710" y="132" class="t-backend" font-size="7" text-anchor="middle">Divisional AEZ</text>
+        </g>
+
+        <g id="node-rag_service" data-node-id="rag_service" data-node-label="RAG Orchestrator" tabindex="0" role="button" aria-label="Focus RAG Orchestrator, rag_service.py, Local Host Runtime (FastAPI &amp; Ollama)" aria-pressed="false" data-node-kind="backend" data-node-sublabel="rag_service.py" data-node-tag="Context &amp; Memory" data-node-context="Local Host Runtime (FastAPI &amp; Ollama)">
+          <title>RAG Orchestrator · rag_service.py · Local Host Runtime (FastAPI &amp; Ollama) · Context &amp; Memory</title>
+          <rect x="640" y="220" width="140" height="60" rx="6" class="c-mask"/>
+          <rect x="640" y="220" width="140" height="60" rx="6" class="c-backend" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="backend" class="semantic-sigil s-backend" transform="translate(646 226) scale(0.6875)">
+            <path d="M6 3 3 8l3 5M10 3l3 5-3 5"/>
+          </g>
+          <text data-node-label="" data-detail-anchor="" x="710" y="248" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">RAG Orchestrator</text>
+        <text data-detail="context" x="710" y="264" class="t-muted" font-size="9" text-anchor="middle">rag_service.py</text>
+        <text data-detail="fine" x="710" y="272" class="t-backend" font-size="7" text-anchor="middle">Context &amp; Memory</text>
+        </g>
+
+        <g id="node-crops_api" data-node-id="crops_api" data-node-label="Crops Router" tabindex="0" role="button" aria-label="Focus Crops Router, routes/crops.py, Local Host Runtime (FastAPI &amp; Ollama)" aria-pressed="false" data-node-kind="backend" data-node-sublabel="routes/crops.py" data-node-tag="PostgREST Client" data-node-context="Local Host Runtime (FastAPI &amp; Ollama)">
+          <title>Crops Router · routes/crops.py · Local Host Runtime (FastAPI &amp; Ollama) · PostgREST Client</title>
+          <rect x="640" y="360" width="140" height="60" rx="6" class="c-mask"/>
+          <rect x="640" y="360" width="140" height="60" rx="6" class="c-backend" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="backend" class="semantic-sigil s-backend" transform="translate(646 366) scale(0.6875)">
+            <path d="M6 3 3 8l3 5M10 3l3 5-3 5"/>
+          </g>
+          <text data-node-label="" data-detail-anchor="" x="710" y="388" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">Crops Router</text>
+        <text data-detail="context" x="710" y="404" class="t-muted" font-size="9" text-anchor="middle">routes/crops.py</text>
+        <text data-detail="fine" x="710" y="412" class="t-backend" font-size="7" text-anchor="middle">PostgREST Client</text>
+        </g>
+
+        <g id="node-chromadb" data-node-id="chromadb" data-node-label="ChromaDB Store" tabindex="0" role="button" aria-label="Focus ChromaDB Store, 24,178 Knowledge Vectors, Local Host Runtime (FastAPI &amp; Ollama)" aria-pressed="false" data-node-kind="database" data-node-sublabel="24,178 Knowledge Vectors" data-node-tag="all-MiniLM-L6-v2" data-node-context="Local Host Runtime (FastAPI &amp; Ollama)">
+          <title>ChromaDB Store · 24,178 Knowledge Vectors · Local Host Runtime (FastAPI &amp; Ollama) · all-MiniLM-L6-v2</title>
+          <rect x="850" y="80" width="140" height="60" rx="6" class="c-mask"/>
+          <rect x="850" y="80" width="140" height="60" rx="6" class="c-database" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="database" class="semantic-sigil s-database" transform="translate(856 86) scale(0.6875)">
             <ellipse cx="8" cy="4" rx="5" ry="2"/>
             <path d="M3 4v8c0 1.1 2.2 2 5 2s5-.9 5-2V4M3 8c0 1.1 2.2 2 5 2s5-.9 5-2"/>
           </g>
-          <g aria-hidden="true" data-brand-mark="supabase" data-brand-title="Supabase" data-brand-status="preset" data-brand-source="https://github.com/supabase/supabase/blob/4031a7549f5d46da7bc79c01d56be4177dc7c114/packages/common/assets/images/supabase-logo-wordmark--light.svg" class="brand-mark" transform="translate(548 346)">
+          <text data-node-label="" data-detail-anchor="" x="920" y="108" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">ChromaDB Store</text>
+        <text data-detail="context" x="920" y="124" class="t-muted" font-size="9" text-anchor="middle">24,178 Knowledge Vectors</text>
+        <text data-detail="fine" x="920" y="132" class="t-database" font-size="7" text-anchor="middle">all-MiniLM-L6-v2</text>
+        </g>
+
+        <g id="node-ollama" data-node-id="ollama" data-node-label="Ollama Daemon" tabindex="0" role="button" aria-label="Focus Ollama Daemon, Local Inference :11434, Local Host Runtime (FastAPI &amp; Ollama)" aria-pressed="false" data-node-kind="backend" data-node-sublabel="Local Inference :11434" data-node-tag="Async Engine" data-node-context="Local Host Runtime (FastAPI &amp; Ollama)">
+          <title>Ollama Daemon · Local Inference :11434 · Local Host Runtime (FastAPI &amp; Ollama) · Async Engine</title>
+          <rect x="850" y="220" width="130" height="60" rx="6" class="c-mask"/>
+          <rect x="850" y="220" width="130" height="60" rx="6" class="c-backend" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="backend" class="semantic-sigil s-backend" transform="translate(856 226) scale(0.6875)">
+            <path d="M6 3 3 8l3 5M10 3l3 5-3 5"/>
+          </g>
+          <text data-node-label="" data-detail-anchor="" x="915" y="248" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">Ollama Daemon</text>
+        <text data-detail="context" x="915" y="264" class="t-muted" font-size="9" text-anchor="middle">Local Inference :11434</text>
+        <text data-detail="fine" x="915" y="272" class="t-backend" font-size="7" text-anchor="middle">Async Engine</text>
+        </g>
+
+        <g id="node-llm" data-node-id="llm" data-node-label="Qwen 2.5 3B" tabindex="0" role="button" aria-label="Focus Qwen 2.5 3B, Open-Source LLM, Local Host Runtime (FastAPI &amp; Ollama)" aria-pressed="false" data-node-kind="backend" data-node-sublabel="Open-Source LLM" data-node-tag="Cross-lingual" data-node-context="Local Host Runtime (FastAPI &amp; Ollama)">
+          <title>Qwen 2.5 3B · Open-Source LLM · Local Host Runtime (FastAPI &amp; Ollama) · Cross-lingual</title>
+          <rect x="1040" y="220" width="120" height="60" rx="6" class="c-mask"/>
+          <rect x="1040" y="220" width="120" height="60" rx="6" class="c-backend" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="backend" class="semantic-sigil s-backend" transform="translate(1046 226) scale(0.6875)">
+            <path d="M6 3 3 8l3 5M10 3l3 5-3 5"/>
+          </g>
+          <text data-node-label="" data-detail-anchor="" x="1100" y="248" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">Qwen 2.5 3B</text>
+        <text data-detail="context" x="1100" y="264" class="t-muted" font-size="9" text-anchor="middle">Open-Source LLM</text>
+        <text data-detail="fine" x="1100" y="272" class="t-backend" font-size="7" text-anchor="middle">Cross-lingual</text>
+        </g>
+
+        <g id="node-supabase" data-node-id="supabase" data-node-label="Supabase DB" tabindex="0" role="button" aria-label="Focus Supabase DB, 139 BRRI Varieties &amp; Crops, Cloud Persistence, Supabase" aria-pressed="false" data-node-kind="database" data-node-sublabel="139 BRRI Varieties &amp; Crops" data-node-tag="PostgreSQL" data-node-context="Cloud Persistence" data-node-brand="Supabase" data-node-brand-id="supabase" data-node-brand-status="preset" data-node-brand-source="https://github.com/supabase/supabase/blob/4031a7549f5d46da7bc79c01d56be4177dc7c114/packages/common/assets/images/supabase-logo-wordmark--light.svg">
+          <title>Supabase DB · 139 BRRI Varieties &amp; Crops · Cloud Persistence · PostgreSQL · Supabase</title>
+          <rect x="850" y="360" width="140" height="60" rx="6" class="c-mask"/>
+          <rect x="850" y="360" width="140" height="60" rx="6" class="c-database" stroke-width="1.5"/>
+          <g aria-hidden="true" data-semantic-sigil="database" class="semantic-sigil s-database" transform="translate(856 366) scale(0.6875)">
+            <ellipse cx="8" cy="4" rx="5" ry="2"/>
+            <path d="M3 4v8c0 1.1 2.2 2 5 2s5-.9 5-2V4M3 8c0 1.1 2.2 2 5 2s5-.9 5-2"/>
+          </g>
+          <g aria-hidden="true" data-brand-mark="supabase" data-brand-title="Supabase" data-brand-status="preset" data-brand-source="https://github.com/supabase/supabase/blob/4031a7549f5d46da7bc79c01d56be4177dc7c114/packages/common/assets/images/supabase-logo-wordmark--light.svg" class="brand-mark" transform="translate(968 366)">
             <rect width="16" height="16" rx="4" class="brand-mark-badge"/>
             <path d="M11.9 1.036c-.015-.986-1.26-1.41-1.874-.637L.764 12.05C-.33 13.427.65 15.455 2.409 15.455h9.579l.113 7.51c.014.985 1.259 1.408 1.873.636l9.262-11.653c1.093-1.375.113-3.403-1.645-3.403h-9.642z" transform="translate(3 3) scale(0.4166666666666667)" fill="#3FCF8E"/>
             <rect width="16" height="16" rx="4" class="brand-mark-frame"/>
           </g>
-          <text data-node-label="" data-detail-anchor="" x="500" y="368" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">Supabase DB</text>
-        <text data-detail="context" x="500" y="384" class="t-muted" font-size="8.4" text-anchor="middle">139 BRRI Varieties &amp; Crops</text>
-        </g>
-
-        <g id="node-rag" data-node-id="rag" data-node-label="RAG Service" tabindex="0" role="button" aria-label="Focus RAG Service, rag_service.py, Local Host Execution" aria-pressed="false" data-node-kind="backend" data-node-sublabel="rag_service.py" data-node-tag="Context &amp; Memory" data-node-context="Local Host Execution">
-          <title>RAG Service · rag_service.py · Local Host Execution · Context &amp; Memory</title>
-          <rect x="620" y="200" width="130" height="60" rx="6" class="c-mask"/>
-          <rect x="620" y="200" width="130" height="60" rx="6" class="c-backend" stroke-width="1.5"/>
-          <g aria-hidden="true" data-semantic-sigil="backend" class="semantic-sigil s-backend" transform="translate(626 206) scale(0.6875)">
-            <path d="M6 3 3 8l3 5M10 3l3 5-3 5"/>
-          </g>
-          <text data-node-label="" data-detail-anchor="" x="685" y="228" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">RAG Service</text>
-        <text data-detail="context" x="685" y="244" class="t-muted" font-size="9" text-anchor="middle">rag_service.py</text>
-        <text data-detail="fine" x="685" y="252" class="t-backend" font-size="7" text-anchor="middle">Context &amp; Memory</text>
-        </g>
-
-        <g id="node-chromadb" data-node-id="chromadb" data-node-label="ChromaDB" tabindex="0" role="button" aria-label="Focus ChromaDB, 24,178 Knowledge Vectors, Local Host Execution" aria-pressed="false" data-node-kind="database" data-node-sublabel="24,178 Knowledge Vectors" data-node-tag="all-MiniLM-L6-v2" data-node-context="Local Host Execution">
-          <title>ChromaDB · 24,178 Knowledge Vectors · Local Host Execution · all-MiniLM-L6-v2</title>
-          <rect x="620" y="340" width="140" height="60" rx="6" class="c-mask"/>
-          <rect x="620" y="340" width="140" height="60" rx="6" class="c-database" stroke-width="1.5"/>
-          <g aria-hidden="true" data-semantic-sigil="database" class="semantic-sigil s-database" transform="translate(626 346) scale(0.6875)">
-            <ellipse cx="8" cy="4" rx="5" ry="2"/>
-            <path d="M3 4v8c0 1.1 2.2 2 5 2s5-.9 5-2V4M3 8c0 1.1 2.2 2 5 2s5-.9 5-2"/>
-          </g>
-          <text data-node-label="" data-detail-anchor="" x="690" y="368" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">ChromaDB</text>
-        <text data-detail="context" x="690" y="384" class="t-muted" font-size="9" text-anchor="middle">24,178 Knowledge Vectors</text>
-        <text data-detail="fine" x="690" y="392" class="t-database" font-size="7" text-anchor="middle">all-MiniLM-L6-v2</text>
-        </g>
-
-        <g id="node-ollama" data-node-id="ollama" data-node-label="Ollama Daemon" tabindex="0" role="button" aria-label="Focus Ollama Daemon, Local Inference :11434, Local Host Execution" aria-pressed="false" data-node-kind="backend" data-node-sublabel="Local Inference :11434" data-node-context="Local Host Execution">
-          <title>Ollama Daemon · Local Inference :11434 · Local Host Execution</title>
-          <rect x="810" y="200" width="130" height="60" rx="6" class="c-mask"/>
-          <rect x="810" y="200" width="130" height="60" rx="6" class="c-backend" stroke-width="1.5"/>
-          <g aria-hidden="true" data-semantic-sigil="backend" class="semantic-sigil s-backend" transform="translate(816 206) scale(0.6875)">
-            <path d="M6 3 3 8l3 5M10 3l3 5-3 5"/>
-          </g>
-          <text data-node-label="" data-detail-anchor="" x="875" y="228" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">Ollama Daemon</text>
-        <text data-detail="context" x="875" y="244" class="t-muted" font-size="9" text-anchor="middle">Local Inference :11434</text>
-        </g>
-
-        <g id="node-llm" data-node-id="llm" data-node-label="Qwen 2.5 3B" tabindex="0" role="button" aria-label="Focus Qwen 2.5 3B, Open-Source LLM, Local Host Execution" aria-pressed="false" data-node-kind="backend" data-node-sublabel="Open-Source LLM" data-node-tag="Cross-lingual" data-node-context="Local Host Execution">
-          <title>Qwen 2.5 3B · Open-Source LLM · Local Host Execution · Cross-lingual</title>
-          <rect x="1000" y="200" width="120" height="60" rx="6" class="c-mask"/>
-          <rect x="1000" y="200" width="120" height="60" rx="6" class="c-backend" stroke-width="1.5"/>
-          <g aria-hidden="true" data-semantic-sigil="backend" class="semantic-sigil s-backend" transform="translate(1006 206) scale(0.6875)">
-            <path d="M6 3 3 8l3 5M10 3l3 5-3 5"/>
-          </g>
-          <text data-node-label="" data-detail-anchor="" x="1060" y="228" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">Qwen 2.5 3B</text>
-        <text data-detail="context" x="1060" y="244" class="t-muted" font-size="9" text-anchor="middle">Open-Source LLM</text>
-        <text data-detail="fine" x="1060" y="252" class="t-backend" font-size="7" text-anchor="middle">Cross-lingual</text>
+          <text data-node-label="" data-detail-anchor="" x="920" y="388" class="t-primary" font-size="11" font-weight="600" text-anchor="middle">Supabase DB</text>
+        <text data-detail="context" x="920" y="404" class="t-muted" font-size="8.4" text-anchor="middle">139 BRRI Varieties &amp; Crops</text>
+        <text data-detail="fine" x="920" y="412" class="t-database" font-size="7" text-anchor="middle">PostgreSQL</text>
         </g>
 
         <!-- Connection labels -->
-        <g data-detail="context" data-edge-from="farmer" data-edge-to="speech" data-edge-label="audio" data-edge-key="0" data-edge-id="farmer-to-speech">
-          <rect x="136" y="156" width="34" height="14" rx="3" class="c-mask"/>
-          <text x="153" y="166" class="t-muted" font-size="8" text-anchor="middle">audio</text>
+        <g data-detail="context" data-edge-from="farmer" data-edge-to="speech" data-edge-label="voice audio" data-edge-key="0" data-edge-id="farmer-to-speech">
+          <rect x="124.1" y="176" width="62.8" height="14" rx="3" class="c-mask"/>
+          <text x="155.5" y="186" class="t-muted" font-size="8" text-anchor="middle">voice audio</text>
         </g>
-        <g data-detail="context" data-edge-from="speech" data-edge-to="frontend" data-edge-label="transcript" data-edge-key="1" data-edge-id="speech-to-frontend">
-          <rect x="302" y="134" width="58" height="14" rx="3" class="c-mask"/>
-          <text x="331" y="144" class="t-muted" font-size="8" text-anchor="middle">transcript</text>
+        <g data-detail="context" data-edge-from="speech" data-edge-to="ui_assistant" data-edge-label="transcript" data-edge-key="1" data-edge-id="speech-to-assistant">
+          <rect x="307" y="144" width="58" height="14" rx="3" class="c-mask"/>
+          <text x="336" y="154" class="t-muted" font-size="8" text-anchor="middle">transcript</text>
         </g>
-        <g data-detail="context" data-edge-from="farmer" data-edge-to="frontend" data-edge-label="HTTP / UI" data-edge-key="2" data-edge-id="farmer-to-frontend">
-          <rect x="168.4" y="210" width="53.199999999999996" height="14" rx="3" class="c-mask"/>
-          <text x="195" y="220" class="t-backend" font-size="8" text-anchor="middle">HTTP / UI</text>
+        <g data-detail="context" data-edge-from="farmer" data-edge-to="ui_assistant" data-edge-label="chat prompt" data-edge-key="2" data-edge-id="farmer-to-assistant">
+          <rect x="168.6" y="230" width="62.8" height="14" rx="3" class="c-mask"/>
+          <text x="200" y="240" class="t-backend" font-size="8" text-anchor="middle">chat prompt</text>
         </g>
-        <g data-detail="context" data-edge-from="frontend" data-edge-to="gateway" data-edge-label="REST / SSE" data-edge-key="3" data-edge-id="frontend-to-gateway">
-          <rect x="366" y="210" width="58" height="14" rx="3" class="c-mask"/>
-          <text x="395" y="220" class="t-backend" font-size="8" text-anchor="middle">REST / SSE</text>
+        <g data-detail="context" data-edge-from="farmer" data-edge-to="ui_catalog" data-edge-label="browse crops" data-edge-key="3" data-edge-id="farmer-to-catalog">
+          <rect x="121.7" y="284" width="67.6" height="14" rx="3" class="c-mask"/>
+          <text x="155.5" y="294" class="t-muted" font-size="8" text-anchor="middle">browse crops</text>
         </g>
-        <g data-detail="context" data-edge-from="gateway" data-edge-to="supabase" data-edge-label="SQL" data-edge-key="4" data-edge-id="gateway-to-supabase">
-          <rect x="514.5" y="288" width="30" height="14" rx="3" class="c-mask"/>
-          <text x="529.5" y="298" class="t-muted" font-size="8" text-anchor="middle">SQL</text>
+        <g data-detail="context" data-edge-from="ui_assistant" data-edge-to="gateway" data-edge-label="POST /stream" data-edge-key="4" data-edge-id="assistant-to-gateway">
+          <rect x="371.2" y="230" width="67.6" height="14" rx="3" class="c-mask"/>
+          <text x="405" y="240" class="t-backend" font-size="8" text-anchor="middle">POST /stream</text>
         </g>
-        <g data-detail="context" data-edge-from="gateway" data-edge-to="rag" data-edge-label="route" data-edge-key="5" data-edge-id="gateway-to-rag">
-          <rect x="573" y="210" width="34" height="14" rx="3" class="c-mask"/>
-          <text x="590" y="220" class="t-backend" font-size="8" text-anchor="middle">route</text>
+        <g data-detail="context" data-edge-from="ui_catalog" data-edge-to="gateway" data-edge-label="queries" data-edge-key="5" data-edge-id="catalog-to-gateway">
+          <rect x="401.2" y="316" width="43.6" height="14" rx="3" class="c-mask"/>
+          <text x="423" y="326" class="t-muted" font-size="8" text-anchor="middle">queries</text>
         </g>
-        <g data-detail="context" data-edge-from="rag" data-edge-to="chromadb" data-edge-label="search" data-edge-key="6" data-edge-id="rag-to-chroma">
-          <rect x="704.1" y="288" width="38.8" height="14" rx="3" class="c-mask"/>
-          <text x="723.5" y="298" class="t-messagebus" font-size="8" text-anchor="middle">search</text>
+        <g data-detail="context" data-edge-from="gateway" data-edge-to="weather_api" data-edge-label="weather" data-edge-key="6" data-edge-id="gateway-to-weather">
+          <rect x="538.7" y="176" width="43.6" height="14" rx="3" class="c-mask"/>
+          <text x="560.5" y="186" class="t-muted" font-size="8" text-anchor="middle">weather</text>
         </g>
-        <g data-detail="context" data-edge-from="rag" data-edge-to="ollama" data-edge-label="prompt" data-edge-key="7" data-edge-id="rag-to-ollama">
-          <rect x="760.6" y="210" width="38.8" height="14" rx="3" class="c-mask"/>
-          <text x="780" y="220" class="t-backend" font-size="8" text-anchor="middle">prompt</text>
+        <g data-detail="context" data-edge-from="gateway" data-edge-to="rag_service" data-edge-label="route" data-edge-key="7" data-edge-id="gateway-to-rag">
+          <rect x="588" y="230" width="34" height="14" rx="3" class="c-mask"/>
+          <text x="605" y="240" class="t-backend" font-size="8" text-anchor="middle">route</text>
         </g>
-        <g data-detail="context" data-edge-from="ollama" data-edge-to="llm" data-edge-label="tokens" data-edge-key="8" data-edge-id="ollama-to-llm">
-          <rect x="950.6" y="210" width="38.8" height="14" rx="3" class="c-mask"/>
-          <text x="970" y="220" class="t-muted" font-size="8" text-anchor="middle">tokens</text>
+        <g data-detail="context" data-edge-from="gateway" data-edge-to="crops_api" data-edge-label="taxonomy" data-edge-key="8" data-edge-id="gateway-to-crops">
+          <rect x="539.8" y="284" width="48.4" height="14" rx="3" class="c-mask"/>
+          <text x="564" y="294" class="t-muted" font-size="8" text-anchor="middle">taxonomy</text>
+        </g>
+        <g data-detail="context" data-edge-from="rag_service" data-edge-to="chromadb" data-edge-label="vector search" data-edge-key="9" data-edge-id="rag-to-chroma">
+          <rect x="731.8" y="176" width="72.4" height="14" rx="3" class="c-mask"/>
+          <text x="768" y="186" class="t-messagebus" font-size="8" text-anchor="middle">vector search</text>
+        </g>
+        <g data-detail="context" data-edge-from="rag_service" data-edge-to="ollama" data-edge-label="prompt" data-edge-key="10" data-edge-id="rag-to-ollama">
+          <rect x="795.6" y="230" width="38.8" height="14" rx="3" class="c-mask"/>
+          <text x="815" y="240" class="t-backend" font-size="8" text-anchor="middle">prompt</text>
+        </g>
+        <g data-detail="context" data-edge-from="crops_api" data-edge-to="supabase" data-edge-label="SQL queries" data-edge-key="11" data-edge-id="crops-to-supabase">
+          <rect x="783.6" y="370" width="62.8" height="14" rx="3" class="c-mask"/>
+          <text x="815" y="380" class="t-backend" font-size="8" text-anchor="middle">SQL queries</text>
+        </g>
+        <g data-detail="context" data-edge-from="ollama" data-edge-to="llm" data-edge-label="tokens" data-edge-key="12" data-edge-id="ollama-to-llm">
+          <rect x="990.6" y="230" width="38.8" height="14" rx="3" class="c-mask"/>
+          <text x="1010" y="240" class="t-muted" font-size="8" text-anchor="middle">tokens</text>
         </g>
 
         <!-- Boundary labels (foreground masks keep routes out of titles) -->
-        <g data-graph-role="structural-frame-label" data-composition-frame-id="0" data-composition-frame-kind="security-group" data-composition-frame-label="Client Environment">
-          <rect data-graph-role="structural-frame-label-mask" x="14" y="50" width="107.2" height="16" rx="3" class="c-mask"/>
-          <text data-boundary-label="" x="18" y="63" class="t-security" font-size="9" font-weight="600">Client Environment</text>
+        <g data-graph-role="structural-frame-label" data-composition-frame-id="0" data-composition-frame-kind="security-group" data-composition-frame-label="Client Environment (Browser)">
+          <rect data-graph-role="structural-frame-label-mask" x="14" y="60" width="161.2" height="16" rx="3" class="c-mask"/>
+          <text data-boundary-label="" x="18" y="73" class="t-security" font-size="9" font-weight="600">Client Environment (Browser)</text>
         </g>
 
-        <g data-graph-role="structural-frame-label" data-composition-frame-id="1" data-composition-frame-kind="region" data-composition-frame-label="Local Host Execution">
-          <rect data-graph-role="structural-frame-label-mask" x="404" y="180" width="118" height="16" rx="3" class="c-mask"/>
-          <text data-boundary-label="" x="408" y="193" class="t-cloud" font-size="9" font-weight="600">Local Host Execution</text>
+        <g data-graph-role="structural-frame-label" data-composition-frame-id="1" data-composition-frame-kind="region" data-composition-frame-label="Local Host Runtime (FastAPI &amp; Ollama)">
+          <rect data-graph-role="structural-frame-label-mask" x="414" y="60" width="209.79999999999998" height="16" rx="3" class="c-mask"/>
+          <text data-boundary-label="" x="418" y="73" class="t-cloud" font-size="9" font-weight="600">Local Host Runtime (FastAPI &amp; Ollama)</text>
         </g>
 
         <g data-graph-role="structural-frame-label" data-composition-frame-id="2" data-composition-frame-kind="region" data-composition-frame-label="Cloud Persistence">
-          <rect data-graph-role="structural-frame-label-mask" x="404" y="320" width="101.8" height="16" rx="3" class="c-mask"/>
-          <text data-boundary-label="" x="408" y="333" class="t-cloud" font-size="9" font-weight="600">Cloud Persistence</text>
+          <rect data-graph-role="structural-frame-label-mask" x="824" y="340" width="101.8" height="16" rx="3" class="c-mask"/>
+          <text data-boundary-label="" x="828" y="353" class="t-cloud" font-size="9" font-weight="600">Cloud Persistence</text>
         </g>
 
         <!-- Legend -->
         <g data-legend="" data-legend-bridge="">
-          <text x="40" y="452" class="t-primary" font-size="12" font-weight="650">Legend</text>
-          <g data-legend-semantic-kind="frontend" data-legend-kind="frontend" data-legend-label="Frontend" data-legend-x="40" data-legend-baseline="472" data-legend-width="83">
-            <rect x="40" y="463" width="16" height="10" rx="2.5" class="c-frontend" stroke-width="1"/>
-            <text x="62" y="472" class="t-muted" font-size="10" font-weight="500">Frontend</text>
+          <text x="40" y="472" class="t-primary" font-size="12" font-weight="650">Legend</text>
+          <g data-legend-semantic-kind="frontend" data-legend-kind="frontend" data-legend-label="Frontend" data-legend-x="40" data-legend-baseline="492" data-legend-width="83">
+            <rect x="40" y="483" width="16" height="10" rx="2.5" class="c-frontend" stroke-width="1"/>
+            <text x="62" y="492" class="t-muted" font-size="10" font-weight="500">Frontend</text>
           </g>
-          <g data-legend-semantic-kind="backend" data-legend-kind="backend" data-legend-label="Backend" data-legend-x="145" data-legend-baseline="472" data-legend-width="78">
-            <rect x="145" y="463" width="16" height="10" rx="2.5" class="c-backend" stroke-width="1"/>
-            <text x="167" y="472" class="t-muted" font-size="10" font-weight="500">Backend</text>
+          <g data-legend-semantic-kind="backend" data-legend-kind="backend" data-legend-label="Backend" data-legend-x="145" data-legend-baseline="492" data-legend-width="78">
+            <rect x="145" y="483" width="16" height="10" rx="2.5" class="c-backend" stroke-width="1"/>
+            <text x="167" y="492" class="t-muted" font-size="10" font-weight="500">Backend</text>
           </g>
-          <g data-legend-semantic-kind="database" data-legend-kind="database" data-legend-label="Database" data-legend-x="245" data-legend-baseline="472" data-legend-width="83">
-            <rect x="245" y="463" width="16" height="10" rx="2.5" class="c-database" stroke-width="1"/>
-            <text x="267" y="472" class="t-muted" font-size="10" font-weight="500">Database</text>
+          <g data-legend-semantic-kind="database" data-legend-kind="database" data-legend-label="Database" data-legend-x="245" data-legend-baseline="492" data-legend-width="83">
+            <rect x="245" y="483" width="16" height="10" rx="2.5" class="c-database" stroke-width="1"/>
+            <text x="267" y="492" class="t-muted" font-size="10" font-weight="500">Database</text>
           </g>
-          <g data-legend-semantic-kind="external" data-legend-kind="external" data-legend-label="External" data-legend-x="350" data-legend-baseline="472" data-legend-width="83">
-            <rect x="350" y="463" width="16" height="10" rx="2.5" class="c-external" stroke-width="1"/>
-            <text x="372" y="472" class="t-muted" font-size="10" font-weight="500">External</text>
+          <g data-legend-semantic-kind="external" data-legend-kind="external" data-legend-label="External" data-legend-x="350" data-legend-baseline="492" data-legend-width="83">
+            <rect x="350" y="483" width="16" height="10" rx="2.5" class="c-external" stroke-width="1"/>
+            <text x="372" y="492" class="t-muted" font-size="10" font-weight="500">External</text>
           </g>
         </g>
       </svg>
@@ -5564,36 +5633,36 @@ OTHER DEALINGS IN THE FONT SOFTWARE.
       <div class="card">
         <div class="card-header">
           <div class="card-dot emerald"></div>
-          <h3>Client Experience</h3>
+          <h3>Client Interaction Tier</h3>
         </div>
         <ul>
-          <li>&bull; Next.js 14 App Router with responsive glassmorphism UI</li>
-          <li>&bull; Web Speech API with 3-second conversational silence debounce</li>
-          <li>&bull; Server-Sent Events (SSE) token streaming display</li>
+          <li>&bull; Next.js 14 App Router with responsive dark glassmorphism design</li>
+          <li>&bull; Continuous Web Speech API engine with 3.0s conversational pause debounce</li>
+          <li>&bull; Dual views: Real-time RAG Assistant (/assistant) and 25-crop taxonomy explorer (/crops)</li>
         </ul>
       </div>
 
       <div class="card">
         <div class="card-header">
           <div class="card-dot cyan"></div>
-          <h3>FastAPI Core &amp; Persistence</h3>
+          <h3>FastAPI Gateway &amp; Microservices</h3>
         </div>
         <ul>
-          <li>&bull; FastAPI 2.0 with asynchronous route handlers</li>
-          <li>&bull; 139 BRRI rice varieties stored in Supabase PostgreSQL</li>
-          <li>&bull; Comprehensive phenology, disease, and 8-division zone mapping</li>
+          <li>&bull; Asynchronous Uvicorn gateway handling CORS, validation, and route dispatching</li>
+          <li>&bull; RAG Orchestrator managing multi-turn memory (last 8 turns) and English-default directives</li>
+          <li>&bull; Crops Router interfacing with Supabase to serve 139 BRRI varieties, stages, and diseases</li>
         </ul>
       </div>
 
       <div class="card">
         <div class="card-header">
           <div class="card-dot amber"></div>
-          <h3>Offline AI &amp; RAG</h3>
+          <h3>Local AI &amp; Vector Store</h3>
         </div>
         <ul>
-          <li>&bull; ChromaDB with 24,178 vectorized national agronomy chunks</li>
-          <li>&bull; Local Ollama daemon running Qwen 2.5 3B open-source LLM</li>
-          <li>&bull; Cross-lingual query understanding (Bangla, Banglish, English)</li>
+          <li>&bull; ChromaDB persistent vector store containing 24,178 chunks mined from BRRI/BARI/DAE</li>
+          <li>&bull; Offline Ollama daemon running Qwen 2.5 3B parameter open-source LLM</li>
+          <li>&bull; Real-time Server-Sent Events (SSE) token streaming for responsive conversational feedback</li>
         </ul>
       </div>
     </div>
