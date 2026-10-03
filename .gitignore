@@ -57,6 +57,7 @@ yarn-error.log*
 .pnpm-debug.log*
 frontend/.turbo/
 .turbo/
+*.tsbuildinfo
 
 # ChromaDB & Vector Store Local Database Binaries
 # (Exceeds GitHub 100MB per-file limit; rebuild locally via vector_store/main.py)
