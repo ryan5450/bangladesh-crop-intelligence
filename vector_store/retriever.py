@@ -43,10 +43,27 @@ class ChromaRetriever:
         self.client = chromadb.PersistentClient(path=str(self.config.persist_dir))
         self.embedding_fn = get_embedding_function(self.config.embedding_provider)
 
-        self.collection: Collection = self.client.get_collection(
-            name=self.config.collection_name,
-            embedding_function=self.embedding_fn
-        )
+        try:
+            self.collection: Collection = self.client.get_collection(
+                name=self.config.collection_name,
+                embedding_function=self.embedding_fn
+            )
+        except Exception:
+            self.collection = self.client.get_or_create_collection(
+                name=self.config.collection_name,
+                embedding_function=self.embedding_fn
+            )
+
+        # Auto-index on initial cloud deploy if empty and chunks source exists
+        if self.collection.count() == 0 and self.config.chunks_path.exists():
+            try:
+                from vector_store.indexer import ChromaIndexer
+                logger.info("ChromaDB empty on initial startup. Auto-indexing knowledge base...")
+                indexer = ChromaIndexer(config=self.config)
+                indexer.index_chunks(reset=False)
+                logger.info(f"Auto-indexing complete. Vectors: {self.collection.count()}")
+            except Exception as e:
+                logger.warning(f"Could not auto-index vector store on init: {e}")
 
     def search(
         self,
