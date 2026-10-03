@@ -1,4 +1,5 @@
 # Bangladesh Crop Intelligence Assistant - Frontend
+> 🌐 **Live URL:** **[https://bangladesh-crop-intelligence.vercel.app](https://bangladesh-crop-intelligence.vercel.app)**
 
 A modern, high-performance agricultural intelligence web application built with **Next.js 14**, **TypeScript**, **Tailwind CSS**, **Framer Motion**, and **Lucide Icons**. It connects seamlessly to the FastAPI backend microservice to deliver precision agronomic data across Bangladesh.
 

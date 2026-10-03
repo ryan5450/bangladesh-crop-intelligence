@@ -2,14 +2,17 @@
 ### বাংলাদেশ কৃষি বুদ্ধিমত্তা সহকারী
 > **A National-Scale AI Agronomic Decision Support Platform & Precision Agriculture Engine for Bangladesh**
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-bangladesh--crop--intelligence.vercel.app-00dfa2?style=for-the-badge&logo=vercel&logoColor=white)](https://bangladesh-crop-intelligence.vercel.app)
 [![Next.js](https://img.shields.io/badge/Frontend-Next.js%2014-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org/)
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI%202.0-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![Python](https://img.shields.io/badge/Python-3.10%20--%203.12-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.6-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![ChromaDB](https://img.shields.io/badge/Vector%20Store-ChromaDB%20(24K%2B%20Vectors)-FF4F8B?style=for-the-badge)](https://www.trychroma.com/)
-[![Ollama](https://img.shields.io/badge/Local%20LLM-Qwen%202.5%203B-black?style=for-the-badge&logo=ollama&logoColor=white)](https://ollama.ai/)
+[![Groq Cloud](https://img.shields.io/badge/Cloud%20LLM-Groq%20LPU%20(Qwen%2027B)-F55036?style=for-the-badge)](https://groq.com/)
 [![Supabase](https://img.shields.io/badge/Database-Supabase%20PostgreSQL-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Styling-Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+
+> 🌐 **Live Public Web Application:** **[https://bangladesh-crop-intelligence.vercel.app](https://bangladesh-crop-intelligence.vercel.app)**
 
 ---
 
