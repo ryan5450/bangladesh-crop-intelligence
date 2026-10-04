@@ -113,14 +113,18 @@ async def assistant_health():
     vector_ok = False
     vector_count = 0
 
-    # 1. Test Ollama connectivity
-    try:
-        async with httpx.AsyncClient(timeout=3.0) as client:
-            res = await client.get(f"{default_rag_service.llm.base_url}/api/tags")
-            if res.status_code == 200:
-                ollama_ok = True
-    except Exception:
-        ollama_ok = False
+    llm_connected = False
+    is_groq = default_rag_service.llm.is_groq
+    if is_groq:
+        llm_connected = bool(default_rag_service.llm.groq_api_key)
+    else:
+        try:
+            async with httpx.AsyncClient(timeout=3.0) as client:
+                res = await client.get(f"{default_rag_service.llm.base_url}/api/tags")
+                if res.status_code == 200:
+                    llm_connected = True
+        except Exception:
+            llm_connected = False
 
     # 2. Test ChromaDB connectivity
     try:
@@ -130,12 +134,12 @@ async def assistant_health():
         vector_ok = False
 
     return {
-        "status": "healthy" if (ollama_ok and vector_ok) else "degraded",
+        "status": "healthy" if (llm_connected and vector_ok) else ("degraded" if llm_connected else "offline"),
         "llm_service": {
-            "connected": ollama_ok,
-            "engine": "Ollama",
+            "connected": llm_connected,
+            "engine": "Groq Cloud" if is_groq else "Ollama",
             "model": ollama_model,
-            "endpoint": default_rag_service.llm.base_url
+            "endpoint": "https://api.groq.com/openai/v1" if is_groq else default_rag_service.llm.base_url
         },
         "vector_store": {
             "connected": vector_ok,

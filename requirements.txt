@@ -25,6 +25,9 @@ numpy>=1.26.0
 httpx>=0.28.0
 requests>=2.31.0
 aiohttp>=3.9.0
+ddgs>=9.0.0
+duckduckgo-search>=8.0.0
+
 
 # Data Extraction, Cleaning & Document Processing
 pypdf>=3.17.0

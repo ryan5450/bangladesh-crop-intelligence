@@ -7,11 +7,31 @@ logger = logging.getLogger(__name__)
 
 # Fallback seasonal crops to query when the user asks generically for "more crops" or "other crops"
 POPULAR_BANGLADESH_CROPS = [
-    {"name": "Mustard (সরিষা)", "query": "Mustard crop field Bangladesh"},
-    {"name": "Potato (আলু)", "query": "Potato crop harvest Bangladesh"},
-    {"name": "Wheat (গম)", "query": "Wheat crop field Bangladesh"},
-    {"name": "Boro Rice (বোরো ধান)", "query": "Boro rice field seedlings Bangladesh"},
-    {"name": "Maize (ভুট্টা)", "query": "Maize corn field Bangladesh"},
+    {
+        "name": "Mustard (সরিষা)",
+        "query": "Mustard crop field Bangladesh",
+        "fallback_image": "https://img.freepik.com/premium-photo/field-mustard-bangladesh_659722-4860.jpg?w=2000"
+    },
+    {
+        "name": "Potato (আলু)",
+        "query": "Potato crop harvest Bangladesh",
+        "fallback_image": "https://c8.alamy.com/comp/2J0JFHR/farmers-are-busy-harvesting-potatoes-from-the-crop-field-at-sirajdikhan-munshiganj-district-in-bangladesh-2J0JFHR.jpg"
+    },
+    {
+        "name": "Wheat (গম)",
+        "query": "Wheat crop field Bangladesh",
+        "fallback_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Wheat_P1090485.jpg/800px-Wheat_P1090485.jpg"
+    },
+    {
+        "name": "Boro Rice (বোরো ধান)",
+        "query": "Boro rice field seedlings Bangladesh",
+        "fallback_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Rice_fields_in_Bangladesh_02.jpg/800px-Rice_fields_in_Bangladesh_02.jpg"
+    },
+    {
+        "name": "Maize (ভুট্টা)",
+        "query": "Maize corn field Bangladesh",
+        "fallback_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Corn_field_Bangladesh.jpg/800px-Corn_field_Bangladesh.jpg"
+    },
 ]
 
 WEB_SEARCH_TRIGGERS = {
@@ -128,12 +148,23 @@ class SearchService:
 
         # Case 1: Specific crop detected
         if detected_crop:
-            res = await self.search_web_images(f"{detected_crop} crop field Bangladesh", max_results=1)
-            if res:
+            img_url = None
+            try:
+                res = await self.search_web_images(f"{detected_crop} crop field Bangladesh", max_results=1)
+                if res:
+                    img_url = res[0]["image"]
+            except Exception:
+                pass
+            if not img_url:
+                for target in POPULAR_BANGLADESH_CROPS:
+                    if detected_crop.lower() in target["name"].lower():
+                        img_url = target.get("fallback_image")
+                        break
+            if img_url:
                 photos.append({
                     "crop_name": detected_crop,
-                    "title": res[0]["title"],
-                    "image_url": res[0]["image"]
+                    "title": detected_crop,
+                    "image_url": img_url
                 })
             return photos
 
@@ -147,23 +178,42 @@ class SearchService:
             # Pick 2 key complementary crops to retrieve
             targets = POPULAR_BANGLADESH_CROPS[:2]
             for target in targets:
-                res = await self.search_web_images(target["query"], max_results=1)
-                if res:
+                img_url = None
+                try:
+                    res = await self.search_web_images(target["query"], max_results=1)
+                    if res:
+                        img_url = res[0]["image"]
+                except Exception:
+                    pass
+                if not img_url:
+                    img_url = target.get("fallback_image")
+                if img_url:
                     photos.append({
                         "crop_name": target["name"],
                         "title": target["name"],
-                        "image_url": res[0]["image"]
+                        "image_url": img_url
                     })
             return photos
 
         # Case 3: Generic photo query without specific crop name (e.g. "show me photos")
-        res = await self.search_web_images(f"{query} Bangladesh agriculture", max_results=2)
-        for r in res:
-            photos.append({
-                "crop_name": r["title"][:40],
-                "title": r["title"],
-                "image_url": r["image"]
-            })
+        try:
+            res = await self.search_web_images(f"{query} Bangladesh agriculture", max_results=2)
+            for r in res:
+                photos.append({
+                    "crop_name": r["title"][:40],
+                    "title": r["title"],
+                    "image_url": r["image"]
+                })
+        except Exception:
+            pass
+
+        if not photos:
+            for target in POPULAR_BANGLADESH_CROPS[:2]:
+                photos.append({
+                    "crop_name": target["name"],
+                    "title": target["name"],
+                    "image_url": target["fallback_image"]
+                })
 
         return photos
 
