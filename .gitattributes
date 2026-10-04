@@ -1,0 +1,13 @@
+# ==============================================================================
+# GitHub Linguist Language Detection Overrides
+# https://github.com/github-linguist/linguist/blob/master/docs/overrides.md
+# ==============================================================================
+
+# Exclude standalone HTML diagrams from language statistics
+*.html linguist-detectable=false
+architecture-runtime.html linguist-documentation
+architecture-runtime.html linguist-generated=true
+
+# Exclude knowledge datasets and SQL migrations from language stats
+knowledge_base/** linguist-documentation
+backend/data/*.sql linguist-documentation
