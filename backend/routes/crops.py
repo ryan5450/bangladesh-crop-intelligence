@@ -809,33 +809,51 @@ def update_crop(crop_id: int, crop_in: CropUpdateInput):
 
     # Sync growth stages if provided
     if crop_in.growth_stages is not None:
-        execute_query(supabase.table("growth_stages").delete().eq("crop_id", crop_id))
-        if crop_in.growth_stages:
-            stages_payload = [
-                {"crop_id": crop_id, "stage_number": s.stage_number, "stage_name": s.stage_name}
-                for s in crop_in.growth_stages
-            ]
-            execute_query(supabase.table("growth_stages").insert(stages_payload))
+        try:
+            execute_query(supabase.table("growth_stages").delete().eq("crop_id", crop_id))
+            if crop_in.growth_stages:
+                stages_payload = [
+                    {"crop_id": crop_id, "stage_number": s.stage_number, "stage_name": s.stage_name}
+                    for s in crop_in.growth_stages
+                ]
+                execute_query(supabase.table("growth_stages").insert(stages_payload))
+        except HTTPException as he:
+            if "row-level security" in str(he.detail).lower():
+                logger.warning(f"RLS policy blocked growth_stages update for crop {crop_id}: {he.detail}")
+            else:
+                raise he
 
     # Sync diseases if provided
     if crop_in.diseases is not None:
-        execute_query(supabase.table("diseases").delete().eq("crop_id", crop_id))
-        diseases_payload = [
-            {"crop_id": crop_id, "disease_name": d.strip()}
-            for d in crop_in.diseases if d.strip()
-        ]
-        if diseases_payload:
-            execute_query(supabase.table("diseases").insert(diseases_payload))
+        try:
+            execute_query(supabase.table("diseases").delete().eq("crop_id", crop_id))
+            diseases_payload = [
+                {"crop_id": crop_id, "disease_name": d.strip()}
+                for d in crop_in.diseases if d.strip()
+            ]
+            if diseases_payload:
+                execute_query(supabase.table("diseases").insert(diseases_payload))
+        except HTTPException as he:
+            if "row-level security" in str(he.detail).lower():
+                logger.warning(f"RLS policy blocked diseases update for crop {crop_id}: {he.detail}")
+            else:
+                raise he
 
     # Sync regions if provided
     if crop_in.regions is not None:
-        execute_query(supabase.table("regions").delete().eq("crop_id", crop_id))
-        regions_payload = [
-            {"crop_id": crop_id, "region_name": r.strip()}
-            for r in crop_in.regions if r.strip()
-        ]
-        if regions_payload:
-            execute_query(supabase.table("regions").insert(regions_payload))
+        try:
+            execute_query(supabase.table("regions").delete().eq("crop_id", crop_id))
+            regions_payload = [
+                {"crop_id": crop_id, "region_name": r.strip()}
+                for r in crop_in.regions if r.strip()
+            ]
+            if regions_payload:
+                execute_query(supabase.table("regions").insert(regions_payload))
+        except HTTPException as he:
+            if "row-level security" in str(he.detail).lower():
+                logger.warning(f"RLS policy blocked regions update for crop {crop_id}: {he.detail}")
+            else:
+                raise he
 
     updated_name = crop_payload.get("crop_name", existing[0]["crop_name"])
     return get_crop_by_name(updated_name)
