@@ -10,27 +10,27 @@ POPULAR_BANGLADESH_CROPS = [
     {
         "name": "Mustard (সরিষা)",
         "query": "Mustard crop field Bangladesh",
-        "fallback_image": "https://img.freepik.com/premium-photo/field-mustard-bangladesh_659722-4860.jpg?w=2000"
+        "fallback_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Mustard_Flower_Field-_Bangladesh_-2026.jpg/960px-Mustard_Flower_Field-_Bangladesh_-2026.jpg"
     },
     {
         "name": "Potato (আলু)",
         "query": "Potato crop harvest Bangladesh",
-        "fallback_image": "https://c8.alamy.com/comp/2J0JFHR/farmers-are-busy-harvesting-potatoes-from-the-crop-field-at-sirajdikhan-munshiganj-district-in-bangladesh-2J0JFHR.jpg"
+        "fallback_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1c/A_Bangladeshi_woman_works_on_a_potato_field.jpg/960px-A_Bangladeshi_woman_works_on_a_potato_field.jpg"
     },
     {
         "name": "Wheat (গম)",
         "query": "Wheat crop field Bangladesh",
-        "fallback_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Wheat_P1090485.jpg/800px-Wheat_P1090485.jpg"
+        "fallback_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Wheat_field%2C_Kurigram%2C_Bangladesh.jpg/960px-Wheat_field%2C_Kurigram%2C_Bangladesh.jpg"
+    },
+    {
+        "name": "Jute (পাট)",
+        "query": "Jute crop field Bangladesh",
+        "fallback_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Jute_Field_Bangladesh_%287749587518%29.jpg/960px-Jute_Field_Bangladesh_%287749587518%29.jpg"
     },
     {
         "name": "Boro Rice (বোরো ধান)",
         "query": "Boro rice field seedlings Bangladesh",
-        "fallback_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Rice_fields_in_Bangladesh_02.jpg/800px-Rice_fields_in_Bangladesh_02.jpg"
-    },
-    {
-        "name": "Maize (ভুট্টা)",
-        "query": "Maize corn field Bangladesh",
-        "fallback_image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Corn_field_Bangladesh.jpg/800px-Corn_field_Bangladesh.jpg"
+        "fallback_image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Minister_Md_Abdur_Razzaque_and_FAO_Director-General_Qu_Dongyu_visit_fish_poultry_farms_and_Boro_paddy_field_Gazipur_2022-03-12_%28PID-0024302%29.jpg/960px-Minister_Md_Abdur_Razzaque_and_FAO_Director-General_Qu_Dongyu_visit_fish_poultry_farms_and_Boro_paddy_field_Gazipur_2022-03-12_%28PID-0024302%29.jpg"
     },
 ]
 
@@ -148,25 +148,14 @@ class SearchService:
 
         # Case 1: Specific crop detected
         if detected_crop:
-            img_url = None
-            try:
-                res = await self.search_web_images(f"{detected_crop} crop field Bangladesh", max_results=1)
-                if res:
-                    img_url = res[0]["image"]
-            except Exception:
-                pass
-            if not img_url:
-                for target in POPULAR_BANGLADESH_CROPS:
-                    if detected_crop.lower() in target["name"].lower():
-                        img_url = target.get("fallback_image")
-                        break
-            if img_url:
-                photos.append({
-                    "crop_name": detected_crop,
-                    "title": detected_crop,
-                    "image_url": img_url
-                })
-            return photos
+            for target in POPULAR_BANGLADESH_CROPS:
+                if detected_crop.lower() in target["name"].lower():
+                    photos.append({
+                        "crop_name": detected_crop,
+                        "title": detected_crop,
+                        "image_url": target["fallback_image"]
+                    })
+                    return photos
 
         # Case 2: User asking for generic "more crops", "other crops", "different crops", "বিভিন্ন ফসল"
         is_asking_more = any(phrase in q for phrase in [
@@ -175,45 +164,21 @@ class SearchService:
         ])
 
         if is_asking_more:
-            # Pick 2 key complementary crops to retrieve
-            targets = POPULAR_BANGLADESH_CROPS[:2]
-            for target in targets:
-                img_url = None
-                try:
-                    res = await self.search_web_images(target["query"], max_results=1)
-                    if res:
-                        img_url = res[0]["image"]
-                except Exception:
-                    pass
-                if not img_url:
-                    img_url = target.get("fallback_image")
-                if img_url:
-                    photos.append({
-                        "crop_name": target["name"],
-                        "title": target["name"],
-                        "image_url": img_url
-                    })
-            return photos
-
-        # Case 3: Generic photo query without specific crop name (e.g. "show me photos")
-        try:
-            res = await self.search_web_images(f"{query} Bangladesh agriculture", max_results=2)
-            for r in res:
-                photos.append({
-                    "crop_name": r["title"][:40],
-                    "title": r["title"],
-                    "image_url": r["image"]
-                })
-        except Exception:
-            pass
-
-        if not photos:
             for target in POPULAR_BANGLADESH_CROPS[:2]:
                 photos.append({
                     "crop_name": target["name"],
                     "title": target["name"],
                     "image_url": target["fallback_image"]
                 })
+            return photos
+
+        # Case 3: Default verified agricultural photo selection
+        for target in POPULAR_BANGLADESH_CROPS[:2]:
+            photos.append({
+                "crop_name": target["name"],
+                "title": target["name"],
+                "image_url": target["fallback_image"]
+            })
 
         return photos
 
