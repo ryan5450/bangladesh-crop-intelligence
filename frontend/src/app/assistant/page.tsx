@@ -38,6 +38,8 @@ interface Message {
   sources?: SourceCitation[];
   detected_language?: string;
   timestamp: string;
+  image_url?: string | null;
+  crop_name?: string | null;
 }
 
 const SAMPLE_PROMPTS = [
@@ -56,6 +58,83 @@ const CATEGORIES = [
   { id: "soil_management", name: "Soil & Salinity (মাটি)" },
   { id: "climate_adaptation", name: "Climate & Drought (খরা)" },
 ];
+
+function renderFormattedText(text: string) {
+  const boldParts = text.split(/(\*\*[^*]+\*\*)/g);
+  return boldParts.map((part, i) => {
+    if (part.startsWith("**") && part.endsWith("**")) {
+      return (
+        <strong key={i} className="font-semibold text-emerald-300">
+          {part.slice(2, -2)}
+        </strong>
+      );
+    }
+    return part;
+  });
+}
+
+function renderMessageContent(content: string) {
+  const imageRegex = /!\[([^\]]*)\]\((https?:\/\/[^\s\)]+)\)/g;
+  const parts: React.ReactNode[] = [];
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = imageRegex.exec(content)) !== null) {
+    const textBefore = content.substring(lastIndex, match.index);
+    if (textBefore) {
+      parts.push(
+        <span key={`txt-${lastIndex}`} className="whitespace-pre-wrap leading-relaxed">
+          {renderFormattedText(textBefore)}
+        </span>
+      );
+    }
+
+    const altText = match[1] || "Crop Photo";
+    const imageUrl = match[2];
+
+    parts.push(
+      <div
+        key={`img-${match.index}`}
+        className="my-3 overflow-hidden rounded-2xl border border-emerald-500/30 bg-[#060c08] shadow-2xl transition-all"
+      >
+        <div className="relative w-full max-h-80 overflow-hidden bg-black/50 flex items-center justify-center">
+          <img
+            src={imageUrl}
+            alt={altText}
+            className="w-full max-h-80 object-cover rounded-t-xl transition-transform duration-300 hover:scale-[1.02]"
+            loading="lazy"
+          />
+        </div>
+        <div className="px-3.5 py-2.5 text-xs text-zinc-300 bg-emerald-950/20 border-t border-emerald-500/20 flex items-center justify-between">
+          <span className="font-semibold text-emerald-400 flex items-center gap-1.5">
+            🌾 {altText} (Official Registry Photo)
+          </span>
+          <a
+            href={imageUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="text-[11px] text-zinc-400 hover:text-white underline transition-colors"
+          >
+            View Full
+          </a>
+        </div>
+      </div>
+    );
+
+    lastIndex = match.index + match[0].length;
+  }
+
+  const remaining = content.substring(lastIndex);
+  if (remaining) {
+    parts.push(
+      <span key={`txt-${lastIndex}`} className="whitespace-pre-wrap leading-relaxed">
+        {renderFormattedText(remaining)}
+      </span>
+    );
+  }
+
+  return parts;
+}
 
 export default function AssistantPage() {
   const [messages, setMessages] = useState<Message[]>([
@@ -395,7 +474,13 @@ export default function AssistantPage() {
             setMessages((prev) =>
               prev.map((msg) =>
                 msg.id === assistantMsgId
-                  ? { ...msg, sources: meta.sources, detected_language: meta.detected_language }
+                  ? {
+                      ...msg,
+                      sources: meta.sources,
+                      detected_language: meta.detected_language,
+                      image_url: meta.image_url,
+                      crop_name: meta.crop_name,
+                    }
                   : msg
               )
             );
@@ -552,10 +637,14 @@ export default function AssistantPage() {
                   }`}
                 >
                   {/* Content body */}
-                  <div className="whitespace-pre-wrap leading-relaxed">
+                  <div className="leading-relaxed">
                     {msg.content ? (
                       <>
-                        {msg.content}
+                        {isUser ? (
+                          <div className="whitespace-pre-wrap">{msg.content}</div>
+                        ) : (
+                          <div>{renderMessageContent(msg.content)}</div>
+                        )}
                         {!isUser && loading && idx === messages.length - 1 && (
                           <span className="inline-block w-1.5 h-4 ml-1 bg-emerald-400 animate-pulse align-middle" />
                         )}
@@ -569,6 +658,33 @@ export default function AssistantPage() {
                       )
                     )}
                   </div>
+
+                  {/* Fallback Crop Photo if attached via metadata and not already in content */}
+                  {!isUser && msg.image_url && (!msg.content || !msg.content.includes(msg.image_url)) && (
+                    <div className="my-3 overflow-hidden rounded-2xl border border-emerald-500/30 bg-[#060c08] shadow-2xl transition-all">
+                      <div className="relative w-full max-h-80 overflow-hidden bg-black/50 flex items-center justify-center">
+                        <img
+                          src={msg.image_url}
+                          alt={msg.crop_name || "Crop Photo"}
+                          className="w-full max-h-80 object-cover rounded-t-xl transition-transform duration-300 hover:scale-[1.02]"
+                          loading="lazy"
+                        />
+                      </div>
+                      <div className="px-3.5 py-2.5 text-xs text-zinc-300 bg-emerald-950/20 border-t border-emerald-500/20 flex items-center justify-between">
+                        <span className="font-semibold text-emerald-400 flex items-center gap-1.5">
+                          🌾 {msg.crop_name || "Crop Photo"} (Official Registry Photo)
+                        </span>
+                        <a
+                          href={msg.image_url}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="text-[11px] text-zinc-400 hover:text-white underline transition-colors"
+                        >
+                          View Full
+                        </a>
+                      </div>
+                    </div>
+                  )}
 
                   {/* Assistant Source Citations Widget */}
                   {!isUser && msg.sources && msg.sources.length > 0 && (

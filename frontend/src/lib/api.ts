@@ -184,6 +184,8 @@ export interface AssistantChatResponse {
   sources: SourceCitation[];
   detected_language: string;
   model: string;
+  image_url?: string | null;
+  crop_name?: string | null;
 }
 
 export interface AssistantHealthResponse {
@@ -253,7 +255,13 @@ export async function streamChatWithAssistant(
   category?: string,
   conversationHistory?: { role: string; content: string }[],
   callbacks?: {
-    onMetadata?: (meta: { sources: SourceCitation[]; detected_language: string; model: string }) => void;
+    onMetadata?: (meta: {
+      sources: SourceCitation[];
+      detected_language: string;
+      model: string;
+      image_url?: string | null;
+      crop_name?: string | null;
+    }) => void;
     onDelta?: (delta: string) => void;
     onDone?: () => void;
     onError?: (err: Error) => void;

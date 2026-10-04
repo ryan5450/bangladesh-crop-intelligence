@@ -129,6 +129,104 @@ def should_search_knowledge_base(
     return False
 
 
+# ---------------------------------------------------------------------------
+# Crop Media & Photo Lookup
+# ---------------------------------------------------------------------------
+CROP_ALIASES: Dict[str, List[str]] = {
+    "Aman Rice": ["aman", "আমন", "আমন ধান", "aman rice", "ropa aman", "রোপা আমন", "dhan", "ধান"],
+    "Boro Rice": ["boro", "বোরো", "বোরো ধান", "boro rice"],
+    "Aus Rice": ["aus", "আউশ", "আউশ ধান", "aus rice"],
+    "Potato": ["potato", "আলু", "alu"],
+    "Wheat": ["wheat", "গম", "gom"],
+    "Maize": ["maize", "corn", "ভুট্টা", "bhutta"],
+    "Tomato": ["tomato", "টমেটো"],
+    "Brinjal": ["brinjal", "eggplant", "বেগুন", "begun"],
+    "Chili": ["chili", "chilli", "pepper", "মরিচ", "morich"],
+    "Onion": ["onion", "পিঁয়াজ", "পেঁয়াজ", "peyaj"],
+    "Garlic": ["garlic", "রসুন", "roshun"],
+    "Mango": ["mango", "আম", "aam"],
+    "Banana": ["banana", "কলা", "kola"],
+    "Jackfruit": ["jackfruit", "কাঁঠাল", "kathal"],
+    "Guava": ["guava", "পেয়ারা", "peyara"],
+    "Litchi": ["litchi", "লিচু", "lichu"],
+    "Cauliflower": ["cauliflower", "ফুলকপি", "fulkopi"],
+    "Cabbage": ["cabbage", "বাঁধাকপি", "badhakopi"],
+    "Cucumber": ["cucumber", "শসা", "shosha"],
+    "Pumpkin": ["pumpkin", "মিষ্টি কুমড়া", "kumra"],
+    "Jute": ["jute", "পাট", "paat"],
+    "Mustard": ["mustard", "সরিষা", "sorisha"],
+    "Lentil": ["lentil", "pulse", "মসুর", "mosur", "daal", "ডাল"],
+    "Sugarcane": ["sugarcane", "আখ", "aakh"],
+    "Turmeric": ["turmeric", "হলুদ", "holud"],
+}
+
+PHOTO_INTENT_WORDS = {
+    "photo", "photos", "image", "images", "picture", "pictures", "pic", "pics",
+    "look", "looks", "see", "show", "appearance", "view",
+    "ছবি", "ফটোগ্রাফ", "পিকচার", "দেখাও", "দেখান", "দেখতে", "কেমন"
+}
+
+_crop_image_cache: Dict[str, str] = {}
+_crop_cache_expiry: float = 0.0
+
+def get_crop_image_map() -> Dict[str, str]:
+    """Retrieve mapping of crop_name -> public image_url from Supabase or memory."""
+    global _crop_image_cache, _crop_cache_expiry
+    import time
+    now = time.time()
+    if _crop_image_cache and now < _crop_cache_expiry:
+        return _crop_image_cache
+
+    try:
+        try:
+            from supabase_client import supabase
+        except ImportError:
+            from backend.supabase_client import supabase
+        
+        res = supabase.table("crops").select("crop_name, image, image_url").execute()
+        if res.data:
+            cache = {}
+            for item in res.data:
+                name = item.get("crop_name")
+                img = item.get("image_url") or item.get("image")
+                if name and img and (img.startswith("http://") or img.startswith("https://")):
+                    cache[name] = img
+            if cache:
+                _crop_image_cache = cache
+                _crop_cache_expiry = now + 60.0  # Cache for 60 seconds
+                return _crop_image_cache
+    except Exception as exc:
+        logger.debug(f"Could not load crop images from Supabase: {exc}")
+
+    return _crop_image_cache
+
+def find_crop_and_image(query: str):
+    """Detect if query mentions a registered crop and has an official photo available."""
+    q = query.lower()
+    crop_images = get_crop_image_map()
+
+    # Exact name check
+    for crop_name, img_url in crop_images.items():
+        if crop_name.lower() in q:
+            return crop_name, img_url
+
+    # Alias check
+    for crop_name, aliases in CROP_ALIASES.items():
+        for alias in aliases:
+            pattern = r"(?:\b|^)" + re.escape(alias.lower()) + r"(?:\b|$)"
+            if re.search(pattern, q):
+                img_url = crop_images.get(crop_name)
+                return crop_name, img_url
+
+    return None, None
+
+def is_asking_for_photo(query: str) -> bool:
+    """Check if query is asking to see or view a photo/image."""
+    q = query.lower()
+    words = set(re.findall(r"[\w\u0980-\u09FF]+", q))
+    return bool(words & PHOTO_INTENT_WORDS)
+
+
 SYSTEM_PROMPT = """You are Bangladesh Crop Intelligence Assistant (বাংলাদেশ কৃষি বুদ্ধিমত্তা সহকারী), an official AI agricultural expert built to assist farmers, agronomists, extension officers, and researchers in Bangladesh.
 
 BANGLADESH AGRONOMIC SEASONS & CALENDAR:
@@ -157,6 +255,11 @@ CORE RULES & BEHAVIOR:
    - NEVER echo or repeat the user's prompt back to them.
    - NEVER repeat greeting boilerplate in the middle of a discussion. Only introduce yourself if the user explicitly greets you initially (e.g. "hello", "hi").
    - If official context is provided under "Official Knowledge Context", use it and cite the source [BRRI], [DAE], or [BARI]. If not present, answer accurately using the agronomic knowledge above.
+
+4. CROP PHOTOS & VISUAL PRESENTATION:
+   - The platform's web interface FULLY SUPPORTS displaying images and photos via standard Markdown: `![Crop Name](image_url)`.
+   - NEVER claim "I am a text-based AI assistant and cannot show images" or "I cannot display photos".
+   - Whenever an Official Crop Photo URL is provided in the context, or whenever the user asks to see a photo/image of a crop in the platform database, you MUST display it using markdown `![Crop Name](image_url)` followed by an informative description.
 """
 
 
@@ -178,6 +281,8 @@ class AssistantChatResponse(BaseModel):
     sources: List[SourceCitation]
     detected_language: str
     model: str
+    image_url: Optional[str] = None
+    crop_name: Optional[str] = None
 
 
 def format_fast_context(results: List[SearchResult], max_chars_per_chunk: int = 350) -> str:
@@ -244,6 +349,19 @@ class RAGService:
                     for r in search_results
                 ]
 
+        # Media / Crop Image Detection
+        effective_query = extract_effective_query(query, conversation_history)
+        matched_crop, matched_image = find_crop_and_image(effective_query)
+        user_wants_photo = is_asking_for_photo(query) or is_asking_for_photo(effective_query)
+
+        media_instruction = ""
+        if matched_crop and matched_image:
+            media_instruction = (
+                f"\n[OFFICIAL CROP PHOTO: {matched_crop} -> {matched_image}\n"
+                f"INSTRUCTION: The chat UI supports photos. Present this photo using: ![{matched_crop}]({matched_image}) "
+                f"and describe its appearance. Do NOT say you cannot show images.]\n"
+            )
+
         # 3. Construct messages payload with up to 8 past turns for rich conversational memory
         messages = [{"role": "system", "content": SYSTEM_PROMPT}]
         if conversation_history:
@@ -253,7 +371,9 @@ class RAGService:
 
         # Provide context if found; otherwise send the user query directly to let LLM decide
         if search_results and context_block:
-            prompt_content = f"Official Knowledge Context:\n{context_block}\n\nUser Question: {query}"
+            prompt_content = f"Official Knowledge Context:\n{context_block}\n{media_instruction}\nUser Question: {query}"
+        elif media_instruction:
+            prompt_content = f"{media_instruction}\nUser Question: {query}"
         else:
             prompt_content = query
 
@@ -262,11 +382,18 @@ class RAGService:
         # 4. Generate completion from LLM
         answer = await self.llm.chat(messages=messages, temperature=0.2, max_tokens=450)
 
+        # Ensure image markdown is included if user specifically asked for a photo
+        if matched_crop and matched_image and user_wants_photo:
+            if matched_image not in answer:
+                answer = f"![{matched_crop}]({matched_image})\n\n" + answer
+
         return AssistantChatResponse(
             answer=answer,
             sources=citations,
             detected_language=detected_lang,
-            model=self.llm.model
+            model=self.llm.model,
+            image_url=matched_image,
+            crop_name=matched_crop
         )
 
     async def stream_answer_question(
@@ -312,13 +439,28 @@ class RAGService:
             for r in search_results
         ]
 
-        # First event: metadata (sources, detected language, model)
+        # Media / Crop Image Detection
+        effective_query = extract_effective_query(query, conversation_history)
+        matched_crop, matched_image = find_crop_and_image(effective_query)
+        user_wants_photo = is_asking_for_photo(query) or is_asking_for_photo(effective_query)
+
+        # First event: metadata (sources, detected language, model, image_url)
         yield {
             "type": "metadata",
             "sources": citations,
             "detected_language": detected_lang,
-            "model": self.llm.model
+            "model": self.llm.model,
+            "image_url": matched_image,
+            "crop_name": matched_crop
         }
+
+        media_instruction = ""
+        if matched_crop and matched_image:
+            media_instruction = (
+                f"\n[OFFICIAL CROP PHOTO: {matched_crop} -> {matched_image}\n"
+                f"INSTRUCTION: The chat UI supports photos. Present this photo using: ![{matched_crop}]({matched_image}) "
+                f"and describe its appearance. Do NOT say you cannot show images.]\n"
+            )
 
         # 4. Construct messages with up to 8 past turns for rich conversational memory
         messages = [{"role": "system", "content": SYSTEM_PROMPT}]
@@ -329,11 +471,20 @@ class RAGService:
 
         # Provide context if found; otherwise send the user query directly
         if search_results and context_block:
-            prompt_content = f"Official Knowledge Context:\n{context_block}\n\nUser Question: {query}"
+            prompt_content = f"Official Knowledge Context:\n{context_block}\n{media_instruction}\nUser Question: {query}"
+        elif media_instruction:
+            prompt_content = f"{media_instruction}\nUser Question: {query}"
         else:
             prompt_content = query
 
         messages.append({"role": "user", "content": prompt_content})
+
+        # If user explicitly wanted a photo and we have one, stream image markdown first
+        if matched_crop and matched_image and user_wants_photo:
+            yield {
+                "type": "delta",
+                "content": f"![{matched_crop}]({matched_image})\n\n"
+            }
 
         # 5. Stream tokens from LLM
         async for delta in self.llm.stream_chat(messages=messages, temperature=0.2, max_tokens=450):
