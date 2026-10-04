@@ -24,6 +24,11 @@ tokenizers>=0.20.0
 httpx>=0.28.0
 requests>=2.31.0
 
+# Web & Live Search
+ddgs>=9.0.0
+duckduckgo-search>=8.0.0
+
 # Utilities & Monitoring
 rich>=13.0.0
 watchfiles>=0.24.0
+

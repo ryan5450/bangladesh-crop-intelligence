@@ -695,7 +695,7 @@ export default function AssistantPage() {
                       >
                         <BookOpen className="h-3.5 w-3.5" />
                         <span>
-                          {msg.sources.length} Official Knowledge Sources Used
+                          {msg.sources.length} Verified Research & Web Sources Used
                         </span>
                         {isExpanded ? (
                           <ChevronUp className="h-3.5 w-3.5" />
@@ -712,15 +712,27 @@ export default function AssistantPage() {
                               className="rounded-lg bg-black/40 border border-white/[0.06] p-2.5 text-xs"
                             >
                               <div className="flex items-center justify-between gap-2">
-                                <span className="font-semibold text-emerald-300">
-                                  {src.citation_text}
-                                </span>
-                                <span className="text-[10px] text-zinc-400 font-mono">
+                                {src.document_id?.startsWith("http") ? (
+                                  <a
+                                    href={src.document_id}
+                                    target="_blank"
+                                    rel="noreferrer"
+                                    className="font-semibold text-emerald-300 hover:underline hover:text-emerald-200 flex items-center gap-1 truncate max-w-[80%]"
+                                  >
+                                    <span className="truncate">{src.citation_text}</span>
+                                    <span className="text-[10px] text-zinc-400 flex-shrink-0">↗</span>
+                                  </a>
+                                ) : (
+                                  <span className="font-semibold text-emerald-300">
+                                    {src.citation_text}
+                                  </span>
+                                )}
+                                <span className="text-[10px] text-zinc-400 font-mono flex-shrink-0">
                                   Match: {(src.relevance_score * 100).toFixed(0)}%
                                 </span>
                               </div>
                               <div className="text-[11px] text-zinc-400 mt-1 flex gap-3">
-                                <span>Institute: <b className="text-zinc-300">{src.source}</b></span>
+                                <span>Origin: <b className="text-zinc-300">{src.source}</b></span>
                                 <span>Category: <b className="text-zinc-300">{src.category}</b></span>
                                 {src.page_number > 0 && (
                                   <span>Page: <b className="text-zinc-300">{src.page_number}</b></span>
