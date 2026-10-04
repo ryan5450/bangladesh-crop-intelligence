@@ -259,12 +259,7 @@ CORE RULES & BEHAVIOR:
    - NEVER repeat greeting boilerplate in the middle of a discussion. Only introduce yourself if the user explicitly greets you initially (e.g. "hello", "hi").
    - If official context is provided under "Official Knowledge Context", use it and cite the source [BRRI], [DAE], or [BARI]. If not present, answer accurately using the agronomic knowledge above.
 
-4. CROP PHOTOS & VISUAL PRESENTATION:
-   - The platform's web interface FULLY SUPPORTS displaying images and photos via standard Markdown: `![Crop Name](image_url)`.
-   - NEVER claim "I am a text-based AI assistant and cannot show images" or "I cannot display photos".
-   - Whenever an Official Crop Photo URL or Live Web Photo URL is provided in the prompt context, or whenever the user asks to see a photo/image of crops, you MUST embed each photo using markdown `![Crop Name](image_url)` followed by an informative visual and agronomic description.
-
-5. LIVE WEB SEARCH & REAL-TIME DATA:
+4. WEB SEARCH & LIVE INFORMATION (DUCKDUCKGO):
    - When live web search results from DuckDuckGo are provided under "Live Web Information", integrate the up-to-date facts smoothly and reference the sources.
 """
 
@@ -355,10 +350,14 @@ class RAGService:
                     for r in search_results
                 ]
 
-        # Check if live DuckDuckGo web search should supplement or answer
+        # DuckDuckGo Web Search is triggered ONLY IF:
+        # 1. The user explicitly requests live web / internet / weather / current market price info, OR
+        # 2. Local vector database retrieval returns no high-confidence results (the AI assistant doesn't know)
         web_context_block = ""
         is_web_query = default_search_service.is_explicit_web_search(query)
-        if is_web_query or (needs_search and not search_results and not is_asking_for_photo(query)):
+        ai_assistant_doesnt_know = needs_search and not search_results
+
+        if is_web_query or ai_assistant_doesnt_know:
             web_results = await default_search_service.search_web_text(query, max_results=3)
             if web_results:
                 web_context_block = "Live Web Information (DuckDuckGo Search):\n" + "\n".join([
@@ -368,7 +367,7 @@ class RAGService:
                 for w in web_results:
                     citations.append(
                         SourceCitation(
-                            source="DuckDuckGo Live Web",
+                            source="DuckDuckGo Web Search",
                             category="live_web",
                             page_number=0,
                             language="en",
@@ -378,33 +377,6 @@ class RAGService:
                             citation_text=f"{w['title']}"
                         )
                     )
-
-        # Media / Crop Image Detection
-        effective_query = extract_effective_query(query, conversation_history)
-        matched_crop, matched_image = find_crop_and_image(effective_query)
-        user_wants_photo = is_asking_for_photo(query) or is_asking_for_photo(effective_query)
-        photos_to_show: List[Dict[str, str]] = []
-
-        if matched_crop and matched_image:
-            photos_to_show.append({"crop_name": matched_crop, "image_url": matched_image})
-        elif user_wants_photo:
-            # Query DuckDuckGo on-the-fly for live crop images without database storage
-            ddg_photos = await default_search_service.get_crop_photos(effective_query, detected_crop=matched_crop)
-            for p in ddg_photos:
-                photos_to_show.append({"crop_name": p["crop_name"], "image_url": p["image_url"]})
-                if not matched_image:
-                    matched_crop = p["crop_name"]
-                    matched_image = p["image_url"]
-
-        media_instruction = ""
-        if photos_to_show:
-            media_instruction = (
-                "\n[CROP PHOTOS AVAILABLE:\n"
-                + "\n".join([f"- {p['crop_name']}: {p['image_url']}" for p in photos_to_show])
-                + "\nINSTRUCTION: The chat UI supports photos. Present each photo using Markdown: "
-                + " ".join([f"![{p['crop_name']}]({p['image_url']})" for p in photos_to_show])
-                + "\nDescribe their visual characteristics clearly. Do NOT say you cannot show images.]\n"
-            )
 
         # 3. Construct messages payload with up to 8 past turns for rich conversational memory
         messages = [{"role": "system", "content": SYSTEM_PROMPT}]
@@ -419,8 +391,6 @@ class RAGService:
             context_parts.append(f"Official Knowledge Context:\n{context_block}")
         if web_context_block:
             context_parts.append(web_context_block)
-        if media_instruction:
-            context_parts.append(media_instruction)
 
         if context_parts:
             prompt_content = "\n\n".join(context_parts) + f"\n\nUser Question: {query}"
@@ -432,19 +402,11 @@ class RAGService:
         # 4. Generate completion from LLM
         answer = await self.llm.chat(messages=messages, temperature=0.2, max_tokens=450)
 
-        # Ensure image markdown is included if user specifically asked for a photo
-        if user_wants_photo and photos_to_show:
-            for p in reversed(photos_to_show):
-                if p["image_url"] not in answer:
-                    answer = f"![{p['crop_name']}]({p['image_url']})\n\n" + answer
-
         return AssistantChatResponse(
             answer=answer,
             sources=citations,
             detected_language=detected_lang,
-            model=self.llm.model,
-            image_url=matched_image,
-            crop_name=matched_crop
+            model=self.llm.model
         )
 
     async def stream_answer_question(
@@ -490,10 +452,14 @@ class RAGService:
             for r in search_results
         ]
 
-        # Check if live DuckDuckGo web search should supplement or answer
+        # DuckDuckGo Web Search is triggered ONLY IF:
+        # 1. The user explicitly requests live web / internet / weather / current market price info, OR
+        # 2. Local vector database retrieval returns no high-confidence results (the AI assistant doesn't know)
         web_context_block = ""
         is_web_query = default_search_service.is_explicit_web_search(query)
-        if is_web_query or (needs_search and not search_results and not is_asking_for_photo(query)):
+        ai_assistant_doesnt_know = needs_search and not search_results
+
+        if is_web_query or ai_assistant_doesnt_know:
             web_results = await default_search_service.search_web_text(query, max_results=3)
             if web_results:
                 web_context_block = "Live Web Information (DuckDuckGo Search):\n" + "\n".join([
@@ -502,7 +468,7 @@ class RAGService:
                 ])
                 for w in web_results:
                     citations.append({
-                        "source": "DuckDuckGo Live Web",
+                        "source": "DuckDuckGo Web Search",
                         "category": "live_web",
                         "page_number": 0,
                         "language": "en",
@@ -512,42 +478,13 @@ class RAGService:
                         "citation_text": f"{w['title']}"
                     })
 
-        # Media / Crop Image Detection
-        effective_query = extract_effective_query(query, conversation_history)
-        matched_crop, matched_image = find_crop_and_image(effective_query)
-        user_wants_photo = is_asking_for_photo(query) or is_asking_for_photo(effective_query)
-        photos_to_show: List[Dict[str, str]] = []
-
-        if matched_crop and matched_image:
-            photos_to_show.append({"crop_name": matched_crop, "image_url": matched_image})
-        elif user_wants_photo:
-            # Query DuckDuckGo on-the-fly for live crop images without database storage
-            ddg_photos = await default_search_service.get_crop_photos(effective_query, detected_crop=matched_crop)
-            for p in ddg_photos:
-                photos_to_show.append({"crop_name": p["crop_name"], "image_url": p["image_url"]})
-                if not matched_image:
-                    matched_crop = p["crop_name"]
-                    matched_image = p["image_url"]
-
-        # First event: metadata (sources, detected language, model, image_url)
+        # First event: metadata (sources, detected language, model)
         yield {
             "type": "metadata",
             "sources": citations,
             "detected_language": detected_lang,
-            "model": self.llm.model,
-            "image_url": matched_image,
-            "crop_name": matched_crop
+            "model": self.llm.model
         }
-
-        media_instruction = ""
-        if photos_to_show:
-            media_instruction = (
-                "\n[CROP PHOTOS AVAILABLE:\n"
-                + "\n".join([f"- {p['crop_name']}: {p['image_url']}" for p in photos_to_show])
-                + "\nINSTRUCTION: The chat UI supports photos. Present each photo using Markdown: "
-                + " ".join([f"![{p['crop_name']}]({p['image_url']})" for p in photos_to_show])
-                + "\nDescribe their visual characteristics clearly. Do NOT say you cannot show images.]\n"
-            )
 
         # 4. Construct messages with up to 8 past turns for rich conversational memory
         messages = [{"role": "system", "content": SYSTEM_PROMPT}]
@@ -562,8 +499,6 @@ class RAGService:
             context_parts.append(f"Official Knowledge Context:\n{context_block}")
         if web_context_block:
             context_parts.append(web_context_block)
-        if media_instruction:
-            context_parts.append(media_instruction)
 
         if context_parts:
             prompt_content = "\n\n".join(context_parts) + f"\n\nUser Question: {query}"
@@ -571,14 +506,6 @@ class RAGService:
             prompt_content = query
 
         messages.append({"role": "user", "content": prompt_content})
-
-        # If user explicitly wanted photos and we have them, stream image markdown first
-        if user_wants_photo and photos_to_show:
-            for p in photos_to_show:
-                yield {
-                    "type": "delta",
-                    "content": f"![{p['crop_name']}]({p['image_url']})\n\n"
-                }
 
         # 5. Stream tokens from LLM
         async for delta in self.llm.stream_chat(messages=messages, temperature=0.2, max_tokens=450):

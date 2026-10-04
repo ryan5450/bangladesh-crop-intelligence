@@ -659,32 +659,7 @@ export default function AssistantPage() {
                     )}
                   </div>
 
-                  {/* Fallback Crop Photo if attached via metadata and not already in content */}
-                  {!isUser && msg.image_url && (!msg.content || !msg.content.includes(msg.image_url)) && (
-                    <div className="my-3 overflow-hidden rounded-2xl border border-emerald-500/30 bg-[#060c08] shadow-2xl transition-all">
-                      <div className="relative w-full max-h-80 overflow-hidden bg-black/50 flex items-center justify-center">
-                        <img
-                          src={msg.image_url}
-                          alt={msg.crop_name || "Crop Photo"}
-                          className="w-full max-h-80 object-cover rounded-t-xl transition-transform duration-300 hover:scale-[1.02]"
-                          loading="lazy"
-                        />
-                      </div>
-                      <div className="px-3.5 py-2.5 text-xs text-zinc-300 bg-emerald-950/20 border-t border-emerald-500/20 flex items-center justify-between">
-                        <span className="font-semibold text-emerald-400 flex items-center gap-1.5">
-                          🌾 {msg.crop_name || "Crop Photo"} (Official Registry Photo)
-                        </span>
-                        <a
-                          href={msg.image_url}
-                          target="_blank"
-                          rel="noreferrer"
-                          className="text-[11px] text-zinc-400 hover:text-white underline transition-colors"
-                        >
-                          View Full
-                        </a>
-                      </div>
-                    </div>
-                  )}
+
 
                   {/* Assistant Source Citations Widget */}
                   {!isUser && msg.sources && msg.sources.length > 0 && (
