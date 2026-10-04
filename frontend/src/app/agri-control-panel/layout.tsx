@@ -170,7 +170,7 @@ export default function AdminControlPanelLayout({
           </Link>
 
           <a
-            href="http://127.0.0.1:8000/docs"
+            href={`${process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8000"}/docs`}
             target="_blank"
             rel="noreferrer"
             className="flex items-center justify-between px-3 py-2.5 rounded-xl text-xs font-medium text-zinc-300 hover:text-emerald-300 hover:bg-white/[0.04] transition-colors"

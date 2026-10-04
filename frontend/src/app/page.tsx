@@ -47,7 +47,7 @@ export default function HomePage() {
       setCrops(data);
     } catch (err: any) {
       setError(
-        "Could not connect to FastAPI backend at http://127.0.0.1:8000. Please ensure the backend server is running."
+        "Unable to load featured crops at this time. Please refresh the page or try again."
       );
     } finally {
       setLoading(false);

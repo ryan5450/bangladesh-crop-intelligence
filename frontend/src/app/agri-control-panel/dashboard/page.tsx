@@ -61,7 +61,7 @@ export default function AdminDashboardPage() {
           recent_updates: crops.slice(0, 6),
         });
       } catch (fallbackErr) {
-        setError("Unable to connect to FastAPI backend. Verify backend is running on port 8000.");
+        setError("Unable to connect to the backend server. Please verify network connectivity.");
       }
     } finally {
       setLoading(false);

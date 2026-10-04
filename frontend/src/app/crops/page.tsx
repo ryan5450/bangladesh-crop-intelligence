@@ -37,7 +37,7 @@ function CropsListingContent() {
       setCrops(data);
     } catch (err: any) {
       setError(
-        "Unable to fetch crops from FastAPI backend. Please ensure the backend is running at http://127.0.0.1:8000."
+        "Unable to load crops at this time. Please check your internet connection or try again."
       );
     } finally {
       setLoading(false);

@@ -48,7 +48,7 @@ export default function CropDetailPage() {
         setError(`Crop '${cropName}' was not found in the Bangladesh crop registry.`);
       } else {
         setError(
-          "Could not connect to FastAPI backend. Please verify your backend server is running at http://127.0.0.1:8000."
+          "Unable to load crop details at this time. Please check your connection or try again."
         );
       }
     } finally {
